@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Translation file for 4D products.
+    Copyright (C) 2007-2011 4D SAS.
+    This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+    <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+        <header>
+            <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+            <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+            <note>\r, \t and \n are meta-characters.</note>
+        </header>
+        <body>
+            <group id="1001" resname="About">
+                <trans-unit id="1" resname="AboutGenericWindowTitle">
+                    <source>About...</source>
+                    <target>About...</target>
+                </trans-unit>
+                <trans-unit id="8" resname="copyright4D">
+                    <source>© 4D SAS, 1985-2011. All rights reserved.</source>
+                    <target>© 4D SAS, 1985-2011. All rights reserved.</target>
+                </trans-unit>
+                <trans-unit id="57" resname="AboutThisProductIsLicensedTo">
+                    <source>This product is licensed to:</source>
+                    <target>This product is licensed to:</target>
+                </trans-unit>
+                <trans-unit id="15000" resname="AboutWindowTitle">
+                    <source>About {Application}...</source>
+                    <target>About {Application}...</target>
+                </trans-unit>
+                <trans-unit id="15001" resname="AboutVersion">
+                    <source>Version </source>
+                    <target>Version </target>
+                </trans-unit>
+                <trans-unit id="15002" resname="Application_0" translate="no">
+                    <source>4D v12</source>
+                </trans-unit>
+                <trans-unit id="15003" resname="Application_1">
+                    <source>local mode</source>
+                    <target>local mode</target>
+                </trans-unit>
+                <trans-unit id="15004" resname="Application_2" translate="no">
+                    <source>Volume Desktop</source>
+                </trans-unit>
+                <trans-unit id="15005" resname="Application_3">
+                    <source>remote mode</source>
+                    <target>remote mode</target>
+                </trans-unit>
+                <trans-unit id="15006" resname="Application_4" translate="no">
+                    <source>Server</source>
+                </trans-unit>
+                <trans-unit id="15007" resname="Application_5">
+                    <source>Server</source>
+                    <target>Server</target>
+                </trans-unit>
+                <trans-unit id="15009" resname="AboutLegalInformations">
+                    <source>Legal information</source>
+                    <target>Legal information</target>
+                </trans-unit>
+                <trans-unit id="105" resname="AboutCopyrights">
+                    <source>Copyrights</source>
+                    <target>Copyrights</target>
+                </trans-unit>
+            </group>
+             
+            <group resname="AroundTheWorld">
+                <trans-unit id="AroundTheWorld_1" resname="4DAroundTheWorld">
+                    <source>4D Around the World</source>
+                    <target>4D Around the World</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_18" resname="4DAroundTheWorld_Company_1" translate="no">
+                    <source>4D, Inc.</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_19" resname="4DAroundTheWorld_Country_1">
+                    <source>United States &amp; English-speaking Canada</source>
+                    <target>United States &amp; English-speaking Canada</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_2" resname="4DAroundTheWorld_Adress_1">
+                    <source>3031 Tisch Way, Suite 900, San Jose, CA 95128, USA
+Phone: (1) 408 557 4600   Fax: (1) 408 557 4625</source>
+                    <target>3031 Tisch Way, Suite 900, San Jose, CA 95128, USA
+Phone: (1) 408 557 4600   Fax: (1) 408 557 4625</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_3" resname="4DAroundTheWorld_URL_1" translate="no">
+                    <source>http://www.4D.com/</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_20" resname="4DAroundTheWorld_Email_1" translate="no">
+                    <source>info@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_21" resname="4DAroundTheWorld_Company_2" translate="no">
+                    <source>4D SAS</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_22" resname="4DAroundTheWorld_Country_2">
+                    <source>France &amp; International</source>
+                    <target>France &amp; International</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_4" resname="4DAroundTheWorld_Adress_2">
+                    <source>60, rue d'Alsace, 92110 Clichy, France
+Phone: (33) 1 40 87 92 00   Fax: (33) 1 40 87 92 01</source>
+                    <target>60, rue d'Alsace, 92110 Clichy, France
+Phone: (33) 1 40 87 92 00   Fax: (33) 1 40 87 92 01</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_5" resname="4DAroundTheWorld_URL_2" translate="no">
+                    <source>http://www.4D.com/fr</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_23" resname="4DAroundTheWorld_Email_2" translate="no">
+                    <source>info-fr@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_24" resname="4DAroundTheWorld_Company_3" translate="no">
+                    <source>4D Japan Limited</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_25" resname="4DAroundTheWorld_Country_3">
+                    <source>Japan</source>
+                    <target>Japan</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_6" resname="4DAroundTheWorld_Adress_3">
+                    <source>1-10-2-6F, Dogenzaka, Shibuya-ku, Tokyo, 150-0043, Japan
+Phone: (81) 3 6427 8441   Fax: (81) 3 6427 8449</source>
+                    <target>1-10-2-6F, Dogenzaka, Shibuya-ku, Tokyo, 150-0043, Japan
+Phone: (81) 3 6427 8441   Fax: (81) 3 6427 8449</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_7" resname="4DAroundTheWorld_URL_3" translate="no">
+                    <source>http://www.4D.com/jp</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_26" resname="4DAroundTheWorld_Email_3" translate="no">
+                    <source>info-jp@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_27" resname="4DAroundTheWorld_Company_4" translate="no">
+                    <source>4D UK, Ltd</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_28" resname="4DAroundTheWorld_Country_4">
+                    <source>United Kingdom</source>
+                    <target>United Kingdom</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_8" resname="4DAroundTheWorld_Adress_4">
+                    <source>PO Box 251, Nantwich, CW5 9AT, UK
+Phone: (44) 1 625 536 178   Fax: (44) 1 625 536 497</source>
+                    <target>PO Box 251, Nantwich, CW5 9AT, UK
+Phone: (44) 1 625 536 178   Fax: (44) 1 625 536 497</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_9" resname="4DAroundTheWorld_URL_4" translate="no">
+                    <source>http://www.4D.com/uk</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_29" resname="4DAroundTheWorld_Email_4" translate="no">
+                    <source>info-uk@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_30" resname="4DAroundTheWorld_Company_5" translate="no">
+                    <source>4D Deutschland GmbH</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_31" resname="4DAroundTheWorld_Country_5">
+                    <source>Germany &amp; Austria</source>
+                    <target>Germany &amp; Austria</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_10" resname="4DAroundTheWorld_Adress_5">
+                    <source>Hanns-Braun-Str. 52, D-85375 Neufahrn, Germany
+Phone: (49) 81 65 95 190   Fax: (49) 81 65 95 19 99</source>
+                    <target>Hanns-Braun-Str. 52, D-85375 Neufahrn, Germany
+Phone: (49) 81 65 95 190   Fax: (49) 81 65 95 19 99</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_11" resname="4DAroundTheWorld_URL_5" translate="no">
+                    <source>http://www.4D.com/de</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_32" resname="4DAroundTheWorld_Email_5" translate="no">
+                    <source>info-de@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_33" resname="4DAroundTheWorld_Company_6" translate="no">
+                    <source>4D Sweden AB</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_34" resname="4DAroundTheWorld_Country_6">
+                    <source>Sweden &amp; Denmark</source>
+                    <target>Sweden &amp; Denmark</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_12" resname="4DAroundTheWorld_Adress_6">
+                    <source>Isafjordsgatan 36, 164 40 Kista, Sweden
+Phone: (46) 8 750 63 00   Fax: (46) 8 750 63 60</source>
+                    <target>Isafjordsgatan 36, 164 40 Kista, Sweden
+Phone: (46) 8 750 63 00   Fax: (46) 8 750 63 60</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_13" resname="4DAroundTheWorld_URL_6" translate="no">
+                    <source>http://www.4D.com/se</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_35" resname="4DAroundTheWorld_Email_6" translate="no">
+                    <source>info-se@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_36" resname="4DAroundTheWorld_Company_7" translate="no">
+                    <source>4D Hispano</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_37" resname="4DAroundTheWorld_Country_7">
+                    <source>Spain, Portugal &amp; Latin America</source>
+                    <target>Spain, Portugal &amp; Latin America</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_14" resname="4DAroundTheWorld_Adress_7">
+                    <source>Arzobispo Cos, 10, 28027 Madrid, Spain
+Phone: (34) 91 41 49 290</source>
+                    <target>Arzobispo Cos, 10, 28027 Madrid, Spain
+Phone: (34) 91 41 49 290</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_15" resname="4DAroundTheWorld_URL_7" translate="no">
+                    <source>http://www.4D.com/es</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_38" resname="4DAroundTheWorld_Email_7" translate="no">
+                    <source>info-es@4d.com</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_39" resname="4DAroundTheWorld_Company_8" translate="no">
+                    <source>4D Australasia</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_40" resname="4DAroundTheWorld_Country_8">
+                    <source>Australia &amp; New Zealand</source>
+                    <target>Australia &amp; New Zealand</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_16" resname="4DAroundTheWorld_Adress_8">
+                    <source>Suite 27, Level 4, 924 Pacific Highway, Gordon NSW 2072, Australia
+Phone: (61) 2  9499 9544  Fax: (61) 2 9499 9744</source>
+                    <target>Suite 27, Level 4, 924 Pacific Highway, Gordon NSW 2072, Australia
+Phone: (61) 2  9499 9544  Fax: (61) 2 9499 9744</target>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_17" resname="4DAroundTheWorld_URL_8" translate="no">
+                    <source>http://www.4D.com/au</source>
+                </trans-unit>
+                <trans-unit id="AroundTheWorld_41" resname="4DAroundTheWorld_Email_8" translate="no">
+                    <source>info-au@4d.com</source>
+                </trans-unit>
+            </group>
+            
+        </body>
+    </file>
+</xliff>

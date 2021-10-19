@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Default preferences file for 4D products.
+   Copyright (C) 2007-2009 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+<preferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./XSD/4DPreferences.xsd">
+    <com.4d>
+        <general>
+            <!--
+		automatic_form_creation:
+			1	eAutoFormCreation_Never
+			2	eAutoFormCreation_Ask
+			3	eAutoFormCreation_Always
+		
+		startup_mode (enum E4DStartupMode)
+			0	eBlank4DStartup
+			1	eOpenDialogStartupMode,
+			2	eLastUsedDatabaseStartupMode,
+			3	eOpenRemoteDatabaseStartupMode,
+			4	eOpenWelcomeDialogStartupMode
+	-->
+            <automatisms automatic_exit_design="false" automatic_form_creation="2" startup_mode="4"/>
+            <new_databases automatic_backup_strategy="true" create_package="true" dialect="0"/>
+            <documentation local_path=":xliff:AppCommonLocalDoc" source="folder" url=":xliff:GeneralDocUrl"/>
+        </general>
+        <form_editor>
+            <!--
+		auto_scroll:
+			0	auto scroll
+			1	initiate drag'n drop
+			
+		default_shield:
+			1		kShowScripts
+			2		kShowTips
+			4		kShowOrders
+			8		kShowResizing
+			16		kShowLayer
+			32		kShowAutomaticActions
+			64		kShowStyleSheets
+			128		kShowEntryFilter
+			256		kShowLocalization
+			512		kShowDynamicReference
+	-->
+            <move auto_alignment="true" auto_scroll="0" step_using_keyboard="20"/>
+            <display default_shield="1" inherited_form="true" limits="true" markers="true"
+                page_0="true" paper="true" rulers="true"/>
+            <marker>
+                <color alpha="255" blue="0" green="0" red="0"/>
+            </marker>
+        </form_editor>
+        <method_editor>
+            <general font_name="default_font" font_size="12"/>
+            <syntax_style syntax="4D">
+                <syntax kind="plain_text">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="commands">
+                    <style bold="true" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="140" red="6"/>
+                </syntax>
+                <syntax kind="keywords">
+                    <style bold="true" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="77" red="3"/>
+                </syntax>
+                <syntax kind="tables">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="35" red="83"/>
+                </syntax>
+                <syntax kind="fields">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="50" green="50" red="50"/>
+                </syntax>
+                <syntax kind="methods">
+                    <style bold="true" italic="true" underline="false"/>
+                    <color alpha="255" blue="136" green="0" red="0"/>
+                </syntax>
+                <syntax kind="local_variables">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="255" green="49" red="0"/>
+                </syntax>
+                <syntax kind="process_variables">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="255" green="0" red="0"/>
+                </syntax>
+                <syntax kind="interprocess_variables">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="136" green="0" red="255"/>
+                </syntax>
+                <syntax kind="parameters">
+                    <style bold="true" italic="false" underline="false"/>
+                    <color alpha="255" blue="118" green="11" red="0"/>
+                </syntax>
+                <syntax kind="constants">
+                    <style bold="false" italic="false" underline="true"/>
+                    <color alpha="255" blue="77" green="0" red="77"/>
+                </syntax>
+                <syntax kind="plug_ins">
+                    <style bold="true" italic="true" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="comments">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="83" green="83" red="83"/>
+                </syntax>
+                <syntax kind="errors">
+                    <style bold="true" italic="true" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="255"/>
+                </syntax>
+            </syntax_style>
+            <syntax_style syntax="SQL">
+                <syntax kind="normal">
+                    <style bold="true" italic="false" underline="false"/>
+                    <color alpha="255" blue="25" green="25" red="25"/>
+                </syntax>
+                <syntax kind="keywords">
+                    <style bold="true" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="77" red="3"/>
+                </syntax>
+                <syntax kind="numbers">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="strings">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="names">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="comparisons">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="function_keywords">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+                <syntax kind="debug">
+                    <style bold="false" italic="false" underline="false"/>
+                    <color alpha="255" blue="0" green="0" red="0"/>
+                </syntax>
+            </syntax_style>
+            
+            <!--
+            character_suggestion_validation
+                "tabOnly"
+                "tabAndDelimitors"
+            
+            matching_parenthesis_style
+                "none"
+                "box"
+                "bold"
+                "backColor"
+            -->
+            <options indentation="10" show_line_numbers="true" show_lists="true"
+                suggest_constants="true" suggest_variables="true" suggest_tables="true"
+                character_suggestion_validation="tabAndDelimitors" matching_parenthesis_style="box" hilite_execution_line="true"/>
+            <cursor_line_color>
+              <color alpha="255" red="232" green="242" blue="254" />
+            </cursor_line_color>
+            <cursor_line_back_color>
+              <color alpha="255" red="242" green="242" blue="242" />
+            </cursor_line_back_color>
+            <hilite_back_color>
+              <color alpha="255" red="255" green="255" blue="0" />
+            </hilite_back_color>
+            <matching_parenthesis_back_color>
+              <color alpha="255" red="255" green="236" blue="176" />
+            </matching_parenthesis_back_color>
+            <suggestion_color>
+              <color alpha="255" red="150" green="150" blue="150" />
+            </suggestion_color>
+            <back_color>
+              <color alpha="255" red="255" green="255" blue="255" />
+            </back_color>
+        </method_editor>
+        <!--
+		structure/graphic_quality
+			"high"
+			"standard"
+		
+		structure/dimmed_folder
+			"dimmmed"
+			"invisible"
+	    -->
+        <structure dimmed_folder="dimmed" font_name="default_font" font_size="12"
+            graphic_quality="high"/>
+    </com.4d>
+</preferences>

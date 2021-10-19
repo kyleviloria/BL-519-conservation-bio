@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1040" resname="Identification">
+            <trans-unit id="Lic_01" resname="Lic_version" translate="no">
+               <source>1</source>
+            </trans-unit> 
+            <trans-unit id="1" resname="Lic_TEXT" translate="no">
+               <source>&lt;SPAN STYLE="font-family:'Arial';font-size:11pt;text-align:left;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;background-color:#FFFFFF"&gt;&lt;SPAN STYLE="font-weight:bold"&gt;4D v12
+LICENSE OF USE AND EVALUATION LICENSE AGREEMENT
+
+WARNING!
+
+&lt;/SPAN&gt;You should read carefully all the terms and conditions of the Agreement, as defined below, between 4D SAS, a French "Société par Actions Simplifiée" (hereinafter referred to as "4D") and yourself (hereinafter referred to as "LICENSEE"). By pressing on the button "Accept", you agree to be bound by all the terms and conditions of this Agreement.
+
+If you do not agree with the terms and conditions of the Agreement, please, if applicable, immediately return the media containing the Software along with the Documentation, the package and a copy of the corresponding sales receipt to the location where you acquired your license of use or your evaluation license or to the address mentioned in the Documentation to obtain full refund. 
+
+This Agreement defines the terms and conditions of the license of use and related Maintenance, as well as the evaluation license related to the Software as defined below. The specific provisions hereinafter that will apply to one of the two types of licenses will be clearly distinguished as such.
+
+This license only extends to the Software for which LICENSEE has regularly purchased a license and received the authorized product number, subject to the methods defined in the Documentation.
+
+4D is willing to grant LICENSEE a license of use or an evaluation license only under the condition that LICENSEE accepts all the terms contained in this Agreement that are appropriate to each type of license and to each type of Software.
+
+The following words have a specific significance:
+
+“4D Application” means a computer program developed with the Software.
+
+“4D Application Single User” means a 4D Application which can be installed and used on a stand-alone computer and by a single user exclusively; it being agreed that except as provided otherwise, such 4D Application Single User may not be used as a server (data server) or as a client which allows an access to data from another computer and/or to another computer.
+
+“Agreement” means this agreement and any amendment thereof.
+
+“Authorized number of Concurrent Users” means the maximum number of simultaneously connected users to the Software who are authorized by 4D at a given point in time and for which 4D has received appropriate license fees from LICENSEE.
+
+“Documentation” means all the electronic documentation files and/or the documentation contained in or on the related Media and/or the Software user's manual.
+
+“Environment” means the computer hardware, operating system(s) ("platform(s)") and the software required for use in conjunction with the Software, and indicated on the Media, it being agreed that each license is only granted for one (1) Environment.
+
+“Instance” means the combination of a 4D Application and a data file.
+
+“Maintenance” means the information relating to the availability of Updates and upon LICENSEE’s request, the provision of such Updates for the Environment, subject to the payment of the corresponding yearly fee and the compliance with the terms of the Agreement. 
+
+“Media” means all methods through which LICENSEE obtained the Software, which includes a DVD-ROM and its package, or any type of media, and notably the 4D's web sites and/or 4D's Ftp site.
+
+“Server Computer” means the computer used as a server. 
+
+“Software” means 4D's computer program(s) in machine-readable executable code form and copies made of it, including related Documentation, any replacement or change and/or any Update provided under the Agreement.
+
+“Updates” means the maintenance versions and/or minor and/or major updates, it being understood that any Software is designated by two (2) numbers: “X” defines the number of major update and “Y”, the number of minor update. 
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;1. PURPOSE
+&lt;/SPAN&gt;
+The purpose of this Agreement is to define the terms and conditions under which 4D grants LICENSEE a non exclusive license to use and/or to evaluate the Software, as well as the terms and conditions relating to Maintenance. 
+
+LICENSEE’s rights to use or evaluate the Software are specified in this Agreement and 4D retains all rights not expressly granted to LICENSEE in this Agreement. No other express or implied rights are granted to LICENSEE relating to the Software.
+
+4D and/or its suppliers continue to be the sole owner(s) of the copy of the Software and all other copies that LICENSEE is authorized to make in accordance with this Agreement.
+
+In no event, this Agreement can be interpreted as an agreement for sale.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2. SCOPE OF RIGHTS GRANTED
+&lt;/SPAN&gt;
+Unless otherwise provided in section 2.4 of this Agreement regarding specific terms of the license of use, the general terms stated by sections 2.1 and 2.2 are applicable to all type of Software provided under a license of use granted pursuant to this Agreement. 
+
+LICENSEE recognizes that a live banner relating to 4D SAS’ offers may appear at the time of each launching of the Software - in the language of the Software - and that this banner is automatically updated through a connexion to 4D SAS web server. Such connexion does not allow the collection and treatment of personal data.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.1 GENERAL TERMS RELATING TO THE LICENSE OF USE 
+&lt;/SPAN&gt;
+In consideration of the payment by LICENSEE of the corresponding fee, 4D grants LICENSEE a limited, personal, non-exclusive and non-transferable right to use the Software in the Environment and in the language(s) indicated on its Media.
+
+The license of use of the Software granted by 4D permits the use of the Software on one (1) of the platforms supported by 4D, it being agreed that (i) LICENSEE must select such platform at the time of the installation of the Software and (ii) the installation and the use of the Software on more than one (1) platform imply the grant of separate licenses.
+
+Except as otherwise stated in section 2.4 below, LICENSEE may:
+
+a) install and use the Software, for internal purposes, on one (1) Computer, provided the Software is installed and used on one (1) computer at the same time;
+
+b) transfer the Software from one computer to another, provided the Software is installed and used on one (1) computer at the same time;
+
+c) transfer the Software on one (1) hard disk only for use as described in the present section 2.1., provided that LICENSEE does not use the original Media or any copy thereof, on another computer at the same time and that LICENSEE can immediately prove ownership of the original license; 
+
+d) make one (1) copy of the Software for back-up purposes only and in executable form, provided that LICENSEE reproduces all the copyright, trademark and other proprietary notices which appear on or in the Software; such copy being subject to the terms and conditions of the Agreement.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.2 COMMON GENERAL TERMS RELATING TO THE EVALUATION LICENSE AND THE LICENSE OF USE
+&lt;/SPAN&gt;
+Except as otherwise stated in section 2.4 below, LICENSEE may not:
+
+a) install the Software and/or 4D Application on a Server Computer;
+
+b) use the Software on more than the authorized number of computers, that is one (1) computer, or in another environment than the Environment, except in case LICENSEE has been granted an additional license in consideration of the payment of appropriate license fee in effect at the time of the corresponding order;
+
+c) use the Software to create application server(s) and/or data server(s), except in case LICENSEE has been granted a license for 4D WEB APPLICATION SERVER or 4D SERVER;
+
+d) sublicense, sell, lease, rent, share the use of the Software or otherwise transfer it, or permit any third party to use the Software for time sharing, outsourcing services, application service provider services, or application hosting provider services and more generally LICENSEE shall not grant any kind of rights regarding the Software or any portion thereof in any form to any third party without the prior written consent of 4D;
+
+e) transfer the Software to another environment than the Environment. LICENSEE agrees that LICENSEE must pay a license fee according to 4D's standard fees in effect at the time of such a transfer, without prejudice of any 4D rights to obtain the indemnification of the damage suffered;
+
+f) modify, translate, reverse-engineer, decompile, disassemble, partially or completely, the Software, except as otherwise mentioned by the legal measures in force. Nevertheless, LICENSEE shall ask 4D for the information which is necessary to achieve the interoperability of the Software with another program and this, before any decompilation;
+
+g) remove or alter any Software identification, proprietary notice, labels or trademarks which appear on or in the Software;
+
+h) use the back-up copy (or allow anyone else to use such copy) for any purpose other than to replace the original copy in the event it is destroyed or becomes defective;
+
+i) disclose the results of any benchmark or other test of the Software, without 4D's prior written consent;
+
+j) use the Software in violation of any Country, Treaty, Federal or State law, regulation or rules, including laws with respect to misuse or improper use of information.
+
+For US LICENSEE only: provision i) is not applicable.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.3 TERMS OF THE EVALUATION LICENSE
+&lt;/SPAN&gt;
+4D grants LICENSEE a limited, personal, non-transferable, and non-exclusive right to use the Software under the terms hereafter.
+
+The evaluation license is granted free of charge. 
+
+LICENSEE shall:
+
+a) use the Software on one (1) computer by platform only, or a replacement computer in case the former is out of order, it being agreed that the Software may not be used on more than one (1) computer at the same time;
+
+b) use the Software only for evaluation and testing purposes for the term defined in section 7.2, within the limits of one (1) evaluation license per major update.
+
+Notwithstanding the terms of section 2.2, LICENSEE shall not use the Software for any production purposes, in particular any development purpose. Any use of the Software for production purposes is subject to the prior purchase of a license of use by LICENSEE according to 4D’s standard fees in effect at the time of order.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4 SPECIFIC TERMS RELATING TO THE LICENSE OF USE
+&lt;/SPAN&gt;
+Specific terms below apply to the Software defined hereafter and derogate or complete general terms as provided in 2.1 and 2.2 of this Agreement, it being understood that sections 2.1 and 2.2 remain applicable to the Software, when not otherwise provided by the specific terms below.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.1 4D DEVELOPER STANDARD 
+&lt;/SPAN&gt;
+The 4D INTERPRETED DESKTOP functionality, as included in 4D DEVELOPER STANDARD, allows to deploy 4D Application Single User (without limitation of the number of applications and/or computers), it being agreed that such deployment right is limited to the platform for which LICENSEE has been granted a 4D DEVELOPER STANDARD license. 
+
+LICENSEE recognizes and agrees that the access to one or several remote server(s) through 4D Application Single User is authorized provided that this 4D Application does not modify this/those server(s) and notably its/their data. Notwithstanding the above provision, 4D Application Single User may permit the reading and/or occasional “batch” update of the above mentioned server(s) and this, within the limit of twice (2) every twenty four (24) hours. 
+
+The 4D Application Single User is imperatively limited to two hundred and fifty-five (255) tables and five hundred and eleven (511) fields by table. In any case, the number of records is limited to sixteen million (16.000.000) records by table.
+
+LICENSEE is responsible for the compliance with the above limitations.
+
+The 4D INTERPRETED DESKTOP functionality may be used for execution purposes exclusively. In no event, 4D INTERPRETED DESKTOP may be used to develop new applications and/or databases. 
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.2 4D DEVELOPER PROFESSIONAL
+&lt;/SPAN&gt;
+SQL server, web server and/or web server services functionalities may be used for development and test purposes exclusively, such use being limited to one (1) local access and one (1) remote access.
+
+The 4D INTERPRETED DESKTOP and 4D UNLIMITED DESKTOP functionalities, included in 4D DEVELOPER PROFESSIONAL, permit to deploy a 4D Application Single User (without limitation of the number of applications and/or computers), it being agreed that such deployment right is limited to the platform for which LICENSEE has been granted a 4D DEVELOPER PROFESSIONAL license. 
+
+LICENSEE recognizes and agrees that the access to one or several remote server(s) through 4D Application Single User is authorized, provided that this 4D Application does not modify this/those server(s) and its/their data. Notwithstanding the above provision, 4D Application Single User may permit the reading and/or occasional “batch” update of the above mentioned server(s), and this, within the limit of twice (2) every twenty four (24) hours. 
+
+In no event, the 4D UNLIMITED DESKTOP functionality may be deployed apart from 4D Applications Single User.
+
+LICENSEE shall not alter or modify in any way, the dialog installed by 4D when a user quits the 4D Application run and deployed with 4D UNLIMITED DESKTOP, in particular, the legal notices relating to intellectual property, notably trademarks, logos and domain names appearing in the dialog.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.3 4D TEAM DEVELOPER PROFESSIONAL
+&lt;/SPAN&gt;
+The provisions relating to 4D DEVELOPER PROFESSIONAL and to 4D SERVER apply to 4D TEAM DEVELOPER PROFESSIONAL.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.4 4D SERVER
+&lt;/SPAN&gt;
+LICENSEE may:
+
+a) install and use the Software solely for internal data processing operations purposes, on the sole authorized Server Computer, in a client/server feature so-called “network feature”, without limitation regarding the number of client computers, provided that the Software can be used simultaneously and exclusively by no more than the Authorized number of Concurrent Users, on the same Server Computer; 
+
+b) make copies of the Software on the same Server Computer for the sole purpose of making several Instances work, provided that LICENSEE reproduces all the copyright, trademark and other proprietary notices which appear on or in the Software; such copy being subject to the terms and conditions of the Agreement;
+
+c) transfer the Software from one (1) Server Computer to another, provided that the Software shall never be installed and used on more than one (1) Server Computer at the same time.
+
+LICENSEE expressly agrees that it shall not install or use 4D SERVER on another computer platform and/or use the Software with more than the Authorized number of Concurrent Users, it being agreed that simultaneous use of the Software by more than the Authorized number of Concurrent Users, or the use of the Software in another environment than the Environment, is subject to the purchase of one or several additional licenses by LICENSEE under the price terms and conditions then in force.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.5 4D SQL DESKTOP
+&lt;/SPAN&gt;
+4D SQL DESKTOP may be used solely for execution purposes; it being agreed that each license is limited to one (1) Instance. The launch of any additional Instance is subject to the purchase of an additional license by LICENSEE under the price terms and conditions then in force. 4D SQL DESKTOP license allows LICENSEE to use such Software as a client to a remote server. In no event, 4D SQL DESKTOP may be used to develop new applications and/or databases. 
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.6 4D WEB APPLICATION SERVER 
+&lt;/SPAN&gt;
+4D WEB APPLICATION SERVER “non commercial”: 
+
+The purchase of the 4D WEB APPLICATION SERVER “non commercial” license and the use of such Software imply that (i) LICENSEE is the exclusive owner of the intellectual property rights relating to 4D Application or (ii) LICENSEE has been granted a BSD or a MIT license relating to 4D Application (subject to the respect of 4D’s rights), it being agreed that:
+
+i)	4D WEB APPLICATION SERVER “non commercial” may be used as an Intranet/Internet server, without limitation of the number of connections, and
+
+ii)	this license is limited to one (1) 4D Application, one (1) Instance and one (1) computer exclusively; it being that the launch of any additional Instance is subject to the purchase of an additional license by LICENSEE under the price terms and conditions then in force.
+
+In addition, in the event LICENSEE is the exclusive owner of the intellectual property rights relating to 4D Application, LICENSEE may use such 4D Application for internal purposes; it being agreed that LICENSEE may not license, sell, lease, rent, share the use of 4D Application or otherwise transfer it, or permit any third party to use 4D Application for time sharing, outsourcing services, application service provider services, or application hosting provider services and more generally LICENSEE shall not grant any kind of rights regarding 4D Application or any portion thereof in any form to any third party without the prior written consent of 4D. 
+
+4D WEB APPLICATION SERVER “commercial”: 
+
+i)	4D WEB APPLICATION SERVER “commercial” may be used as an Intranet/Internet server, without limitation of the number of connections, and 
+
+ii) this license is limited to one (1) 4D Application, one (1) Instance and one (1) computer exclusively, it being agreed that the launch of any additional Instance is subject to the purchase of an additional license by LICENSEE under the price terms and conditions then in force. 
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.7	4D WEB APPLICATION EXPANSION
+&lt;/SPAN&gt;
+The purchase of any 4D WEB APPLICATION EXPANSION license and any use of such Software are subject to the prior and regular purchase by LICENSEE of a 4D SERVER license. 
+
+Pursuant to the license granted and without prejudice to the terms of the Agreement, 4D WEB APPLICATION EXPANSION may be used as an Intranet/Internet Server, without limitation of the number of connections, it being agreed that the license is limited to one (1) 4D Application and one (1) computer exclusively. In addition, the terms relating to the copy of 4D WEB APPLICATION EXPANSION are identical to those relating to 4D SERVER, to which 4D WEB APPLICATION EXPANSION is joined with, and defined in section 2.4.4 b) of the Agreement. 
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.8 4D WEB SERVICES EXPANSION&lt;/SPAN&gt;  
+
+The deployment of web services as a server (publishing of web services) implies the prior purchase of a 4D WEB SERVICES EXPANSION license. 
+
+The purchase of any 4D WEB SERVICES EXPANSION license and any use of such Software are subject to the prior and regular purchase by LICENSEE of a 4D SERVER license or a 4D WEB APPLICATION SERVER license. 
+
+Pursuant to the license granted and without prejudice to the terms of the Agreement, 4D WEB SERVICES EXPANSION may be used as a Web services server, without limitation of the number of Web services and the number of Web services clients, it being agreed that the license is limited to one (1) 4D Application and one (1) computer exclusively. In addition, the terms relating to the copy of 4D WEB SERVICES EXPANSION are identical to those relating to 4D SERVER or if applicable to 4D WEB APPLICATION SERVER, to which 4D WEB SERVICES EXPANSION is joined with, and defined in section 2.4.4 b) of the Agreement.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.9 4D SQL EXPANSION UNLIMITED
+&lt;/SPAN&gt;
+The purchase of any 4D SQL EXPANSION UNLIMITED license and any use of such Software are subject to the prior and regular purchase by LICENSEE of a 4D SERVER license.
+
+Pursuant to the license granted - as an exception to the Authorized number of Concurrent Users and without prejudice to the terms of the Agreement – 4D SQL EXPANSION UNLIMITED may be used as a SQL server without limitation of the number of simultaneous connections, it being agreed that the license is limited to one (1) 4D Application and one (1) computer exclusively, at a price based on the number of processors (“CPU”). In addition, the terms relating to the copy of 4D SQL EXPANSION UNLIMITED are identical to those relating to 4D SERVER, to which 4D SQL EXPANSION UNLIMITED is joined with, and defined in section 2.4.4 b) of the Agreement.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.10 4D OEM DESKTOP
+&lt;/SPAN&gt;
+LICENSEE acknowledges and agrees that the installation and the use of 4D OEM DESKTOP imply the signing of an amendment between LICENSEE and 4D, it being agreed that as stated by the sections 2.1 and 2.2, completed and/or amended by the present section 2.4.10: LICENSEE may use 4D OEM DESKTOP for the sole purpose of running and deploying one or more compiled 4D Application(s) Single User – unless otherwise provided in the relevant amendment between the parties - within the limit of the number of copies allowed, as defined in the corresponding amendment, for all platforms, being specified that the evaluation versions are not included in the account of the above-mentioned number of copies. 
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.4.11 4D WEB 2.0 PACK
+&lt;/SPAN&gt;
+The license granted by 4D regarding 4D WEB 2.0 PACK permits the use of such Software on the available platform(s) and this, subject to the following terms and conditions:
+
+Without prejudice to the terms of the Agreement, 4D WEB 2.0 PACK may be used:
+
+i)	for development purposes, it being agreed that each license is limited to one (1) developer or otherwise “named user", any use by more than one (1) named user requires the purchase of the corresponding number of licenses;
+ii)	for unlimited deployment purposes of 4D Application(s) and this subject to the terms and conditions of the applicable 4D license as defined below. 
+
+The use by LICENSEE of 4D WEB 2.0 PACK for development purposes implies that LICENSEE has been granted beforehand a 4D DEVELOPER PROFESSIONAL license or a 4D TEAM DEVELOPER PROFESSIONAL license. 
+
+Any 4D Application developed with 4D Ajax FRAMEWORK may only be deployed in conjunction with 4D SERVER and 4D WEB APPLICATION EXPANSION, or in conjunction with 4D WEB APPLICATION SERVER, it being agreed that deployment is subject to the terms of the corresponding license.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.5 ELECTRONIC DOCUMENTATION RIGHTS
+&lt;/SPAN&gt;
+LICENSEE may:
+-	print the Electronic Documentation for use with the Software;
+-	transfer the HTML or PDF  files to a server for use on LICENSEE's Intranet;
+-	transfer the Electronic Documentation on a hard drive for LICENSEE's use with the Software.
+
+LICENSEE may not:
+-	distribute the Documentation;
+-	transfer the Documentation in any manner that causes it to be accessed on the Internet;
+-	make derivative works of the Documentation.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;2.6 OTHER RIGHTS
+&lt;/SPAN&gt;
+The Software may include one or more libraries, files or other items intended to help LICENSEE to use the Software. 4D grants LICENSEE the right to use these libraries, files and other items provided LICENSEE complies with the terms of this Agreement and any terms specific to the libraries or files. LICENSEE should refer to the Documentation and the “Read me” file included in the Software for additional information and terms.
+
+LICENSEE is informed that the Software may give access to a library that allows LICENSEE to code certain information in the 4D Applications developed with the Software. LICENSEE agrees that some laws do not allow or limit the use of the algorithms contained in this library and agrees to comply with all applicable laws and regulations related to such use.
+
+In any case, it is LICENSEE’s responsibility to make sure that any user of the Software complies with the terms of this license Agreement.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;3. TECHNICAL SUPPORT AND MAINTENANCE SERVICES
+&lt;/SPAN&gt;
+&lt;SPAN STYLE="font-weight:bold"&gt;3.1 EVALUATION LICENSE
+&lt;/SPAN&gt;
+The evaluation license does not include any technical support or maintenance services.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;3.2 LICENSE OF USE
+&lt;/SPAN&gt;
+3.2.1  If LICENSEE has subscribed to the yearly Maintenance services at the date of purchase of the corresponding license of use, such Maintenance services are subject to the following terms and conditions:
+
+In consideration of the payment of the corresponding yearly fee, 4D shall - when available - inform LICENSEE and – at LICENSEE’s request - put Updates at its disposal, by any means and on any media of 4D’s choice, including, if available, the related Documentation.
+
+LICENSEE shall update the components of the Environment, if an Update requires to do so.
+
+LICENSEE recognizes and agrees that the license and the Maintenance do not include installation services, such services being subject to a separate agreement.
+
+In accordance with the present license, the initial yearly Maintenance period shall come into effect on the date of purchase of such license, for a term of one (1) year.
+
+Unless termination of the Maintenance by a party upon written notice - by registered letter with acknowledgement of receipt - to the other party at least thirty (30) days prior to the end of the current yearly Maintenance period, Maintenance shall be renewed for successive periods of one (1) year each and the Maintenance fee shall be calculated on the basis of the then current applicable price list at the date the yearly Maintenance is renewed; it being agreed that any increase of the yearly Maintenance fee shall be limited to a 8% rise per year.
+
+3.2.2	 If LICENSEE wants to obtain technical support services to the Software from 4D or its local subsidiaries/distributors, LICENSEE MUST REGISTER THE SOFTWARE AS SOON AS POSSIBLE, BY APPROPRIATE MEANS, including, if necessary, on line according to the methods as indicated on the concerned 4D or local subsidiaries/distributors Web sites; such services being supplied according to the then local applicable terms and conditions. 
+
+3.2.3 Notwithstanding the terms of section 3.2.1, the 4D WEB 2.0 PACK license includes the supply of the Updates of the Software which are released by 4D, during the first twelve (12) months following the date of purchase of the corresponding license.
+
+After twelve (12) months, such service may be supplied according to the then local applicable terms and conditions.
+
+3.2.4	 If the Software contains an Update of the Software, the Update constitutes a single product with the Software. Consequently, LICENSEE ceases using the previous version of the Software and/or permitting such use within a maximum term of two (2) months from the installation or registration of such Update. LICENSEE agrees to all the terms of this Agreement which govern the terms and conditions of use of the Updates.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;4. WARRANTY AND LIABILITY
+&lt;/SPAN&gt;
+Client acknowledges and agrees that 4D SAS has duly fulfilled its pre-contractual obligations to advise Client and that with respect to all the provisions provided under the Agreement, 4D SAS is only bound by a general “best endeavours obligation” (“obligation de moyen” under French Law).
+
+&lt;SPAN STYLE="font-weight:bold"&gt;4.1 LICENSE OF USE: WARRANTY AND LIABILITY
+&lt;/SPAN&gt;
+Within a ninety (90) days-period from the Software's product number delivery to LICENSEE, as evidenced by a copy of the sales receipt, 4D exclusively warrants that the Software, subject to a license of use, is recorded on a Media free from defects in materials and workmanship under normal use and service and that such Software shall be capable of performing the essential functions described in the Documentation, when used in the Environment as indicated on the Media and the Documentation. 
+
+In case of a breach of this warranty, 4D's entire liability and LICENSEE's entire remedy shall be, at 4D's option, either the replacement of the Media and/or the Software, it being agreed that the replacement of the Media and/or the Software will be warranted for the remainder of the original warranty period, or the refund of the license fee paid for the Software and the termination of this Agreement. 
+
+However, if the failure has resulted from an accident, an abuse, a modification of the Software or a misapplication, 4D shall have no responsibility to replace the Media or refund the license fee.
+
+Exception to the above, LICENSEE agrees that the Software is obtained through download at its own discretion and risk and that LICENSEE is responsible for any damage to its computer system or loss of data that results from the downloading of the Software.
+4D does not warrant that the Software is free from bugs and/or errors. In addition, 4D does not warrant that the functions included in the Software will meet LICENSEE’s requirements or that the operation will be uninterrupted or error free or that all errors will be corrected.
+
+THE WARRANTY STATED ABOVE IS EXCLUSIVE AND THEREFORE ALL OTHER WARRANTIES ARE WAIVED BY LICENSEE, TO THE EXTENT PERMITTED BY LAW, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED CONDITIONS OR WARRANTIES OF MERCHANTABILITY AND FITNESS FOR ANY PARTICULAR PURPOSE.  
+
+The entire risk as to choice and use of the Software as well as the results obtained with the Software is with LICENSEE. Further, it is LICENSEE's responsibility to take the necessary steps for the protection of its data. 
+
+The warranty as stated in this provision is personal to LICENSEE and no third party that uses the results obtained by LICENSEE with the Software may benefit from such warranty. Consequently, 4D shall not be responsible to any third party, for the use of any 4D Application. LICENSEE shall indemnify 4D from any claim by a third party related to such 4D Application.
+
+Client acknowledges and agrees that 4D SAS may only be liable for direct damages.
+
+Neither 4D nor anyone else who has been involved in the design, the production, or the distribution of the Software will be liable for any incidental, consequential, indirect  or special damages caused to LICENSEE, any user or third party, even in case of negligence, including but not limited, to the interruption of the good order work of the Software, the loss of profits, loss of data, loss of brand image, increase of overheads or any other financial loss arising from the use of the Software or inability to use it even if 4D has been notified of the possibility of such damages. 
+
+In any case 4D's liability shall not exceed the amount of money paid by LICENSEE for the concerned license of use or, if applicable, the amount received in respect of the Maintenance fee for the current yearly period.
+
+It is expressly agreed that any claim for damages against 4D SAS arising in connection with the Agreement will be time-barred twelve (12) months after the event that generated that claim.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;4.2 EVALUATION LICENSE: EXCLUSION OF WARRANTY AND LIMITED LIABILITY
+&lt;/SPAN&gt;
+The Software is provided for evaluation purposes only and “AS IS”, without any express or implied warranty.
+
+4D does not provide any warranty for the use, the functionality and the performances of the Software. It doesn't certify either that the Software is free from bugs and/or errors. More specifically, 4D does not warrant that the functions included in the Software will meet LICENSEE's requirements or that the operation will be uninterrupted. The entire risk as to the choice of the use of the Software is with LICENSEE. Further, it is LICENSEE's responsibility to take the necessary steps for the protection of its data, in particular their back-up and their archival.
+
+4D will never be liable for any financial, commercial or other damages caused to LICENSEE directly or indirectly by the use or the functioning of the Software, even if 4D has been notified of the possibility of such damages. 
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;5. INTELLECTUAL PROPERTY
+&lt;/SPAN&gt;
+5.1 The Software is an original creation protected by national and/or international legislations.
+
+The Software is the exclusive property of 4D and/or its suppliers. 4D and/or its suppliers continue to be the sole owner(s) of the intellectual property rights attached to the Software.
+
+Consequently, LICENSEE shall not acquire any title, copyright or other proprietary rights in the Software other than specified in this Agreement.
+
+This Agreement does not include any license or rights on 4D and/or its suppliers’ trademarks or other proprietary rights notices.
+
+LICENSEE shall not change the legal notices relating to copyright and other intellectual and industrial property privileges on or in the Software.
+
+Any reproduction whether whole or partial of the Software is only allowed on the absolute condition that it contains all the legal specifications of the Software property.
+
+5.2 4D states that to its knowledge (i) nothing stands to the signature of this Agreement, (ii) the Software does not constitute an infringement to any pre-existent creation. 
+
+5.3 LICENSEE shall promptly notify 4D of any unauthorized use or any infringement of the Software, of which LICENSEE has knowledge. Should 4D decide to institute legal action based on LICENSEE’s notification, LICENSEE shall provide 4D with any assistance that may be reasonably required by 4D.
+
+5.4 4D shall defend and/or settle, at its own costs, pursuant to any claim brought against LICENSEE alleging that the Software provided under the terms of this Agreement infringes any intellectual property rights, provided that LICENSEE:
+
+−	promptly notifies 4D in writing of any such claim, and
+−	promptly tenders the control of the defence and settlement of any such claim to 4D, and
+−	shall cooperate with 4D in defending or settling such claim.
+
+If a claim or a potential claim for infringement is to be brought against LICENSEE, or if in the opinion of 4D the Software may become the subject of any claim for infringement, then 4D shall, at its option and expense, either: 
+
+(i) replace the Software with reasonably equivalent software or, 
+(ii) if (i) is not practicable, refund the license fees paid in regards to the license and terminate the concerned license.
+
+4D shall pay damages finally awarded pursuant to any claim brought against LICENSEE alleging that the Software infringes any intellectual property rights, including LICENSEE’s defence costs (notably lawyer’s fees), it being agreed that entire liability with respect to any claim regarding the intellectual property rights of any third party relating to the Software, shall not exceed, in any case, the amount of money paid by LICENSEE for the concerned license.
+
+4D shall have no liability for: 
+−	the use of other than the then-current release of the Software; 
+−	the modification of the Software by LICENSEE or any third party,
+−	the use of the Software other than as set forth in its Documentation and as permitted herein;
+−	the use of the Software with another hardware, another operating system and/or another software that those which constitute the Environment. 
+
+This section 5 states 4D’s entire obligation with respect to any claim regarding the infringement of intellectual property rights or of another property rights of any third party.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;6. NON-DISCLOSURE
+&lt;/SPAN&gt;
+The structure and organization of the Software are valuable trade secrets and confidential information of 4D and/or its suppliers. LICENSEE shall not disclose such trade secrets.
+
+The obligation of non-disclosure shall remain in force five (5) years after the termination of this Agreement.
+
+LICENSEE expressly agrees that 4D has the right to publicly announce the 4D/LICENSEE relationship.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;7. TERM AND TERMINATION
+&lt;/SPAN&gt;
+&lt;SPAN STYLE="font-weight:bold"&gt;7.1 LICENSE OF USE
+&lt;/SPAN&gt;
+Unless early termination, the license of use granted under this Agreement is allowed for a length of time equal to the legal time protection of the Software.
+
+Unless early termination, the subscription to Maintenance as defined in section 3.2.1 is valid for one (1) year as of the date of purchase by LICENSEE of such Maintenance, and tacitly renewed for successive periods of one (1) year each, subject to the terms of section 3.2.1 hereinabove.
+
+Termination of the license of use for any reason shall automatically and immediately entail termination of the Maintenance thereto. 
+
+In case of early termination of the Maintenance or more generally the Agreement for any reason and except as expressly otherwise stated in this Agreement, LICENSEE agrees that the fees paid for the corresponding license and - if applicable - Maintenance, are not refundable and that such termination shall not relieve LICENSEE from paying any amount due at the date of the termination pursuant to this Agreement.
+
+LICENSEE may terminate a license at any time without cause by registered letter. This termination shall not relieve LICENSEE from its liability arising before the termination date.
+
+Each party may terminate the Maintenance and more generally the Agreement immediately by sending a written notice to the other party - by registered letter with acknowledgment of receipt - when such party is in material breach of any term, condition, or provision of this Agreement and breach is not cured within thirty (30) days after such notice. 
+
+However, 4D may also terminate immediately the Agreement by sending a written notice to LICENSEE - by registered letter with acknowledgment of receipt - in the event that (i) LICENSEE breaches section 2 of the Agreement and/or that (ii) LICENSEE has not paid any invoiced fees related to the Agreement.
+
+The termination of the Agreement does not prevent 4D from claiming any further damages.
+
+Upon termination of the Maintenance for any reason and more generally the Agreement, such termination shall relieve 4D from any of its obligations related to the Agreement, notably the Maintenance and/or technical support services. LICENSEE shall stop using the Software, destroy or return the Software and the Documentation and any copy made whether partial or whole, and return the product number to 4D.
+
+LICENSEE shall certify by means of a written document duly signed by a legal representative that the provisions of the present section 7.1 have been respected within a time limit of five (5) days from the date of termination.
+
+&lt;SPAN STYLE="font-weight:bold"&gt;7.2 EVALUATION LICENSE
+&lt;/SPAN&gt;
+This evaluation license is allowed for a length of time as defined at the time of the product number delivery.
+
+Any of the parties may terminate this evaluation license at any time without cause upon written notice by registered letter with acknowledgment of receipt. 
+
+If LICENSEE fails to comply with any provision of this Agreement, the termination does not prevent 4D from claiming any further damages.
+
+Upon termination for any reason, LICENSEE shall stop using the Software, destroy or return it, and any copy made whether partial or whole, to 4D.
+
+LICENSEE shall certify by means of a written document duly signed by a legal representative that the provisions of the present section have been respected within a time limit of five (5) days from the date of termination.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;8. AUDIT
+&lt;/SPAN&gt;
+LICENSEE permits 4D to perform either itself or by any representative any audit or control in order to verify that LICENSEE complies with all provisions of this Agreement, it being agreed that LICENSEE, holder of a OEM DESKTOP license of use, shall provide any information requested by 4D regarding the Agreement execution, without any delay and by writing,.
+
+If the audit reveals a non-compliance with the terms and conditions of the Agreement and/or a discrepancy with the information given by LICENSEE, LICENSEE shall pay all 4D’s reasonable costs relating to the audit and this, without damage to other rights and 4D’s recourse.
+
+This provision shall remain in force two (2) years after the termination of the Agreement for any reason whatsoever.
+
+
+&lt;SPAN STYLE="font-weight:bold"&gt;9. MISCELLANEOUS PROVISIONS
+&lt;/SPAN&gt;
+It is LICENSEE's responsibility to comply with any applicable French, European or International export control laws and regulations. LICENSEE shall not directly or indirectly transfer the Software to any country to which such transfer would be prohibited by any applicable export control laws or would be subject to an export license or any administrative authorization, without having firstly obtained such license or authorization. Further, LICENSEE warrants that LICENSEE is not a national or a resident of a country to which exporting the Software is not allowed by virtue of any Export laws or regulations.
+
+In compliance with the law n°78-17 of January 6, 1978, as amended by the law n°2004-801 of August 6, 2004, LICENSEE is entitled to a right of access, modification and suppression of all personal data which concerns LICENSEE. To do so, LICENSEE may contact 4D at info-4d.fr@4d.com.
+
+More generally, the Parties shall comply with any applicable law and regulation, in particular as regards personal data protection.
+
+No change or modification to this Agreement will be valid unless a written amendment signed by LICENSEE and an authorized officer of 4D.
+
+If any provision of this Agreement is held to be unenforceable upon a definite legal or reglementary provision or a statutory or judicial determination, the remainder of this Agreement shall continue in full force and effect.
+
+The waiver by 4D of one breach or default hereunder does not constitute the waiver of any subsequent breach or default.
+
+This Agreement constitutes the entire agreement between 4D and LICENSEE relating to the Software and supersedes any prior purchase order, communications, advertising or representations concerning the Software.
+
+A printed version of this Agreement under electronic form and any warning notice delivered under electronic form by 4D, shall be accepted in the course of any legal proceedings regarding the execution of this Agreement.
+
+The relationship between 4D and LICENSEE is that of LICENSOR/LICENSEE. In all matters relating to the present Agreement, LICENSEE will act as an independent party. 
+
+This Agreement will be governed by French law and any dispute, controversy or claim arising out of or related to this Agreement shall be settled by adjudication before the Commercial Court of Nanterre, France, including in case of summary proceeding, plurality of defendants or action on a warranty.
+
+The English language version of this Agreement shall be the version which defines the relationship between the parties. English will be the official language used in all communication between them. 
+
+LICENSEE ACKNOWLEDGES TO HAVE READ, UNDERSTOOD AND AGREED TO BE BOUND BY THE TERMS AND CONDITIONS OF THE AGREEMENT PRINTED ABOVE.
+
+Should LICENSEE have any questions concerning this Agreement or wish to request any information from 4D, please contact 4D (+33) (0)1 40 87 92 00 (e-mail: info@4d.com) or the local 4D subsidiary serving your country. 
+
+
+* U.S. GOVERNMENT RESTRICTED RIGHTS: 
+All 4D products and documentation are commercial in nature. The Software and Documentation are "Commercial Items", as that term is defined in 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation", as such terms are defined in 48 C.F.R. §252.227-7014(a)(5) and 48 C.F.R. §252.227-7014(a)(1), and used in 48 C.F.R. §12.212 and 48 C.F.R. 227.7202, as applicable. Consistent with 48 C.F.R. §12.212, 48 C.F.R. §252.227-7015, 48 C.F.R. §227.7202 through 227.7202-4, 48 C.F.R. §52.227-14, and other relevant sections of the Code of Federal Regulations, as applicable, 4D's computer software and computer software documentation are licensed to United States Government end users with only those rights as granted to all other end users, according to the terms and conditions contained in this license agreement. 
+
+Manufacturer is 4D SAS located at 60, rue d’Alsace, 92110 Clichy, France. 
+
+
+All 4D product names are registered trademarks of 4D SAS. All other trade names and trademarks are trademarks or registered trademarks of their respective holders.
+&lt;/SPAN&gt;
+
+               </source>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

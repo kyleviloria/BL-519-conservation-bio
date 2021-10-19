@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+          <group id="1" resname="4DDataBaseErrors">
+              <trans-unit id="1" resname="Error-1">
+                  <source>Invalid table number requested by a Plug-In</source>
+                 <target>Invalid table number requested by a Plug-In</target>
+              </trans-unit>              
+              <trans-unit id="2" resname="Error1006">
+                  <source>Program interrupted by user—user pressed Alt-Programclick (Windows) or Option-click (Mac OS)</source>
+                 <target>Program interrupted by user—user pressed Alt-Programclick (Windows) or Option-click (Mac OS)</target>
+              </trans-unit>
+              <trans-unit id="3" resname="Error4001">
+                  <source>Invalid table number requested by a Plug-In</source>
+                 <target>Invalid table number requested by a Plug-In</target>
+              </trans-unit>
+              <trans-unit id="4" resname="Error4002">
+                  <source>Invalid record number requested by a Plug-In</source>
+                 <target>Invalid record number requested by a Plug-In</target>
+              </trans-unit>
+              <trans-unit id="5" resname="Error4003">
+                  <source>Invalid field number requested by a Plug-In</source>
+                 <target>Invalid field number requested by a Plug-In</target>
+              </trans-unit>
+              <trans-unit id="6" resname="Error4004">
+                  <source>Access to a table's current record requested by a Plug-in while there is no current record</source>
+                 <target>Access to a table's current record requested by a Plug-in while there is no current record</target>
+              </trans-unit>
+              <trans-unit id="7" resname="Error-9750">
+                  <source>The source form is not editable.</source>
+                 <target>The source form is not editable.</target>
+              </trans-unit>  
+              <trans-unit id="8" resname="Error-9751">
+                  <source>The source form is not accessible by the user.</source>
+                 <target>The source form is not accessible by the user.</target>
+              </trans-unit>  
+              <trans-unit id="9" resname="Error-9752">
+                  <source>The user form cannot be created.</source>
+                 <target>The user form cannot be created.</target>
+              </trans-unit>   
+             
+             
+              <trans-unit id="10" resname="Error-9753">
+                  <source>The source form does not exist.</source>
+                 <target>The source form does not exist.</target>
+              </trans-unit>                
+              <trans-unit id="11" resname="Error-9754">
+                  <source>This command cannot be used from a dialog window.</source>
+                 <target>This command cannot be used from a dialog window.</target>
+              </trans-unit> 
+              <trans-unit id="12" resname="Error-9755">
+                  <source>The user form does not have a name.</source>
+                 <target>The user form does not have a name.</target>
+              </trans-unit> 
+              <trans-unit id="13" resname="Error-9756">
+                  <source>There is no user structure file.</source>
+                 <target>There is no user structure file.</target>
+              </trans-unit>               
+              <trans-unit id="14" resname="Error-9757">
+                  <source>The user form does not exist.</source>
+                 <target>The user form does not exist.</target>
+              </trans-unit> 
+              <trans-unit id="15" resname="Error-9758">
+                  <source>The user form already exists.</source>
+                 <target>The user form already exists.</target>
+              </trans-unit>
+              <trans-unit id="16" resname="Error-9759">
+                  <source>The Object Library could not be opened.</source>
+                 <target>The Object Library could not be opened.</target>
+              </trans-unit>
+
+              <trans-unit id="150" resname="Error-9760">
+                <source>It is not possible to move or copy the XML node to the specified position.</source>
+                <target>It is not possible to move or copy the XML node to the specified position.</target>
+              </trans-unit>
+
+              <trans-unit id="17" resname="Error-9800">
+                  <source>One of the processes modified the access rights.</source>
+                 <target>One of the processes modified the access rights.</target>
+              </trans-unit> 
+              <trans-unit id="18" resname="Error-9850">
+                  <source>Invalid area parameter passed to an external command.</source>
+                 <target>Invalid area parameter passed to an external command.</target>
+              </trans-unit> 
+              <trans-unit id="19" resname="Error-9851">
+                  <source>Invalid parameter number 1.</source>
+                 <target>Invalid parameter number 1.</target>
+              </trans-unit>          
+              
+              
+              <trans-unit id="20" resname="Error-9852">
+                  <source>Invalid parameter number 2.</source>
+                 <target>Invalid parameter number 2.</target>
+              </trans-unit> 
+              <trans-unit id="21" resname="Error-9853">
+                  <source>Invalid parameter number 3.</source>
+                 <target>Invalid parameter number 3.</target>
+              </trans-unit>              
+              <trans-unit id="22" resname="Error-9854">
+                  <source>Invalid parameter number 4.</source>
+                 <target>Invalid parameter number 4.</target>
+              </trans-unit>
+              <trans-unit id="23" resname="Error-9855">
+                  <source>Invalid parameter number 5.</source>
+                 <target>Invalid parameter number 5.</target>
+              </trans-unit>
+              <trans-unit id="141" resname="Error-9909">
+                  <source>No window available to run the form.</source>
+                  <target>No window available to run the form.</target>
+              </trans-unit>
+              <trans-unit id="24" resname="Error-9910">
+                  <source>Soap fault.</source>
+                 <target>Soap fault.</target>
+              </trans-unit>
+              <trans-unit id="25" resname="Error-9911">
+                  <source>Parser fault.</source>
+                 <target>Parser fault.</target>
+              </trans-unit>
+              <trans-unit id="26" resname="Error-9912">
+                  <source>HTTP fault.</source>
+                 <target>HTTP fault.</target>
+              </trans-unit>
+              <trans-unit id="27" resname="Error-9913">
+                  <source>Network fault.</source>
+                 <target>Network fault.</target>
+              </trans-unit>  
+              <trans-unit id="28" resname="Error-9914">
+                  <source>Internal fault.</source>
+                 <target>Internal fault.</target>
+              </trans-unit>  
+              <trans-unit id="29" resname="Error-9915">
+                  <source>The document's reference is invalid.</source>
+                 <target>The document's reference is invalid.</target>
+              </trans-unit>        
+              
+              
+              <trans-unit id="30" resname="Error-9916">
+                  <source>The element is not open.</source>
+                 <target>The element is not open.</target>
+              </trans-unit>                
+              <trans-unit id="31" resname="Error-9917">
+                  <source>The type of the array passed in parameter is invalid.</source>
+                 <target>The type of the array passed in parameter is invalid.</target>
+              </trans-unit> 
+              <trans-unit id="32" resname="Error-9918">
+                  <source>The name of the element is invalid.</source>
+                 <target>The name of the element is invalid.</target>
+              </trans-unit> 
+              <trans-unit id="33" resname="Error-9919">
+                  <source>This encoding is not supported.</source>
+                 <target>This encoding is not supported.</target>
+              </trans-unit>               
+              <trans-unit id="34" resname="Error-9920">
+                  <source>The type of the node is invalid</source>
+                 <target>The type of the node is invalid</target>
+              </trans-unit>               
+
+             <trans-unit id="130" resname="Error-9921">
+                <source>Attempt to write a XML Prolog on a non-empty document</source>
+                <target>Attempt to write a XML Prolog on a non-empty document</target>
+             </trans-unit>
+             <trans-unit id="131" resname="Error-9922">
+                <source>Missing the parameter value in the attributes definition</source>
+                <target>Missing the parameter value in the attributes definition</target>
+             </trans-unit>
+             <trans-unit id="132" resname="Error-9923">
+                <source>The attribute name is not valid</source>
+                <target>The attribute name is not valid</target>
+             </trans-unit>      
+             <trans-unit id="133" resname="Error-9924">
+                <source>The file must be opened in read only</source>
+                <target>The file must be opened in read only</target>
+             </trans-unit>
+             
+              <trans-unit id="35" resname="Error-9925">
+                  <source>The referenced element is null.</source>
+                 <target>The referenced element is null.</target>
+              </trans-unit> 
+              <trans-unit id="36" resname="Error-9926">
+                  <source>The referenced element is invalid.</source>
+                 <target>The referenced element is invalid.</target>
+              </trans-unit>        
+              <trans-unit id="37" resname="Error-9927">
+                  <source>The referenced element is not the "root".</source>
+                 <target>The referenced element is not the "root".</target>
+              </trans-unit> 
+              <trans-unit id="38" resname="Error-9928">
+                  <source>The name of the element is unknown.</source>
+                 <target>The name of the element is unknown.</target>
+              </trans-unit> 
+              <trans-unit id="39" resname="Error-9929">
+                  <source>The index for this element is invalid.</source>
+                 <target>The index for this element is invalid.</target>
+              </trans-unit>               
+
+              
+              <trans-unit id="40" resname="Error-9930">
+                  <source>There is no attribute with this name for this element.</source>
+                 <target>There is no attribute with this name for this element.</target>
+              </trans-unit> 
+              <trans-unit id="41" resname="Error-9931">
+                  <source>The index for this attribute is invalid.</source>
+                 <target>The index for this attribute is invalid.</target>
+              </trans-unit>              
+              <trans-unit id="42" resname="Error-9932">
+                  <source>The XML DLL is not loaded.</source>
+                 <target>The XML DLL is not loaded.</target>
+              </trans-unit>
+              <trans-unit id="43" resname="Error-9933">
+                  <source>The XML file is not valid.</source>
+                 <target>The XML file is not valid.</target>
+              </trans-unit>
+              <trans-unit id="44" resname="Error-9934">
+                  <source>The XML file is not well-formed.</source>
+                 <target>The XML file is not well-formed.</target>
+              </trans-unit>
+              <trans-unit id="45" resname="Error-9935">
+                  <source>The XML file is not valid or is not well-formed.</source>
+                 <target>The XML file is not valid or is not well-formed.</target>
+              </trans-unit>
+
+            <trans-unit id="134" resname="Error-9936">
+                <source>External password code does not match to the database one</source>
+                <target>External password code does not match to the database one</target>
+             </trans-unit>
+             
+              <trans-unit id="46" resname="Error-9937">
+                  <source>Password System is locked by another user.</source>
+                 <target>Password System is locked by another user.</target>
+              </trans-unit>
+              <trans-unit id="47" resname="Error-9938">
+                  <source>The current record has been changed from within the trigger.</source>
+                 <target>The current record has been changed from within the trigger.</target>
+              </trans-unit>  
+              <trans-unit id="48" resname="Error-9939">
+                  <source>External routine not found.</source>
+                 <target>External routine not found.</target>
+              </trans-unit>  
+              <trans-unit id="49" resname="Error-9940">
+                  <source>4D Extension initialization failed.</source>
+                 <target>4D Extension initialization failed.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="50" resname="Error-9941">
+                  <source>Unknown EX_GESTALT selector.</source>
+                 <target>Unknown EX_GESTALT selector.</target>
+              </trans-unit> 
+              <trans-unit id="51" resname="Error-9942">
+                  <source>4D Client licensing scheme is incompatible with this version of 4D Server.</source>
+                 <target>4D Client licensing scheme is incompatible with this version of 4D Server.</target>
+              </trans-unit>              
+              <trans-unit id="52" resname="Error-9943">
+                  <source>4D Connectivity Plug-ins version error.</source>
+                 <target>4D Connectivity Plug-ins version error.</target>
+              </trans-unit>
+              <trans-unit id="53" resname="Error-9944">
+                  <source>The user does not belong to the 4D Open access group.</source>
+                 <target>The user does not belong to the 4D Open access group.</target>
+				<note>not used anymore.</note>
+              </trans-unit>
+              <trans-unit id="54" resname="Error-9945">
+                  <source>CD-ROM 4D Runtime error; writing operations are not allowed.</source>
+                 <target>CD-ROM 4D Runtime error; writing operations are not allowed.</target>
+              </trans-unit>
+              <trans-unit id="55" resname="Error-9946">
+                  <source>Unable to clear the named selection because it does not exist.</source>
+                 <target>Unable to clear the named selection because it does not exist.</target>
+              </trans-unit>
+              <trans-unit id="56" resname="Error-9947">
+                  <source>The "Allow 4D Open connections" check box has not been selected.</source>
+                 <target>The "Allow 4D Open connections" check box has not been selected.</target>
+				<note>not used anymore.</note>
+              </trans-unit>
+              <trans-unit id="57" resname="Error-9948">
+                  <source>A modal dialog is activated.</source>
+                 <target>A modal dialog is activated.</target>
+              </trans-unit>  
+              <trans-unit id="58" resname="Error-9949">
+                  <source>License or privilege error.</source>
+                 <target>License or privilege error.</target>
+              </trans-unit>  
+              <trans-unit id="59" resname="Error-9950">
+                  <source>Invalid data segment number.</source>
+                 <target>Invalid data segment number.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="60" resname="Error-9951">
+                  <source>This field has no relation.</source>
+                 <target>This field has no relation.</target>
+              </trans-unit> 
+              <trans-unit id="61" resname="Error-9952">
+                  <source>Invalid data segment header.</source>
+                 <target>Invalid data segment header.</target>
+              </trans-unit>              
+              <trans-unit id="62" resname="Error-9953">
+                  <source>There is no Log file.</source>
+                 <target>There is no Log file.</target>
+              </trans-unit>
+              <trans-unit id="63" resname="Error-9954">
+                  <source>There is no current record.</source>
+                 <target>There is no current record.</target>
+              </trans-unit>
+              <trans-unit id="64" resname="Error-9955">
+                  <source>QuickTime is not installed.</source>
+                 <target>QuickTime is not installed.</target>
+              </trans-unit>
+              <trans-unit id="65" resname="Error-9956">
+                  <source>Versions of 4D Client and 4D Server are different.</source>
+                 <target>Versions of 4D Client and 4D Server are different.</target>
+              </trans-unit>
+              <trans-unit id="66" resname="Error-9957">
+                  <source>The choice list is locked.</source>
+                 <target>The choice list is locked.</target>
+              </trans-unit>
+              <trans-unit id="67" resname="Error-9958">
+                  <source>The process could not be started.</source>
+                 <target>The process could not be started.</target>
+              </trans-unit>  
+              <trans-unit id="68" resname="Error-9959">
+                  <source>The backup process has already been started by another user or process.</source>
+                 <target>The backup process has already been started by another user or process.</target>
+              </trans-unit>  
+              <trans-unit id="69" resname="Error-9960">
+                  <source>4D Backup is not installed on the server.</source>
+                 <target>4D Backup is not installed on the server.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="70" resname="Error-9961">
+                  <source>The backup process is not currently running.</source>
+                 <target>The backup process is not currently running.</target>
+              </trans-unit> 
+              <trans-unit id="71" resname="Error-9962">
+                  <source>The backup cannot be run because the server is shutting down.</source>
+                 <target>The backup cannot be run because the server is shutting down.</target>
+              </trans-unit>              
+              <trans-unit id="72" resname="Error-9963">
+                  <source>Invalid record number requested by a workstation.</source>
+                 <target>Invalid record number requested by a workstation.</target>
+              </trans-unit>
+              <trans-unit id="73" resname="Error-9964">
+                  <source>Bad sort definition table sent by a workstation.</source>
+                 <target>Bad sort definition table sent by a workstation.</target>
+              </trans-unit>
+              <trans-unit id="74" resname="Error-9965">
+                  <source>Bad search definition table sent by a workstation.</source>
+                 <target>Bad search definition table sent by a workstation.</target>
+              </trans-unit>
+              <trans-unit id="75" resname="Error-9966">
+                  <source>Invalid type requested by a workstation.</source>
+                 <target>Invalid type requested by a workstation.</target>
+              </trans-unit>
+              <trans-unit id="76" resname="Error-9967">
+                  <source>The record could not be modified because it could not be loaded.</source>
+                 <target>The record could not be modified because it could not be loaded.</target>
+              </trans-unit>
+              <trans-unit id="77" resname="Error-9968">
+                  <source>Invalid selected record number requested by workstation.</source>
+                 <target>Invalid selected record number requested by workstation.</target>
+              </trans-unit>  
+              <trans-unit id="78" resname="Error-9969">
+                  <source>Invalid field type requested by workstation.</source>
+                 <target>Invalid field type requested by workstation.</target>
+              </trans-unit>  
+              <trans-unit id="79" resname="Error-9970">
+                  <source>Field is not indexed.</source>
+                 <target>Field is not indexed.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="80" resname="Error-9971">
+                  <source>Field number is out of range requested by workstation.</source>
+                 <target>Field number is out of range requested by workstation.</target>
+              </trans-unit> 
+              <trans-unit id="81" resname="Error-9972">
+                  <source>Table number is out of range requested by workstation.</source>
+                 <target>Table number is out of range requested by workstation.</target>
+              </trans-unit>              
+              <trans-unit id="82" resname="Error-9973">
+                  <source>The TRIC resources are not the same.</source>
+                 <target>The TRIC resources are not the same.</target>
+              </trans-unit>
+              <trans-unit id="83" resname="Error-9974">
+                  <source>Record has already been deleted.</source>
+                 <target>Record has already been deleted.</target>
+              </trans-unit>
+              <trans-unit id="84" resname="Error-9975">
+                  <source>Transaction index page could not be loaded.</source>
+                 <target>Transaction index page could not be loaded.</target>
+              </trans-unit>
+              <trans-unit id="85" resname="Error-9976">
+                  <source>Backup in progress; no modification allowed.</source>
+                 <target>Backup in progress; no modification allowed.</target>
+              </trans-unit>
+              <trans-unit id="86" resname="Error-9977">
+                  <source>The selection does not exist.</source>
+                 <target>The selection does not exist.</target>
+              </trans-unit>
+              <trans-unit id="87" resname="Error-9978">
+                  <source>Bad user password.</source>
+                 <target>Bad user password.</target>
+              </trans-unit>  
+              <trans-unit id="88" resname="Error-9979">
+                  <source>Unknown user.</source>
+                 <target>Unknown user.</target>
+              </trans-unit>  
+              <trans-unit id="89" resname="Error-9980">
+                  <source>The file cannot be created because the structure is locked.</source>
+                 <target>The file cannot be created because the structure is locked.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="90" resname="Error-9981">
+                  <source>Invalid field name/field number definition table sent by the workstation.</source>
+                 <target>Invalid field name/field number definition table sent by the workstation.</target>
+              </trans-unit> 
+              <trans-unit id="91" resname="Error-9982">
+                  <source>The record was not loaded because it is not in the selection on the workstation.</source>
+                 <target>The record was not loaded because it is not in the selection on the workstation.</target>
+              </trans-unit>              
+              <trans-unit id="92" resname="Error-9983">
+                  <source>The same external package is installed twice.</source>
+                 <target>The same external package is installed twice.</target>
+              </trans-unit>
+              <trans-unit id="93" resname="Error-9984">
+                  <source>Transaction has been cancelled because of a duplicated index key error.</source>
+                 <target>Transaction has been cancelled because of a duplicated index key error.</target>
+              </trans-unit>
+              <trans-unit id="94" resname="Error-9985">
+                  <source>Recursive integrity.</source>
+                 <target>Recursive integrity.</target>
+              </trans-unit>
+              <trans-unit id="95" resname="Error-9986">
+                  <source>Record locked during an automatic deletion action.</source>
+                 <target>Record locked during an automatic deletion action.</target>
+              </trans-unit>
+              <trans-unit id="96" resname="Error-9987">
+                  <source>Some other records are already related to this record.</source>
+                 <target>Some other records are already related to this record.</target>
+              </trans-unit>
+              <trans-unit id="97" resname="Error-9988">
+                  <source>The form cannot be loaded. Either the form or the structure is damaged.</source>
+                 <target>The form cannot be loaded. Either the form or the structure is damaged.</target>
+              </trans-unit>  
+              <trans-unit id="98" resname="Error-9989">
+                  <source>Invalid structure (database needs to be repaired).</source>
+                 <target>Invalid structure (database needs to be repaired).</target>
+              </trans-unit>  
+              <trans-unit id="99" resname="Error-9990">
+                  <source>Time-out error.</source>
+                 <target>Time-out error.</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="100" resname="Error-9991">
+                  <source>Privileges error.</source>
+                 <target>Privileges error.</target>
+              </trans-unit> 
+              <trans-unit id="101" resname="Error-9992">
+                  <source>Wrong password.</source>
+                 <target>Wrong password.</target>
+              </trans-unit>              
+              <trans-unit id="102" resname="Error-9993">
+                  <source>Menu bar is damaged (database needs to be repaired).</source>
+                 <target>Menu bar is damaged (database needs to be repaired).</target>
+              </trans-unit>
+              <trans-unit id="103" resname="Error-9994">
+                  <source>Serial communication interrupted by the user—user pressed Ctrl-Alt-Shift (Windows)
+or Command-Option-Shift (Mac OS).</source>
+                 <target>Serial communication interrupted by the user—user pressed Ctrl-Alt-Shift (Windows)
+or Command-Option-Shift (Mac OS).</target>
+              </trans-unit>
+              <trans-unit id="104" resname="Error-9995">
+                  <source>Demo limit has been reached.</source>
+                 <target>Demo limit has been reached.</target>
+              </trans-unit>
+              <trans-unit id="105" resname="Error-9996">
+                  <source>Stack is full (too much recursion or nested calls).</source>
+                 <target>Stack is full (too much recursion or nested calls).</target>
+              </trans-unit>
+              <trans-unit id="106" resname="Error-9997">
+                  <source>Maximum number of records has been reached.</source>
+                 <target>Maximum number of records has been reached.</target>
+              </trans-unit> 
+              <trans-unit id="107" resname="Error-9998">
+                  <source>Duplicated key.</source>
+                 <target>Duplicated key.</target>
+              </trans-unit>              
+              <trans-unit id="108" resname="Error-9999">
+                  <source>No more room to save the record.</source>
+                 <target>No more room to save the record.</target>
+              </trans-unit>
+              <trans-unit id="109" resname="Error-10500">
+                  <source>Invalid record address (database needs to be repaired).</source>
+                 <target>Invalid record address (database needs to be repaired).</target>
+              </trans-unit>
+              
+              
+              <trans-unit id="110" resname="Error-10501">
+                  <source>Invalid index page (index needs to be repaired).</source>
+                 <target>Invalid index page (index needs to be repaired).</target>
+              </trans-unit>
+              <trans-unit id="111" resname="Error-10502">
+                  <source>Invalid record structure (data file needs to be repaired).</source>
+                 <target>Invalid record structure (data file needs to be repaired).</target>
+              </trans-unit>
+              <trans-unit id="112" resname="Error-10503">
+                  <source>Record # is out of range (during GOTO RECORD, or data file needs to be repaired).</source>
+                 <target>Record # is out of range (during GOTO RECORD, or data file needs to be repaired).</target>
+              </trans-unit>
+              <trans-unit id="113" resname="Error-10504">
+                  <source>Index page # is out of range (index needs to be repaired).</source>
+                 <target>Index page # is out of range (index needs to be repaired).</target>
+              </trans-unit>  
+              <trans-unit id="114" resname="Error-10505">
+                  <source>Client and server have version numbers that are incompatible.</source>
+                 <target>Client and server have version numbers that are incompatible.</target>
+              </trans-unit>  
+              <trans-unit id="115" resname="Error-10506">
+                  <source>Limit of the Standard Edition version.</source>
+                 <target>Limit of the Standard Edition version.</target>
+              </trans-unit>
+              <trans-unit id="116" resname="Error-10507">
+                  <source>This version does not allow a compiled database to be opened.</source>
+                 <target>This version does not allow a compiled database to be opened.</target>
+              </trans-unit> 
+              <trans-unit id="117" resname="Error-10508">
+                  <source>Project method not found.</source>
+                 <target>Project method not found.</target>
+              </trans-unit>              
+             <trans-unit id="118" resname="Error-10509">
+                <source>Can't open database "{database_name}".</source>
+                <target>Can't open database "{database_name}".</target>
+             </trans-unit>
+             <trans-unit id="119" resname="Error-10510">
+                <source>Can't load component "{component_name}".</source>
+                <target>Can't load component "{component_name}".</target>
+             </trans-unit>
+              
+              
+              <trans-unit id="120" resname="Error-10511">
+                 <source>Can't call command "{commmand_name}" from a component.</source>
+                 <target>Can't call command "{commmand_name}" from a component.</target>
+              </trans-unit>
+             
+              <trans-unit id="135" resname="Error-10512">
+                 <source>The encoding is not supported</source>
+                 <target>The encoding is not supported</target>
+              </trans-unit>
+              <trans-unit id="136" resname="Error-10513">
+                 <source>can't call {command_name} command from a remote 4D Developer</source>
+                 <target>can't call {command_name} command from a remote 4D Developer</target>
+              </trans-unit>              
+              <trans-unit id="137" resname="Error-10514">
+                 <source>The maximum number of concurrent users for your license has been reached.</source>
+                 <target>The maximum number of concurrent users for your license has been reached.</target>
+              </trans-unit>
+              <trans-unit id="138" resname="Error-10515">
+                 <source>Your attempt to connect to 4D Server has been denied.</source>
+                 <target>Your attempt to connect to 4D Server has been denied.</target>
+              </trans-unit>              
+              <trans-unit id="139" resname="Error-10516">
+                 <source>The server is running a maintenance operation, please reconnect later.</source>
+                <target>The server is running a maintenance operation, please reconnect later.</target>
+              </trans-unit>             
+              <trans-unit id="140" resname="Error-10517">
+                 <source>Failed to synchronize {folder_name} folder.</source>
+                 <target>Failed to synchronize {folder_name} folder.</target>
+              </trans-unit>
+              <trans-unit id="142" resname="Error-10518">
+                  <source>Assert failed: {assertion}</source>
+                  <target>Assert failed: {assertion}</target>
+              </trans-unit>
+             
+              <trans-unit id="121" resname="Error-10600">
+                  <source>This BLOB could not be read. It may be damaged.</source>
+                  <target>This BLOB could not be read. It may be damaged.</target>
+              </trans-unit>
+             <trans-unit id="122" resname="Error-10601">
+                <source>The OBJECT DUPLICATE command does not work during printing operations.</source>
+                <target>The OBJECT DUPLICATE command does not work during printing operations.</target>
+             </trans-unit>
+          </group>
+         
+         <group id="1" resname="4DNetWorkErrors">              
+            <trans-unit id="1" resname="Error-10001">
+               <source>The actual connection to the database has been disrupted.</source>
+               <target>The actual connection to the database has been disrupted.</target>
+            </trans-unit>  
+            <trans-unit id="2" resname="Error-10002">
+               <source>The connection for this process has been disrupted or the connection couldn't be established.</source>
+               <target>The connection for this process has been disrupted or the connection couldn't be established.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Error-10003">
+               <source>Bad connection parameters.</source>
+               <target>Bad connection parameters.</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Error-10020">
+               <source>No server was selected.</source>
+               <target>No server was selected.</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Error-10021">
+               <source>No server was found.</source>
+               <target>No server was found.</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Error-10030">
+               <source>Desynchronization has occurred during the write cycle.</source>
+               <target>Desynchronization has occurred during the write cycle.</target>
+            </trans-unit>              
+            <trans-unit id="7" resname="Error-10031">
+               <source>Desynchronization has occurred during the write cycle.</source>
+               <target>Desynchronization has occurred during the write cycle.</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Error-10033">
+               <source>Incorrect data size during read cycle.</source>
+               <target>Incorrect data size during read cycle.</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Error-10050">
+               <source>Unknown network component option.</source>
+               <target>Unknown network component option.</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Error-10051">
+               <source>Incorrect value for network component option.</source>
+               <target>Incorrect value for network component option.</target>
+            </trans-unit>
+            
+            <trans-unit id="FailedStartApplicationServer" resname="FAILED_TO_START_APPLICATION_SERVER">
+               <source>Failed to launch Application Server. Please make sure that the port assigned to the Application Server is not used by another application.
+If SSL is enabled, make sure the certificate (key.pem and cert.pem) exists at the appropriate location.</source>
+               <target>Failed to launch Application Server. Please make sure that the port assigned to the Application Server is not used by another application.
+If SSL is enabled, make sure the certificate (key.pem and cert.pem) exists at the appropriate location.</target>
+	        </trans-unit>
+			<trans-unit id="FailedStartDB4DServer" resname="DB4D_ERROR_FAILED_TO_START_SERVER">
+               <source>Failed to launch DB4D Server. Please make sure that the port assigned to DB4D Server is not used by another application.</source>
+   				<target>Failed to launch DB4D Server. Please make sure that the port assigned to the DB4D Server is not used by another application.</target>
+            </trans-unit>
+
+         </group>
+         
+         <group id="3" resname="4D_SQL_Errors">              
+            <trans-unit id="1" resname="SQL_Error_1010">
+               <source>Execution was interrupted by user.</source>
+               <target>Execution was interrupted by user.</target>
+            </trans-unit>  
+            
+         </group>
+         
+      </body>
+   </file>
+</xliff>

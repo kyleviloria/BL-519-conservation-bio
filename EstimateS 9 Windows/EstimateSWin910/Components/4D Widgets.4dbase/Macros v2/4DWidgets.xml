@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE macros SYSTEM "http://www.4d.com/dtd/2007/macros.dtd" >
+
+<macros>
+
+	<macro name="DatePicker APPLY DEFAULT VALUES" type_ahead="true" type_ahead_text="DPADV" in_menu = "false">
+	<text>DatePicker APPLY DEFAULT VALUES(objectName)</text>
+	</macro>
+	
+	<macro name="DatePicker Display Dialog" type_ahead="true" type_ahead_text="DPDD" in_menu = "false">
+	<text>DatePicker Display Dialog {(top; left)}</text>
+	</macro>
+
+	<macro name="DatePicker RESET DEFAULT VALUES" type_ahead="true" type_ahead_text="DPRDV" in_menu = "false">
+	<text>DatePicker RESET DEFAULT VALUES</text>
+	</macro>
+
+	<macro name="DatePicker SET DAYS OFF" type_ahead="true" type_ahead_text="DPSDO" in_menu = "false">
+	<text>DatePicker SET DAYS OFF (objectName; dayType; ptrHolidaysArray)</text>
+	</macro>
+
+	<macro name="DatePicker SET DEFAULT 1ST DAY" type_ahead="true" type_ahead_text="DPSDFD" in_menu = "false">
+	<text>DatePicker SET DEFAULT 1ST DAY(dayNum)</text>
+	</macro>
+
+	<macro name="DatePicker SET DEFAULT DAYS OFF" type_ahead="true" type_ahead_text="DPSDDO" in_menu = "false">
+	<text>DatePicker SET DEFAULT DAYS OFF (dayType; ptrHolidaysArray)</text>
+	</macro>
+
+	<macro name="DatePicker SET DEFAULT MAX DATE" type_ahead="true" type_ahead_text="DPSDMD" in_menu = "false">
+	<text>DatePicker SET DEFAULT MAX DATE (maxDate)</text>
+	</macro>
+
+	<macro name="DatePicker SET DEFAULT MIN DATE" type_ahead="true" type_ahead_text="DPSDMD" in_menu = "false">
+	<text>DatePicker SET DEFAULT MIN DATE (minDate)</text>
+	</macro>
+
+	<macro name="DatePicker SET MAX DATE" type_ahead="true" type_ahead_text="DPSMD" in_menu = "false">
+	<text>DatePicker SET MAX DATE (objectName; maxDate)</text>
+	</macro>
+
+	<macro name="DatePicker SET MIN DATE" type_ahead="true" type_ahead_text="DPSMD" in_menu = "false">
+	<text>DatePicker SET MIN DATE (objectName; minDate)</text>
+	</macro>
+
+	<macro name="DatePicker SET WEEK FIRST DAY" type_ahead="true" type_ahead_text="DPSWFD" in_menu = "false">
+	<text>DatePicker SET WEEK FIRST DAY (objectName; dayNum)</text>
+	</macro>
+
+	<macro name="SearchPicker SET HELP TEXT" type_ahead="true" type_ahead_text="SPSHT" in_menu = "false">
+	<text>SearchPicker SET HELP TEXT (objectName;helpText)</text>
+	</macro>
+
+	<macro name="TimePicker APPLY DEFAULT VALUES" type_ahead="true" type_ahead_text="TPADV" in_menu = "false">
+	<text>TimePicker APPLY DEFAULT VALUES (objectName) </text>
+	</macro>
+
+	<macro name="TimePicker RESET DEFAULT VALUES" type_ahead="true" type_ahead_text="TPRDV" in_menu = "false">
+	<text>TimePicker RESET DEFAULT VALUES</text>
+	</macro>
+
+	<macro name="TimePicker SET DEFAULT LABEL AM" type_ahead="true" type_ahead_text="TPSDLA" in_menu = "false">
+	<text>TimePicker SET DEFAULT LABEL AM (label)</text>
+	</macro>
+
+	<macro name="TimePicker SET DEFAULT LABEL PM" type_ahead="true" type_ahead_text="TPSDLP" in_menu = "false">
+	<text>TimePicker SET DEFAULT LABEL PM (label) </text>
+	</macro>
+
+	<macro name="TimePicker SET DEFAULT MAX TIME" type_ahead="true" type_ahead_text="TPSDMT" in_menu = "false">
+	<text>TimePicker SET DEFAULT MAX TIME (maxTime)</text>
+	</macro>
+
+	<macro name="TimePicker SET DEFAULT MIN TIME" type_ahead="true" type_ahead_text="TPSDMT" in_menu = "false">
+	<text>TimePicker SET DEFAULT MIN TIME (minTime) </text>
+	</macro>
+
+	<macro name="TimePicker SET DEFAULT STEP" type_ahead="true" type_ahead_text="TPSDS" in_menu = "false">
+	<text>TimePicker SET DEFAULT STEP (step)</text>
+	</macro>
+
+	<macro name="TimePicker SET LABEL AM" type_ahead="true" type_ahead_text="TPSLA" in_menu = "false">
+	<text>TimePicker SET LABEL AM (objectName;label)</text>
+	</macro>
+
+	<macro name="TimePicker SET LABEL PM" type_ahead="true" type_ahead_text="TPSLP" in_menu = "false">
+	<text>TimePicker SET LABEL PM (objectName;label)</text>
+	</macro>
+
+	<macro name="TimePicker SET MAX TIME" type_ahead="true" type_ahead_text="TPSMT" in_menu = "false">
+	<text>TimePicker SET MAX TIME (objectName;maxTime)</text>
+	</macro>
+
+	<macro name="TimePicker SET MIN TIME" type_ahead="true" type_ahead_text="TPSMT" in_menu = "false">
+	<text>TimePicker SET Min TIME (objectName;minTime)</text>
+	</macro>
+	
+	<macro name="TimePicker SET STEP" type_ahead="true" type_ahead_text="TPSS" in_menu = "false">
+	<text>TimePicker SET STEP (objectName;step)</text>
+	</macro>
+	
+</macros>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2010 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1064" resname="STR# ID 1064">
+            <trans-unit id="1" resname="4DServer">
+               <source>4D Server</source>
+               <target>4D Server</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ServerShutDown">
+               <source>Server Shutdown</source>
+               <target>Server Shutdown</target>
+            </trans-unit>
+            <trans-unit id="3" resname="DisconnectFromServerIn">
+               <source>Disconnect from Server in:</source>
+               <target>Disconnect from Server in:</target>
+            </trans-unit>
+            <trans-unit id="4" resname="AbbreviatedMinute">
+               <source>min.</source>
+               <target>min.</target>
+            </trans-unit>
+            <trans-unit id="5" resname="WaitForAllUsersToDisconnect">
+               <source>Wait for all Users to disconnect</source>
+               <target>Wait for all Users to disconnect</target>
+            </trans-unit>
+            <trans-unit id="6" resname="DisconnectAllClientsAndQuit">
+               <source>Disconnect all clients and quit.</source>
+               <target>Disconnect all clients and quit.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="WinTitle_4DServerAdministration">
+               <source>4D Server Administration</source>
+               <target>4D Server Administration</target>
+            </trans-unit>
+         </group>   
+         <group resname="QuitServer">
+            <trans-unit id="1" resname="WaitingForOneClient">
+               <source>Waiting for one client to disconnect.</source>
+               <target>Waiting for one client to disconnect.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="WaitingForUserCountClient">
+               <source>Waiting for {user_count} clients to disconnect.</source>
+               <target>Waiting for {user_count} clients to disconnect.</target>
+            </trans-unit>
+            <trans-unit id="4" resname="TheServerWillShutDown">
+               <source>The server will shut down at {shutdown_time} or when all clients are disconnected.
+{user_count} clients are still connected.</source>
+               <target>The server will shut down at {shutdown_time} or when all clients are disconnected.
+{user_count} clients are still connected.</target>
+            </trans-unit>
+            <trans-unit id="5" resname="TheServerWillShutDownOneClient">
+               <source>The server will shut down at {shutdown_time} or when all clients are disconnected.
+One client is still connected.</source>
+               <target>The server will shut down at {shutdown_time} or when all clients are disconnected.
+One client is still connected.</target>
+            </trans-unit>
+         </group>
+         <group resname="Explorer_Actions">
+            <trans-unit id="1" resname="RevealInExplorer">
+               <source>Reveal in Explorer...</source>
+               <target>Reveal in Explorer...</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

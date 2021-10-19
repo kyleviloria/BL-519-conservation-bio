@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1200">
+            <trans-unit id="1">
+               <source>Table</source>
+               <target>Table</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Error number {errornumber}: {errormessage} for all records from table {tablenumber}</source>
+               <target>Error number {errornumber}: {errormessage} for all records from table {tablenumber}</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Error number {errornumber}: {errormessage} for record number {recordnumber} from table {tablenumber}</source>
+               <target>Error number {errornumber}: {errormessage} for record number {recordnumber} from table {tablenumber}</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Error number {errornumber}: {errormessage} from record number {recordnumber1} to record number {recordnumber2} from table {tablenumber}</source>
+               <target>Error number {errornumber}: {errormessage} from record number {recordnumber1} to record number {recordnumber2} from table {tablenumber}</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Error number {errornumber}: {errormessage} for record number {recordnumber}, field number {fieldnumber}, subrecord number {subrecordnumber}</source>
+               <target>Error number {errornumber}: {errormessage} for record number {recordnumber}, field number {fieldnumber}, subrecord number {subrecordnumber}</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Error number {errornumber}: {errormessage}</source>
+               <target>Error number {errornumber}: {errormessage}</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Error number {errornumber}: duplicates have been detected while building index for {fieldname} (internal error code: {errornumber_internal}). The 'Unique' attribute has been removed for this field.</source>
+               <target>Error number {errornumber}: duplicates have been detected while building index for {fieldname} (internal error code: {errornumber_internal}). The 'Unique' attribute has been removed for this field.</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Error number {errornumber}: Could not build index for {fieldname} (internal error code: {errornumber_internal}).</source>
+               <target>Error number {errornumber}: Could not build index for {fieldname} (internal error code: {errornumber_internal}).</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Building indexes.</source>
+               <target>Building indexes.</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Importing tables.</source>
+               <target>Importing tables.</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>Importing records {curValue} / {maxValue}.</source>
+               <target>Importing records {curValue} / {maxValue}.</target>
+            </trans-unit>
+         </group>
+         <group id="1201">
+            <trans-unit id="1">
+               <source>The data file contains more tables than the current structure file</source>
+               <target>The data file contains more tables than the current structure file</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>The record has more fields than the table from the current structure file</source>
+               <target>The record has more fields than the table from the current structure file</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>The REDX driver is not supported anymore</source>
+               <target>The REDX driver is not supported anymore</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Invalid record header</source>
+               <target>Invalid record header</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Invalid record header: invalid checksum</source>
+               <target>Invalid record header: invalid checksum</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>Invalid record length</source>
+               <target>Invalid record length</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Invalid record header: invalid fields count</source>
+               <target>Invalid record header: invalid fields count</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Invalid record data: invalid offsets information</source>
+               <target>Invalid record data: invalid offsets information</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Invalid record data: invalid field type</source>
+               <target>Invalid record data: invalid field type</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Invalid record data: invalid field length</source>
+               <target>Invalid record data: invalid field length</target>
+            </trans-unit>
+            <trans-unit id="11">
+               <source>Invalid address table</source>
+               <target>Invalid address table</target>
+            </trans-unit>
+            <trans-unit id="12">
+               <source>The record contains more than one level subtables</source>
+               <target>The record contains more than one level subtables</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>Invalid segment data, probably from an older database</source>
+               <target>Invalid segment data, probably from an older database</target>
+            </trans-unit>
+            <trans-unit id="14">
+               <source>Invalid segments count</source>
+               <target>Invalid segments count</target>
+            </trans-unit>
+            <trans-unit id="15">
+               <source>Invalid segment ID</source>
+               <target>Invalid segment ID</target>
+            </trans-unit>
+            <trans-unit id="16">
+               <source>Invalid data file (this file is probably not a 4D database file)</source>
+               <target>Invalid data file (this file is probably not a 4D database file)</target>
+            </trans-unit>
+            <trans-unit id="17">
+               <source>The WEDD signatures for the structure and data do not match</source>
+               <target>The WEDD signatures for the structure and data do not match</target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>Invalid database file version</source>
+               <target>Invalid database file version</target>
+            </trans-unit>
+            <trans-unit id="19">
+               <source>Import/conversion canceled by user at</source>
+               <target>Import/conversion canceled by user at</target>
+            </trans-unit>
+            <trans-unit id="20">
+               <source>Corrupted data: import/conversion aborted</source>
+               <target>Corrupted data: import/conversion aborted</target>
+            </trans-unit>
+            <trans-unit id="21">
+               <source>Generic kernel error</source>
+               <target>Generic kernel error</target>
+            </trans-unit>
+            <trans-unit id="22">
+               <source>Insufficient disk space</source>
+               <target>Insufficient disk space</target>
+            </trans-unit>
+            <trans-unit id="23">
+               <source>The subrecord contains more fields than the table from the current structure file</source>
+               <target>The subrecord contains more fields than the table from the current structure file</target>
+            </trans-unit>
+            <trans-unit id="24">
+               <source>Cannot save record</source>
+               <target>Cannot save record</target>
+            </trans-unit>
+            <trans-unit id="25">
+               <source>Cannot locate all database segments</source>
+               <target>Cannot locate all database segments</target>
+            </trans-unit>
+            <trans-unit id="26">
+               <source>Invalid subrecord header: invalid fields count</source>
+               <target>Invalid subrecord header: invalid fields count</target>
+            </trans-unit>
+            <trans-unit id="27">
+               <source>The record contains an invalid field Handle</source>
+               <target>The record contains an invalid field Handle</target>
+            </trans-unit>
+            <trans-unit id="28">
+               <source>Invalid subrecord data: invalid offsets information</source>
+               <target>Invalid subrecord data: invalid offsets information</target>
+            </trans-unit>
+            <trans-unit id="29">
+               <source>Invalid subrecord data: invalid field type</source>
+               <target>Invalid subrecord data: invalid field type</target>
+            </trans-unit>
+            <trans-unit id="30">
+               <source>Invalid subrecord data: invalid field length</source>
+               <target>Invalid subrecord data: invalid field length</target>
+            </trans-unit>
+            <trans-unit id="31">
+               <source>The subrecord contains an invalid field Handle</source>
+               <target>The subrecord contains an invalid field Handle</target>
+            </trans-unit>
+            <trans-unit id="32">
+               <source>The record contains a field Handle with an invalid length</source>
+               <target>The record contains a field Handle with an invalid length</target>
+            </trans-unit>
+            <trans-unit id="33">
+               <source>The subrecord contains a field Handle with an invalid length</source>
+               <target>The subrecord contains a field Handle with an invalid length</target>
+            </trans-unit>
+            <trans-unit id="34">
+               <source>Invalid subrecord length</source>
+               <target>Invalid subrecord length</target>
+            </trans-unit>
+            <trans-unit id="35">
+               <source>Cannot read record</source>
+               <target>Cannot read record</target>
+            </trans-unit>
+            <trans-unit id="36">
+               <source>Data type of field [{key1}]{key2} does not match data type of related field [{key3}]{key4}. Relation will not be created.</source>
+               <target>Data type of field [{key1}]{key2} does not match data type of related field [{key3}]{key4}. Relation will not be created.</target>
+            </trans-unit>
+         </group>
+        <group id="1202">
+          <trans-unit id="1">
+            <source>Converting form lists</source>
+            <target>Converting form lists</target>
+          </trans-unit>
+          <trans-unit id="2">
+            <source>Splitting Mac resource fork: Reading...</source>
+            <target>Splitting Mac resource fork: Reading...</target>
+          </trans-unit>
+          <trans-unit id="3">
+            <source>Splitting Mac resource fork: Writing...</source>
+            <target>Splitting Mac resource fork: Writing...</target>
+          </trans-unit>
+          <trans-unit id="4">
+            <source>Importing Mac resources...</source>
+            <target>Importing Mac resources...</target>
+          </trans-unit>
+          <trans-unit id="5">
+            <source>Loading structure definition</source>
+            <target>Loading structure definition</target>
+          </trans-unit>
+          <trans-unit id="6">
+            <source>Converting structure definition</source>
+            <target>Converting structure definition</target>
+          </trans-unit>
+          <trans-unit id="7">
+            <source>Saving structure definition</source>
+            <target>Saving structure definition</target>
+          </trans-unit>
+          <trans-unit id="8">
+            <source>Copying resources...</source>
+            <target>Copying resources...</target>
+          </trans-unit>
+          <trans-unit id="9">
+            <source>Flushing...</source>
+            <target>Flushing...</target>
+          </trans-unit>
+          <trans-unit id="10">
+            <source>Moving files...</source>
+            <target>Moving files...</target>
+          </trans-unit>
+           <trans-unit id="11" resname="AutomaticEditMenu">
+              <source>An Edit menu has been automatically added in menu bars where this was necessary. You will have to modify your code in order to take it into account. Here is the list of menu bars concerned:</source>
+              <target>An Edit menu has been automatically added in menu bars where this was necessary. You will have to modify your code in order to take it into account. Here is the list of menu bars concerned:</target>
+           </trans-unit>
+        </group>
+        </body>
+   </file>
+</xliff>

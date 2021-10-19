@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ====================== ACCESS_GRANTER =========================== -->
+<!-- SAMPLE
+      <access_granter id=3004 name="SQL Access ALL" group_id="15001"/>
+      Grants all sql access (with structure modification) to group 15001 members.
+      group 0 for EVERYONE
+      group 1 for NOONE
+-->
+<!ELEMENT access_granter>
+<!ATTLIST access_granter
+    id NMTOKEN #REQUIRED
+    name CDATA #REQUIRED
+    group_id CDATA #REQUIRED>
+
+<!-- ====================== SCHEMA_GRANTER =========================== -->
+<!-- SAMPLE
+      <schema_granter id=1 name="PUBLIC" group_all="15001" group_rw="15002" group_ro="15003"/>
+	  Defines a granter for the "PUBLIC" SQL schema.
+	  Grants:
+		all accesses to group 15001
+		rw on datas for 15002 group
+		ro rights for 15003 group.
+      group 0 for EVERYONE
+      group 1 for NOONE
+-->
+<!ELEMENT schema_granter>
+<!ATTLIST schema_granter
+    id NMTOKEN #REQUIRED
+    name CDATA #REQUIRED
+    group_all CDATA #REQUIRED
+    group_rw CDATA #REQUIRED
+    group_ro CDATA #REQUIRED>
+
+<!-- ====================== USER =========================== -->
+<!-- SAMPLE
+      <user id="1" name="Designer" clear_password="abcd">
+            <window_bounds kind=main left="50" top="50" width="1180" height="668"/>
+      </user>
+      <user id="2" name="Administrator"/>
+-->
+<!-- <clear_password> & <password> keys.
+  <clear_password> is used by someone who wants to create it's own users and import them in 4D.
+  <password> is used by 4D to save the password.
+  4D never saves the clear_password.
+  This key is a facility to let 4D encrypt the password for you at XML-loading time.
+  Priority:
+    if <password> exists, <clear_password> won't be readen.
+-->
+<!-- id Range
+for designer users:
+  [1;15000]
+  1 Is the Designer user
+  2 Is the Administrator user
+for administrator ones:
+  [-11;-15000]
+-->
+<!-- last_use_time format
+  "yyyy-mm-dd hh:mm:ss:ms"
+-->
+<!ELEMENT user ( window_bounds*) >
+<!ATTLIST user
+    id NMTOKEN #REQUIRED
+    name CDATA #REQUIRED
+    last_use_time CDATA #IMPLIED
+    password CDATA #IMPLIED
+    clear_password CDATA #IMPLIED
+    default_owner NMTOKEN #IMPLIED
+    startup_method CDATA #IMPLIED
+    use_count NMTOKEN #IMPLIED >
+<!-- window_bounds -->
+<!ELEMENT window_bounds (coordinates) >
+<!ATTLIST window_bounds
+    kind (main | table_list)  #REQUIRED >
+
+
+<!-- ===================== GROUP ============================ -->
+<!-- SAMPLE
+      <security_group id="15002" owner="2">
+            <member id="2"/>
+            <member id="1"/>
+            <member id="3"/>
+      </security_group>
+-->
+<!-- id range
+for designer groups:
+  [15001;2147483647]
+for administrator ones:
+  [-15001;-2147483648]
+-->
+<!ELEMENT group_of_users ( member* ) >
+<!ATTLIST group_of_users
+    id NMTOKEN #REQUIRED
+    name CDATA #REQUIRED
+    owner NMTOKEN #IMPLIED >
+<!-- member -->
+<!ELEMENT member EMPTY >
+<!ATTLIST member
+    id NMTOKEN #REQUIRED >

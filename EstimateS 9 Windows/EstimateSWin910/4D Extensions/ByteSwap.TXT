@@ -1,0 +1,1159 @@
+BlockRes		1
+LONG
+LONG
+LONG
+LONG
+LONG
+LONG
+LONG
+CHAR[2]
+LONG
+WORD
+.
+
+ResRec		2
+LONG
+LONG
+LONG
+WORD
+WORD
+LONG
+.
+
+ResArr2		3
+WORD
+LONG
+.
+
+ResArr		4
+WORD	nb
+LONG
+TABVAR[nb]	ResRec
+.
+
+ResMap2		5
+WORD	nb
+CHAR[2]
+TABVAR[nb]	LONG
+.
+
+ResMap		6
+WORD	nb
+CHAR[2]
+TABVAR[nb]	LONG
+.
+
+TResRec		7
+LONG
+WORD
+LONG
+WORD
+LONG
+CHAR[2]
+.
+
+NodeRes		8
+LONG
+LONG
+LONG
+WORD
+WORD
+.
+
+FicPriv		9
+WORD[4]
+.
+
+FichRec_60		10
+WORD
+WORD[4]
+WORD
+CHAR[2]
+.
+
+Parame_60		11
+WORD	nbfich
+WORD
+CHAR[6]
+WORD
+WORD[16]
+LONG
+LONG
+LONG
+CHAR[2]
+WORD[6]
+CHAR[8]
+TABVAR[nbfich] FichRec_60
+.
+
+Critere		12
+STRFIX[32]
+CHAR	kind
+CHAR
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD[4]
+WORD
+WORD
+WORD
+.
+
+TabCrit		13
+WORD	nbCrit
+WORD
+WORD
+WORD
+CHAR[2]
+LONG
+WORD[4]
+WORD
+CHAR[4]
+WORD	
+TABVAR[nbCrit] Critere
+.
+
+PrintRecord	135
+WORD[15]
+CHAR[2]
+WORD[12]
+CHAR[6]
+WORD[3]
+CHAR[2]
+LONG[2]
+WORD
+CHAR[2]
+WORD[19]
+.
+
+RForm		14
+STRFIX[32]
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+TABFIX[1] PrintRecord
+CHAR[2]
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+CHAR[2]
+WORD
+WORD
+WORD
+WORD
+WORD
+LONG
+CHAR[8]
+WORD[4]
+WORD
+WORD
+WORD[23]
+CHAR[2]
+.
+
+TabForm		15
+WORD nbForm
+WORD
+WORD
+TABVAR[nbForm] RForm
+.
+
+ProcRec		16
+STRFIX[32]
+WORD
+WORD
+WORD
+WORD
+WORD
+CHAR[2]
+.
+
+Help4DRec		17
+STRFIX[16]
+WORD
+.
+
+RefEnum		18
+STRFIX[32]
+WORD
+.
+
+ArrRefEnum		19
+WORD	nb
+LONG
+TABVAR[nb]	RefEnum
+.
+
+EnumRec		20
+STRFIX[32]
+WORD
+.
+
+EnumTab		21
+WORD	nb
+CHAR[2]
+TABVAR[nb]	EnumRec
+.
+
+WindRes		22
+CHAR[2]
+WORD
+.
+
+WindResTab		23
+WORD	nb
+TABVAR[nb]	WindRes
+.
+
+GrillObj		24
+WORD[6]
+CHAR[18]
+WORD[4]
+.
+
+LienObj2		25
+WORD[4]
+STRFIX[12]
+WORD
+CHAR[2]
+WORD
+CHAR[2]
+WORD[2]
+CHAR[2]
+WORD
+CHAR[4]
+WORD
+.
+
+Borne		26
+CHAR[12]
+.
+
+SaisieAtt2		27
+WORD
+CHAR[2]
+WORD
+CHAR[2]
+WORD
+CHAR[12]
+CHAR[12]
+CHAR[2]
+STRFIX[32]
+.
+
+TexteObj2		28
+WORD[4]
+CHAR[10]
+WORD[5]
+.
+
+SaisObj2		29
+WORD[4]
+CHAR[2]
+WORD[3]
+CHAR[6]
+WORD[3]
+.
+
+MultiObj		30
+WORD[4]
+WORD
+WORD[2]
+STRFIX[16]
+STRFIX[16]
+WORD
+.
+
+CalcRec		31
+WORD[3]
+CHAR[2]
+WORD[4]
+.
+
+RectObj		32
+WORD[6]
+CHAR[18]
+WORD[2]
+.
+
+PrefTrav		33
+WORD[4]
+CHAR[2]
+WORD[7]
+CHAR[2]
+WORD[2]
+WORD[3]
+LONG
+CHAR[8]
+.
+
+MenuRec		34
+STRFIX[32]
+STRFIX[32]
+WORD
+WORD
+CHAR[2]
+WORD
+WORD
+WORD[4]
+LONG
+.
+
+MenuTab		35
+WORD	nb
+STRFIX[16]
+WORD
+CHAR[4]
+TABVAR[nb]	MenuRec
+.
+
+RefMenuRec		36
+WORD
+LONG
+.
+
+BarDeMenu		37
+WORD	nb
+WORD[5]
+TABVAR[nb]	RefMenuRec
+.
+
+PassRec		38
+LONG
+STRFIX[32]
+STRFIX[16]
+STRFIX[32]
+WORD[12]
+LONG
+.
+
+WORDARR		39
+WORD
+.
+
+GroupUser		40
+STRFIX[32]
+WORD	nbUser
+WORD
+TABVAR[nbUser] WORDARR
+.
+
+LayoutCacheRec	41
+WORD	nbCol
+WORD	nbFile
+WORD
+WORD
+TABVAR[nbFile] WORD
+TABVAR[nbCol] WORD
+.
+
+Style4D		42
+STRFIX[32]
+STRFIX[82]
+.
+
+Styles4D		43
+WORD	nb
+TABVAR[nb]	Style4D
+.
+
+BBlockHeader	44
+LONG
+CHAR[2]
+WORD
+LONG[3]
+WORD[2]
+LONG
+LONG
+WORD[16]
+.
+
+SegData		45
+LONG
+WORD
+STRFIX[34]
+STRFIX[256]
+WORD
+CHAR[2]
+LONG
+WORD
+LONG[3]
+CHAR[4]
+LONG
+.
+
+BBlockSeul		46
+WORD
+LONG
+WORD
+LONG
+WORD
+LONG[2]
+LONG
+CHAR[2]
+WORD
+WORD[6]
+.
+
+FicFinBlock		47
+LONG[6]
+CHAR[2]
+WORD
+LONG
+.
+
+NBBlock		48
+WORD	nbFich
+LONG
+WORD
+LONG
+WORD
+LONG[2]
+LONG
+CHAR[2]
+WORD
+WORD[6]
+TABVAR[nbFich] FicFinBlock
+.
+
+HeaderIndex		49
+LONG[3]
+CHAR[2]
+LONG[3]
+CHAR[2]
+WORD[8]
+.
+
+
+Tag44		50
+WORD[3]
+LONG[2]
+.
+
+CustomRec		51
+WORD[21]
+LONG[2]
+WORD[16]
+.
+
+BNXEntry		52
+LONG
+WORD[2]
+.
+
+BNXArray		53
+WORD	cnt
+TABVAR[cnt]	BNXEntry
+.
+
+Report		54
+STRFIX[82]
+STRFIX[82]
+STRFIX[82]
+CHAR[2]
+WORD	nbcrit
+WORD[50]
+WORD[50]
+WORD[50]
+CHAR[8]
+WORD	nbtri
+WORD[30]
+WORD
+.
+
+SemiReport		55
+WORD
+WORD
+WORD
+WORD
+CHAR
+CHAR
+WORD
+WORD
+WORD
+WORD
+CHAR[2]
+CHAR[2]
+WORD
+WORD
+CHAR[2]
+WORD
+STRFIX[82]
+WORD
+CHAR[492]
+CHAR[4]
+WORD[20]
+WORD
+CHAR
+CHAR
+WORD[22]
+CHAR[4]
+WORD
+WORD
+WORD
+WORD
+CHAR[120]
+CHAR
+CHAR
+WORD
+.
+
+ReportCol		56
+STRFIX[52]
+WORD
+WORD
+WORD
+CHAR[2]
+WORD
+STRFIX[52]
+CHAR[2]
+CHAR[4]
+STRFIX[32]
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+CHAR[2]
+WORD
+WORD
+WORD
+CHAR[2]
+CHAR[4]
+WORD
+CHAR[4]
+WORD
+WORD
+CHAR[2]
+WORD
+CHAR[4]
+.
+
+ReportBreak		57
+STRFIX[52]
+WORD
+WORD
+WORD
+CHAR[2]
+CHAR[50]
+.
+
+EtiqLine		58
+WORD
+WORD[10]
+WORD[10]
+.
+
+Etiq				59
+WORD
+CHAR[2]
+WORD
+CHAR[120]
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+TABFIX[20]	EtiqLine
+WORD
+WORD
+CHAR[2]
+WORD
+.
+
+HeaderLog		60
+LONG
+LONG
+LONG[2]
+LONG[2]
+LONG
+LONG
+LONG
+.
+
+TagLog			61
+LONG
+LONG
+CHAR[2]
+WORD
+WORD
+LONG
+WORD
+LONG
+.
+
+ErrCompilo	62
+WORD
+WORD
+LONG
+WORD
+.
+
+reqrec			63
+LONG
+WORD
+.
+
+reqid				64
+STRFIX[32]
+STRFIX[32]
+STRFIX[32]
+STRFIX[32]
+CHAR
+CHAR
+.
+
+retid				65
+WORD
+LONG
+LONG
+CHAR[4]
+CHAR
+CHAR
+.
+
+swaplong		66
+LONG
+.
+
+swapword		67
+WORD
+.
+
+reqsummoy		68
+WORD
+WORD
+REAL
+LONG
+.
+
+swapreal		69
+REAL
+.
+
+swapdate		70
+WORD
+WORD
+WORD
+.
+
+swapset			71
+CHAR[4]
+LONG
+WORD
+LONG
+STRFIX[82]
+.
+
+reqgeneens	72
+WORD
+LONG
+.
+
+retuserinfo	73
+STRFIX[32]
+WORD
+STRFIX[32]
+.
+
+reqsaverec	74
+LONG
+WORD
+WORD
+.
+
+reqdistinct	75
+WORD
+WORD
+CHAR[2]
+WORD
+.
+
+fieldef			76
+CHAR[2]
+WORD[8]
+.
+
+
+userrefinfo	77
+WORD
+.
+
+groupinfo		78
+WORD nbuser
+STRFIX[32]
+WORD
+WORD
+TABVAR[nbuser] userrefinfo
+.
+
+usergroups	79
+WORD nbgroup
+TABVAR[nbgroup] groupinfo
+.
+
+reqselinlist 80
+WORD
+LONG
+LONG
+.
+
+reqfile			81
+STRFIX[34]
+LONG
+LONG
+.
+
+reqdata			82
+WORD
+LONG
+WORD
+.
+
+reqcachefic	83
+WORD
+LONG
+LONG
+.
+
+reqputfic		84
+LONG
+WORD
+LONG
+.
+
+reqfixfic		85
+WORD
+LONG
+.
+
+reqjoin			86
+WORD
+WORD
+.
+
+reqselect		87
+WORD
+STRFIX[82]
+LONG
+.
+
+retselect		88
+WORD
+LONG
+.
+
+reqlinkrec	89
+LONG
+WORD
+CHAR[2]
+CHAR[32]
+.
+
+retloadrec	90
+WORD
+LONG
+WORD
+LONG
+.
+
+aremplacer	91
+STRFIX[32]
+WORD
+STRFIX[32]
+.
+
+ReqPassRec	92
+LONG
+STRFIX[32]
+STRFIX[16]
+STRFIX[32]
+WORD[12]
+LONG
+WORD
+.
+
+reqtestpass	93
+STRFIX[16]
+WORD
+.
+
+reqsendmap	94
+WORD nbtype
+TABVAR[nbtype] ResArr
+.
+
+reqresrec		95
+LONG
+LONG
+LONG
+.
+
+swaprect		96
+WORD[4]
+.
+
+reqindex		97
+WORD[4]
+.
+
+packrec			98
+STRFIX[32]
+WORD
+WORD
+WORD
+WORD
+LONG
+CHAR[4]
+CHAR[2]
+WORD
+CHAR[4]
+CHAR[2]
+WORD
+LONG
+CHAR[4]
+WORD
+.
+
+Cat4DXInfoRec	99
+STRFIX[32]
+STRFIX[32]
+LONG
+LONG
+LONG
+LONG
+LONG
+.
+
+Cat4DXInfo	100
+WORD nbfile
+STRFIX[64]
+TABVAR[nbfile] Cat4DXInfoRec
+.
+
+reqfilefinder	101
+LONG
+STRFIX[64]
+.
+
+retfilefinder	102
+LONG
+LONG
+LONG
+LONG
+WORD
+WORD[2]
+WORD
+.
+
+flistrec		103
+WORD
+WORD
+.
+
+reqflist		104
+WORD nbcol
+WORD
+LONG
+LONG
+TABVAR[nbcol] flistrec
+.
+
+resaction		105
+LONG
+LONG
+LONG
+CHAR[2]
+.
+
+unused	106
+.
+
+old55PassRec		107
+LONG
+STRFIX[32]
+STRFIX[16]
+STRFIX[16]
+WORD[12]
+LONG
+.
+swap3				108
+LONG
+.
+
+swap4				109
+LONG
+.
+
+fbm_Item	110
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+WORD
+.
+
+fbm_Focu	111
+WORD	nbitems
+TABVAR[nbitems]	WORD
+.
+
+fbm_CLAC	112
+WORD
+WORD
+WORD
+.
+
+reqsearchdest 113
+WORD
+WORD
+LONG
+STRFIX[82]
+STRFIX[32]
+LONG
+LONG
+CHAR[2]
+.
+
+reqens 114
+STRFIX[82]
+LONG
+LONG
+LONG
+.
+
+FormGenStyle 115
+WORD[10]
+STRVAR
+PADWORD
+.
+
+FGStyleSet 116
+WORD[2]
+WORD	nb
+TABVAR[nb] FormGenStyle
+.
+
+ScreenDefEntry 117
+STRFIX[64]
+WORD[2]
+.
+
+ScreenDefList 118
+WORD	nb
+TABVAR[nb] ScreenDefEntry
+.
+
+TabLabelEntry 119
+STRFIX[64]
+WORD
+.
+
+TabLabelList 120
+WORD	nb
+TABVAR[nb] TabLabelEntry
+.
+
+FGButtonEntry 121
+WORD[2]
+STRFIX[64]
+.
+
+swapchar	122
+CHAR
+.
+
+FGPageScreenParam 123
+WORD[11]
+WORD n
+TABVAR[n] FGButtonEntry
+.
+
+FGSampleEntry 124
+WORD[2]
+STRFIX[32]
+.
+
+FGSampleList 125
+WORD n
+TABVAR[n]	FGSampleEntry
+.
+
+FGListScreenParam 126
+WORD[10]
+WORD n
+TABVAR[n] FGButtonEntry
+.
+
+FGPagePrintParam 127
+WORD[6]
+TABFIX[1] PrintRecord
+.
+
+FGListPrintParam 128
+WORD[6]
+TABFIX[1] PrintRecord
+.
+
+FGDialogParam 129
+WORD[12]
+.
+
+ListItemDisk 130
+LONG
+LONG
+CHAR
+CHAR
+STRFIX[36]
+CHAR[4]
+.
+
+ListItemHeader 131
+STRFIX[32]
+LONG
+CHAR
+CHAR
+WORD
+LONG
+.
+
+InfoStruct 132
+WORD
+CHAR[2]
+WORD[8]
+CHAR[22]
+LONG
+LONG
+.
+
+FGButton 133
+STRFIX[64]
+WORD[2]
+STRFIX[32]
+WORD
+.
+
+FGButtonFamily 134
+WORD[11]
+STRFIX[64]
+WORD
+WORD n
+TABVAR[n] FGButton
+.
+
+FGActionEntry	136
+WORD[4]
+CHAR[2]
+WORD
+WORD n
+TABVAR[n] swapchar
+STRVAR
+STRVAR
+STRVAR
+.
+
+FGButtonActions 137
+WORD[2]
+WORD n
+TABVAR[n] FGActionEntry
+.
+
+NameResRequest 138
+LONG
+LONG
+LONG
+CHAR[32]
+.
+
+reqexeconclient 139
+CHAR[32]
+CHAR[32]
+CHAR[32]
+CHAR[32]
+LONG
+WORD
+.
+
+reqgetoneregclient 140
+CHAR[32]
+LONG
+.
+
+reqgetregclients 141
+WORD n
+TABVAR[n] reqgetoneregclient
+.
+
+reqsetsemaphore 142
+STRFIX[32]
+LONG
+WORD
+.
+
+reqgetenginedserverversion 143
+LONG
+LONG
+LONG
+CHAR[256]
+.
+
+retid2				144
+WORD
+LONG
+LONG
+CHAR[4]
+CHAR
+CHAR
+LONG
+LONG
+LONG
+STRFIX[32]
+.
+
+FichRec	145
+WORD[4]
+LONG[4]
+.
+
+Parame		146
+WORD
+WORD	nbfich
+LONG
+LONG
+WORD
+WORD
+LONG
+WORD[12]
+LONG
+LONG
+LONG
+LONG
+WORD
+CHAR[32]
+TABVAR[nbfich] FichRec
+.

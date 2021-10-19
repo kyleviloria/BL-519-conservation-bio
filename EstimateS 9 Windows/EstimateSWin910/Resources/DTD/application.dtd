@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  
+
+  GUIDELINES:
+ 
+  - every element or attribute name must be fully lowercase
+      bad:  <UserID>
+      good: <user_id>
+  - use english exclusively
+      bad:  <nom>
+      good: <name>
+  - avoid abbreviations & acronyms
+      bad:  <qtss/> 
+      good: <qt_spatial_settings/>
+      but very common ones such as id, uuid, auto, etc... are ok.
+  - don't put element name in attribute names
+      bad:  <table table_name="emp"/> 
+      good: <table name="emp"/>
+  - reuse attribute name
+  - prefer short names
+      bad:  <identifier>
+      good: <id>
+  - provide samples
+   
+-->
+<!--
+
+include some common definition
+
+-->
+<!ENTITY % common_definitions SYSTEM "http://www.4d.com/dtd/2007/common.dtd">
+%common_definitions;
+<!--
+
+include base definition
+
+-->
+<!ENTITY % base_definitions SYSTEM "http://www.4d.com/dtd/2007/base_core.dtd">
+%base_definitions;
+<!--
+
+include style sheet definition
+
+-->
+<!ENTITY % style_sheet_definitions SYSTEM "http://www.4d.com/dtd/2007/style_sheet.dtd">
+%style_sheet_definitions;
+<!--
+
+  a 4d application is composed of one or zero base (tables and fields)
+  and zero or more elements like menus, users, style_sheets...
+
+-->
+<!ELEMENT application (base? | (list | menu | user | user_group | style_sheet)*) >
+<!ATTLIST application
+	uuid CDATA #IMPLIED
+	name CDATA #IMPLIED
+>

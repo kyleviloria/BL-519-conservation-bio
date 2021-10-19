@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shortcut_list>
+  <shortcut name="NewDatabase" letter="N"/>
+  <shortcut name="NewDatabaseFromTemplate"/>
+  <shortcut name="NewDatabaseFromStructureDefinition"/>
+  <shortcut name="NewDataFile"/>
+  <shortcut name="NewObjectLibrary"/>
+  <shortcut name="NewTable"/>
+  <shortcut name="NewForm" letter="L" shift="true"/>
+  <shortcut name="NewMethod" letter="K" shift="true"/>
+  <shortcut name="OpenDatabase" letter="O"/>
+  <shortcut name="OpenRemoteDatabase" letter="O" shift="true"/>
+  <shortcut name="OpenDataFile"/>
+  <shortcut name="OpenObjectLibrary"/>
+  <shortcut name="OpenForm" letter="L"/>
+  <shortcut name="OpenMethod" letter="K"/>
+  <shortcut name="ClearOpenRecent"/>
+  <shortcut name="CloseDatabase" letter="W" shift="true" alt="true"/>
+  <shortcut name="CloseEditor" letter="W"/>
+  <shortcut name="CloseAllEditor" letter="W" alt="true"/>
+  <shortcut name="SaveEditor" letter="S"/>
+  <shortcut name="SaveAllEditor" letter="S" alt="true"/>
+  <shortcut name="Revert"/>
+  <shortcut name="FlushDataBuffers" letter="S" shift="true" alt="true"/>
+  <shortcut name="BackupData"/>
+  <shortcut name="RestoreBackup"/>
+  <shortcut name="ImportFromFile"/>
+  <shortcut name="ImportFromODBC"/>
+  <shortcut name="ExportToFile"/>
+  <shortcut name="ExportToODBC"/>
+  <shortcut name="ExportStructureToXML"/>
+  <shortcut name="ExportStructureToHTML"/>
+  <shortcut name="PageSetup" letter="P" shift="true"/>
+  <shortcut name="Print" letter="P"/>
+  <shortcut name="Quit" letter="Q"/>
+  <shortcut name="Undo" letter="Z" editable="false"/>
+  <shortcut name="Redo" letter="Z" shift="true" editable="false"/>
+  <shortcut name="Cut" letter="X" editable="false"/>
+  <shortcut name="Copy" letter="C" editable="false"/>
+  <shortcut name="Paste" letter="V" editable="false"/>
+  <shortcut name="Clear" editable="false"/>
+  <shortcut name="SelectAll" letter="A" editable="false"/>
+  <shortcut name="DialUndo" letter="Z" editable="false"/>
+  <shortcut name="DialRedo" letter="Z" shift="true" editable="false"/>
+  <shortcut name="DialCut" letter="X" editable="false"/>
+  <shortcut name="DialCopy" letter="C" editable="false"/>
+  <shortcut name="DialPaste" letter="V" editable="false"/>
+  <shortcut name="DialClear" editable="false"/>
+  <shortcut name="DialSelectAll" letter="A" editable="false"/>
+  <shortcut name="Duplicate" letter="D"/>
+  <shortcut name="FindGlobal" letter="F" shift="true"/>
+  <shortcut name="FindUnusedGlobal"/>
+  <shortcut name="FindUnusedLocal"/>
+  <shortcut name="Find" letter="F"/>
+  <shortcut name="FindNext" letter="G"/>
+  <shortcut name="FindPrevious" letter="G" shift="true"/>
+  <shortcut name="FindSame" letter="E"/>
+  <shortcut name="FindSamePrevious" letter="E" shift="true"/>
+  <shortcut name="FindBookmarkAll"/>
+  <shortcut name="Replace" letter="F" alt="true"/>
+  <shortcut name="ReplaceNext" letter="G" alt="true"/>
+  <shortcut name="ReplacePrevious" letter="G" shift="true" alt="true"/>
+  <shortcut name="ReplaceAll"/>
+  <shortcut name="ShowClipboard"/>
+  <shortcut name="Preferences" letter=","/>
+  <shortcut name="TestApplication" letter="I"/>
+  <shortcut name="ExecuteMethod" letter="R"/>
+  <shortcut name="RuntimeExplorer"/>
+  <shortcut name="StartStopWebServer"/>
+  <shortcut name="TestWebServer"/>
+  <shortcut name="StartStopSQLServer"/>
+  <shortcut name="StartInterpreted" letter="I" alt="true"/>
+  <shortcut name="StartCompiled" letter="I" shift="true"/>
+  <shortcut name="ExplorerHome"/>
+  <shortcut name="ExplorerTables"/>
+  <shortcut name="ExplorerForms"/>
+  <shortcut name="ExplorerMethods"/>
+  <shortcut name="ExplorerCommands"/>
+  <shortcut name="ExplorerConstants"/>
+  <shortcut name="ExplorerComponents"/>
+  <shortcut name="ExplorerTrash"/>
+  <shortcut name="StartExplorer" letter="E" shift="true" alt="true"/>
+  <shortcut name="ToolboxUsers"/>
+  <shortcut name="ToolboxUserGroup"/>
+  <shortcut name="ToolboxMenus"/>
+  <shortcut name="ToolboxPictLib"/>
+  <shortcut name="ToolboxHelpMessage"/>
+  <shortcut name="ToolboxLists"/>
+  <shortcut name="ToolboxStylesheets"/>
+  <shortcut name="ToolboxFilters"/>
+  <shortcut name="ToolboxResources"/>
+  <shortcut name="StartToolBox" letter="T" shift="true"/>
+  <shortcut name="StructWindow"/>
+  <shortcut name="OpenObjectLib"/>
+  <shortcut name="SoapWizard"/>
+  <shortcut name="CompilationWindow" letter="*"/>
+  <shortcut name="StartCompilation" letter="*" shift="true"/>
+  <shortcut name="BuildApp"/>
+  <shortcut name="DatabaseSettings"/>
+  <shortcut name="MinimizeWindow" letter="M"/>
+  <shortcut name="MinimizeAllWindow" letter="M" shift="true" alt="true"/>
+  <shortcut name="BringAllToFront"/>
+  <shortcut name="ArrangeInFront"/>
+  <shortcut name="MethodGotoDefinition" control="true" letter="K"/>
+  <shortcut name="MethodSearchReferences" control="true" alt="true" letter="K"/>
+  <shortcut name="MethodSearchCallers"/>
+  <shortcut name="MethodGotoLine" control="true" letter="L"/>
+  <shortcut name="MethodComment" letter="/"/>
+  <shortcut name="MethodSwap" letter="T" alt="true"/>
+  <shortcut name="MethodSelectBlock" letter="B"/>
+  <shortcut name="MethodStartOfBlock" letter="up arrow" control="true"/>
+  <shortcut name="MethodEndOfBlock" letter="down arrow" control="true"/>
+  <shortcut name="MethodMoveUp" letter="up arrow" alt="true"/>
+  <shortcut name="MethodMoveDown" letter="down arrow" alt="true"/>
+  <shortcut name="MethodNextError" letter="="/>
+  <shortcut name="MethodPreviousError" letter="=" alt="true"/>
+  <shortcut name="MethodViewLists"/>
+  <shortcut name="MethodViewLineNumbers" letter="N" shift="true" alt="true"/>
+  <shortcut name="MethodViewWhiteSpaces"/>
+  <shortcut name="MethodViewBiggerFont" letter="+"/>
+  <shortcut name="MethodViewSmallerFont" letter="-"/>
+  <shortcut name="MethodBookmarksToggle" letter="F3" command="true"/>
+  <shortcut name="MethodBookmarksRemoveAll"/>
+  <shortcut name="MethodBookmarksGotoNext" letter="F3"/>
+  <shortcut name="MethodBookmarksGotoPrevious" letter="F3" shift="true"/>
+  <shortcut name="MethodCaseUpperCase"/>
+  <shortcut name="MethodCaseLowerCase"/>
+  <shortcut name="MethodCasecamelCase"/>
+  <shortcut name="MethodCaseCamelCase"/>
+  <shortcut name="MethodFoldSelection"/>
+  <shortcut name="MethodUnfoldSelection"/>
+  <shortcut name="MethodFoldCurrentLevel"/>
+  <shortcut name="MethodUnfoldCurrentLevel"/>
+  <shortcut name="MethodFoldAll"/>
+  <shortcut name="MethodUnfoldAll"/>
+  <shortcut name="MethodSaveAsTemplate"/>
+  <shortcut name="MethodImportMethod"/>
+  <shortcut name="MethodExportMethod"/>
+  <shortcut name="MethodProperties"/>
+  <shortcut name="EntryOrder"/>
+  <shortcut name="PropertyList"/>
+  <shortcut name="FormMethod" letter="K" alt="true"/>
+  <shortcut name="ViewList"/>
+  <shortcut name="FormScaling"/>
+  <shortcut name="RulerDefinition"/>
+  <shortcut name="TurnGridOn"/>
+  <shortcut name="DisplayInheritedForm"/>
+  <shortcut name="DisplayMasterPage"/>
+  <shortcut name="DisplayPaper"/>
+  <shortcut name="DisplayRulers"/>
+  <shortcut name="DisplayMarkers"/>
+  <shortcut name="DisplayMarkerLabels"/>
+  <shortcut name="DisplayLimits"/>
+  <shortcut name="AddPage"/>
+  <shortcut name="InsertPage"/>
+  <shortcut name="DeletePage"/>
+  <shortcut name="GotoPage0"/>
+  <shortcut name="GotoPage1"/>
+  <shortcut name="MoveToFront" letter="F"/>
+  <shortcut name="MoveToBack" letter="B"/>
+  <shortcut name="UpOneLevel"/>
+  <shortcut name="DownOneLevel"/>
+  <shortcut name="Group" letter="G"/>
+  <shortcut name="UnGroup" letter="G" shift="true"/>
+  <shortcut name="AlignLeft"/>
+  <shortcut name="AlignRight"/>
+  <shortcut name="AlignTop"/>
+  <shortcut name="AlignBottom"/>
+  <shortcut name="CenterHorizontally"/>
+  <shortcut name="CenterVertically"/>
+  <shortcut name="DistributeVertically"/>
+  <shortcut name="DistributeHorizontally"/>
+  <shortcut name="Alignment"/>
+  <shortcut name="DuplicateOnMatrix"/>
+  <shortcut name="DuplicateMany"/>
+  <shortcut name="IncrementVarName"/>
+  <shortcut name="ShowFormat"/>
+  <shortcut name="ShowResource"/>
+  <shortcut name="ShowName"/>
+  <shortcut name="ObjectMethod"/>
+  <shortcut name="ClearObjectMethod"/>
+  <shortcut name="CurrentTable" letter="U"/>
+  <shortcut name="TableList" letter="U" shift="true"/>
+  <shortcut name="NewRecord_InList" letter="N" shift="true"/>
+  <shortcut name="NewRecord_InPage" letter="N" alt="true"/>
+  <shortcut name="ModifyRecord_InPage"/>
+  <shortcut name="DeleteSelection"/>
+  <shortcut name="ShowAll" letter="+"/>
+  <shortcut name="ShowSubset" letter="-"/>
+  <shortcut name="Query" letter="Y"/>
+  <shortcut name="QueryByExample"/>
+  <shortcut name="QueryAndModify"/>
+  <shortcut name="QueryByFormula"/>
+  <shortcut name="OrderBy" letter="Y" shift="true"/>
+  <shortcut name="ApplyFormula" letter="R" shift="true"/>
+  <shortcut name="QuickReport"/>
+  <shortcut name="Labels"/>
+  <shortcut name="Charts"/>
+  <shortcut name="SecurityCenter"/>
+  <shortcut name="UpdateLicense"/>
+  <shortcut name="About"/>
+  <shortcut name="OpenMonitor" letter="U"/>
+  <shortcut name="RegisterCurrentDatabaseAsService"/>
+  <shortcut name="UnregisterCurrentDatabase"/>
+  <shortcut name="UnregisterAllServerServices"/>
+</shortcut_list>

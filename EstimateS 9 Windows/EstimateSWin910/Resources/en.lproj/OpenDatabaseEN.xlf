@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1" resname="Templates">
+            <trans-unit id="1" resname="Templates_Templates">
+               <source>Templates</source>
+               <target>Templates</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Templates_Thems">
+               <source>Themes:</source>
+               <target>Themes:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Templates_AllThems">
+               <source>All Themes</source>
+               <target>All Themes</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Templates_CreateDatabase">
+               <source>Create Database...</source>
+               <target>Create Database...</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Templates_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Templates_DoNotShow">
+               <source>Do not show this dialog at startup</source>
+               <target>Do not show this dialog at startup</target>
+            </trans-unit>
+            <trans-unit id="7" resname="TemplatesFolderMissing">
+               <source>(The “4D Templates” folder is empty or not found next to the application)</source>
+               <target>(The “4D Templates” folder is empty or not found next to the application)</target>
+            </trans-unit>
+            <trans-unit id="8" resname="TemplatesNotAvailable">
+               <source>Template databases unavailable</source>
+               <target>Template databases unavailable</target>
+            </trans-unit>
+         </group>
+         <group resname="Open Database">
+            <trans-unit id="01" resname="Database not found at path...">
+               <source>The database that you tried to open was not found (database path: {basePath})</source>
+               <target>The database that you tried to open was not found (database path: {basePath})</target>
+            </trans-unit>
+            <trans-unit id="02" resname="Open:">
+               <source>Open:</source>
+               <target>Open:</target>
+            </trans-unit>
+            <trans-unit id="03" resname="Reveal in Finder">
+               <source>Reveal in Finder</source>
+               <target>Reveal in Finder</target>
+            </trans-unit>
+            <trans-unit id="04" resname="Show on disk">
+               <source>Show on disk</source>
+               <target>Show on disk</target>
+            </trans-unit>
+            <trans-unit id="05" resname="Create a new 4D Data File">
+               <source>Create a new 4D Data File</source>
+               <target>Create a new 4D Data File</target>
+            </trans-unit>
+            <trans-unit id="06" resname="Select a 4D Data File">
+               <source>Select a 4D Data File</source>
+               <target>Select a 4D Data File</target>
+            </trans-unit>
+            <trans-unit id="07" resname="Data file:">
+               <source>Data file:</source>
+               <target>Data file:</target>
+            </trans-unit>
+            <trans-unit id="08" resname="Warning. Package name and file name don't match">
+               <source>The database name that you want to open does not match with the structure name inside the database package. Maybe you renamed the database package that can be the cause of this message. The message will no longer appear when the database is opened subsequently and the opening of the database will now proceed normally. The open structure file will be: "{4dbFile}"</source>
+               <target>The database name that you want to open does not match with the structure name inside the database package. Maybe you renamed the database package that can be the cause of this message. The message will no longer appear when the database is opened subsequently and the opening of the database will now proceed normally. The open structure file will be: "{4dbFile}"</target>
+            </trans-unit>
+            <trans-unit id="09" resname="MissingDataFile">
+               <source>No data file was found for the database "{BaseName}". Do you want to open an existing data file or to create a new data file?</source>
+               <target>No data file was found for the database "{BaseName}". Do you want to open an existing data file or to create a new data file?</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MissingDataFileComment">
+               <source>A 4D database needs this file to store its data.</source>
+               <target>A 4D database needs this file to store its data.</target>
+            </trans-unit>
+            <trans-unit id="11" resname="PluginIntelError">
+               <source>{PluginName} could not be loaded as a plug-in. It may not support the Intel architecture.</source>
+               <target>{PluginName} could not be loaded as a plug-in. It may not support the Intel architecture.</target>
+            </trans-unit>
+            <trans-unit id="12" resname="WorkingWihtoutLogFile">
+               <source>A valid log file was not found. The database will not be opened without a log activated.</source>
+               <target>A valid log file was not found. The database will not be opened without a log activated.</target>
+            </trans-unit>
+            <trans-unit id="13" resname="LaunchingInMSCMode">
+              <source>The database is damaged, it will be opened in maintenance mode.</source>
+              <target>The database is damaged, it will be opened in maintenance mode.</target>
+            </trans-unit>
+            <trans-unit id="14" resname="Reveal">
+              <source>Show</source>
+              <target>Show</target>
+            </trans-unit>
+            <trans-unit id="15" resname="ErrorDuringIntegration">
+              <source>An error occurred during the log file integration, it is recommended to restore the last backup of this database in order to attempt the integration of this log file.</source>
+              <target>An error occurred during the log file integration, it is recommended to restore the last backup of this database in order to attempt the integration of this log file.</target>
+            </trans-unit>
+            <trans-unit id="16" resname="OptionKeyPressed_DataFileDialogMessage">
+              <source>Do you want to open an existing data file or to create a new data file?</source>
+              <target>Do you want to open an existing data file or to create a new data file?</target>
+            </trans-unit>
+            <trans-unit id="17" resname="OptionKeyPressed_DataFileDialogMessage_Comment">
+               <source>You pressed the "&lt;vKey>" key. You can choose a data file or create a new one. Click on "Cancel" to open the database with the default data file.</source>
+               <target>You pressed the "&lt;vKey>" key. You can choose a data file or create a new one. Click on "Cancel" to open the database with the default data file.</target>
+            </trans-unit>
+
+            <trans-unit id="26" resname="AltKeyPressed_OpenData_Message">
+               <source>You pressed the "{AltKeyName}" key.
+
+Select the operation you want to do:</source>
+               <target>You pressed the "{AltKeyName}" key.
+
+Select the operation you want to do:</target>
+            </trans-unit>
+            <!-- _R_ goes for "RadioButton" -->
+            <trans-unit id="27" resname="AltKeyPressed_OpenData_R_Continue">
+               <source>Open the application with the default data file</source>
+               <target>Open the application with the default data file</target>
+            </trans-unit>
+            <trans-unit id="28" resname="AltKeyPressed_OpenData_R_Other">
+               <source>Select another data file</source>
+               <target>Select another data file</target>
+            </trans-unit>
+            <trans-unit id="29" resname="AltKeyPressed_OpenData_R_New">
+               <source>Create a new data file</source>
+               <target>Create a new data file</target>
+            </trans-unit>
+            <trans-unit id="30" resname="AltKeyPressed_OpenData_R_Restore">
+               <source>Restore a backup file</source>
+               <target>Restore a backup file</target>
+            </trans-unit>
+            <trans-unit id="31" resname="AltKeyPressed_OpenData_R_MSC">
+               <source>Open the Maintenance and Security Center</source>
+               <target>Open the Maintenance and Security Center</target>
+            </trans-unit>
+            <trans-unit id="32" resname="AltKeyPressed_OpenData_Continue">
+               <source>Continue</source>
+               <target>Continue</target>
+            </trans-unit>
+            <trans-unit id="33" resname="AltKeyPressed_NowQuitting">
+               <source>The application will now quit.</source>
+               <target>The application will now quit.</target>
+            </trans-unit>
+            
+            
+            <trans-unit id="18" resname="OpenDialAll">
+               <source>All</source>
+               <target>All</target>
+            </trans-unit>
+            <trans-unit id="19" resname="OpenDialAllReadable">
+               <source>All readable documents</source>
+               <target>All readable documents</target>
+            </trans-unit>
+            <trans-unit id="20" resname="OpenInterpretedDb">
+               <source>Interpreted Database</source>
+               <target>Interpreted Database</target>
+            </trans-unit>
+            <trans-unit id="21" resname="OpenCompiledDb">
+               <source>Compiled Database</source>
+               <target>Compiled Database</target>
+            </trans-unit>
+            <trans-unit id="22" resname="OpenInMSC">
+               <source>Maintenance &amp; Security Center</source>
+               <target>Maintenance &amp; Security Center</target>
+            </trans-unit>
+            <trans-unit id="23" resname="OpenCurrentDataFile">
+               <source>Current data file</source>
+               <target>Current data file</target>
+            </trans-unit>
+            <trans-unit id="24" resname="OpenAnotherDataFile">
+               <source>Choose another data file</source>
+               <target>Choose another data file</target>
+            </trans-unit>
+            <trans-unit id="25" resname="CreateNewDataFile">
+               <source>Create a new data file</source>
+               <target>Create a new data file</target>
+            </trans-unit>
+         </group>
+         <group resname="New Database From Structure Definition">
+            <trans-unit id="20" resname="Please select database definition xml file.">
+               <source>Select a structure definition file</source>
+               <target>Select a structure definition file</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Please select resources xml file.">
+               <source>Select a resource xml file</source>
+               <target>Select a resource xml file</target>
+            </trans-unit>
+         </group>
+         <group resname="OpenSaveDialFormats">
+            <trans-unit id="1" resname="My Report.html">
+               <source>My Report.html</source>
+               <target>My Report.html</target>
+            </trans-unit>
+            <trans-unit id="2" resname="My Report.4qr">
+               <source>My Report.4qr</source>
+               <target>My Report.4qr</target>
+            </trans-unit>
+            <trans-unit id="2" resname="My Report.txt">
+               <source>My Report.txt</source>
+               <target>My Report.txt</target>
+            </trans-unit>
+            <trans-unit id="2" resname="My Label.4lb">
+               <source>My Label.4lb</source>
+               <target>My Label.4lb</target>
+            </trans-unit>
+            <trans-unit id="2" resname="My Export">
+               <source>My Export</source>
+               <target>My Export</target>
+            </trans-unit>
+         </group>
+         <group resname="UserLoginDialogs">
+            <trans-unit id="1" resname="RememberPassword">
+               <source>Remember Password</source>
+               <target>Remember Password</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="WebServer_LowerPort">
+            <trans-unit id="1" resname="Message_HelperToolInstall">
+               <source>4D needs to install a tool in your PrivilegedHelperTools system folder in order to start the Web Server on port [#port].
+You must be authenticated as Administrator to install this tool.
+Do you want to proceed?</source>
+               <target>4D needs to install a tool in your PrivilegedHelperTools system folder in order to start the Web Server on port [#port].
+You must be authenticated as Administrator to install this tool.
+Do you want to proceed?</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="ThermoDialogMessages">
+            <trans-unit id="1" resname="WaitingForIndexes">
+               <source>Building indexes, please wait.</source>
+               <target>Building indexes, please wait.</target>
+            </trans-unit>
+         </group>
+         
+         <group id="1017" resname="OpenDB_Old_DataBaseProperties 2">
+            <note>This group has been copied/pasted from the PreferencesEN.xlf file of the version 11 (ACI0064214)</note>
+            <trans-unit id="39">
+               <source>Are you sure you want to open the structure file in read only mode?</source>
+               <target>Are you sure you want to open the structure file in read only mode?</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="HTTP_Authentication_Dialog">
+            <trans-unit id="01" resname="HTTP_Authentic_Required">
+               <source>Authentication required</source>
+               <target>Authentication required</target>
+            </trans-unit>            
+            <trans-unit id="02" resname="HTTP_User_And_Password">
+               <source>Enter username and password for "&lt;vrealm&gt;" at "&lt;vdomain&gt;"</source>
+               <target>Enter username and password for "&lt;vrealm&gt;" at "&lt;vdomain&gt;"</target>
+            </trans-unit>
+         </group>
+         
+         
+       </body>
+   </file>
+</xliff>

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--           
+   Translation file for 4D products.
+   Copyright (C) 2009 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+            <prop prop-type="prefix">syntaxElement_</prop>
+         </prop-group>
+         <note>The character &amp;quot;%&amp;quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&amp;lt;) and greater than (&amp;gt;) symbols is a variable&amp;apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="Motor dialog">
+            <trans-unit id="prfCom_1" resname="motorWindowTitle">
+               <source>4D Preferences</source>
+               <target>4D Preferences</target>
+            </trans-unit>
+            <trans-unit id="93" resname="motorPage_1">
+               <source>General</source>
+               <target>General</target>
+            </trans-unit>
+            <trans-unit id="94" resname="motorPage_2">
+               <source>Forms</source>
+               <target>Forms</target>
+            </trans-unit>
+            <trans-unit id="95" resname="motorPage_3">
+               <source>Methods</source>
+               <target>Methods</target>
+            </trans-unit>
+            <trans-unit id="116" resname="motorPage_4">
+               <source>Client-server</source>
+               <target>Client-server</target>
+            </trans-unit>
+            <trans-unit id="116" resname="motorPage_5">
+               <source>Shortcuts</source>
+               <target>Shortcuts</target>
+            </trans-unit>
+            <trans-unit id="116" resname="motorPage_6">
+               <source>Structure</source>
+               <target>Structure</target>
+            </trans-unit>
+         </group>
+         <group resname="General">
+            <trans-unit id="prfGen_1" resname="GeneralOptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="prfGen_2" resname="ApplicationOptionsAtStartUp">
+               <source>At startup:</source>
+               <target>At startup:</target>
+            </trans-unit>
+            <trans-unit id="prfGen_3" resname="exitDesign">
+               <source>Exit Design when going to Application Environment</source>
+               <target>Exit Design when going to Application Environment</target>
+            </trans-unit>
+            <trans-unit id="prfGen_4" resname="CreatePackageForNewDatabases">
+               <source>Create package for new databases</source>
+               <target>Create package for new databases</target>
+            </trans-unit>
+            <trans-unit id="prfGen_5" resname="DocumentationLocation">
+               <source>Documentation Location</source>
+               <target>Documentation Location</target>
+            </trans-unit>
+            <trans-unit id="prfGen_6" resname="documentationHTMLDocumentationFolder">
+               <source>HTML Documentation Folder:</source>
+               <target>HTML Documentation Folder:</target>
+            </trans-unit>
+            <trans-unit id="prfGen_8" resname="localFolder">
+               <source>Local folder:</source>
+               <target>Local folder:</target>
+            </trans-unit>
+            <trans-unit id="prfGen_9" resname="webSite">
+               <source>Web site:</source>
+               <target>Web site:</target>
+            </trans-unit>
+            <trans-unit id="prfGen_10" resname="AutomaticBackupStrategy">
+               <source>Enable the automatic backup strategy for every new database</source>
+               <target>Enable the automatic backup strategy for every new database</target>
+            </trans-unit>
+            <trans-unit id="prfGen_11" resname="Automatisms">
+               <source>Automatisms</source>
+               <target>Automatisms</target>
+            </trans-unit>
+            <trans-unit id="prfGen_12" resname="whenCreatingANewDatabase">
+               <source>When creating a new database</source>
+               <target>When creating a new database</target>
+            </trans-unit>
+            <trans-unit id="prfGen_13" resname="LanguageOfTextComparison">
+               <source>Language of text comparison</source>
+               <target>Language of text comparison</target>
+            </trans-unit>
+            <trans-unit id="127" resname="AutomaticFormCreation">
+               <source>Automatic Form Creation:</source>
+               <target>Automatic Form Creation:</target>
+            </trans-unit>
+            <trans-unit id="prfGen_3" resname="GeneralWhenGoingToApplicationEnvironment">
+               <source>When going to Application Environment</source>
+               <target>When going to Application Environment</target>
+            </trans-unit>
+            <trans-unit id="132" resname="GeneralLanguageOfTextComparison">
+               <source>Language of text comparison:</source>
+               <target>Language of text comparison:</target>
+            </trans-unit>
+            <trans-unit id="133" resname="GeneralDocumentationAccess">
+               <source>Documentation Access:</source>
+               <target>Documentation Access:</target>
+            </trans-unit>
+            <trans-unit id="133" resname="ClickToTestTheUrl">
+               <source>Click to test the URL</source>
+               <target>Click to test the URL</target>
+            </trans-unit>
+            <trans-unit id="134" resname="LookInTheLocalFolderFirst">
+               <source>Look in the local folder first</source>
+               <target>Look in the local folder first</target>
+            </trans-unit>
+            <trans-unit id="135" resname="LookOnTheWebSiteFirst">
+               <source>Look on the Web site first</source>
+               <target>Look on the Web site first</target>
+            </trans-unit>
+         </group>
+         <group resname="startup_mode">
+            <trans-unit id="startup_mode_1" resname="startup_mode_1">
+               <source>Do nothing</source>
+               <target>Do nothing</target>
+            </trans-unit>
+            <trans-unit id="startup_mode_2" resname="startup_mode_2">
+               <source>Open Local Database dialog</source>
+               <target>Open Local Database dialog</target>
+            </trans-unit>
+            <trans-unit id="startup_mode_3" resname="startup_mode_3">
+               <source>Open last used database</source>
+               <target>Open last used database</target>
+            </trans-unit>
+            <trans-unit id="startup_mode_4" resname="startup_mode_4">
+               <source>Open Remote Database dialog</source>
+               <target>Open Remote Database dialog</target>
+            </trans-unit>
+            <trans-unit id="startup_mode_5" resname="startup_mode_5">
+               <source>New Database from Template dialog</source>
+               <target>New Database from Template dialog</target>
+            </trans-unit>
+         </group>
+         <group resname="Forms">
+            <trans-unit id="prfForm_3" resname="FormMove">
+               <source>Move</source>
+               <target>Move</target>
+            </trans-unit>
+            <trans-unit id="prfForm_4" resname="FormStepUsingKeyboard">
+               <source>Step using keyboard:</source>
+               <target>Step using keyboard:</target>
+            </trans-unit>
+            <trans-unit id="prfForm_5" resname="FormsWhenMovingBeyondWindowLimits">
+               <source>When moving beyond window limits:</source>
+               <target>When moving beyond window limits:</target>
+            </trans-unit>
+            <trans-unit id="prfForm_6" resname="FormsAutoscroll">
+               <source>Autoscroll</source>
+               <target>Autoscroll</target>
+            </trans-unit>
+            <trans-unit id="prfForm_7" resname="FormsStartDragAndDrop">
+               <source>Start drag and drop</source>
+               <target>Start drag and drop</target>
+            </trans-unit>
+            <trans-unit id="prfForm_8" resname="FormsActivateAutoAlignmentByDefault">
+               <source>Activate auto alignment by default</source>
+               <target>Activate auto alignment by default</target>
+            </trans-unit>
+            <trans-unit id="prfForm_9" resname="FormsDefaultDisplay">
+               <source>Default Display</source>
+               <target>Default Display</target>
+            </trans-unit>
+            <trans-unit id="prfForm_10" resname="Formslimits">
+               <source>Limits</source>
+               <target>Limits</target>
+            </trans-unit>
+            <trans-unit id="prfForm_11" resname="Formsrulers">
+               <source>Rulers</source>
+               <target>Rulers</target>
+            </trans-unit>
+            <trans-unit id="prfForm_12" resname="Formspaper">
+               <source>Paper</source>
+               <target>Paper</target>
+            </trans-unit>
+            <trans-unit id="prfForm_13" resname="FormsinheritedForm">
+               <source>Inherited form</source>
+               <target>Inherited form</target>
+            </trans-unit>
+            <trans-unit id="prfForm_14" resname="Formspage0">
+               <source>Page 0</source>
+               <target>Page 0</target>
+            </trans-unit>
+            <trans-unit id="prfForm_15" resname="Formsmarkers">
+               <source>Markers</source>
+               <target>Markers</target>
+            </trans-unit>
+            <trans-unit id="prfForm_16" resname="FormColorForMarkerLines">
+               <source>Color for marker lines:</source>
+               <target>Color for marker lines:</target>
+            </trans-unit>
+            <trans-unit id="prfForm_17" resname="FormsdefaultDisplayShield">
+               <source>Default display shield:</source>
+               <target>Default display shield:</target>
+            </trans-unit>
+            <trans-unit id="prfForm_18" resname="FormsPoints">
+               <source>points</source>
+               <target>points</target>
+            </trans-unit>
+         </group>
+         <group resname="automatic_form_creation">
+            <trans-unit id="automatic_form_creation_1" resname="automatic_form_creation_1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="automatic_form_creation_2" resname="automatic_form_creation_2">
+               <source>Ask</source>
+               <target>Ask</target>
+            </trans-unit>
+            <trans-unit id="automatic_form_creation_3" resname="automatic_form_creation_3">
+               <source>Always Yes for All</source>
+               <target>Always Yes for All</target>
+            </trans-unit>
+         </group>
+         <group resname="default_shield">
+            <trans-unit id="prfShield_11" resname="default_shield_1">
+               <source>No Shield</source>
+               <target>No Shield</target>
+            </trans-unit>
+            <trans-unit id="prfShield_1" resname="default_shield_2">
+               <source>Object Method</source>
+               <target>Object Method</target>
+            </trans-unit>
+            <trans-unit id="prfShield_2" resname="default_shield_3">
+               <source>Standard Action</source>
+               <target>Standard Action</target>
+            </trans-unit>
+            <trans-unit id="prfShield_3" resname="default_shield_4">
+               <source>Resizing</source>
+               <target>Resizing</target>
+            </trans-unit>
+            <trans-unit id="prfShield_4" resname="default_shield_5">
+               <source>Entry Order</source>
+               <target>Entry Order</target>
+            </trans-unit>
+            <trans-unit id="prfShield_5" resname="default_shield_6">
+               <source>View Number</source>
+               <target>View Number</target>
+            </trans-unit>
+            <trans-unit id="prfShield_6" resname="default_shield_7">
+               <source>Style Sheet</source>
+               <target>Style Sheet</target>
+            </trans-unit>
+            <trans-unit id="prfShield_7" resname="default_shield_8">
+               <source>Filter</source>
+               <target>Filter</target>
+            </trans-unit>
+            <trans-unit id="prfShield_8" resname="default_shield_9">
+               <source>Help Tip</source>
+               <target>Help Tip</target>
+            </trans-unit>
+            <trans-unit id="prfShield_9" resname="default_shield_10">
+               <source>Localized</source>
+               <target>Localized</target>
+            </trans-unit>
+            <trans-unit id="prfShield_10" resname="default_shield_11">
+               <source>Dynamic reference</source>
+               <target>Dynamic reference</target>
+            </trans-unit>
+         </group>
+         <group resname="Forms Menu Font">
+            <trans-unit id="prfFont_1" resname="prefMethodFont_1">
+               <source>System Font</source>
+               <target>System Font</target>
+            </trans-unit>
+            <trans-unit id="prfFont_1" resname="prefMethodFont_2">
+               <source>Application Font</source>
+               <target>Application Font</target>
+            </trans-unit>
+         </group>
+         <group resname="Methods">
+            <trans-unit id="prfMethod_1" resname="Methodsfont">
+               <source>Font</source>
+               <target>Font</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_4" resname="Methodspoints">
+               <source>points</source>
+               <target>points</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_5" resname="MethodssyntaxStyles">
+               <source>Syntax Styles</source>
+               <target>Syntax Styles</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_6" resname="Methodsitalic">
+               <source>Italic</source>
+               <target>Italic</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_7" resname="Methodsunderline">
+               <source>Underline</source>
+               <target>Underline</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_8" resname="Methodsbold">
+               <source>Bold</source>
+               <target>Bold</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_9" resname="Methodscolor">
+               <source>Color</source>
+               <target>Color</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_10" resname="Methodsoptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_11" resname="Methodsindentation">
+               <source>Indentation:</source>
+               <target>Indentation:</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_12" resname="MethodsshowLineNumber">
+               <source>Show Line Numbers</source>
+               <target>Show Line Numbers</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_13" resname="MethodsallowDrag">
+               <source>Allow Drag</source>
+               <target>Allow Drag</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_14" resname="MethodsallowCollapseExpand">
+               <source>Allow Expand/Collapse</source>
+               <target>Allow Expand/Collapse</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_15" resname="MethodsallowTypeAhead">
+               <source>Allow Type-Ahead</source>
+               <target>Allow Type-Ahead</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_16" resname="MethodsshowList">
+               <source>Show Lists</source>
+               <target>Show Lists</target>
+            </trans-unit>
+            <trans-unit id="prfMethod_17" resname="MethodssyntaxElements">
+               <source>Item type</source>
+               <target>Item type</target>
+            </trans-unit>
+            <trans-unit id="130" resname="Methodslanguage">
+               <source>Language:</source>
+               <target>Language:</target>
+            </trans-unit>
+            <trans-unit id="136" resname="MethodOptionSuggestionWindow">
+               <source>Automatic opening of window for:</source>
+               <target>Automatic opening of window for:</target>
+            </trans-unit>
+            <trans-unit id="137" resname="MethodOptionSuggestionWindowConstants">
+               <source>Constants</source>
+               <target>Constants</target>
+            </trans-unit>
+            <trans-unit id="138" resname="MethodOptionSuggestionWindowVariables">
+               <source>Local and interprocess variables</source>
+               <target>Local and interprocess variables</target>
+            </trans-unit>
+            <trans-unit id="139" resname="MethodOptionSuggestionWindowTables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="140" resname="MethodOptionSuggestionOn">
+               <source>Validation of a suggestion:</source>
+               <target>Validation of a suggestion:</target>
+            </trans-unit>
+            <trans-unit id="141" resname="MethodOptionSuggestionTab">
+               <source>Tab only</source>
+               <target>Tab only</target>
+            </trans-unit>
+            <trans-unit id="142" resname="MethodOptionSuggestionTabAndOperators">
+               <source>Tab and delimiters</source>
+               <target>Tab and delimiters</target>
+            </trans-unit>
+            <trans-unit id="149" resname="MethodsOptionMatchingParentheses">
+               <source>Matching parentheses:</source>
+               <target>Matching parentheses:</target>
+            </trans-unit>
+            <trans-unit id="150" resname="MethodsOptionDebug">
+               <source>Debug: </source>
+               <target>Debug: </target>
+            </trans-unit>
+            <trans-unit id="151" resname="MethodsOptionsHighlightTheLineRunning">
+               <source>Highlight the line running</source>
+               <target>Highlight the line running</target>
+            </trans-unit>
+            <trans-unit id="156" resname="Methodssuggestions">
+               <source>Suggestions</source>
+               <target>Suggestions</target>
+            </trans-unit>
+            <trans-unit id="157" resname="Methodscolors">
+               <source>Colors</source>
+               <target>Colors</target>
+            </trans-unit>
+         </group>
+         <group resname="Method Menu syntax">
+            <trans-unit id="prfElement_1" resname="Syntaxelement_plain_text">
+               <source>Plain Text</source>
+               <target>Plain Text</target>
+            </trans-unit>
+            <trans-unit id="prfElement_2" resname="Syntaxelement_commands">
+               <source>Commands</source>
+               <target>Commands</target>
+            </trans-unit>
+            <trans-unit id="prfElement_3" resname="Syntaxelement_keywords">
+               <source>Keywords</source>
+               <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="prfElement_4" resname="Syntaxelement_constants">
+               <source>Constants</source>
+               <target>Constants</target>
+            </trans-unit>
+            <trans-unit id="prfElement_5" resname="Syntaxelement_tables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="prfElement_6" resname="Syntaxelement_fields">
+               <source>Fields</source>
+               <target>Fields</target>
+            </trans-unit>
+            <trans-unit id="prfElement_7" resname="Syntaxelement_methods">
+               <source>Methods</source>
+               <target>Methods</target>
+            </trans-unit>
+            <trans-unit id="prfElement_8" resname="Syntaxelement_parameters">
+               <source>Parameters</source>
+               <target>Parameters</target>
+            </trans-unit>
+            <trans-unit id="prfElement_9" resname="Syntaxelement_local_variables">
+               <source>Local Variables</source>
+               <target>Local Variables</target>
+            </trans-unit>
+            <trans-unit id="prfElement_10" resname="Syntaxelement_process_variables">
+               <source>Process Variables</source>
+               <target>Process Variables</target>
+            </trans-unit>
+            <trans-unit id="prfElement_11" resname="Syntaxelement_interprocess_variables">
+               <source>Interprocess Variables</source>
+               <target>Interprocess Variables</target>
+            </trans-unit>
+            <trans-unit id="prfElement_12" resname="Syntaxelement_plug_ins">
+               <source>Plug-ins</source>
+               <target>Plug-ins</target>
+            </trans-unit>
+            <trans-unit id="prfElement_13" resname="Syntaxelement_errors">
+               <source>Errors</source>
+               <target>Errors</target>
+            </trans-unit>
+            <trans-unit id="prfElement_14" resname="Syntaxelement_comments">
+               <source>Comments</source>
+               <target>Comments</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_integers">
+               <source>Integers</source>
+               <target>Integers</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_reals">
+               <source>Reals</source>
+               <target>Reals</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_strings">
+               <source>Strings</source>
+               <target>Strings</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_names">
+               <source>Names</source>
+               <target>Names</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_comparisons">
+               <source>Comparisons</source>
+               <target>Comparisons</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_function_keywords">
+               <source>Functions</source>
+               <target>Functions</target>
+            </trans-unit>
+            <trans-unit id="prfElement_15" resname="Syntaxelement_debug">
+               <source>Debug</source>
+               <target>Debug</target>
+            </trans-unit>
+            <trans-unit id="158" resname="Syntaxelement_normal">
+               <source>Normal</source>
+               <target>Normal</target>
+            </trans-unit>
+            <trans-unit id="159" resname="Syntaxelement_numbers">
+               <source>Numbers</source>
+               <target>Numbers</target>
+            </trans-unit>
+         </group>
+         <group resname="Structure">
+            <trans-unit id="prfStructure_1" resname="StructOptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="prfStructure_2" resname="StructGraphicQuality">
+               <source>Graphic quality of the structure:</source>
+               <target>Graphic quality of the structure:</target>
+            </trans-unit>
+            <trans-unit id="prfStructure_2" resname="StructDimMode">
+               <source>When a folder is dimmed, its contents are:</source>
+               <target>When a folder is dimmed, its contents are:</target>
+            </trans-unit>
+            <trans-unit id="116" resname="StructureAutomaticFormCreation">
+               <source>Automatic Form Creation:</source>
+               <target>Automatic Form Creation:</target>
+            </trans-unit>
+            <trans-unit id="117" resname="StructureinClientServerModeOpenTheStructureInMode">
+               <source>In Client-Server mode, open the structure in mode:</source>
+               <target>In Client-Server mode, open the structure in mode:</target>
+            </trans-unit>
+            <trans-unit id="134" resname="Structuregeneral">
+               <source>Structure Editor</source>
+               <target>Structure Editor</target>
+            </trans-unit>
+         </group>
+         <group resname="graphic_quality">
+            <trans-unit id="graphic_quality_1" resname="graphic_quality_1">
+               <source>High</source>
+               <target>High</target>
+            </trans-unit>
+            <trans-unit id="graphic_quality_2" resname="graphic_quality_2">
+               <source>Standard</source>
+               <target>Standard</target>
+            </trans-unit>
+         </group>
+         <group resname="dimmed_folder">
+            <trans-unit id="dimmed_folder_1" resname="dimmed_folder_1">
+               <source>Dimmed</source>
+               <target>Dimmed</target>
+            </trans-unit>
+            <trans-unit id="dimmed_folder_2" resname="dimmed_folder_2">
+               <source>Invisible</source>
+               <target>Invisible</target>
+            </trans-unit>
+         </group>
+         <group resname="Comments">
+            <trans-unit id="15" resname="CommentsActivateAutomaticComments">
+               <source>Activate Automatic Comments</source>
+               <target>Activate Automatic Comments</target>
+            </trans-unit>
+            <trans-unit id="100" resname="CommentDefaultTemplate">
+               <source>&amp;lt;Modified by #N, on #D, at #H&amp;gt;</source>
+               <target>&amp;lt;Modified by #N, on #D, at #H&amp;gt;</target>
+            </trans-unit>
+            <trans-unit id="102" resname="CommentsDate">
+               <source>Date</source>
+               <target>Date</target>
+            </trans-unit>
+            <trans-unit id="103" resname="CommentsTime">
+               <source>Time</source>
+               <target>Time</target>
+            </trans-unit>
+            <trans-unit id="104" resname="CommentsUserName">
+               <source>User name</source>
+               <target>User name</target>
+            </trans-unit>
+            <trans-unit id="105" resname="CommentsInsert">
+               <source>Insert:</source>
+               <target>Insert:</target>
+            </trans-unit>
+            <trans-unit id="106" resname="CommentsContextualMenuInsertDate">
+               <source>Insert date</source>
+               <target>Insert date</target>
+            </trans-unit>
+            <trans-unit id="107" resname="CommentsContextualMenuInsertTime">
+               <source>Insert time</source>
+               <target>Insert time</target>
+            </trans-unit>
+            <trans-unit id="108" resname="CommentsContextualMenuInsertUserName">
+               <source>Insert user name</source>
+               <target>Insert user name</target>
+            </trans-unit>
+         </group>
+         <group resname="Structure menu open mode">
+            <trans-unit id="118" resname="StructOpenMode_1">
+               <source>Read/write</source>
+               <target>Read/write</target>
+            </trans-unit>
+            <trans-unit id="119" resname="StructOpenMode_2">
+               <source>Read only</source>
+               <target>Read only</target>
+            </trans-unit>
+         </group>
+         <group resname="Structure menu default form creation">
+            <trans-unit id="120" resname="StructFormCreation_1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="121" resname="StructFormCreation_2">
+               <source>Ask</source>
+               <target>Ask</target>
+            </trans-unit>
+            <trans-unit id="122" resname="StructFormCreation_3">
+               <source>Always Yes for All</source>
+               <target>Always Yes for All</target>
+            </trans-unit>
+         </group>
+         <group resname="Shortcuts">
+            <trans-unit id="128" resname="ShortcutsAssociatedKey">
+               <source>Associated Key</source>
+               <target>Associated Key</target>
+            </trans-unit>
+            <trans-unit id="129" resname="Shortcutswindows">
+               <source>Windows</source>
+               <target>Windows</target>
+            </trans-unit>
+            <trans-unit id="130" resname="Shortcutsmacintosh">
+               <source>Macintosh</source>
+               <target>Macintosh</target>
+            </trans-unit>
+            <trans-unit id="131" resname="Shortcutsmodifiers">
+               <source>Modifiers:</source>
+               <target>Modifiers:</target>
+            </trans-unit>
+            <trans-unit id="143" resname="Shortcutsactions">
+               <source>Actions</source>
+               <target>Actions</target>
+            </trans-unit>
+            <trans-unit id="144" resname="Shortcutsshift">
+               <source>Shift</source>
+               <target>Shift</target>
+            </trans-unit>
+            <trans-unit id="145" resname="Shortcutsalt">
+               <source>Alt</source>
+               <target>Alt</target>
+            </trans-unit>
+            <trans-unit id="146" resname="Shortcutsletter">
+               <source>Letter</source>
+               <target>Letter</target>
+            </trans-unit>
+            <trans-unit id="160" resname="Shortcut">
+               <source>Shortcuts</source>
+               <target>Shortcuts</target>
+            </trans-unit>
+         </group>
+         <group resname="messages">
+            <trans-unit id="140" resname="Messages_afterRestart">
+               <source>These modifications will be taken into account when relaunching the application.</source>
+               <target>These modifications will be taken into account when relaunching the application.</target>
+            </trans-unit>
+         </group>
+         <group resname="Method_colors">
+            <trans-unit id="141" resname="colorLabel_1">
+               <source>Line where the cursor is (active window)</source>
+               <target>Line where the cursor is (active window)</target>
+            </trans-unit>
+            <trans-unit id="142" resname="colorLabel_2">
+               <source>Line where the cursor is (inactive window)</source>
+               <target>Line where the cursor is (inactive window)</target>
+            </trans-unit>
+            <trans-unit id="143" resname="colorLabel_3">
+               <source>Highlight of the found words</source>
+               <target>Highlight of the found words</target>
+            </trans-unit>
+            <trans-unit id="144" resname="colorLabel_4">
+               <source>Highlight of the parentheses</source>
+               <target>Highlight of the parentheses</target>
+            </trans-unit>
+            <trans-unit id="145" resname="colorLabel_5">
+               <source>Editing area background</source>
+               <target>Editing area background</target>
+            </trans-unit>
+            <trans-unit id="146" resname="colorLabel_6">
+               <source>Suggested text</source>
+               <target>Suggested text</target>
+            </trans-unit>
+         </group>
+         <group resname="MethodTabs">
+            <trans-unit id="147" resname="MethodTabs_styles">
+               <source>Styles</source>
+               <target>Styles</target>
+            </trans-unit>
+            <trans-unit id="148" resname="MethodTabs_options">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+         </group>
+         <group resname="Method Menu Hilite Parentheses">
+            <trans-unit id="152" resname="MenuHiliteParenthesese_1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="153" resname="MenuHiliteParenthesese_2">
+               <source>Rectangle</source>
+               <target>Rectangle</target>
+            </trans-unit>
+            <trans-unit id="154" resname="MenuHiliteParenthesese_3">
+               <source>Background Color</source>
+               <target>Background Color</target>
+            </trans-unit>
+            <trans-unit id="155" resname="MenuHiliteParenthesese_4">
+               <source>Bold</source>
+               <target>Bold</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

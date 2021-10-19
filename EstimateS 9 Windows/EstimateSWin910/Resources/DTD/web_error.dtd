@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Whenever an error occurs while executing 4D code in the web engine
+	an xml structure is built. This dtd describes this Xml structure.
+	This xml is then processed with an xsl stylesheet to produce HTML.
+	The Html is to be sent to the browser to notify the error.
+-->
+
+<!ELEMENT error (method,line,contents,description,error_stack)>
+
+<!ELEMENT method      (#PCDATA)>
+<!ELEMENT line      (#PCDATA)>
+<!ELEMENT contents      (#PCDATA)>
+<!ELEMENT description      (#PCDATA)>
+
+<!ELEMENT error_stack (frame*)>
+
+<!ELEMENT frame    (#PCDATA)>
+
+<!ATTLIST frame 
+  component CDATA #IMPLIED
+  error CDATA #IMPLIED
+  error_description CDATA #IMPLIED
+  action_description CDATA #IMPLIED
+  location CDATA #IMPLIED
+  task_name CDATA #IMPLIED
+>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2010-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="Messages">
+            <trans-unit id="mess_01" resname="WarningReplaceFileOrFolder">
+               <source>An item named "{ItemName}" already exists in this location. Do you want to replace it with the one you're moving?</source>
+               <target>An item named "{ItemName}" already exists in this location. Do you want to replace it with the one you're moving?</target>
+            </trans-unit>
+            <trans-unit id="mess_02" resname="WarningDeleteFileOrFolder">
+               <source>Do you really want to delete "{ItemName}" element?</source>
+               <target>Do you really want to delete "{ItemName}" element?</target>
+            </trans-unit>
+            <trans-unit id="mess_03" resname="WarningDeleteSelectedItems">
+               <source>Do you really want to delete the selected elements?</source>
+               <target>Do you really want to delete the selected elements?</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="HelpAppleMenu_1">
+            <note>IMPORTANT: DO NOT TRANSLATE! Please Use: "4D Help" for other languages.</note>
+            <trans-unit  id="1" resname="HelpAppleTitle" translate="no">
+               <source>4D Help</source>
+            </trans-unit>
+         </group>
+         
+         <group resname="CommonStyles">
+            <trans-unit id="1" resname="CommonSize">
+               <source>Size</source>
+               <target>Size</target>
+            </trans-unit>
+            <trans-unit id="2" resname="CommonStyle">
+               <source>Style</source>
+               <target>Style</target>
+            </trans-unit>
+            <trans-unit id="3" resname="CommonUnderline">
+               <source>Underline</source>
+               <target>Underline</target>
+            </trans-unit>
+            <trans-unit id="4" resname="CommonItalic">
+               <source>Italic</source>
+               <target>Italic</target>
+            </trans-unit>
+            <trans-unit id="5" resname="CommonBold">
+               <source>Bold</source>
+               <target>Bold</target>
+            </trans-unit>
+            <trans-unit id="6" resname="AppCommonStrikethrough">
+               <source>Strikethrough</source>
+               <target>Strikethrough</target>
+            </trans-unit>
+            <trans-unit id="7" resname="AppCommonFont">
+               <source>Font</source>
+               <target>Font</target>
+            </trans-unit>
+            <trans-unit id="8" resname="AppCommonTextColor">
+               <source>Text color</source>
+               <target>Text color</target>
+            </trans-unit>
+            <trans-unit id="9" resname="AppCommonBackgroundColor">
+               <source>Background color</source>
+               <target>Background color</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="Labels">
+            <trans-unit id="43" resname="FileInVolume">
+               <source>"{file}" in volume "{volume}"</source>
+               <target>"{file}" in volume "{volume}"</target>
+            </trans-unit>
+            <trans-unit id="44" resname="ShowOnDisk">
+               <source>Show on disk</source>
+               <target>Show on disk</target>
+            </trans-unit>
+            <trans-unit id="47" resname="CopyPath">
+               <source>Copy the path</source>
+               <target>Copy the path</target>
+            </trans-unit>
+            <trans-unit id="48" resname="MessageLabel">
+               <source>Message:</source>
+               <target>Message:</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="Characters">
+            <trans-unit id="49" resname="CommonEllipse">
+               <source>…</source>
+               <target>…</target>
+            </trans-unit>
+            <trans-unit id="50" resname="CommonQuote">
+               <source>"</source>
+               <target>"</target>
+            </trans-unit>
+            <trans-unit id="51" resname="CommonApostrophe">
+               <source>'</source>
+               <target>'</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="DefaultFileName">
+            <trans-unit id="52" resname="MyFormula">
+               <source>My Formula</source>
+               <target>My Formula</target>
+            </trans-unit>
+            <trans-unit id="53" resname="MyQuery">
+               <source>My Query</source>
+               <target>My Query</target>
+            </trans-unit>
+         </group>
+         
+         <group id="01" resname="BYTE_Unity_Display">
+            <trans-unit id="1" resname="Byte_Unity_Abbreviation">
+               <source>B</source>
+               <target>B</target>
+            </trans-unit>            
+            <trans-unit id="2" resname="Byte_Unity_Singular">
+               <source>Byte</source>
+               <target>Byte</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Byte_Unity_Plural">
+               <source>Bytes</source>
+               <target>Bytes</target>
+            </trans-unit>
+         </group>
+
+		<group resname="PrefsAndSettings">	
+            <trans-unit id="101" resname="GeneralDocUrl">
+               <source>http://doc.4d.com/4dv12/help/command/en/</source>
+               <target>http://doc.4d.com/4dv12/help/command/en/</target>
+            </trans-unit>
+		      <trans-unit id="102" resname="AppCommonLocalDoc">
+		         <source>./Documentation/4Dv12/Help/Command/en/</source>
+		         <target>./Documentation/4Dv12/Help/Command/en/</target>
+		      </trans-unit>
+		</group>
+         
+         <group resname="AppCommonProgressMessage">
+            <trans-unit id="1" resname="AppCommonDownloadingFiles">
+               <source>Downloading files...</source>
+               <target>Downloading files...</target>
+            </trans-unit>            
+            <trans-unit id="2" resname="AppCommonUpdatingClient">
+               <source>Updating client...</source>
+               <target>Updating client...</target>
+            </trans-unit>
+            <trans-unit id="3" resname="AppCommonRelaunchingApplication">
+               <source>Relaunching the application...</source>
+               <target>Relaunching the application...</target>
+            </trans-unit>
+            <trans-unit id="4" resname="AppCommonExpandingArchiveFile">
+               <source>Expanding archive file...</source>
+               <target>Expanding archive file...</target>
+            </trans-unit>            
+            <trans-unit id="5" resname="AppCommonCopying">
+               <source>Copying...</source>
+               <target>Copying...</target>
+            </trans-unit>
+            <trans-unit id="6" resname="AppCommonCheckingFolders">
+               <source>Checking folders...</source>
+               <target>Checking folders...</target>
+            </trans-unit>
+            <trans-unit id="7" resname="AppCommonCheckingFiles">
+               <source>Checking files...</source>
+               <target>Checking files...</target>
+            </trans-unit>
+            <trans-unit id="8" resname="AppCommonDownloadingBytes">
+               <source>Downloading bytes...</source>
+               <target>Downloading bytes...</target>
+            </trans-unit>
+            <trans-unit id="9" resname="AppCommonDecompressingFiles">
+               <source>Decompressing files...</source>
+               <target>Decompressing files...</target>
+            </trans-unit>
+            <trans-unit id="10" resname="AppCommonUploading">
+               <source>Uploading:</source>
+               <target>Uploading:</target>
+            </trans-unit>
+            <trans-unit id="11" resname="AppCommonSyncFiles">
+               <source>Synchronizing files</source>
+               <target>Synchronizing files</target>
+            </trans-unit>
+            <trans-unit id="12" resname="AppCommonWaitBuildCacheFiles">
+               <source>Waiting to build the cache files</source>
+               <target>Waiting to build the cache files</target>
+            </trans-unit>
+            <trans-unit id="13" resname="AppCommonBuildresCache">
+               <source>Building the resource cache, please wait...</source>
+               <target>Building the resource cache, please wait...</target>
+            </trans-unit>
+            <trans-unit id="14" resname="AppCommonWaitPDFDriver">
+               <source>Waiting for the PDF driver...</source>
+               <target>Waiting for the PDF driver...</target>
+            </trans-unit>
+            <trans-unit id="15" resname="AppCommonPrintInProgress">
+               <source>Printing in progress...</source>
+               <target>Printing in progress...</target>
+            </trans-unit>
+         </group>
+         <group resname="Colors">
+            <trans-unit id="81" resname="Color_0">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="82" resname="Color_1">
+               <source>Sable</source>
+               <target>Sable</target>
+            </trans-unit>
+            <trans-unit id="83" resname="Color_2">
+               <source>Melon</source>
+               <target>Melon</target>
+            </trans-unit>
+            <trans-unit id="84" resname="Color_3">
+               <source>Orange</source>
+               <target>Orange</target>
+            </trans-unit>
+            <trans-unit id="85" resname="Color_4">
+               <source>Salmon</source>
+               <target>Salmon</target>
+            </trans-unit>
+            <trans-unit id="86" resname="Color_5">
+               <source>Lilac</source>
+               <target>Lilac</target>
+            </trans-unit>
+            <trans-unit id="87" resname="Color_6">
+               <source>Light Violet</source>
+               <target>Light Violet</target>
+            </trans-unit>
+            <trans-unit id="88" resname="Color_7">
+               <source>Pigeon Blue</source>
+               <target>Pigeon Blue</target>
+            </trans-unit>
+            <trans-unit id="89" resname="Color_8">
+               <source>Turkish Blue</source>
+               <target>Turkish Blue</target>
+            </trans-unit>
+            <trans-unit id="90" resname="Color_9">
+               <source>Pale Green</source>
+               <target>Pale Green</target>
+            </trans-unit>
+            <trans-unit id="91" resname="Color_10">
+               <source>Yellow Green</source>
+               <target>Yellow Green</target>
+            </trans-unit>
+            <trans-unit id="92" resname="Color_11">
+               <source>Golden Maize</source>
+               <target>Golden Maize</target>
+            </trans-unit>
+            <trans-unit id="93" resname="Color_12">
+               <source>Grayish Brown</source>
+               <target>Grayish Brown</target>
+            </trans-unit>
+            <trans-unit id="94" resname="Color_13">
+               <source>Dark Sable</source>
+               <target>Dark Sable</target>
+            </trans-unit>
+            <trans-unit id="95" resname="Color_14">
+               <source>Antelope</source>
+               <target>Antelope</target>
+            </trans-unit>
+            <trans-unit id="96" resname="Color_15">
+               <source>Pale Blue</source>
+               <target>Pale Blue</target>
+            </trans-unit>
+            <trans-unit id="97" resname="Color_16">
+               <source>Cold Gray</source>
+               <target>Cold Gray</target>
+            </trans-unit>
+            <trans-unit id="98" resname="Color_17">
+               <source>Personalized...</source>
+               <target>Personalized...</target>
+            </trans-unit>
+         </group>
+         <group resname="FrontColors">
+            <trans-unit id="200" resname="FrontColor_0">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="201" resname="FrontColor_1">
+               <source>Beige</source>
+               <target>Beige</target>
+            </trans-unit>
+            <trans-unit id="202" resname="FrontColor_2">
+               <source>Brown</source>
+               <target>Brown</target>
+            </trans-unit>
+            <trans-unit id="203" resname="FrontColor_3">
+               <source>Orange</source>
+               <target>Orange </target>
+            </trans-unit>
+            <trans-unit id="204" resname="FrontColor_4">
+               <source>Red</source>
+               <target>Red</target>
+            </trans-unit>
+            <trans-unit id="205" resname="FrontColor_5">
+               <source>Purple</source>
+               <target>Purple</target>
+            </trans-unit>
+            <trans-unit id="206" resname="FrontColor_6">
+               <source>Violet</source>
+               <target>Violet</target>
+            </trans-unit>
+            <trans-unit id="207" resname="FrontColor_7">
+               <source>Signal Blue</source>
+               <target>Signal Blue</target>
+            </trans-unit>
+            <trans-unit id="208" resname="FrontColor_8">
+               <source>Water Blue</source>
+               <target>Water Blue</target>
+            </trans-unit>
+            <trans-unit id="209" resname="FrontColor_9">
+               <source>Leaf Green</source>
+               <target>Leaf Green</target>
+            </trans-unit>
+            <trans-unit id="210" resname="FrontColor_10">
+               <source>Signal Green</source>
+               <target>Signal Green</target>
+            </trans-unit>
+            <trans-unit id="211" resname="FrontColor_11">
+               <source>Brillant Yellow Green</source>
+               <target>Brillant Yellow Green</target>
+            </trans-unit>
+            <trans-unit id="212" resname="FrontColor_12">
+               <source>Olive</source>
+               <target>Olive</target>
+            </trans-unit>
+            <trans-unit id="213" resname="FrontColor_13">
+               <source>Saddle Brown</source>
+               <target>Saddle Brown</target>
+            </trans-unit>
+            <trans-unit id="214" resname="FrontColor_14">
+               <source>Beaver Brown</source>
+               <target>Beaver Brown</target>
+            </trans-unit>
+            <trans-unit id="215" resname="FrontColor_15">
+               <source>Moderate blue</source>
+               <target>Moderate blue</target>
+            </trans-unit>
+            <trans-unit id="216" resname="FrontColor_16">
+               <source>Dark Cold Gray</source>
+               <target>Dark Cold Gray</target>
+            </trans-unit>
+            <trans-unit id="217" resname="FrontColor_17">
+               <source>Personalized...</source>
+               <target>Personalized...</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

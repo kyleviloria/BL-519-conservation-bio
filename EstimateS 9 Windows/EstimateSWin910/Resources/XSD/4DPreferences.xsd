@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:annotation>
+        <xsd:documentation>
+			4DPreferences schema.
+   			Copyright (C) 2009 4D SAS.
+   			This file is distributed under the same license as the 4D product package.
+		</xsd:documentation>
+    </xsd:annotation>
+    
+    <!--
+    ================================================================================================================
+    Main
+    ================================================================================================================
+    -->
+    <xsd:element name="preferences">
+	     <xsd:complexType>
+	        <xsd:all>
+	            <xsd:element name="com.4d">
+		 			<xsd:complexType>
+						<xsd:all>
+            				<xsd:element minOccurs="0" name="general" type="general"/>
+			            	<xsd:element minOccurs="0" name="form_editor" type="formEditor"/>
+			            	<xsd:element minOccurs="0" name="method_editor" type="methodEditor"/>
+			            	<xsd:element minOccurs="0" name="client_server" type="clientServer"/>
+			            	<xsd:element minOccurs="0" name="structure" type="structure"/>
+	        			</xsd:all>
+	    			</xsd:complexType>
+				</xsd:element>
+				<xsd:element minOccurs="0" name="application" type="userFreeContent"/>
+			</xsd:all>
+	    </xsd:complexType>
+    </xsd:element>
+    
+    <!--
+    ================================================================================================================
+    Common simple types
+    ================================================================================================================
+    -->
+    <xsd:simpleType name="fontName">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="fontSize">
+        <xsd:restriction base="xsd:short">
+			<xsd:minInclusive value="6"/>
+			<xsd:maxInclusive value="96"/>
+		</xsd:restriction>
+    </xsd:simpleType>
+	
+    <xsd:simpleType name="rvb">
+		<xsd:restriction base="xsd:short">
+			<xsd:minInclusive value="0"/>
+			<xsd:maxInclusive value="255"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+    
+    <!--
+    ================================================================================================================
+    Common complex types
+    ================================================================================================================
+    -->
+    <xsd:complexType name="color">
+        <xsd:attribute name="alpha" type="rvb" use="required"/>
+        <xsd:attribute name="blue" type="rvb" use="required"/>
+        <xsd:attribute name="green" type="rvb" use="required"/>
+        <xsd:attribute name="red" type="rvb" use="required"/>
+    </xsd:complexType>
+    
+    <xsd:complexType name="style">
+        <xsd:attribute name="bold" type="xsd:boolean" use="required"/>
+        <xsd:attribute name="italic" type="xsd:boolean" use="required"/>
+        <xsd:attribute name="underline" type="xsd:boolean" use="required"/>
+    </xsd:complexType>
+            
+    <!--
+    ================================================================================================================
+    User free content
+    ================================================================================================================
+    -->  
+    <xsd:complexType name="userFreeContent">
+		<xsd:complexContent mixed="true">
+			<xsd:restriction base="xsd:anyType">
+			<xsd:sequence>
+				<xsd:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:anyAttribute/>
+			</xsd:restriction>
+		</xsd:complexContent>
+	</xsd:complexType>
+       
+    <!--
+    ================================================================================================================
+    General
+    ================================================================================================================
+    -->
+    <xsd:simpleType name="automaticFormCreation">
+	    <xsd:annotation>
+			<xsd:documentation>
+				1	Never
+				2	Ask
+				3	Always
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:short">
+			<xsd:minInclusive value="1"/>
+			<xsd:maxInclusive value="3"/>
+		  </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:simpleType name="startupMode">
+	    <xsd:annotation>
+			<xsd:documentation>
+				0	Blank
+				1	Open Dialog
+				2	Last Used Database
+				3	Open Remote Database
+				4	Open Welcome Dialog
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:short">
+			<xsd:minInclusive value="0"/>
+			<xsd:maxInclusive value="4"/>
+		  </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:complexType name="general">
+        <xsd:all>
+        
+            <xsd:element minOccurs="0" name="automatisms">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="automatic_exit_design" type="xsd:boolean" use="optional"/>
+	        		<xsd:attribute name="automatic_form_creation" type="automaticFormCreation" use="optional"/>
+	        		<xsd:attribute name="startup_mode" type="startupMode" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+            <xsd:element minOccurs="0" name="new_databases">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="automatic_backup_strategy" type="xsd:boolean" use="optional"/>
+	        		<xsd:attribute name="create_package" type="xsd:boolean" use="optional"/>
+	        		<xsd:attribute name="dialect" type="xsd:short" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+            <xsd:element minOccurs="0" name="documentation">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="download_missing" type="xsd:boolean" use="optional"/>
+	        		<xsd:attribute name="local_path" type="xsd:string" use="optional"/>
+	        		<xsd:attribute name="source" type="xsd:string" use="optional"/>
+	        		<xsd:attribute name="url" type="xsd:string" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+        </xsd:all>
+    </xsd:complexType>
+
+    <!--
+    ================================================================================================================
+    Form editor
+    ================================================================================================================
+    -->
+    <xsd:simpleType name="autoScroll">
+	    <xsd:annotation>
+			<xsd:documentation>
+				0	auto scroll
+				1	initiate drag'n drop
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:short">
+			<xsd:minInclusive value="0"/>
+			<xsd:maxInclusive value="1"/>
+		  </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:simpleType name="defaultShield">
+	    <xsd:annotation>
+			<xsd:documentation>
+				1		Scripts
+				2		Tips
+				4		Orders
+				8		Resizing
+				16		Layer
+				32		Automatic Actions
+				64		Style Sheets
+				128		Entry Filter
+				256		Localization
+				512		Dynamic Reference
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:short">
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="2"/>
+			<xsd:enumeration value="4"/>
+			<xsd:enumeration value="8"/>
+			<xsd:enumeration value="16"/>
+			<xsd:enumeration value="32"/>
+			<xsd:enumeration value="64"/>
+			<xsd:enumeration value="128"/>
+			<xsd:enumeration value="256"/>
+			<xsd:enumeration value="512"/>
+		  </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:complexType name="formEditor">
+        <xsd:all>
+        
+            <xsd:element minOccurs="0" name="move">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="auto_alignment" type="xsd:boolean" use="optional"/>
+        			<xsd:attribute name="auto_scroll" type="autoScroll" use="optional"/>
+        			<xsd:attribute name="step_using_keyboard" type="xsd:short" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+            <xsd:element minOccurs="0" name="display">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="default_shield" type="defaultShield" use="optional"/>
+			        <xsd:attribute name="inherited_form" type="xsd:boolean" use="optional"/>
+			        <xsd:attribute name="limits" type="xsd:boolean" use="optional"/>
+			        <xsd:attribute name="markers" type="xsd:boolean" use="optional"/>
+			        <xsd:attribute name="page_0" type="xsd:boolean" use="optional"/>
+			        <xsd:attribute name="paper" type="xsd:boolean" use="optional"/>
+			        <xsd:attribute name="rulers" type="xsd:boolean" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+            <xsd:element minOccurs="0" name="marker">
+				<xsd:complexType>
+					<xsd:all>
+            			<xsd:element minOccurs="0" name="color" type="color"/>
+        			</xsd:all>
+    			</xsd:complexType>
+			</xsd:element>
+			
+		</xsd:all>
+    </xsd:complexType>
+
+    <!--
+    ================================================================================================================
+    Methode editor
+    ================================================================================================================
+    -->
+    <xsd:complexType name="methodEditor">
+        <xsd:sequence>
+        
+            <xsd:element minOccurs="0" name="general">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="font_name" type="fontName" use="optional"/>
+			        <xsd:attribute name="font_size" type="fontSize" use="optional"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="syntax_style">
+	 			<xsd:complexType>
+					<xsd:sequence>
+            			<xsd:element minOccurs="0" maxOccurs="unbounded" name="syntax">
+	            			<xsd:complexType>
+								<xsd:sequence>
+			            			<xsd:element name="style" type="style"/>
+						            <xsd:element name="color" type="color"/>
+			        			</xsd:sequence>
+			        			<xsd:attribute name="kind" type="xsd:string" use="required"/>
+				 			</xsd:complexType>
+			 			</xsd:element>
+        			</xsd:sequence>
+        			<xsd:attribute name="syntax" type="xsd:string" use="required"/>
+	 			</xsd:complexType>
+			</xsd:element>
+			
+      <xsd:element minOccurs="0" name="options">
+	 			<xsd:complexType>
+	  				<xsd:attribute name="indentation" type="xsd:short" use="optional"/>
+			      <xsd:attribute name="show_line_numbers" type="xsd:boolean" use="optional"/>
+			      <xsd:attribute name="show_lists" type="xsd:boolean" use="optional"/>
+			      <xsd:attribute name="suggest_constants" type="xsd:boolean" use="optional"/>
+			      <xsd:attribute name="suggest_variables" type="xsd:boolean" use="optional"/>
+			      <xsd:attribute name="suggest_tables" type="xsd:boolean" use="optional"/>
+			      <xsd:attribute name="character_suggestion_validation" type="xsd:string" use="optional"/>
+            <xsd:attribute name="hilite_back_color"
+	 			</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+    </xsd:complexType>
+
+    <!--
+    ================================================================================================================
+    Client/Server
+    ================================================================================================================
+    -->
+    <xsd:simpleType name="connectionsTimeout">
+	    <xsd:annotation>
+			<xsd:documentation>
+				duration in mn
+				0 = no limits
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:short">
+			<xsd:enumeration value="0"/>
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="5"/>
+			<xsd:enumeration value="15"/>
+			<xsd:enumeration value="30"/>
+			<xsd:enumeration value="60"/>
+		  </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:complexType name="clientServer">
+        <xsd:attribute name="connections_timeout" type="connectionsTimeout" use="optional"/>
+    </xsd:complexType>
+            
+    <!--
+    ================================================================================================================
+    Structure
+    ================================================================================================================
+    -->  
+    <xsd:simpleType name="dimmedFolder">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="invisible"/>
+            <xsd:enumeration value="dimmed"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="graphicQuality">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="standard"/>
+            <xsd:enumeration value="high"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="structure">
+        <xsd:attribute name="dimmed_folder" type="dimmedFolder" use="optional"/>
+        <xsd:attribute name="font_name" type="fontName" use="optional"/>
+        <xsd:attribute name="font_size" type="fontSize" use="optional"/>
+        <xsd:attribute name="graphic_quality" type="graphicQuality" use="optional"/>
+    </xsd:complexType>
+
+</xsd:schema>

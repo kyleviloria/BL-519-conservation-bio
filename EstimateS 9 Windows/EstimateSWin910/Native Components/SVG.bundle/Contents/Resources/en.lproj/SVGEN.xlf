@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Translation file for 4D products.
+  Copyright (C) 2007-2011 4D SAS.
+  This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+  <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+    <header>
+      <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+      <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+      <note>\r, \t and \n are meta-characters.</note>
+    </header>
+    <body>
+
+          <!-- svg processor errors -->
+          <group id="100" resname="general errors">
+            <trans-unit id="1" resname="ERR_svg1_101">
+              <source>SVG fatal error processing</source>
+              <target>SVG fatal error processing</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ERR_svg1_102">
+              <source>SVG picture data source not found or undeclared</source>
+              <target>SVG picture data source not found or undeclared</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ERR_svg1_103">
+              <source>Failed to export SVG picture to BLOB</source>
+              <target>Failed to export SVG picture to BLOB</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ERR_svg1_104">
+              <source>Failed to export SVG picture because there is no data source</source>
+              <target>Failed to export SVG picture because there is no data source</target>
+            </trans-unit>
+          </group>
+          
+          <!-- svg parser errors -->
+          <group id="200" resname="parser errors">
+            <trans-unit id="1" resname="ERR_svg1_201">
+              <source>SVG parser: Unknown error: xpath={xpath}</source>
+              <target>SVG parser: Unknown error: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ERR_svg1_202">
+              <source>SVG parser: Bad format for 'viewBox' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'viewBox' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ERR_svg1_203">
+              <source>SVG parser: Bad format for 'preserveAspectRatio' value : xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'preserveAspectRatio' value : xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ERR_svg1_204">
+              <source>SVG parser: Bad format for 'visibility' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'visibility' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ERR_svg1_205">
+              <source>SVG parser: Bad format for 'style' value (CSS2 inline not compliant): xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'style' value (CSS2 inline not compliant): xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ERR_svg1_206">
+              <source>SVG parser: Bad format for color type value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for color type value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ERR_svg1_207">
+              <source>SVG parser: Bad format for number type value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for number type value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ERR_svg1_208">
+              <source>SVG parser: Bad format for 'gradientUnits' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'gradientUnits' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ERR_svg1_209">
+              <source>SVG parser: Bad format for 'gradientSpreadMethod' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'gradientSpreadMethod' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ERR_svg1_210">
+              <source>SVG parser: Bad format for paint server property value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for paint server property value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="11" resname="ERR_svg1_211">
+              <source>SVG parser: Bad format for 'strokeLineCap' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'strokeLineCap' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="12" resname="ERR_svg1_212">
+              <source>SVG parser: Bad format for 'strokeLineJoin' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'strokeLineJoin' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="13" resname="ERR_svg1_213">
+              <source>SVG parser: Bad format for 'transform' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'transform' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="14" resname="ERR_svg1_214">
+              <source>SVG parser: Bad format for coordinate list: xpath={xpath}</source>
+              <target>SVG parser: Bad format for coordinate list: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="15" resname="ERR_svg1_215">
+              <source>SVG parser: Bad format for path primitive 'd' value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for path primitive 'd' value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="16" resname="ERR_svg1_216">
+              <source>SVG parser: Bad format for 'line' primitive coordinate value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'line' primitive coordinate value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="17" resname="ERR_svg1_217">
+              <source>SVG parser: Bad format for 'font-style' property value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'font-style' property value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="18" resname="ERR_svg1_218">
+              <source>SVG parser: Bad format for 'font-weight' property value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'font-weight' property value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="19" resname="ERR_svg1_219">
+              <source>SVG parser: Bad format for 'text-decoration' property value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'text-decoration' property value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="20" resname="ERR_svg1_220">
+              <source>SVG parser: Bad format for 'text-anchor' property value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'text-anchor' property value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="21" resname="ERR_svg1_221">
+              <source>SVG parser: Bad format for 'filterUnits' attribute value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'filterUnits' attribute value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="22" resname="ERR_svg1_222">
+              <source>SVG parser: Bad format for 'clipPathUnits' attribute value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for 'clipPathUnits' attribute value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="23" resname="ERR_svg1_223">
+              <source>SVG parser: Bad format for color matrix filter 'type' attribute value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for color matrix filter 'type' attribute value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="24" resname="ERR_svg1_224">
+              <source>SVG parser: Bad format for blend filter 'mode' attribute value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for blend filter 'mode' attribute value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="25" resname="ERR_svg1_225">
+              <source>SVG parser: Bad format for composite filter 'operator' attribute value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for composite filter 'operator' attribute value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="26" resname="ERR_svg1_226">
+              <source>SVG parser: Bad format for length type value: xpath={xpath}</source>
+              <target>SVG parser: Bad format for length type value: xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="27" resname="ERR_svg1_227">
+              <source>SVG parser: Wrong version (must be equal to '1.0', '1.1' or '1.2'): xpath={xpath}</source>
+              <target>SVG parser: Wrong version (must be equal to '1.0', '1.1' or '1.2'): xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="28" resname="ERR_svg1_228">
+              <source>SVG parser: Wrong base profile (must be equal to 'tiny', 'full' or 'basic'): xpath={xpath}</source>
+              <target>SVG parser: Wrong base profile (must be equal to 'tiny', 'full' or 'basic'): xpath={xpath}</target>
+            </trans-unit>
+            <trans-unit id="29" resname="ERR_svg1_229">
+              <source>SVG parser: Failed to resolve URL: xpath={xpath}</source>
+              <target>SVG parser: Failed to resolve URL: xpath={xpath}</target>
+            </trans-unit>
+          </group>
+        </body>
+    </file>
+</xliff>

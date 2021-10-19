@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2010-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="600" resname="ObjectLib_1">
+            <trans-unit id="1" resname="OL_ObjectLibrary">
+               <source>Object Library</source>
+               <target>Object Library</target>
+            </trans-unit>
+            <trans-unit id="2" resname="OL_Cut">
+               <source>Cut</source>
+               <target>Cut</target>
+            </trans-unit>
+            <trans-unit id="3" resname="OL_Copy">
+               <source>Copy</source>
+               <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="4" resname="OL_Paste">
+               <source>Paste</source>
+               <target>Paste</target>
+            </trans-unit>
+            <trans-unit id="5" resname="OL_Clear">
+               <source>Clear</source>
+               <target>Clear</target>
+            </trans-unit>
+            <trans-unit id="6" resname="OL_Rename">
+               <source>Rename</source>
+               <target>Rename</target>
+            </trans-unit>
+            <trans-unit id="7" resname="OL_Object">
+               <source>Object</source>
+               <target>Object</target>
+            </trans-unit>
+            <trans-unit id="8" resname="OL_NewObjName">
+               <source>New Object Name</source>
+               <target>New Object Name</target>
+            </trans-unit>
+            <trans-unit id="9" resname="OL_ObjLibCouldNotBeCreated">
+               <source>The Object Library could not be created.</source>
+               <target>The Object Library could not be created.</target>
+            </trans-unit>
+            <trans-unit id="10" resname="OL_ObjLibCouldNotBeOpened">
+               <source>The Object Library could not be opened.</source>
+               <target>The Object Library could not be opened.</target>
+            </trans-unit>
+            <trans-unit id="11" resname="OL_Conversion">
+               <source>The object library is going to be converted to work with 4D Application v11. You will not be able to open it with previous versions of these products anymore.
+Do you want to continue?</source>
+               <target>The object library is going to be converted to work with 4D Application v11. You will not be able to open it with previous versions of these products anymore.
+Do you want to continue?</target>
+            </trans-unit>
+            <trans-unit id="12" resname="OL_Category">
+               <source>Category:</source>
+               <target>Category:</target>
+            </trans-unit>
+            <trans-unit id="13" resname="OL_AllObjects">
+               <source>All categories</source>
+               <target>All categories</target>
+            </trans-unit>
+            <trans-unit id="14" resname="OL_ObjNameAlreadyUsed">
+               <source>This object name is already used.</source>
+               <target>This object name is already used.</target>
+            </trans-unit>
+            <trans-unit id="15" resname="OL_Filter">
+               <source>Filter:</source>
+               <target>Filter:</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

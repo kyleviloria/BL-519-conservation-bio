@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preferences>
+  <com.4d>
+    <!-- Compatibility items are tagged COMPATIBILITY in comments.
+		 Note that default value for compatibility are "factory settings", which means "defaut settings for new structures"
+	-->
+    <!--
+			startup_environnement:
+				0	Design
+				1	Application
+		-->
+    <general startup_environnement="0">
+      <font font_name="default_font" font_size="12"/>
+      <!--
+			VDBMover ActionType:
+				1	eDoNothing
+				2	eDoCreate
+				3	eDoReplace
+				5	eUseAnotherObject
+				
+				Any other value => mapped to 1 (eDoNothing)
+				-->
+      <mover always_display_dialog="false" filters="2" forms="2" lists="2" log="false" menu_bars="2"
+        pictures="2" style_sheets="2" tables="1" tips="2"/>
+      <auto_comment activated="false" use_template=""/>
+    </general>
+    <interface>
+      <!--
+				developper/design_acces:
+					0	Everybody
+					#0	group ID
+					
+				user/default_user:
+					0	None
+					#0	User ID
+			-->
+      <developper allow_read_only_structure="false" design_acces="0"
+        disable_formula_editor_filtering="false" display_toolbar="true"/>
+      <user can_change_password="true" default_user="0" display_list="true" display_toolbar="false"
+        flush_window="true" print_progress="true" sort_list="true" splash_screen="true"
+        formula_editor_with_full_lists="false"/>
+      <shortcuts>
+        <add_subform alt="false" command="true" ctrl="false" key_code="11311" shift="true"/>
+        <accept_input_form alt="false" command="false" ctrl="false" key_code="19459" shift="false"/>
+        <cancel_input_form alt="false" command="false" ctrl="false" key_code="13595" shift="false"/>
+      </shortcuts>
+      <!--COMPATIBILITY for all thos misc items-->
+      <!--
+					Values for platform:
+						-1	"Automatic" or "Best"
+						1	Mac OS 7
+						2	Windows 3.11, NT 3.51
+						3	Windows 95/98/2000, NT 4
+						4	Mac OS 9
+						5	Mac theme
+						6	System
+			-->
+      <misc fields_enterable_in_dialogs="true" mac_auto_platform="-1" platform="-1"
+        prevent_drop_not_coming_from_4d="false" radio_buttons_grouped_by_name="false"
+        win_auto_platform="-1"/>
+    </interface>
+    <compiler>
+      <!--
+			initialize_local_variables:
+				1	zero
+				2	random
+				3	no
+				
+			compilation_path:
+				1	Type variables
+				2	Process and interprocess are typed
+				3	All variables are typed
+				
+			default_for_numeric and default_for_button:
+				1	Real
+				2	long
+			-->
+      <options compilation_path="1" display_warnings="false" error_file="false" fat_binary="false"
+        initialize_local_variables="1" range_checking="true" symbol_file="false"/>
+      <typage default_for_button="1" default_for_numeric="2"/>
+      <method_suffix arrays="Arrays" interprocess_arrays="Arrays_Inter"
+        interprocess_variables="Variables_Inter" methods="Methods" variables="Variables"/>
+    </compiler>
+    <database>
+      <!--	ignore_arobase_in_middle is not stored in the xml -->
+      <data_storage allow_data_read_only="false" allow_deletion_control="false"/>
+      <cache adaptative="true" size_fixed="200" flush_buffer_delay="20s"
+        keep_in_physical_memory="false" percentage="50" size_maximum="400" size_minimum="100"
+        size_reserved="512"/>
+      <!--
+				cpu_priority: same as SET DATABASE PARAEMETER
+					-1		maximum priority allocated to 4D
+					-2		average priority allocated to 4D
+					-3		minimum priority allocated to 4D
+					Other	a long value whose hexadecimal expression is 0x00aabbcc with
+									aa = minimum number of ticks per call to the system (0 to 100 included)
+									bb = maximum number of ticks per call to the system (0 to 100 included)
+									cc = number of ticks between calls to the system (0 to 20 included)
+					*** WARNING ***
+						If you change those values, change also V4DPreferencesKeys.cpp
+				    *** /WARNING ***
+			-->
+      <cpu_priority for_mono="-2" for_remote="-2" for_server="-2"/>
+      <!--
+				current_data_dialect is not stored in the xml
+				
+				intl/object_inversion:
+					0	Never
+					1	Automatic
+					2	Always
+				-->
+      <intl object_inversion="never"/>
+      <!--COMPATIBILITY: all those misc items are compatibility items-->
+      <misc allow_nested_transactions="true" automatic_transactions="false"
+        period_and_commas_in_numerics="true" reload_form_during_print_selection="false"
+        unicode_mode="true"/>
+    </database>
+    <server>
+      <network>
+        <!--
+				update_resources_folder:
+					0	Never
+					1	Always
+					2	Ask
+				-->
+        <options publication_name="" publication_port="19813" publish_at_startup="true"/>
+        <!-- timeout is in mn. 1 - 5 - 15 - 30 - 60. 0 = no limits -->
+        <client_server connections_timeout="1" auto_register_clients="false"
+          automatic_reconnexion="false" update_resources_folder="0"
+          update_resources_folder_on_remote="0" use_encryption="false"/>
+      </network>
+      <ip_config>
+        <allow_deny_table>
+          <allow_deny address="*" allow="true"/>
+        </allow_deny_table>
+      </ip_config>
+      <!--COMPATIBILITY for all misc items-->
+      <misc order_by_formula_on_server="true" query_by_formula_on_server="true"
+        query_by_formula_uses_joins="true"/>
+    </server>
+    <web>
+      <!-- There are 2 sets of web settings, one for standalone/server and one for 4D remote-as-webserver.
+			 They both share the same labels for keys.
+			
+			configuration/ip_address: stored as long. "0" means "all"
+			
+			web_passwords/kind
+				0	No passwords
+				1	Basic
+				2	Digest
+				
+			web_passwords/generic_web_user
+				0	Not defined
+				#0	User ID
+				
+			log/format:
+				0	No log
+				1	CLF
+				2	DLF
+				3	ELF
+				4	WLF
+				
+			Webservices/name_space: not using namespace (no underscore) because namespace is a reserved keyword in the c++
+			                
+			backup/mode
+				0	No Backup
+				1	Backup on File Size
+				2	Hourly
+				3	Daily
+				4	Weekly
+				5	Monthly
+ 					
+			-->
+      <standalone_server>
+        <configuration allow_ssl="true" https_port_number="443" ip_address="0" port_number="80"
+          publish_at_startup="false" reuse_context="true">
+          <hosts>
+            <host id="0" name="Default" html_root="./WebFolder" home_page="index.html"/>
+          </hosts>
+        </configuration>
+        <options>
+          <!-- The cache is stored as bytes. Default is 512Ko -->
+          <cache cache_max_size="524288" cached_object_max_size="512" use_4d_web_cache="false"/>
+          <web_processes max_concurrent="100" timeout_for_inactives="5"/>
+          <web_passwords generic_web_user="1" kind="0" with_4d_passwords="false"/>
+          <text_conversion send_extended="false" standard_set="UTF-8"/>
+          <keep_alive requests_number="100" timeout="15" with_keep_alive="true"/>
+        </options>
+        <log format="0" tokens="">
+          <backup mode="0" size="1048576" hourly="12;0" daily="7;0" weekly="1;{0;0}" monthly="1;1;0"
+          />
+        </log>
+        <webservices>
+          <server allow_requests="true" name="A_WebService"
+            name_space="http://www.4d.com/namespace/default"/>
+          <client wizard_method_prefix="proxy_"/>
+        </webservices>
+        <!--COMPATIBILITY-->
+        <misc remove_slash="false" use_4dvar_comments="true" use_new_context_ref_mode="true"
+          use_contextual_mode="false" use_js_for_entry_control="false"/>
+        <!--END COMPATIBILITY-->
+      </standalone_server>
+      <remote>
+        <configuration allow_ssl="true" https_port_number="443" ip_address="0" port_number="80"
+          publish_at_startup="false" reuse_context="true">
+          <hosts>
+            <host id="0" name="Default" html_root="./WebFolder" home_page="index.html"/>
+          </hosts>
+        </configuration>
+        <options>
+          <!-- The cache is stored as bytes. Default is 512Ko -->
+          <cache cache_max_size="524288" cached_object_max_size="512" use_4d_web_cache="false"/>
+          <web_processes max_concurrent="100" timeout_for_inactives="5"/>
+          <web_passwords generic_web_user="1" kind="0" with_4d_passwords="false"/>
+          <text_conversion send_extended="false" standard_set="UTF-8"/>
+          <keep_alive requests_number="100" timeout="15" with_keep_alive="true"/>
+        </options>
+        <log format="0" tokens="">
+          <backup mode="0" size="1048576" hourly="12;0" daily="7;0" weekly="1;{0;0}" monthly="1;1;0"
+          />
+        </log>
+        <webservices>
+          <server allow_requests="true" name="A_WebService"
+            name_space="http://www.4d.com/namespace/default"/>
+          <client wizard_method_prefix="proxy_"/>
+        </webservices>
+        <!--COMPATIBILITY-->
+        <misc remove_slash="false" use_4dvar_comments="true" use_new_context_ref_mode="true"
+          use_contextual_mode="false" use_js_for_entry_control="false"/>
+        <!--END COMPATIBILITY-->
+      </remote>
+    </web>
+    <sql>
+      <!--
+			publication/ip_address: stored as long. "-1" means "all"
+			
+			access groups
+				0		everybody
+				1		Nobody
+				(other)	group ID
+			-->
+      <publication enable_ssl="false" allow_flash_player_requests="true" ip_address="-1"
+        launch_at_startup="false" port_number="19812"/>
+      <access data_read_only="0" data_read_write="0" full="1"/>
+      <engine auto_commit_transactions="false" case_sensitive="true"/>
+    </sql>
+    <!-- For php, IP address is a string (not a long) -->
+    <php children_count="5" dynamic_interpreter="false" external_interpreter="false"
+      ip_address="127.0.0.1" max_requests="500" port_number="8002"/>
+    <!--
+			  remote_open_mode
+				read_only
+				read_write
+			-->
+    <structure remote_open_mode="read_write"/>
+  </com.4d>
+  <constraints>
+    <element id="font_size">
+      <constraint type="min" value="9"/>
+      <constraint type="max" value="96"/>
+    </element>
+    <element id="percentage">
+      <constraint type="min" value="1"/>
+      <constraint type="max" value="100"/>
+    </element>
+    <element id="cache_minimum">
+      <constraint type="min" value="100"/>
+    </element>
+    <element id="cache_maximum">
+      <constraint type="min" value="100"/>
+    </element>
+    <element id="autoflush">
+      <constraint type="min" value="1"/>
+      <constraint type="max" value="500"/>
+    </element>
+    <element id="ip">
+      <constraint alert="AlertIPAdressNotValid" type="regex"
+        value="^localhost|(25[0-5]|2[0-4][0-9]|[01]?[1-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+      />
+    </element>
+    <element id="port_number">
+      <constraint type="min" value="1"/>
+      <constraint type="max" value="65535"/>
+    </element>
+    <element id="php.children_count">
+      <constraint type="min" value="1"/>
+      <constraint type="max" value="100"/>
+    </element>
+    <element id="php.max_requests">
+      <constraint type="min" value="100"/>
+      <constraint type="max" value="2000"/>
+    </element>
+    <element id="web.cache_max_size">
+      <constraint type="min" value="1024"/>
+      <constraint type="max" value="2097149"/>
+    </element>
+    <element id="web.max_concurrent">
+      <constraint type="min" value="10"/>
+      <constraint type="max" value="32000"/>
+    </element>
+  </constraints>
+</preferences>

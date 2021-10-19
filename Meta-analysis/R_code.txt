@@ -1,0 +1,5 @@
+data <-read.table("C:\\Users\\Kyle\\Documents\\Grad JCU\\previous semesters\\JCU courses by semester\\2016 spring\\BL 519 conservation bio\\Meta-analysis\\Hovey_data_extreme-removed.txt", header=T)
+attach(data)
+
+model <-aov(RD~Taxon_group, weights=weight)
+anova(model)

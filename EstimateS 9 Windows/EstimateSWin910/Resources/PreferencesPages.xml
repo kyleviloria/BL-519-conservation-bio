@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefs_pages>
+	<!-- Legacy path are listed at the end of the file
+	
+		Possible values for kind:
+			1	Preference
+			2	Setting
+			
+		In v12: there is less granularity, we just open a theme or a subtheme.
+		
+		The page number of the dial4S is no always accurate with the tab number in the dialogs.
+		For example, the Database/Mover page is the 23th, but it's the 4th tab.
+	-->
+	<item kind="1" page="1" path="/4D"/>
+	<item kind="1" page="1" path="/4D/General"/>
+	<item kind="1" page="2" path="/4D/Form editor"/>
+	<item kind="1" page="3" path="/4D/Method editor"/>
+	<item kind="1" page="3" path="/4D/Method editor/Styles"/>
+	<item kind="1" page="4" path="/4D/Method editor/Options"/>
+	<!--
+		<item kind="1" page="4" path="/4D/Client-Server"/>
+	-->
+	<item kind="1" page="5" path="/4D/Shortcuts"/>
+	<item kind="1" page="6" path="/4D/Structure"/>
+	
+	<item kind="2" page="1" path="/Database"/>
+	<item kind="2" page="1" path="/Database/General"/>
+	
+	<item kind="2" page="23" path="/Database/Mover"/>
+	
+	<item kind="2" page="2" path="/Database/Interface"/>
+	<item kind="2" page="2" path="/Database/Interface/Developper"/>
+	<item kind="2" page="2" path="/Database/Interface/User"/>
+	<item kind="2" page="2" path="/Database/Interface/Shortcuts"/>
+	
+	<item kind="2" page="5" path="/Database/Compiler"/>
+	
+	<item kind="2" page="6" path="/Database/Database"/>	
+	<item kind="2" page="6" path="/Database/Database/Data storage"/>
+	<item kind="2" page="6" path="/Database/Database/International"/>
+	<item kind="2" page="7" path="/Database/Database/Memory and cpu"/>
+	
+	<item kind="2" page="9" path="/Database/Backup"/>
+	<item kind="2" page="9" path="/Database/Backup/Scheduler"/>
+	<item kind="2" page="10" path="/Database/Backup/Configuration"/>
+	<item kind="2" page="11" path="/Database/Backup/Backup and restore"/>
+	
+	<item kind="2" page="12" path="/Database/Client-Server"/>	
+	<item kind="2" page="12" path="/Database/Client-Server/Network"/>
+	<item kind="2" page="13" path="/Database/Client-Server/IP configuration"/>
+	
+	<item kind="2" page="14" path="/Database/Web"/>	
+	<item kind="2" page="14" path="/Database/Web/Config"/>
+	<item kind="2" page="15" path="/Database/Web/Options 1"/>
+	<item kind="2" page="16" path="/Database/Web/Options 2"/>
+	<item kind="2" page="17" path="/Database/Web/Log format"/>
+	<item kind="2" page="18" path="/Database/Web/Log scheduler"/>
+	<item kind="2" page="19" path="/Database/Web/WebServices"/>
+	
+	<item kind="2" page="20" path="/Database/SQL"/>
+	
+	<item kind="2" page="21" path="/Database/php"/>
+	
+	<item kind="2" page="22" path="/Database/Compatibility"/>
+	
+	<item kind="2" page="24" path="/Database/Security"/>
+	
+	
+	<!--	Legacy path, mapped to the new and more general items -->
+	<item_legacy old_path="/Application" new_path="/4D"/>
+	<item_legacy old_path="/Application/Options" new_path="/4D"/>
+	<item_legacy old_path="/Application/Options/Options" new_path="/4D"/>
+	<item_legacy old_path="/Application/Options/Temporary Folder Location" new_path="/Database/Database/Data storage"/>
+	<item_legacy old_path="/Application/Options/Drag and Drop Highlight" new_path="/Database/Interface/User"/>
+	<item_legacy old_path="/Application/Options/Progress Indicator" new_path="/Database/Interface/User"/>
+	<item_legacy old_path="/Application/Options/Display Toolbar" new_path="/Database/Interface/User"/>
+	<item_legacy old_path="/Application/Options/Display Windows" new_path="/Database/Interface/User"/>
+	<item_legacy old_path="/Application/Access" new_path="/Database/Security"/>
+	<item_legacy old_path="/Application/Access/Data Access" new_path="/Database/Interface/Developper"/>
+	<item_legacy old_path="/Application/Access/General Settings" new_path="/Database/Interface/Developper"/>
+	<item_legacy old_path="/Application/Access/User Access" new_path="/Database/Security"/>
+	<item_legacy old_path="/Application/CPU Priorities" new_path="/Database/Database/Memory and cpu"/>
+	<item_legacy old_path="/Application/CPU Priorities/Set CPU Priority to:" new_path="/Database/Database/Memory and cpu"/>
+	<item_legacy old_path="/Application/Shortcuts" new_path="/Database/Interface/Shortcuts"/>
+	<item_legacy old_path="/Application/Shortcuts/Keys" new_path="/Database/Interface/Shortcuts"/>
+	<item_legacy old_path="/Application/Compatibility" new_path="/Database/Compatibility"/>
+	<item_legacy old_path="/Application/Compatibility/Web Compatibility" new_path="/Database/Compatibility"/>
+	<item_legacy old_path="/Application/Compatibility/Design Compatibility" new_path="/Database/Web"/>
+	
+	<item_legacy old_path="/Design Mode/Form Editor" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode/Form Editor/Object Templates" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode/Form Editor/Move" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode/Form Editor/Auto Alignment" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode/Form Editor/Default Display" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode" new_path="/4D/Structure"/>
+	<item_legacy old_path="/Design Mode/Structure" new_path="/4D/Structure"/>
+	<item_legacy old_path="/Design Mode/Structure/Automatic Form Creation" new_path="/4D/General"/>
+	<item_legacy old_path="/Design Mode/Structure/General Font" new_path="/4D/Structure"/>
+	<item_legacy old_path="/Design Mode/Structure/Forms and Methods Automatic Comments" new_path="/Database/Interface/Developper"/>
+	<item_legacy old_path="/Design Mode/Structure/Structure Editor" new_path="/4D/Structure"/>
+	<item_legacy old_path="/Design Mode/Form Editor/Markers" new_path="/4D/Form editor"/>
+	<item_legacy old_path="/Design Mode/Method Editor" new_path="/4D/Method editor"/>
+	<item_legacy old_path="/Design Mode/Method Editor/Font" new_path="/4D/Method editor"/>
+	<item_legacy old_path="/Design Mode/Method Editor/Default Display" new_path="/4D/Method editor"/>
+	<item_legacy old_path="/Design Mode/Method Editor/Options" new_path="/4D/Method editor"/>
+	<item_legacy old_path="/Design Mode/Compiler" new_path="/Database/Compiler"/>
+	<item_legacy old_path="/Design Mode/Compiler/Compilation Options" new_path="/Database/Compiler"/>
+	<item_legacy old_path="/Design Mode/Compiler/Compiler Methods for..." new_path="/Database/Compiler"/>
+	<item_legacy old_path="/Design Mode/Documentation" new_path="/4D/General"/>
+	<item_legacy old_path="/Design Mode/Documentation/Documentation Access from the Explorer" new_path="/4D/General"/>
+	<item_legacy old_path="/Design Mode/Method Editor/Syntax Styles" new_path="/4D/Method editor"/>
+	
+	<item_legacy old_path="/Database" new_path="/Database/Database"/>
+	<item_legacy old_path="/Database/Data Management" new_path="/Database/Database/Data storage"/>
+	<item_legacy old_path="/Database/Data Management/General Settings" new_path="/Database/Database/Data storage"/>
+	<item_legacy old_path="/Database/Data Management/Database Cache Settings" new_path="/Database/Database/Memory and cpu"/>
+	<item_legacy old_path="/Database/Data Management/WEDD" new_path="/"/>
+	<item_legacy old_path="/Database/International" new_path="/Database/Database/International"/>
+	<item_legacy old_path="/Database/International/Script Manager" new_path="/Database/Database/International"/>
+	<item_legacy old_path="/Database/International/Right-to-left Languages" new_path="/Database/Database/International"/>
+	<item_legacy old_path="/Database/International/Numeric Display Format" new_path="/Database/Database/International"/>
+	
+	<item_legacy old_path="/Backup" new_path="/Database/Backup"/>
+	<item_legacy old_path="/Backup/Configuration" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/Configuration/Backup Contents" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/Configuration/Backup File Destination Folder" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/Configuration/Last Backup Information" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/General/Settings" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/Scheduler" new_path="/Database/Backup/Scheduler"/>
+	<item_legacy old_path="/Backup/Scheduler/Backup Frequency" new_path="/Database/Backup/Scheduler"/>
+	<item_legacy old_path="/Backup/Backup" new_path="/Database/Backup/Backup and restore"/>
+	<item_legacy old_path="/Backup/Backup/General Settings" new_path="/Database/Backup/Configuration"/>
+	<item_legacy old_path="/Backup/Backup/Archive" new_path="/Database/Backup/Backup and restore"/>
+	<item_legacy old_path="/Backup/Restore" new_path="/Database/Backup/Backup and restore"/>
+	<item_legacy old_path="/Backup/Restore/Automatic Restore" new_path="/Database/Backup/Backup and restore"/>
+	
+	<item_legacy old_path="/Client-Server" new_path="/Database/Client-Server"/>
+	<item_legacy old_path="/Client-Server/Configuration" new_path=""/>
+	<item_legacy old_path="/Client-Server/Configuration/Network" new_path="/Database/Client-Server/Network"/>
+	<item_legacy old_path="/Client-Server/Configuration/Client-Server Connections Timeout" new_path="/4D/Client-Server"/>
+	<item_legacy old_path="/Client-Server/Configuration/Client-Server Communication" new_path="/Database/Client-Server/Network"/>
+	<item_legacy old_path="/Client-Server/Configuration/4D Open" new_path="/Database/Client-Server"/>
+	<item_legacy old_path="/Client-Server/Publishing" new_path="/Database/Client-Server/Network"/>
+	<item_legacy old_path="/Client-Server/Publishing/Publishing Information" new_path="/Database/Client-Server/Network"/>
+	<item_legacy old_path="/Client-Server/Publishing/Encryption" new_path="/Database/Client-Server/Network"/>
+	<item_legacy old_path="/Client-Server/Publishing/Allow-Deny Configuration Table" new_path="/Database/Client-Server/IP configuration"/>
+	
+	<item_legacy old_path="/Web" new_path="/Database/Web"/>
+	<item_legacy old_path="/Web/Configuration" new_path="/Database/Web"/>
+	<item_legacy old_path="/Web/Configuration/Web Server Publishing" new_path="/Database/Web"/>
+	<item_legacy old_path="/Web/Configuration/Default HTML Path" new_path="/Database/Web"/>
+	<item_legacy old_path="/Web/Configuration/Starting Mode" new_path="/Database/Web"/>
+	<item_legacy old_path="/Web/Advanced" new_path="/Database/Web/Options 1"/>
+	<item_legacy old_path="/Web/Advanced/Cache" new_path="/Database/Web/Options 1"/>
+	<item_legacy old_path="/Web/Advanced/Web Process" new_path="/Database/Web/Options 1"/>
+	<item_legacy old_path="/Web/Advanced/Web Passwords" new_path="/Database/Web/Options 1"/>
+	<item_legacy old_path="/Web/Options" new_path="/Database/Web/Options 2"/>
+	<item_legacy old_path="/Web/Options/Text Conversion" new_path="/Database/Web/Options 2"/>
+	<item_legacy old_path="/Web/Options/Keep-Alive Connections" new_path="/Database/Web/Options 2"/>
+	<item_legacy old_path="/Web/Options/Options" new_path="/Database/Web/Options 2"/>
+	<item_legacy old_path="/Web/Log Format" new_path="/Database/Web/Log format"/>
+	<item_legacy old_path="/Web/Log Format/Web Log Type" new_path="/Database/Web/Log format"/>
+	<item_legacy old_path="/Web/Log Format/Web Log Token Selection" new_path="/Database/Web/Log format"/>
+	<item_legacy old_path="/Web/Log Scheduler" new_path="/Database/Web/Log scheduler"/>
+	<item_legacy old_path="/Web/Log Scheduler/Backup Frequency for Web Log File" new_path="/Database/Web/Log scheduler"/>
+	<item_legacy old_path="/Web Services" new_path="/Database/Web/WebServices"/>
+	<item_legacy old_path="/Web Services/SOAP" new_path="/Database/Web/WebServices"/>
+	<item_legacy old_path="/Web Services/SOAP/Server Side" new_path="/Database/Web/WebServices"/>
+	<item_legacy old_path="/Web Services/SOAP/Client Side" new_path="/Database/Web/WebServices"/>
+	
+	<item_legacy old_path="/Moving" new_path="/Database/Mover"/>
+	<item_legacy old_path="/Moving/Default Actions during the Copy of Dependent Objects" new_path="/Database/Mover"/>
+	<item_legacy old_path="/Moving/Moving Dialog" new_path="/Database/Mover"/>
+	
+	<item_legacy old_path="/SQL" new_path="/Database/SQL"/>
+	<item_legacy old_path="/SQL/Configuration" new_path="/Database/SQL"/>
+	<item_legacy old_path="/SQL/Configuration/SQL Server Publishing" new_path="/Database/SQL"/>
+	<item_legacy old_path="/SQL/Configuration/SQL Server Access" new_path="/Database/SQL"/>
+</prefs_pages>

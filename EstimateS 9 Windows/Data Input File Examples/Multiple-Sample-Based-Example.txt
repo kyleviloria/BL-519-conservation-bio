@@ -1,0 +1,141 @@
+*MultipleSampleSets*	3	Massachusetts Ants										
+Cultural Grassland	*SampleSet*	1	1	1								
+44	12											
+	Allens Pond	Boston Nature Center	Brooks Woodland	Daniel Webster	Doyle Center	Drumlin Farm	Elm Hill	Graves Farm	Moose Hill	Nashoba Brook	Old Town Hill	Peaked Mountain
+aphful	0	0	0	0	0	0	0	0	0	0	0	0
+aphrud	0	0	1	0	1	3	0	0	0	2	1	4
+bradep	0	0	0	0	0	1	0	0	0	0	1	0
+camchr	0	0	0	0	0	0	0	0	0	0	0	0
+camher	0	0	0	0	0	0	0	0	0	0	0	0
+camnea	0	0	0	0	0	0	0	0	0	0	0	0
+camnov	0	0	0	0	0	0	0	0	0	0	0	0
+campen	0	0	0	0	0	0	0	0	0	0	0	0
+crelin	0	0	0	0	0	0	0	0	0	0	0	0
+dolpla	0	0	0	0	0	0	0	0	0	0	0	0
+forinc	0	0	0	0	0	0	1	0	1	0	3	2
+forlas	0	0	0	0	0	0	0	0	0	0	2	0
+forneo1	0	0	1	0	0	4	0	0	0	2	0	0
+forneo2	0	0	0	0	1	0	0	0	0	0	0	0
+fornep	0	0	0	0	0	0	0	0	0	0	0	0
+forper	0	0	0	0	0	0	0	0	0	0	0	2
+forsub1	0	0	0	0	0	0	0	0	0	0	0	0
+forsub3	0	0	0	0	0	2	0	0	0	0	0	1
+lasali	0	0	0	0	0	0	0	0	0	0	3	0
+lascla	0	0	0	0	0	0	0	0	0	0	0	0
+lasfla	0	0	1	0	1	0	0	0	0	0	0	0
+laslat	0	0	0	0	0	0	0	0	0	0	0	0
+lasnea	0	0	0	0	0	0	0	0	0	0	0	0
+lasneo	9	0	4	1	3	0	15	1	12	0	3	11
+lasspe	0	0	0	0	0	0	0	0	0	0	0	0
+lasumb	0	0	0	0	0	2	0	0	1	0	0	1
+myrame1	0	0	0	0	0	0	0	0	0	0	0	0
+myrame2	0	0	0	0	0	0	0	0	5	0	2	0
+myrdet	0	2	1	0	1	2	4	0	12	0	1	0
+myrinc	0	0	0	0	0	0	0	0	0	0	0	0
+myrnea	0	0	0	0	0	0	2	5	1	0	0	0
+myrpun	0	1	2	0	0	0	0	0	0	0	0	0
+myrrub	0	4	0	8	0	0	0	0	0	0	0	0
+ponpen	0	0	0	0	0	0	0	0	0	0	1	1
+preimp	0	0	0	4	1	1	0	0	0	0	0	0
+proame	0	0	0	0	0	0	0	0	0	0	0	0
+solmol	0	0	0	0	0	1	0	0	0	1	0	0
+stebre	0	0	0	7	0	1	0	0	3	0	0	0
+steimp	0	0	0	0	0	1	0	0	0	0	0	0
+tapses	1	4	2	0	0	0	0	3	0	2	1	4
+temamb	0	0	0	0	0	2	0	1	0	2	0	1
+temcur	0	0	0	0	0	0	0	0	0	0	0	1
+temlon	0	0	0	0	0	0	0	0	0	0	0	0
+tetcae	0	0	0	0	4	0	1	0	0	13	1	0
+Successional Scrubland	*SampleSet*	1	1	1	
+44	5				
+	Daniel Webster	Jacob's Hill	Lyman Reservation	Sesachacha	Weir Hill
+aphful	0	0	0	0	0
+aphrud	1	2	0	1	1
+bradep	0	0	0	0	0
+camchr	0	0	0	0	0
+camher	0	0	0	0	0
+camnea	0	0	0	0	0
+camnov	0	0	3	0	0
+campen	0	2	1	0	1
+crelin	0	23	0	1	6
+dolpla	0	0	0	1	0
+forinc	0	2	0	0	4
+forlas	0	0	0	0	0
+forneo1	0	0	0	0	0
+forneo2	0	0	0	0	0
+fornep	0	0	0	0	1
+forper	0	0	0	0	0
+forsub1	0	0	0	0	0
+forsub3	0	0	1	0	1
+lasali	3	1	5	7	1
+lascla	0	0	1	0	0
+lasfla	0	0	0	0	0
+laslat	0	0	0	0	0
+lasnea	0	0	0	0	0
+lasneo	1	0	0	0	2
+lasspe	0	0	0	0	0
+lasumb	0	0	0	0	0
+myrame1	0	0	0	0	0
+myrame2	0	0	0	0	0
+myrdet	2	1	0	0	0
+myrinc	0	0	0	0	0
+myrnea	0	0	0	0	0
+myrpun	0	1	0	0	0
+myrrub	1	0	0	0	0
+ponpen	0	0	0	0	0
+preimp	0	0	0	0	1
+proame	0	0	0	0	0
+solmol	0	0	0	0	3
+stebre	1	0	0	0	0
+steimp	0	0	0	0	0
+tapses	5	1	6	0	1
+temamb	0	0	0	0	0
+temcur	0	0	0	0	0
+temlon	0	0	0	0	0
+tetcae	0	0	0	0	0
+Oak Hickory WhitePine	*SampleSet*	1	1	1	
+43	11											
+	Broad Meadow Brook	Cold Brook	Doyle Center	Drumlin Farm	Graves Farm	Ipswich River	Laughing Brook	Lowell Holly	Moose Hill	Nashoba Brook	Old Town Hill	
+aphful	0	0	0	0	0	0	0	1	0	0	1	1
+aphrud	4	13	5	4	7	7	10	16	8	12	13	2
+bradep	0	0	0	0	0	0	0	0	0	0	0	3
+camchr	0	0	0	0	0	0	4	0	1	0	0	4
+camher	0	1	0	0	0	0	0	0	0	0	0	5
+camnea	0	1	0	0	0	0	0	1	0	0	0	6
+camnov	0	0	0	0	0	0	0	0	0	0	0	7
+campen	4	2	1	6	1	9	6	5	7	10	6	8
+crelin	0	0	0	0	0	0	0	0	0	0	0	9
+dolpla	0	0	0	0	0	0	0	0	0	0	0	10
+forinc	0	0	0	0	0	0	0	0	0	0	0	11
+forlas	0	0	0	0	0	0	0	0	0	0	0	12
+forneo1	0	0	0	2	0	0	0	0	0	0	2	13
+forneo2	0	0	0	0	0	0	0	0	0	0	0	14
+fornep	0	0	0	0	0	0	0	0	0	0	0	15
+forper	0	0	0	0	0	0	0	0	2	0	0	16
+forsub1	0	0	0	0	0	2	0	0	1	0	0	17
+forsub3	2	0	0	0	0	9	1	2	4	1	0	18
+lasali	4	10	0	0	7	2	4	0	0	2	9	19
+lascla	1	0	0	1	0	0	0	0	2	2	0	20
+lasfla	0	0	0	0	0	0	0	0	0	0	0	21
+laslat	0	0	0	0	0	0	2	0	0	0	1	22
+lasnea	1	0	4	2	4	2	0	0	6	6	0	23
+lasneo	0	0	0	0	0	0	0	0	0	0	0	24
+lasspe	1	0	0	0	0	0	0	0	0	0	0	25
+lasumb	0	0	2	0	0	0	3	0	1	0	0	26
+myrame1	0	0	0	0	0	0	2	0	0	0	0	27
+myrame2	0	0	0	0	0	0	0	0	0	0	0	28
+myrdet	0	0	0	3	0	2	0	0	0	2	6	29
+myrinc	0	0	0	0	0	0	1	0	0	0	0	30
+myrnea	0	0	0	0	0	0	0	0	0	0	1	31
+myrpun	1	0	0	2	0	2	5	0	1	2	0	32
+myrrub	0	0	0	0	0	0	0	0	0	0	0	33
+ponpen	0	0	0	0	0	0	0	0	0	0	0	34
+preimp	0	0	0	0	0	0	0	0	0	0	0	35
+proame	0	0	0	0	0	0	0	1	0	0	1	36
+solmol	0	0	0	0	0	0	0	0	0	0	0	37
+stebre	0	0	0	0	0	0	0	0	0	0	0	38
+steimp	0	0	0	1	0	0	1	1	0	0	1	39
+tapses	0	0	0	0	0	0	2	0	3	0	2	40
+temamb	0	0	0	0	0	0	0	0	0	0	0	41
+temcur	0	0	0	2	0	0	0	0	0	1	0	42
+temlon	0	1	0	4	0	0	1	4	0	0	0	43

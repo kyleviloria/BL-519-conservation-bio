@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="8000" resname="Was Str#8000">
+            <trans-unit id="1" resname="MSC0_MaintenanceAndSecurityCenter">
+               <source>Maintenance and security center</source>
+               <target>Maintenance and security center</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MSC0_Information">
+               <source>Information</source>
+               <target>Information</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC0_ActivityAnalysis">
+               <source>Activity\analysis</source>
+               <target>Activity\analysis</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC0_Verify">
+               <source>Verify</source>
+               <target>Verify</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MSC0_Backup">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC0_Compact">
+               <source>Compact</source>
+               <target>Compact</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MSC0_Rollback">
+               <source>Rollback</source>
+               <target>Rollback</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MSC0_Restore">
+               <source>Restore</source>
+               <target>Restore</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MSC0_Repair">
+               <source>Repair</source>
+               <target>Repair</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MSC0_Version">
+               <source>Version</source>
+               <target>Version</target>
+            </trans-unit>
+         </group>
+         <group id="8001" resname="Was Str#8001">
+            <trans-unit id="2" resname="MSC1_Program">
+               <source>Program:</source>
+               <target>Program:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC1_Location">
+               <source>Location:</source>
+               <target>Location:</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC1_4DFolder">
+               <source>4D Folder:</source>
+               <target>4D Folder:</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC1_StructureFile">
+               <source>Structure File:</source>
+               <target>Structure File:</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MSC1_DataFile">
+               <source>Data File:</source>
+               <target>Data File:</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MSC1_UserName">
+               <source>User Name:</source>
+               <target>User Name:</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MSC1_LicensedTo">
+               <source>Licensed to:</source>
+               <target>Licensed to:</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MSC1_Company">
+               <source>Company:</source>
+               <target>Company:</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MSC1_NumberType">
+               <source>Number Type:</source>
+               <target>Number Type:</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MSC1_LicensesFolder">
+               <source>"Licenses" Folder</source>
+               <target>"Licenses" Folder</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MSC1_VolumesInformation">
+               <source>Volumes Information</source>
+               <target>Volumes Information</target>
+            </trans-unit>
+            <trans-unit id="16" resname="MSC1_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="17" resname="MSC1_Size">
+               <source>Size</source>
+               <target>Size</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MSC1_Used">
+               <source>Used</source>
+               <target>Used</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MSC1_Free">
+               <source>Free</source>
+               <target>Free</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MSC1_Records">
+               <source>Records</source>
+               <target>Records</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MSC1_Fields">
+               <source>Fields</source>
+               <target>Fields</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MSC1_Indexes">
+               <source>Indexes</source>
+               <target>Indexes</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MSC1_Type">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MSC1_Pct">
+               <source>%</source>
+               <target>%</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MSC1_MB">
+               <source>MB</source>
+               <target>MB</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MSC1_AnalyzeData">
+               <source>Analyze Data</source>
+               <target>Analyze Data</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MSC1_AnalyzeStructure">
+               <source>Analyze Structure</source>
+               <target>Analyze Structure</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MSC1_System">
+               <source>System</source>
+               <target>System</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MSC1_Tables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MSC1_Structure">
+               <source>Structure</source>
+               <target>Structure</target>
+            </trans-unit>
+            <trans-unit id="31" resname="MSC1_Data">
+               <source>Data</source>
+               <target>Data</target>
+            </trans-unit>
+            <trans-unit id="32" resname="MSC1_Licenses">
+               <source>Licenses</source>
+               <target>Licenses</target>
+            </trans-unit>
+            <trans-unit id="33" resname="MSC1_ID">
+               <source>ID</source>
+               <target>ID</target>
+            </trans-unit>
+            <trans-unit id="34" resname="MSC1_Tables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="35" resname="MSC1_Unit">
+               <source>Unit:</source>
+               <target>Unit:</target>
+            </trans-unit>
+            <trans-unit id="36" resname="MSC1_Bytes">
+               <source>bytes</source>
+               <target>bytes</target>
+            </trans-unit>
+            <trans-unit id="37" resname="MSC1_KB">
+               <source>KB</source>
+               <target>KB</target>
+            </trans-unit>
+            <trans-unit id="38" resname="MSC1_GB">
+               <source>GB</source>
+               <target>GB</target>
+            </trans-unit>
+            <trans-unit id="39" resname="MSC1_FreeSpace">
+               <source>Free space (%1)</source>
+               <target>Free space (%1)</target>
+            </trans-unit>
+            <trans-unit id="40" resname="MSC1_UsedSpace">
+               <source>Used space (%1)</source>
+               <target>Used space (%1)</target>
+            </trans-unit>
+            <trans-unit id="41" resname="MSC1_Program">
+               <source>Program</source>
+               <target>Program</target>
+            </trans-unit>
+            <trans-unit id="42" resname="MSC1_TheOverallSizeOfTheseFiles">
+               <source>The overall size of these files (data+index) is %1 %2.
+The global percentage used is %3%.</source>
+               <target>The overall size of these files (data+index) is %1 %2.
+The global percentage used is %3%.</target>
+            </trans-unit>
+            <trans-unit id="43" resname="MSC1_ItIsStronglyRecommendedThatYouCompactThisDataFile">
+               <source>It is strongly recommended that you compact this data file.</source>
+               <target>It is strongly recommended that you compact this data file.</target>
+            </trans-unit>
+            <trans-unit id="44" resname="MSC1_ItIsRecommendedThatYouCompactThisDataFile">
+               <source>It is recommended that you compact this data file.</source>
+               <target>It is recommended that you compact this data file.</target>
+            </trans-unit>
+            <trans-unit id="45" resname="MSC1_TheDataDoesNotNeedToBeCompacted">
+               <source>The data does not need to be compacted.</source>
+               <target>The data does not need to be compacted.</target>
+            </trans-unit>
+            <trans-unit id="46" resname="MSC1_ItIsStronglyRecommendedThatYouCompactThisStructureFile">
+               <source>It is strongly recommended that you compact this structure file.</source>
+               <target>It is strongly recommended that you compact this structure file.</target>
+            </trans-unit>
+            <trans-unit id="47" resname="MSC1_ItIsRecommendedThatYouCompactThisStructureFile">
+               <source>It is recommended that you compact this structure file.</source>
+               <target>It is recommended that you compact this structure file.</target>
+            </trans-unit>
+            <trans-unit id="48" resname="MSC1_TheStructureFileDoesNotNeedToBeCompacted">
+               <source>The structure file does not need to be compacted.</source>
+               <target>The structure file does not need to be compacted.</target>
+            </trans-unit>
+            <trans-unit id="49" resname="MSC1_OverallSize">
+               <source>Overall size:</source>
+               <target>Overall size:</target>
+            </trans-unit>
+            <trans-unit id="50" resname="MSC1_Data">
+               <source>Data:</source>
+               <target>Data:</target>
+            </trans-unit>
+            <trans-unit id="51" resname="MSC1_Indexes">
+               <source>Indexes:</source>
+               <target>Indexes:</target>
+            </trans-unit>
+            <trans-unit id="52" resname="MSC1_TheOverallSizeOfTheseFiles(structureIndex">
+               <source>The overall size of these files (structure+index) is %1 %2.
+The global percentage used is %3%.</source>
+               <target>The overall size of these files (structure+index) is %1 %2.
+The global percentage used is %3%.</target>
+            </trans-unit>
+            <trans-unit id="53" resname="MSC1_Structure">
+               <source>Structure:</source>
+               <target>Structure:</target>
+            </trans-unit>
+            <trans-unit id="54" resname="MSC1_StructureIndexes">
+               <source>Structure Indexes:</source>
+               <target>Structure Indexes:</target>
+            </trans-unit>
+            <trans-unit id="55" resname="MSC1_ThisWillReduceTheFileSizeOnDisk">
+               <source>This will reduce the file size on disk and may noticeably increase the execution speed of the application.</source>
+               <target>This will reduce the file size on disk and may noticeably increase the execution speed of the application.</target>
+            </trans-unit>
+            <trans-unit id="56" resname="MSC1_DataFileDT_RatioFreeDataFree">
+               <source>Data file (&lt;DT_RatioFreeData&gt;% free)</source>
+               <target>Data file (&lt;DT_RatioFreeData&gt;% free)</target>
+            </trans-unit>
+            <trans-unit id="57" resname="MSC1_DataFileDT_RatioUsedDataUsed">
+               <source>Data file (&lt;DT_RatioUsedData&gt;% used)</source>
+               <target>Data file (&lt;DT_RatioUsedData&gt;% used)</target>
+            </trans-unit>
+            <trans-unit id="58" resname="MSC1_IndexFileDT_RatioFreeIndexFree">
+               <source>Index file (&lt;DT_RatioFreeIndex&gt;% free)</source>
+               <target>Index file (&lt;DT_RatioFreeIndex&gt;% free)</target>
+            </trans-unit>
+            <trans-unit id="59" resname="MSC1_IndexFileDT_RatioUsedIndexUsed">
+               <source>Index file (&lt;DT_RatioUsedIndex&gt;% used)</source>
+               <target>Index file (&lt;DT_RatioUsedIndex&gt;% used)</target>
+            </trans-unit>
+            <trans-unit id="60" resname="MSC1_StructureFileDT_RatioFreeStructFree">
+               <source>Structure file (&lt;DT_RatioFreeStruct&gt;% free)</source>
+               <target>Structure file (&lt;DT_RatioFreeStruct&gt;% free)</target>
+            </trans-unit>
+            <trans-unit id="61" resname="MSC1_StructureFileDT_RatioUsedStructUsed">
+               <source>Structure file (&lt;DT_RatioUsedStruct&gt;% used)</source>
+               <target>Structure file (&lt;DT_RatioUsedStruct&gt;% used)</target>
+            </trans-unit>
+            <trans-unit id="62" resname="MSC1_StructureIndexFileDT_RatioFreeStructIndexFree">
+               <source>Structure Index file (&lt;DT_RatioFreeStructIndex&gt;% free)</source>
+               <target>Structure Index file (&lt;DT_RatioFreeStructIndex&gt;% free)</target>
+            </trans-unit>
+            <trans-unit id="63" resname="MSC1_StructureIndexFileDT_RatioUsedStructIndexUsed">
+               <source>Structure Index file (&lt;DT_RatioUsedStructIndex&gt;% used)</source>
+               <target>Structure Index file (&lt;DT_RatioUsedStructIndex&gt;% used)</target>
+            </trans-unit>
+            <trans-unit id="64" resname="MSC1_ThisInformationIsNotAvailable">
+               <source>This information is not available when the database is opened in maintenance mode.</source>
+               <target>This information is not available when the database is opened in maintenance mode.</target>
+            </trans-unit>
+         </group>
+         <group id="8002" resname="MSC02 (VERIFY)">
+            <trans-unit id="1" resname="MSC2_SelectItemsToBeVerified">
+               <source>Select items to be verified:</source>
+               <target>Select items to be verified:</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MSC2_AllRecords">
+               <source>All records</source>
+               <target>All records</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC2_AllIndexedFields">
+               <source>All indexed fields</source>
+               <target>All indexed fields</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC2_AllTables">
+               <source>All tables</source>
+               <target>All tables</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MSC2_Details">
+               <source>Details</source>
+               <target>Details</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC2_Verify">
+               <source>Verify</source>
+               <target>Verify</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MSC2_DoNotVerifyThisTable">
+               <source>Do not verify this table</source>
+               <target>Do not verify this table</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MSC2_VerifyTheIndexesOnly">
+               <source>Verify the indexes only</source>
+               <target>Verify the indexes only</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MSC2_VerifyTheRecordsOnly">
+               <source>Verify the records only</source>
+               <target>Verify the records only</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MSC2_VerifyTheRecordsAndTheIndexes">
+               <source>Verify the records and the indexes</source>
+               <target>Verify the records and the indexes</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MSC2_VerifyTable">
+               <source>Verify table</source>
+               <target>Verify table</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MSC2_VerifyTableAndIndexes">
+               <source>Verify table and indexes</source>
+               <target>Verify table and indexes</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MSC2_VerifyTableAndRecords">
+               <source>Verify table and records</source>
+               <target>Verify table and records</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MSC2_VerifyTheApplication">
+               <source>Verify the application</source>
+               <target>Verify the application</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MSC2_VerifyAllTableRecordsAndIndexes">
+               <source>Verify all: table, records and indexes</source>
+               <target>Verify all: table, records and indexes</target>
+            </trans-unit>
+            <trans-unit id="16" resname="MSC2_TheRecordsWillNotBeVerified">
+               <source>The records will not be verified</source>
+               <target>The records will not be verified</target>
+            </trans-unit>
+            <trans-unit id="17" resname="MSC2_AllTheRecords(%1)WillBeVerified">
+               <source>All the records (%1) will be verified</source>
+               <target>All the records (%1) will be verified</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MSC2_SomeRecordsWillBeVerified">
+               <source>Some records (%1 out of %2) will be verified</source>
+               <target>Some records (%1 out of %2) will be verified</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MSC2_TheIndexesWillNotBeVerified">
+               <source>The indexes will not be verified</source>
+               <target>The indexes will not be verified</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MSC2_AllTheIndexesWillBeVerified">
+               <source>All the indexes (%1) will be verified</source>
+               <target>All the indexes (%1) will be verified</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MSC2_SomeIndexesWillBeVerified">
+               <source>Some indexes (%1 out of %2) will be verified</source>
+               <target>Some indexes (%1 out of %2) will be verified</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MSC2_TheTablesWillNotBeVerified">
+               <source>The tables will not be verified</source>
+               <target>The tables will not be verified</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MSC2_AllTheTables)WillBeVerified">
+               <source>All the tables (%1) will be verified</source>
+               <target>All the tables (%1) will be verified</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MSC2_SomeTablesWillBeVerified">
+               <source>Some tables (%1 out of %2) will be verified</source>
+               <target>Some tables (%1 out of %2) will be verified</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MSC2_Tables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MSC2_Action">
+               <source>Action</source>
+               <target>Action</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MSC2_Status">
+               <source>Status</source>
+               <target>Status</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MSC2_VerifyAllTablesAndRecords">
+               <source>Verify all: tables and records (%1)</source>
+               <target>Verify all: tables and records (%1)</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MSC2_ThereIsNoIndexInThisDatabase">
+               <source>There is no index in this database</source>
+               <target>There is no index in this database</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MSC2_Table">
+               <source>Table</source>
+               <target>Table</target>
+            </trans-unit>
+            <trans-unit id="31" resname="MSC2_Records">
+               <source>Records</source>
+               <target>Records</target>
+            </trans-unit>
+            <trans-unit id="32" resname="MSC2_IndexedFields">
+               <source>Indexed fields</source>
+               <target>Indexed fields</target>
+            </trans-unit>
+            <trans-unit id="33" resname="MSC2_Abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+            <trans-unit id="34" resname="MSC2_TimeRemainingAboutMin">
+               <source>Time remaining: about %1 min.</source>
+               <target>Time remaining: about %1 min.</target>
+            </trans-unit>
+            <trans-unit id="55" resname="MSC2_VerifyingTables">
+               <source>Verifying tables…</source>
+               <target>Verifying tables…</target>
+            </trans-unit>
+            <trans-unit id="56" resname="MSC2_VerifyingRecords">
+               <source>Verifying records…</source>
+               <target>Verifying records…</target>
+            </trans-unit>
+            <trans-unit id="57" resname="MSC2_VerifyingIndexes">
+               <source>Verifying indexes…</source>
+               <target>Verifying indexes…</target>
+            </trans-unit>
+            <trans-unit id="66" resname="MSC2_ThisDataFileIsValid">
+               <source>This data file is valid.</source>
+               <target>This data file is valid.</target>
+            </trans-unit>
+             <trans-unit id="67" resname="MSC2_ThisDataFileIsDamaged">
+               <source>This data file is damaged. Please open the log file.</source>
+                <target>This data file is damaged. Please open the log file.</target>
+            </trans-unit>
+            <trans-unit id="68" resname="MSC2_TheDataFileHasBeenRepaired">
+               <source>The data file has been repaired.</source>
+               <target>The data file has been repaired.</target>
+            </trans-unit>
+            <trans-unit id="77" resname="MSC2_ThisStructureIsValid">
+               <source>This structure is valid.</source>
+               <target>This structure is valid.</target>
+            </trans-unit>
+            <trans-unit id="81" resname="MSC2_ThisStructureIsDamaged. PleaseCheckTheLogFile">
+               <source>This structure is damaged.
+Please check the log file.</source>
+               <target>This structure is damaged.
+Please check the log file.</target>
+            </trans-unit>
+            <trans-unit id="82" resname="MSC2_TheVerifiedObjectsOfThisStructureAreValid">
+               <source>The verified objects of this structure are valid.</source>
+               <target>The verified objects of this structure are valid.</target>
+            </trans-unit>
+            <trans-unit id="84" resname="MSC2_Options">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="85" resname="MSC2_AllTheMethodsWillBeOpenedAndRetokenized">
+               <source>All the methods will be opened and retokenized</source>
+               <target>All the methods will be opened and retokenized</target>
+            </trans-unit>
+            <trans-unit id="86" resname="MSC2_AllTheFormsWillBeOpenedAndRebuild">
+               <source>All the forms will be opened and rebuild</source>
+               <target>All the forms will be opened and rebuild</target>
+            </trans-unit>
+            <trans-unit id="87" resname="MSC2_ResaveAllMethods">
+               <source>Resave all methods</source>
+               <target>Resave all methods</target>
+            </trans-unit>
+            <trans-unit id="88" resname="MSC2_RegenerateAllForms">
+               <source>Regenerate all forms</source>
+               <target>Regenerate all forms</target>
+            </trans-unit>
+            <trans-unit id="91" resname="MSC2_TheStructureCouldNotBeRepaired.">
+               <source>The structure could not be repaired.</source>
+               <target>The structure could not be repaired.</target>
+            </trans-unit>
+            <trans-unit id="93" resname="MSC2_TheVerifiedPartOfThisDataFileIsValid.">
+               <source>The verified part of this data file is valid.</source>
+               <target>The verified part of this data file is valid.</target>
+            </trans-unit>
+            <trans-unit id="94" resname="MSC2_SelectAll">
+               <source>Select all</source>
+               <target>Select all</target>
+            </trans-unit>
+            <trans-unit id="95" resname="MSC2_DeselectAll">
+               <source>Deselect all</source>
+               <target>Deselect all</target>
+            </trans-unit>
+            <trans-unit id="96" resname="MSC2_AllTables">
+               <source>All tables</source>
+               <target>All tables</target>
+            </trans-unit>
+            <trans-unit id="97" resname="MSC2_AllRecords">
+               <source>All records</source>
+               <target>All records</target>
+            </trans-unit>
+            <trans-unit id="98" resname="MSC2_AllIndexes">
+               <source>All indexes</source>
+               <target>All indexes</target>
+            </trans-unit>
+            <trans-unit id="99" resname="MSC2_BtnStandard">
+               <source>Standard</source>
+               <target>Standard</target>
+            </trans-unit>
+            <trans-unit id="100" resname="MSC2_BtnTableList">
+               <source>Table list</source>
+               <target>Table list</target>
+            </trans-unit>
+            <trans-unit id="101" resname="MSC2_OpenLogFile">
+               <source>Open log file</source>
+               <target>Open log file</target>
+            </trans-unit>
+            <trans-unit id="102" resname="MSC2_VerifyStatus">
+               <source>Verify status:</source>
+               <target>Verify status:</target>
+            </trans-unit>
+            <trans-unit id="103" resname="MSC2_SelectOneOfTheFollowingActions">
+               <source>Select one of the following actions:</source>
+               <target>Select one of the following actions:</target>
+            </trans-unit>
+            <trans-unit id="104" resname="MSC2_AllTheRecordsAndTheIndexesOfTheDatabaseWillBeVerified">
+               <source>All the records (%1) and the indexes (%2) of the database will be verified</source>
+               <target>All the records (%1) and the indexes (%2) of the database will be verified</target>
+            </trans-unit>
+            <trans-unit id="105" resname="MSC2_RecordsOnlyOfTheDatabaseWillBeVerified">
+               <source>Records only (%1) of the database will be verified</source>
+               <target>Records only (%1) of the database will be verified</target>
+            </trans-unit>
+            <trans-unit id="106" resname="MSC2_IndexesOnlyOfTheDataFileWillBeVerified">
+               <source>Indexes only (%1) of the data file will be verified</source>
+               <target>Indexes only (%1) of the data file will be verified</target>
+            </trans-unit>
+            <trans-unit id="107" resname="MSC2_TheMethodsFormsAndAllTheDesignObjectsWillBeVerified">
+               <source>The methods, forms and all the design objects will be verified</source>
+               <target>The methods, forms and all the design objects will be verified</target>
+            </trans-unit>
+            <trans-unit id="108" resname="MSC2_TheTablesHaveNotBeenVerified">
+               <source>The tables have not been verified</source>
+               <target>The tables have not been verified</target>
+            </trans-unit>
+            <trans-unit id="109" resname="MSC2_AllTablesAreValid">
+               <source>All tables are valid</source>
+               <target>All tables are valid</target>
+            </trans-unit>
+            <trans-unit id="110" resname="MSC2_SomeTablesAreDamaged">
+               <source>Some tables are damaged</source>
+               <target>Some tables are damaged</target>
+            </trans-unit>
+            <trans-unit id="111" resname="MSC2_VerifiedTablesAreValid">
+               <source>Verified tables are valid</source>
+               <target>Verified tables are valid</target>
+            </trans-unit>
+            <trans-unit id="112" resname="MSC2_TheRecordsHaveNotBeenVerified">
+               <source>The records have not been verified</source>
+               <target>The records have not been verified</target>
+            </trans-unit>
+            <trans-unit id="113" resname="MSC2_AllTheRecordsAreValid">
+               <source>All the records are valid</source>
+               <target>All the records are valid</target>
+            </trans-unit>
+            <trans-unit id="114" resname="MSC2_SomeRecordsAreDamaged">
+               <source>Some records are damaged</source>
+               <target>Some records are damaged</target>
+            </trans-unit>
+            <trans-unit id="115" resname="MSC2_VerifiedRecordsAreValid">
+               <source>Verified records are valid</source>
+               <target>Verified records are valid</target>
+            </trans-unit>
+            <trans-unit id="116" resname="MSC2_TheIndexesHaveNotBeenVerified">
+               <source>The indexes have not been verified</source>
+               <target>The indexes have not been verified</target>
+            </trans-unit>
+            <trans-unit id="117" resname="MSC2_AllTheIndexesAreValid">
+               <source>All the indexes are valid</source>
+               <target>All the indexes are valid</target>
+            </trans-unit>
+            <trans-unit id="118" resname="MSC2_SomeIndexesAreDamaged">
+               <source>Some indexes are damaged</source>
+               <target>Some indexes are damaged</target>
+            </trans-unit>
+            <trans-unit id="119" resname="MSC2_TheVerifiedIndexesAreValid">
+               <source>The verified indexes are valid</source>
+               <target>The verified indexes are valid</target>
+            </trans-unit>
+            <trans-unit id="120" resname="MSC2_TheApplicationHasNotBeenVerified">
+               <source>The application has not been verified</source>
+               <target>The application has not been verified</target>
+            </trans-unit>
+            <trans-unit id="121" resname="MSC2_TheApplicationIsValid">
+               <source>The application is valid</source>
+               <target>The application is valid</target>
+            </trans-unit>
+            <trans-unit id="122" resname="MSC2_TheApplicationIsDamaged">
+               <source>The application is damaged</source>
+               <target>The application is damaged</target>
+            </trans-unit>
+            <trans-unit id="123" resname="MSC2_TheDataFileHasNotBeenVerified">
+               <source>The data file has not been verified</source>
+               <target>The data file has not been verified</target>
+            </trans-unit>
+            <trans-unit id="125" resname="MSC2_VerifyRecords">
+               <source>Verify records</source>
+               <target>Verify records</target>
+            </trans-unit>
+            <trans-unit id="126" resname="MSC2_VerifyIndexes">
+               <source>Verify indexes (%1/%2)</source>
+               <target>Verify indexes (%1/%2)</target>
+            </trans-unit>
+            <trans-unit id="127" resname="MSC2_VerifyRecordsAndIndexes">
+               <source>Verify records and indexes (%1/%2)</source>
+               <target>Verify records and indexes (%1/%2)</target>
+            </trans-unit>
+            <trans-unit id="128" resname="MSC2_VerifyAll">
+               <source>Verify all</source>
+               <target>Verify all</target>
+            </trans-unit>
+            <trans-unit id="307" resname="MSC2_Warnings">
+               <source>Anomalies have been detected. Please open the log file.</source>
+               <target>Anomalies have been detected. Please open the log file.</target>
+            </trans-unit>
+            <trans-unit id="288" resname="MSC2_WarningStructure">
+               <source>Anomalies have been detected during the preliminary structure check.</source>               
+               <target>Anomalies have been detected during the preliminary structure check.</target>
+            </trans-unit>
+            <trans-unit id="289" resname="MSC2_ErrorStructure">
+               <source>Errors have been detected during the preliminary structure check.</source>    
+               <target>Errors have been detected during the preliminary structure check.</target>
+            </trans-unit>
+            <trans-unit id="290" resname="MSC2_OptionsNotAvailable">
+               <source>The structure was opened without a data file.
+These options are not available.
+               </source>
+               <target>The structure was opened without a data file.
+These options are not available.
+               </target>
+            </trans-unit>
+            <trans-unit id="300" resname="MSC2_Records2">
+               <source>    (%1 record(s))</source>
+               <target>    (%1 record(s))</target>
+            </trans-unit>
+            <trans-unit id="301" resname="MSC2_IndexedFields2">
+               <source>    (%1 indexed field(s))</source>
+               <target>    (%1 indexed field(s))</target>
+            </trans-unit>
+         </group>
+         <group id="8003" resname="Was Str#8003">
+            <trans-unit id="1" resname="MSC3_DateAndTime">
+               <source>Date and Time:</source>
+               <target>Date and Time:</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MSC3_BackupFileInformation">
+               <source>Backup File Information</source>
+               <target>Backup File Information</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC3_Path">
+               <source>Path:</source>
+               <target>Path:</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC3_Content">
+               <source>Content:</source>
+               <target>Content:</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MSC3_RestoringMode">
+               <source>Restoring Mode</source>
+               <target>Restoring Mode</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC3_Manual">
+               <source>Manual</source>
+               <target>Manual</target>
+            </trans-unit>
+         </group>
+         <group id="8004" resname="MSC04 (Defragmentation)">
+            <trans-unit id="1" resname="MSC4_DataFileLocation">
+               <source>Data file to be compacted:</source>
+               <target>Data file to be compacted:</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MSC4_TheCurrentFileWillBeSavedIn">
+               <source>The current file will be saved in a "Replaced Files (Compacting)" folder. The compacted file will become the new current file.</source>
+               <target>The current file will be saved in a "Replaced Files (Compacting)" folder. The compacted file will become the new current file.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC4_StructureFileLocation">
+               <source>Structure file to be compacted:</source>
+               <target>Structure file to be compacted:</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC4_DefragmentElipse">
+               <source>Compact…</source>
+               <target>Compact…</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC4_PleaseSelectA4DDataFile">
+               <source>Please select a 4D data file (.4DD)</source>
+               <target>Please select a 4D data file (.4DD)</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MSC4_PleaseSelectA4DStructureFile">
+               <source>Please select a 4D structure file (.4DB/.4DC)</source>
+               <target>Please select a 4D structure file (.4DB/.4DC)</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MSC4_Defragment">
+               <source>Compact</source>
+               <target>Compact</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MSC4_SelectFile">
+               <source>Select File…</source>
+               <target>Select File…</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MSC4_AnErrorOccurredDuringCompacting">
+               <source>An error occurred during compacting.</source>
+               <target>An error occurred during compacting.</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MSC4_DefragmentationOptions">
+               <source>Compacting options:</source>
+               <target>Compacting options:</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MSC4_TheCompactedStructureFileWillBecome">
+               <source>The compacted structure file will become the new current structure file.</source>
+               <target>The compacted structure file will become the new current structure file.</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MSC4_CompactingOption">
+               <source>Compacting option:</source>
+               <target>Compacting option:</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MSC4_RemoveTheCompiledCode">
+               <source>Remove the compiled code</source>
+               <target>Remove the compiled code</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MSC4_TheCurrentDataFileHasNotBeenMoved">
+               <source>The current data file has not been moved or changed.
+Please use the checking and repair tools before attempting to compact again.</source>
+               <target>The current data file has not been moved or changed.
+Please use the checking and repair tools before attempting to compact again.</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MSC4_TheAvailableSpace">
+               <source>The available space on this volume (%1 MB) is insufficient.</source>
+               <target>The available space on this volume (%1 MB) is insufficient.</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MSC4_CompactingWasCompleted">
+               <source>Compacting was completed successfully.</source>
+               <target>Compacting was completed successfully.</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MSC4_TheOriginalDataFileWas">
+               <source>The original data file was moved to the "Replaced files" folder.
+The compacted data file is now the current data file.</source>
+               <target>The original data file was moved to the "Replaced files" folder.
+The compacted data file is now the current data file.</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MSC4_PleaseUseTheChecking">
+               <source>Please use the checking and repair tools before attempting to compact again.
+The current structure file has not been moved or changed.</source>
+               <target>Please use the checking and repair tools before attempting to compact again.
+The current structure file has not been moved or changed.</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MSC4_TheOriginalStructureFileWasMoved">
+               <source>The original structure file was moved to the "Replaced files" folder.
+The compacted structure file is now the current structure file.</source>
+               <target>The original structure file was moved to the "Replaced files" folder.
+The compacted structure file is now the current structure file.</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MSC4_CompactingTableInProgress">
+               <source>Compacting of table %1 in progress (table %2 out of %3, %4 records out of %5)</source>
+               <target>Compacting of table %1 in progress (table %2 out of %3, %4 records out of %5)</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MSC4_CompactingBlobsInProgress">
+               <source>Compacting of BLOBs of table %1 in progress (table %2 out of %3, %4 blobs out of %5)</source>
+               <target>Compacting of BLOBs of table %1 in progress (table %2 out of %3, %4 blobs out of %5)</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MSC4_CompactingIndexInProgress">
+               <source>Compacting of index %1 in progress (index %2 out of %3)</source>
+               <target>Compacting of index %1 in progress (index %2 out of %3)</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MSC4_SelectOneOfTheFollowingActions">
+               <source>Select one of the following actions:</source>
+               <target>Select one of the following actions:</target>
+            </trans-unit>
+            <trans-unit id="31" resname="MSC4_DefragmentRecordsAndIndexes">
+               <source>Compact records and indexes</source>
+               <target>Compact records and indexes</target>
+            </trans-unit>
+            <trans-unit id="32" resname="MSC4_DefragmentDesignFile">
+               <source>Compact structure file</source>
+               <target>Compact structure file</target>
+            </trans-unit>
+            <trans-unit id="33" resname="MSC4_Standard">
+               <source>&lt; Standard</source>
+               <target>&lt; Standard</target>
+            </trans-unit>
+            <trans-unit id="34" resname="MSC4_Advanced">
+               <source>Advanced &gt;</source>
+               <target>Advanced &gt;</target>
+            </trans-unit>
+            <trans-unit id="35" resname="MSC4_ShowLog">
+               <source>Open log file</source>
+               <target>Open log file</target>
+            </trans-unit>
+            <trans-unit id="36" resname="MSC4_Informations">
+               <source>Information</source>
+               <target>Information</target>
+            </trans-unit>
+            <trans-unit id="37" resname="MSC4_ConfirmRestart">
+               <source>Be careful, this operation will first cause the database to be closed and then reopened in maintenance mode.</source>
+               <target>Be careful, this operation will first cause the database to be closed and then reopened in maintenance mode.</target>
+            </trans-unit>
+            <trans-unit id="38" resname="MSC4_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="41" resname="MSC4_Abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+               <trans-unit id="42" resname="MSC4_BackupFileLocation">
+                  <source>Original files backup folder:</source>
+                  <target>Original files backup folder:</target>
+               </trans-unit>
+               <trans-unit id="43" resname="MSC4_BackupExplain">
+                  <source>The &quot;Replaced files (compacting)&quot; folder will be created at this location</source>
+                  <target>The &quot;Replaced files (compacting)&quot; folder will be created at this location</target>
+               </trans-unit> 
+            <trans-unit id="44" resname="MSC4_SelectTheBackupFolder">
+               <source>Select the backup folder</source>
+               <target>Select the backup folder</target>
+            </trans-unit>
+            <trans-unit id="307" resname="MSC4_Warnings1">
+               <source>Anomalies have been detected.</source>
+               <target>Anomalies have been detected.</target>
+            </trans-unit>
+            <trans-unit id="308" resname="MSC4_Warnings2">
+               <source>Please open the log file.</source>
+               <target>Please open the log file.</target>
+            </trans-unit>
+            <trans-unit id="346" resname="MSC4_UnavailableStructureFile">
+               <source>The structure file is unavailable.</source>
+               <target>The structure file is unavailable.</target>
+            </trans-unit>
+            <trans-unit id="347" resname="MSC4_UnavailableDataFile">
+               <source>The data file is unavailable.</source>
+               <target>The data file is unavailable.</target>
+            </trans-unit>
+            <trans-unit id="348" resname="MSC4_UnavailableBackupFolder">
+               <source>The backup folder is unavailable.</source>
+               <target>The backup folder is unavailable.</target>
+            </trans-unit>
+         </group>
+         <group id="8005" resname="Was Str#8005">
+            <trans-unit id="1">
+               <source>Log File</source>
+               <target>Log File</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Export…</source>
+               <target>Export…</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Activity Analysis</source>
+               <target>Activity Analysis</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Select a log file for the current database</source>
+               <target>Select a log file for the current database</target>
+            </trans-unit>
+         </group>
+         <group id="8006" resname="Was Str#8006">
+            <trans-unit id="1">
+               <source>Journal File</source>
+               <target>Journal File</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>Open database: </source>
+               <target>Open database: </target>
+            </trans-unit>
+         </group>
+         <group id="8008" resname="MSC08 (Repair)">
+            <trans-unit id="1" resname="MSC8_SelectOneOfTheFollowingActions">
+               <source>Select one of the following actions:</source>
+               <target>Select one of the following actions:</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MSC8_RepairDataOptions">
+               <source>Repair data file options:</source>
+               <target>Repair data file options:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MSC8_Repair">
+               <source>Repair</source>
+               <target>Repair</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MSC8_RepairDataOption2">
+               <source>Recover by record headers</source>
+               <target>Recover by record headers</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MSC8_RepairTagExplain">
+               <source>Use this option only if the standard repair was not successful.
+Some records might not be recovered. Using a backup file might be more efficient.
+Some deleted records might be recevored if the "secure delete" option was not activated.</source>
+               <target>Use this option only if the standard repair was not successful.
+Some records might not be recovered. Using a backup file might be more efficient.
+Some deleted records might be recevored if the "secure delete" option was not activated.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MSC8_RepairDataFile">
+               <source>Repair the data file</source>
+               <target>Repair the data file</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MSC8_RepairStructureFile">
+               <source>Repair the structure file</source>
+               <target>Repair the structure file</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MSC8_ShowLog">
+               <source>Open log file</source>
+               <target>Open log file</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MSC8_Abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MSC8_DataFileLocation">
+               <source>Data file to be repaired:</source>
+               <target>Data file to be repaired:</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MSC8_StructureFileLocation">
+               <source>Structure file to be repaired:</source>
+               <target>Structure file to be repaired:</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MSC8_BackupFileLocation">
+               <source>Original files backup folder:</source>
+               <target>Original files backup folder:</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MSC8_BackupExplain">
+               <source>The &quot;Replaced files (repairing)&quot; folder will be created at this location</source>
+               <target>The &quot;Replaced files (repairing)&quot; folder will be created at this location</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MSC8_Abort">
+               <source>Abort</source>
+               <target>Abort</target>
+            </trans-unit>
+            <trans-unit id="307" resname="MSC8_Warnings1">
+               <source>Anomalies have been detected.</source>
+               <target>Anomalies have been detected.</target>
+            </trans-unit>
+            <trans-unit id="308" resname="MSC8_Warnings2">
+               <source>Please open the log file.</source>
+               <target>Please open the log file.</target>
+            </trans-unit>
+            <trans-unit id="68" resname="MSC8_TheDataFileHasBeenRepaired">
+               <source>The data file has been repaired.</source>
+               <target>The data file has been repaired.</target>
+            </trans-unit>
+            <trans-unit id="69" resname="MSC8_TheDataFileCouldNotBeRepaired">
+               <source>The data file could not be repaired.</source>
+               <target>The data file could not be repaired.</target>
+            </trans-unit>
+            <trans-unit id="90" resname="MSC8_ThisStructureHasBeenRepaired">
+               <source>This structure has been repaired.</source>
+               <target>This structure has been repaired.</target>
+            </trans-unit>
+            <trans-unit id="91" resname="MSC8_TheStructureCouldNotBeRepaired">
+               <source>The structure could not be repaired.</source>
+               <target>The structure could not be repaired.</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MSC8_RepairDataOption1">
+               <source>Standard repair</source>
+               <target>Standard repair</target>
+            </trans-unit>
+            <trans-unit id="16" resname="MSC8_RepairDataOption2_explain">
+               <source>Use this method if the data file cannot be opened and verified first, or if the data is severely damaged.</source>
+               <target>Use this method if the data file cannot be opened and verified first, or if the data is severely damaged.</target>
+            </trans-unit>
+            <trans-unit id="17" resname="MSC8_RepairDataOption1_explain">
+               <source>Use this method if only a few records or indexes are damaged.</source>
+               <target>Use this method if only a few records or indexes are damaged.</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MSC8_RepairElipse">
+               <source>Scan and repair…</source>
+               <target>Scan and repair…</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MSC8_Recover">
+               <source>Recover</source>
+               <target>Recover</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MSC8_Back">
+               <source>Back</source>
+               <target>Back</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MSC8_DisplayRecords">
+               <source>Display records</source>
+               <target>Display records</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MSC8_UnassignedTable">
+               <source>Unassigned table</source>
+               <target>Unassigned table</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MSC8_AssignTable">
+               <source>Assign table</source>
+               <target>Assign table</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MSC8_DataFileContent">
+               <source>Content of the scanned data file</source>
+               <target>Content of the scanned data file</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MSC8_RecordsContent">
+               <source>Content of the records</source>
+               <target>Content of the records</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MSC8_AssignedTables">
+               <source>Assigned tables</source>
+               <target>Assigned tables</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MSC8_RecoverableRecords">
+               <source>Recoverable records</source>
+               <target>Recoverable records</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MSC8_Fields">
+               <source>Fields</source>
+               <target>Fields</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MSC8_Field">
+               <source>Field #</source>
+               <target>Field #</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MSC8_Record">
+               <source>Record #</source>
+               <target>Record #</target>
+            </trans-unit>
+            <trans-unit id="31" resname="MSC8_Nrecords">
+               <source>{1} records could be recovered.</source>
+               <target>{1} records could be recovered.</target>
+            </trans-unit>
+            <trans-unit id="32" resname="MSC8_OnlyNrecords">
+               <source>(Only first {1} records are displayed.)</source>
+               <target>(Only first {1} records are displayed.)</target>
+            </trans-unit>
+            <trans-unit id="33" resname="MSC8_Nfields">
+               <source>Each record has {1} fields.</source>
+               <target>Each record has {1} fields.</target>
+            </trans-unit>
+            <trans-unit id="34" resname="MSC8_OnlyNfields">
+               <source>(Only first {1} fields are displayed.)</source>
+               <target>(Only first {1} fields are displayed.)</target>
+            </trans-unit>
+            <trans-unit id="35" resname="MSC8_Close">
+               <source>Close</source>
+               <target>Close</target>
+            </trans-unit>
+            <trans-unit id="319" resname="MSC8_Resume">
+               <source>Resume</source>
+               <target>Resume</target>
+            </trans-unit>
+            <trans-unit id="320" resname="MSC8_CloseWarning">
+               <source>Be carefull, if you close this window, the repair process will be aborted.</source>
+               <target>Be carefull, if you close this window, the repair process will be aborted.</target>
+            </trans-unit>
+            <trans-unit id="326" resname="MSC8_DatafileScanned">
+               <source>Your data file has been scanned.
+Please check the boxes in the list below to choose the records that will be recovered into a new data file.</source>
+               <target>Your data file has been scanned.
+Please check the boxes in the list below to choose the records that will be recovered into a new data file.</target>
+            </trans-unit>
+            <trans-unit id="327" resname="MSC8_AssignManually">
+               <source>4D was not able to determine which table certain records belong to.
+In order to associate these records with a table in the structure, click on the "Identify table" button.</source>
+               <target>4D was not able to determine which table certain records belong to.
+In order to associate these records with a table in the structure, click on the "Identify table" button.</target>
+            </trans-unit>
+            <trans-unit id="328" resname="MSC8_Order">
+               <source>Order</source>
+               <target>Order</target>
+            </trans-unit>
+            <trans-unit id="329" resname="MSC8_Count">
+               <source>Count</source>
+               <target>Count</target>
+            </trans-unit>
+            <trans-unit id="330" resname="MSC8_AssociatedTableName">
+               <source>Destination table</source>
+               <target>Destination table</target>
+            </trans-unit>
+            <trans-unit id="331" resname="MSC8_TableNumber">
+               <source>Number</source>
+               <target>Number</target>
+            </trans-unit>
+            <trans-unit id="332" resname="MSC8_Tables">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="333" resname="MSC8_DataInfo">
+               <source>Records found in the data file</source>
+               <target>Records found in the data file</target>
+            </trans-unit>
+            <trans-unit id="334" resname="MSC8_StructureInfo">
+               <source>Tables of the structure file</source>
+               <target>Tables of the structure file</target>
+            </trans-unit>
+            <trans-unit id="335" resname="MSC8_UnidentifiedTable">
+               <source>Unidentified destination.</source>
+               <target>Unidentified destination.</target>
+            </trans-unit>
+            <trans-unit id="338" resname="MSC8_Associate">
+               <source>Identify table</source>
+               <target>Identify table</target>
+            </trans-unit>
+            <trans-unit id="339" resname="MSC8_Dissociate">
+               <source>Ignore records</source>
+               <target>Ignore records</target>
+            </trans-unit>
+            <trans-unit id="340" resname="MSC8_AllreadyAssociated">
+               <source>The {tableName} table has already been identified.</source>
+               <target>The {tableName} table has already been identified.</target>
+            </trans-unit>      
+            <trans-unit id="341" resname="MSC8_UnusedTable">
+               <source>Unidentified</source>
+               <target>Unidentified</target>
+            </trans-unit>
+            <trans-unit id="342" resname="MSC8_DisplayTableIDs">
+               <source>Display table numbers</source>
+               <target>Display table numbers</target>
+            </trans-unit>
+            <trans-unit id="343" resname="MSC8_SelectTablesFirst">
+               <source>Select a table of the datafile and a table of the structure before proceeding with identification.</source>
+               <target>Select a table of the datafile and a table of the structure before proceeding with identification.</target>
+            </trans-unit>
+            <trans-unit id="344" resname="MSC8_AlreadyAutomaticalyAssociated">
+               <source>This table has already been identified by 4D. You cannot modify this identification.</source>
+               <target>This table has already been identified by 4D. You cannot modify this identification.</target>
+            </trans-unit>
+         </group>
+        <group id="8009" resname="Verify steps">
+          <trans-unit id="1">
+            <source>Additional errors</source>
+            <target>Additional errors</target>
+          </trans-unit>
+          <trans-unit id="2">
+            <source>Checking tables</source>
+            <target>Checking tables</target>
+          </trans-unit>
+          <trans-unit id="3">
+            <source>Checking indexes</source>
+            <target>Checking indexes</target>
+          </trans-unit>
+          <trans-unit id="4">
+            <source>Move original</source>
+            <target>Move original</target>
+          </trans-unit>
+          <trans-unit id="5">
+            <source>Move the new file to the original location</source>
+            <target>Move the new file to the original location</target>
+          </trans-unit>
+          <trans-unit id="6">
+            <source>Move original index</source>
+            <target>Move original index</target>
+          </trans-unit>
+          <trans-unit id="7">
+            <source>Move the new index file to the original location</source>
+            <target>Move the new index file to the original location</target>
+          </trans-unit>
+          <trans-unit id="8">
+            <source>Verify the internal database of the structure</source>
+            <target>Verify the internal database of the structure</target>
+          </trans-unit>
+          <trans-unit id="9">
+            <source>Check Bittables for segments</source>
+            <target>Check Bittables for segments</target>
+          </trans-unit>
+          <trans-unit id="10">
+            <source>Initialization of the resources for the verify operation</source>
+            <target>Initialization of the resources for the verify operation</target>
+          </trans-unit>
+          <trans-unit id="11">
+            <source>Move original log file</source>
+            <target>Move original log file</target>
+          </trans-unit>
+          <trans-unit id="12">
+            <source>Opening the database in maintenance mode</source>
+            <target>Opening the database in maintenance mode</target>
+          </trans-unit>          
+        </group>
+        <group id="8010" resname="Verify Application Progress">
+          <trans-unit id="1">
+            <source>Check Database Methods</source>
+            <target>Check Database Methods</target>
+          </trans-unit>
+          <trans-unit id="2">
+            <source>Check Project Methods</source>
+            <target>Check Project Methods</target>
+          </trans-unit>
+          <trans-unit id="3">
+            <source>Check Trigger Methods</source>
+            <target>Check Trigger Methods</target>
+          </trans-unit>
+          <trans-unit id="4">
+            <source>Check Project Forms</source>
+            <target>Check Project Forms</target>
+          </trans-unit>
+          <trans-unit id="5">
+            <source>Check Table Forms</source>
+            <target>Check Table Forms</target>
+          </trans-unit>
+          <trans-unit id="6">
+            <source>Check User and Group information</source>
+            <target>Check User and Group information</target>
+          </trans-unit>
+          <trans-unit id="7">
+            <source>Check Orphan Methods</source>
+            <target>Check Orphan Methods</target>
+          </trans-unit>
+          <trans-unit id="8">
+            <source>Check the folders of the Explorer</source>
+            <target>Check the folders of the Explorer</target>
+          </trans-unit>                   
+           <trans-unit id="9">
+              <source>Check help tips</source>
+              <target>Check help tips</target>
+          </trans-unit>
+           <trans-unit id="10">
+              <source>Check menu bars and menus</source>
+              <target>Check menu bars and menus</target>
+          </trans-unit>
+		  <trans-unit id="11">
+              <source>Check lists</source>
+              <target>Check lists</target>
+          </trans-unit>
+        </group>
+        <group id="8011" resname="Verify Application Errors">
+          <trans-unit id="1">
+            <source>Referenced style sheet not found for this object: {Name}</source>
+            <target>Referenced style sheet not found for this object: {Name}</target>
+          </trans-unit>
+          <trans-unit id="2">
+            <source>This form could not be properly loaded: {Name}</source>
+            <target>This form could not be properly loaded: {Name}</target>
+          </trans-unit>
+          <trans-unit id="3">
+            <source>{Name} points on the same method as {Name2}</source>
+            <target>{Name} points on the same method as {Name2}</target>
+          </trans-unit>
+          <trans-unit id="4">
+            <source>The method resource CC4D of id {Name} is not used anywhere</source>
+            <target>The method resource CC4D of id {Name} is not used anywhere</target>
+          </trans-unit>
+          <trans-unit id="5">
+            <source>The object {Name} is referencing an unknown table</source>
+            <target>The object {Name} is referencing an unknown table</target>
+          </trans-unit>
+          <trans-unit id="6">
+            <source>The object {Name} is referencing an unknown field</source>
+            <target>The object {Name} is referencing an unknown field</target>
+          </trans-unit>
+          <trans-unit id="7">
+            <source>The object {Name} is referencing an unknown list</source>
+            <target>The object {Name} is referencing an unknown list</target>
+          </trans-unit>
+          <trans-unit id="8">
+            <source>The object {Name} is referencing an unknown help tip</source>
+            <target>The object {Name} is referencing an unknown help tip</target>
+          </trans-unit>
+           <trans-unit id="9">
+              <source>Could not load the method resources for {Name}</source>
+              <target>Could not load the method resource for {Name}</target>
+           </trans-unit>
+           <trans-unit id="10">
+              <source>The form {Name} is referencing an unknown menu bar</source>
+              <target>The form {Name} is referencing an unknown menu bar</target>
+           </trans-unit>
+           <trans-unit id="11">
+              <source>Initialization error ({Name})</source>
+              <target>Initialization error ({Name})</target>
+           </trans-unit>
+           <trans-unit id="12">
+              <source>The initialization of the resources failed. Please try repairing the application file</source>
+              <target>The initialization of the resources failed. Please try repairing the application file</target>
+           </trans-unit>
+           <trans-unit id="13">
+              <source>No data information was found for the table {Name}</source>
+              <target>No data information was found for the table {Name}</target>
+           </trans-unit>
+           <trans-unit id="14">
+              <source>An error occured while checking the table {Name} (the error code is {Name2})</source>
+              <target>An error occured while checking the table {Name} (the error code is {Name2})</target>
+           </trans-unit>
+          <trans-unit id="15">
+            <source>The folder contains a reference to a table that does not exist ({Name})</source>
+            <target>The folder contains a reference to a table that does not exist ({Name})</target>
+          </trans-unit>
+          <trans-unit id="16">
+            <source>The folder contains a reference to a project method that does not exist ({Name})</source>
+            <target>The folder contains a reference to a project method that does not exist ({Name})</target>
+          </trans-unit>
+          <trans-unit id="17">
+            <source>The folder contains a reference to a form that does not exist ({Name})</source>
+            <target>The folder contains a reference to a form that does not exist ({Name})</target>
+          </trans-unit>
+          <trans-unit id="18">
+            <source>The folder contains a reference to an object of unknown type ({Name})</source>
+            <target>The folder contains a reference to an object of unknown type ({Name})</target>
+          </trans-unit>
+          <trans-unit id="19">
+            <source>An error occured while checking the table {Name}: user canceled</source>
+             <target>An error occured while checking the table {Name}: user canceled</target>
+          </trans-unit>
+           <trans-unit id="20">
+              <source>The folder contains a reference to itself ({Name})</source>
+              <target>The folder contains a reference to itself ({Name})</target>
+           </trans-unit>
+           <trans-unit id="21">
+              <source>{Name} points on the same form as {Name2}</source>
+              <target>{Name} points on the same form as {Name2}</target>
+           </trans-unit>
+          <trans-unit id="22">
+            <source>The object {Name} is referencing an unknown display format</source>
+            <target>The object {Name} is referencing an unknown display format</target>
+          </trans-unit>
+           <trans-unit id="23">
+              <source>{Name} points on the same form list as {Name2}</source>
+              <target>{Name} points on the same form list as {Name2}</target>
+           </trans-unit>
+        </group>
+        <group id="8012" resname="Verify Method Errors">
+          <trans-unit id="32700">
+            <source>CC4D invalid length</source>
+            <target>CC4D invalid length</target>
+          </trans-unit>
+          <trans-unit id="32701">
+            <source>unknown 4D command</source>
+            <target>unknown 4D command</target>
+          </trans-unit>
+          <trans-unit id="32702">
+            <source>unknown 4D token</source>
+            <target>unknown 4D token</target>
+          </trans-unit>
+          <trans-unit id="32703">
+            <source>unknown 4D operator</source>
+            <target>unknown 4D operator</target>
+          </trans-unit>
+          <trans-unit id="32704">
+            <source>invalid constant type</source>
+            <target>invalid constant type</target>
+          </trans-unit>
+          <trans-unit id="32705">
+            <source>invalid table number</source>
+            <target>invalid table number</target>
+          </trans-unit>
+          <trans-unit id="32706">
+            <source>invalid field number</source>
+            <target>invalid field number</target>
+          </trans-unit>
+          <trans-unit id="32707">
+            <source>CC4D loading failed</source>
+            <target>CC4D loading failed</target>
+          </trans-unit>
+        </group>
+         <group id="8013" resname="Verify menu bars and menus Errors">
+          <trans-unit id="1">
+            <source>Menu {Name}: the menu item {Name2} has an invalid automatic action</source>
+            <target>Menu {Name}: the menu item {Name2} has an invalid automatic action</target>
+          </trans-unit>
+        </group>
+		<group id="8014" resname="Verify Lists Errors">
+          <trans-unit id="1">
+            <source>List ID={Name} exists but is not referenced by the list manager</source>
+            <target>List ID={Name} exists but is not referenced by the list manager</target>
+          </trans-unit>
+        </group>
+         <group id="8020" resname="Verify SecurityManager">
+            <trans-unit id="1">
+               <source>UNRECOVERABLE: No {Name} component.</source>
+               <target>UNRECOVERABLE: No {Name} component.</target>
+            </trans-unit>
+            <trans-unit id="2">
+               <source>The {Name} default user does not exist.</source>
+               <target>The {Name} default user does not exist.</target>
+            </trans-unit>
+            <trans-unit id="3">
+               <source>Cannot continue because of previous errors.</source>
+               <target>Cannot continue because of previous errors.</target>
+            </trans-unit>
+            <trans-unit id="4">
+               <source>Same name for users {Name} and {Name2}.</source>
+               <target>Same name for users {Name} and {Name2}.</target>
+            </trans-unit>
+            <trans-unit id="5">
+               <source>Same name for groups {Name} and {Name2}.</source>
+               <target>Same name for groups {Name} and {Name2}.</target>
+            </trans-unit>
+            <trans-unit id="6">
+               <source>The group {Name2} is referencing a nonexistent member {Name}.</source>
+               <target>The group {Name2} is referencing a nonexistent member {Name}.</target>
+            </trans-unit>
+            <trans-unit id="7">
+               <source>Creation of the {Name} default user.</source>
+               <target>Creation of the {Name} default user.</target>
+            </trans-unit>
+            <trans-unit id="8">
+               <source>Removal of the user {Name} that has the same name as {Name2}.</source>
+               <target>Removal of the user {Name} that has the same name as {Name2}.</target>
+            </trans-unit>
+            <trans-unit id="9">
+               <source>Removal of the group {Name} which has the same name as {Name2}.</source>
+               <target>Removal of the group {Name} which has the same name as {Name2}.</target>
+            </trans-unit>
+            <trans-unit id="10">
+               <source>Unavailable reference to {Name} removed from group {Name2}.</source>
+               <target>Unavailable reference to {Name} removed from group {Name2}.</target>
+            </trans-unit>
+         </group>
+        <group id="8021" resname="RollBack">
+          <trans-unit id="1" resname="MSC_CurrentJournalFile">
+            <source>Current log file</source>
+            <target>Current log file</target>
+          </trans-unit>
+          <trans-unit id="2" resname="MSC_LeaveJournalAnalyse">
+            <source>The current log file analyse will be lost. Are you sure you want to leave this page?</source>
+            <target>The current log file analyse will be lost. Are you sure you want to leave this page?</target>
+          </trans-unit>          
+        </group>
+         <group id="8022" resname="Verify_TipsManager">
+            <trans-unit id="1" resname="Verify_TipsLogFile">
+               <source>Duplicated tip ID ({Name}) for {Name2}. Repair will remove it.</source>
+               <target>Duplicated tip ID ({Name}) for {Name2}. Repair will remove it.</target>
+            </trans-unit>
+         </group>
+         <group resname="MSCOpen">
+            <trans-unit id="306" resname="MSC_MissingDataFile">
+               <source>No data file was found for the database &quot;{BaseName}&quot;. Do you want to open an existing data file?</source>
+               <target>No data file was found for the database &quot;{BaseName}&quot;. Do you want to open an existing data file?</target>
+            </trans-unit>
+            <trans-unit id="307" resname="MSC_MissingDataFileComment">
+               <source>Certain functions are disabled if a data file is not opened.</source>
+               <target>Certain functions are disabled if a data file is not opened.</target>
+            </trans-unit>
+            <trans-unit id="308" resname="MSC_NoDataFile">
+               <source>No Data File</source>
+               <target>No Data File</target>
+            </trans-unit>
+         </group>
+         <group resname="Tools_">
+            <trans-unit id="1" resname="TOOLS_StartCompacting">
+               <source>Compacting…</source>
+               <target>Compacting…</target>
+            </trans-unit>
+            <trans-unit id="2" resname="TOOLS_CompactingData">
+               <source>Compacting of data</source>
+               <target>Compacting of data</target>
+            </trans-unit>
+            <trans-unit id="3" resname="TOOLS_StartVerifying">
+               <source>Verifying…</source>
+               <target>Verifying…</target>
+            </trans-unit>
+            <trans-unit id="4" resname="TOOLS_VerifyingData">
+               <source>Verifying of records and indexes</source>
+               <target>Verifying of records and indexes</target>
+            </trans-unit>
+            <trans-unit id="5" resname="TOOLS_VerifyingApplication">
+               <source>Verifying of application</source>
+               <target>Verifying of application</target>
+            </trans-unit>
+         </group>
+         <group id="8007" resname="MSC_LogMessages">
+            <trans-unit id="1" resname="MSC_InvisibleCharInObjectName">
+               <source>The {Name} object name contains one or more invisible characters.</source>
+               <target>The {Name} object name contains one or more invisible characters.</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="ToolBox_Dialog">
+            <trans-unit id="01" resname="ToolBox_Win_Title">
+               <source>Toolbox</source>
+               <target>Toolbox</target>
+            </trans-unit>
+         </group>
+         <group resname="MenuEditorLabels">
+            <trans-unit id="1" resname="MenuEditorMenuBarEditor">
+               <source>Menu Bar Editor</source>
+               <target>Menu Bar Editor</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MenuEditorMenuBar">
+               <source>Menu bar</source>
+               <target>Menu bar</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MenuEditorMenuBars">
+               <source>Menu bars</source>
+               <target>Menu bars</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MenuEditorTitle">
+               <source>Title</source>
+               <target>Title</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MenuEditorMenu">
+               <source>Menu</source>
+               <target>Menu</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MenuEditorMenus">
+               <source>Menus</source>
+               <target>Menus</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MenuEditorItem">
+               <source>Item</source>
+               <target>Item</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MenuEditorSeparatorLine">
+               <source>Separator Line</source>
+               <target>Separator Line</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MenuEditorAlternateTitle">
+               <source>Alternate</source>
+               <target>Alternate</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MenuEditorShortcut">
+               <source>Shortcut</source>
+               <target>Shortcut</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MenuEditorCheckMark">
+               <source>Check mark</source>
+               <target>Check mark</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MenuEditorAction">
+               <source>Action</source>
+               <target>Action</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MenuEditorAssociatedStandardAction">
+               <source>Associated Standard Action:</source>
+               <target>Associated Standard Action:</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MenuEditorMethodName">
+               <source>Method Name:</source>
+               <target>Method Name:</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MenuEditorStartNewProcess">
+               <source>Start a New Process</source>
+               <target>Start a New Process</target>
+            </trans-unit>
+            <trans-unit id="16" resname="MenuEditorAccessPrivileges">
+               <source>Access Privileges:</source>
+               <target>Access Privileges:</target>
+            </trans-unit>
+            <trans-unit id="17" resname="MenuEditorNoDefaultUser">
+               <source>No Default User</source>
+               <target>No Default User</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MenuEditorOptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MenuEditorEnabledItem">
+               <source>Enabled Item</source>
+               <target>Enabled Item</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MenuEditorStyleBold">
+               <source>Bold</source>
+               <target>Bold</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MenuEditorStyleItalic">
+               <source>Italic</source>
+               <target>Italic</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MenuEditorStyleUnderline">
+               <source>Underline</source>
+               <target>Underline</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MenuEditorToolbarIcon">
+               <source>Toolbar Icon:</source>
+               <target>Toolbar Icon:</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MenuEditorNoIcon">
+               <source>No icon</source>
+               <target>No icon</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MenuEditorLibraryPicture">
+               <source>Library Pictures</source>
+               <target>Library Pictures</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MenuEditorBackgroundImage">
+               <source>Background Image</source>
+               <target>Background Image</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MenuEditorNewBar">
+               <source>Menu Bar #</source>
+               <target>Menu Bar #</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MenuEditorNewMenu">
+               <source>Menu #</source>
+               <target>Menu #</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MenuEditorNewItem">
+               <source>Item #</source>
+               <target>Item #</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MenuEditorConnectToMenu">
+               <source>Connect to menu</source>
+               <target>Connect to menu</target>
+            </trans-unit>
+            <trans-unit id="31" resname="MenuEditorConnectedMenu">
+               <source>Sub-menu</source>
+               <target>Sub-menu</target>
+            </trans-unit>
+            <trans-unit id="32" resname="MenuEditorItemIcon">
+               <source>Item icon:</source>
+               <target>Item icon:</target>
+            </trans-unit>
+            <trans-unit id="33" resname="MenuEditorPreview">
+               <source>Test menu bar</source>
+               <target>Test menu bar</target>
+            </trans-unit>
+            <trans-unit id="34" resname="MenuEditorAppendNewMenu">
+               <source>New menu</source>
+               <target>New menu</target>
+            </trans-unit>
+            <trans-unit id="92" resname="MenuEditorReference">
+               <source>Parameter</source>
+               <target>Parameter</target>
+            </trans-unit>
+            <trans-unit id="93" resname="MenuEditorExecuteWithoutValidating">
+               <source>Execute without validating</source>
+               <target>Execute without validating</target>
+            </trans-unit>
+         </group>
+
+         <group resname="MenuEditorButtons"> </group>
+
+         <group resname="MenuEditorTips">
+            <trans-unit id="1" resname="MenuEditorMessage_1" extype="helptip">
+               <source>Insert a background image here</source>
+               <target>Insert a background image here</target>
+            </trans-unit>
+         </group>
+
+         <group resname="MenuEditorStandardActions">
+            <trans-unit id="1" resname="MenuEditorStandardAction_1">
+               <source>No Action</source>
+               <target>No Action</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MenuEditorStandardAction_2">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MenuEditorStandardAction_3">
+               <source>Accept</source>
+               <target>Accept</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MenuEditorStandardAction_4">
+               <source>Next Record</source>
+               <target>Next Record</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MenuEditorStandardAction_5">
+               <source>Previous Record</source>
+               <target>Previous Record</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MenuEditorStandardAction_6">
+               <source>First Record</source>
+               <target>First Record</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MenuEditorStandardAction_7">
+               <source>Last Record</source>
+               <target>Last Record</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MenuEditorStandardAction_8">
+               <source>Delete Record</source>
+               <target>Delete Record</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MenuEditorStandardAction_9">
+               <source>Next Page</source>
+               <target>Next Page</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MenuEditorStandardAction_10">
+               <source>Previous Page</source>
+               <target>Previous Page</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MenuEditorStandardAction_11">
+               <source>First Page</source>
+               <target>First Page</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MenuEditorStandardAction_12">
+               <source>Last Page</source>
+               <target>Last Page</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MenuEditorStandardAction_13">
+               <source>Edit Subrecord</source>
+               <target>Edit Subrecord</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MenuEditorStandardAction_14">
+               <source>Delete Subrecord</source>
+               <target>Delete Subrecord</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MenuEditorStandardAction_15">
+               <source>Add Subrecord</source>
+               <target>Add Subrecord</target>
+            </trans-unit>
+            <trans-unit id="16" resname="MenuEditorStandardAction_16">
+               <source>Undo</source>
+               <target>Undo</target>
+            </trans-unit>
+            <trans-unit id="17" resname="MenuEditorStandardAction_17">
+               <source>Redo</source>
+               <target>Redo</target>
+            </trans-unit>
+            <trans-unit id="18" resname="MenuEditorStandardAction_18">
+               <source>Cut</source>
+               <target>Cut</target>
+            </trans-unit>
+            <trans-unit id="19" resname="MenuEditorStandardAction_19">
+               <source>Copy</source>
+               <target>Copy</target>
+            </trans-unit>
+            <trans-unit id="20" resname="MenuEditorStandardAction_20">
+               <source>Paste</source>
+               <target>Paste</target>
+            </trans-unit>
+            <trans-unit id="21" resname="MenuEditorStandardAction_21">
+               <source>Clear</source>
+               <target>Clear</target>
+            </trans-unit>
+            <trans-unit id="22" resname="MenuEditorStandardAction_22">
+               <source>Select All</source>
+               <target>Select All</target>
+            </trans-unit>
+            <trans-unit id="23" resname="MenuEditorStandardAction_23">
+               <source>Show Clipboard</source>
+               <target>Show Clipboard</target>
+            </trans-unit>
+            <trans-unit id="24" resname="MenuEditorStandardAction_24">
+               <source>Database Settings</source>
+               <target>Database Settings</target>
+            </trans-unit>
+            <trans-unit id="25" resname="MenuEditorStandardAction_25">
+               <source>Design</source>
+               <target>Design</target>
+            </trans-unit>
+            <trans-unit id="26" resname="MenuEditorStandardAction_26">
+               <source>User</source>
+               <target>User</target>
+            </trans-unit>
+            <trans-unit id="27" resname="MenuEditorStandardAction_27">
+               <source>Application</source>
+               <target>Application</target>
+            </trans-unit>
+            <trans-unit id="28" resname="MenuEditorStandardAction_28">
+               <source>Quit</source>
+               <target>Quit</target>
+            </trans-unit>
+            <trans-unit id="29" resname="MenuEditorStandardAction_29">
+               <source>Return to Design mode</source>
+               <target>Return to Design mode</target>
+            </trans-unit>
+            <trans-unit id="30" resname="MenuEditorStandardAction_30">
+               <source>MSC</source>
+               <target>MSC</target>
+            </trans-unit>
+         </group>
+         <group resname="ToolBoxTools">
+            <trans-unit id="1" resname="ToolBoxTool_1">
+               <source>Users</source>
+               <target>Users</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ToolBoxTool_2">
+               <source>Groups</source>
+               <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ToolBoxTool_3">
+               <source>Menus</source>
+               <target>Menus</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ToolBoxTool_4">
+               <source>Pictures</source>
+               <target>Pictures</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ToolBoxTool_5">
+               <source>Help Tips</source>
+               <target>Help Tips</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ToolBoxTool_6">
+               <source>Lists</source>
+               <target>Lists</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ToolBoxTool_7">
+               <source>Style Sheets</source>
+               <target>Style Sheets</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ToolBoxTool_8">
+               <source>Filters</source>
+               <target>Filters</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ToolBoxTool_9">
+               <source>Resources</source>
+               <target>Resources</target>
+            </trans-unit>
+         </group>
+         <group resname="MenuEditorAlerts" restype="message">
+            <trans-unit id="1" resname="MenuEditorAlertDeleteMenu">
+               <source>Are you sure you want to delete this menu?</source>
+               <target>Are you sure you want to delete this menu?</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MenuEditorAlertDeleteMenuBar">
+               <source>Are you sure you want to delete this menu bar? </source>
+               <target>Are you sure you want to delete this menu bar?</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MenuEditorAlertMaxMenuBar">
+               <source>It is not possible to create more than % menu bars</source>
+               <target>It is not possible to create more than % menu bars</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MenuEditorConfirmLastEventOfMenu">
+               <source>You have just removed the last reference to "#" menu. Do you want to remove this menu?</source>
+               <target>You have just removed the last reference to "#" menu. Do you want to remove this menu?</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MenuEditorAlertMaxMenu">
+               <source>It is not possible to create more than % menus</source>
+               <target>It is not possible to create more than % menus</target>
+            </trans-unit>
+         </group>
+         <group resname="MenuEditorMenus">
+            <trans-unit id="1" resname="MenuEditorCreateNewMenuBar">
+               <source>Create a new menu bar</source>
+               <target>Create a new menu bar</target>
+            </trans-unit>
+            <trans-unit id="2" resname="MenuEditorCreateNewMenu">
+               <source>Create a new menu</source>
+               <target>Create a new menu</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MenuEditorDeleteTheMenuBar">
+               <source>Delete the menu bar "#"</source>
+               <target>Delete the menu bar "#"</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MenuEditorDeleteTheMenu">
+               <source>Delete the menu "#"</source>
+               <target>Delete the menu "#"</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MenuEditorDeleteTheItem">
+               <source>Delete the item "#"</source>
+               <target>Delete the item "#"</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MenuEditorDeleteTheSeparatorLine">
+               <source>Delete the separator line</source>
+               <target>Delete the separator line</target>
+            </trans-unit>
+            <trans-unit id="7" resname="MenuEditorTestTheMenuBar">
+               <source>Test the menu bar "#"</source>
+               <target>Test the menu bar "#"</target>
+            </trans-unit>
+            <trans-unit id="8" resname="MenuEditorAddItemToMenu">
+               <source>Add an item to menu "#"</source>
+               <target>Add an item to menu "#"</target>
+            </trans-unit>
+            <trans-unit id="9" resname="MenuEditorAddItemToSubMenu">
+               <source>Add an item to sub-menu "#"</source>
+               <target>Add an item to sub-menu "#"</target>
+            </trans-unit>
+            <trans-unit id="10" resname="MenuEditorAddNewMenu">
+               <source>New menu</source>
+               <target>New menu</target>
+            </trans-unit>
+            <trans-unit id="11" resname="MenuEditorAttachMenuToMenuBar">
+               <source>Attach a menu to the menu bar "#"</source>
+               <target>Attach a menu to the menu bar "#"</target>
+            </trans-unit>
+            <trans-unit id="12" resname="MenuEditorAttachSubMenuToItem">
+               <source>Attach a sub-menu to the item "#"</source>
+               <target>Attach a sub-menu to the item "#"</target>
+            </trans-unit>
+            <trans-unit id="13" resname="MenuEditorDetachMenuOfMenuBar">
+               <source>Detach the menu "#" of the menu bar "#"</source>
+               <target>Detach the menu "#" of the menu bar "#"</target>
+            </trans-unit>
+            <trans-unit id="14" resname="MenuEditorDetachSubMenuOfItem">
+               <source>Detach the sub-menu of the item "#"</source>
+               <target>Detach the sub-menu of the item "#"</target>
+            </trans-unit>
+            <trans-unit id="15" resname="MenuEditorCreateStandardEditMenu">
+               <source>Create a standard "Edit" menu</source>
+               <target>Create a standard "Edit" menu</target>
+            </trans-unit>
+         </group>
+         <group id="351" resname="Users">
+            <trans-unit id="1" resname="Users_ThereWasAnErrorDuringConfirmation">
+               <source>There was an error during confirmation; the password remains unchanged.</source>
+               <target>There was an error during confirmation; the password remains unchanged.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Users_EnterTheNameOfTheNewUser">
+               <source>Enter the name of the new user:</source>
+               <target>Enter the name of the new user:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Users_NewUser">
+               <source>New user</source>
+               <target>New user</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Users_Create">
+               <source>Create</source>
+               <target>Create</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Users_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Users_YouMustEnterAUserName">
+               <source>You must enter a user name.</source>
+               <target>You must enter a user name.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Users_ThisUserNameAlreadyExists">
+               <source>This user name already exists. Please use another one.</source>
+               <target>This user name already exists. Please use another one.</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Users_YouAreNotTheAdministratorOfThisDatabase">
+               <source>You are not the administrator of this database; you cannot access the users editor.</source>
+               <target>You are not the administrator of this database; you cannot access the users editor.</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Users_ThisNameIsAlreadyUsedForAnotherUser">
+               <source>This name is already used for another user. The change cannot be made.</source>
+               <target>This name is already used for another user. The change cannot be made.</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Users_Designer">
+               <source>Designer</source>
+               <target>Designer</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Users_Administrator">
+               <source>Administrator</source>
+               <target>Administrator</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Users_Developer">
+               <source>Developer</source>
+               <target>Developer</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Users_User">
+               <source>User</source>
+               <target>User</target>
+            </trans-unit>
+            <trans-unit id="14" resname="Users_Guest">
+               <source>Guest</source>
+               <target>Guest</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Users_UserOwnerOfTheGroup">
+               <source>User owner of the group</source>
+               <target>User owner of the group</target>
+            </trans-unit>
+            <trans-unit id="16" resname="Users_UserRegisteredToTheGroup">
+               <source>User registered to the group</source>
+               <target>User registered to the group</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Users_ToChangeTheGroupOwner">
+               <source>To change the group owner, please use the group editor.</source>
+               <target>To change the group owner, please use the group editor.</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Users_ChangeOfPassword">
+               <source>Change of Password</source>
+               <target>Change of Password</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Users_NewPassword">
+               <source>New Password:</source>
+               <target>New Password:</target>
+            </trans-unit>
+            <trans-unit id="20" resname="Users_ConfirmPassword">
+               <source>Confirm Password:</source>
+               <target>Confirm Password:</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Users_Change">
+               <source>Change</source>
+               <target>Change</target>
+            </trans-unit>
+            <trans-unit id="22" resname="Users_None">
+               <source>none</source>
+               <target>none</target>
+            </trans-unit>
+            <trans-unit id="23" resname="Users_DuplicateLabel">
+               <source>copy</source>
+               <target>copy</target>
+            </trans-unit>
+            <trans-unit id="24" resname="Users_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Users_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Users_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Users_DoYouReallyWantToDeleteTheUserNamed">
+               <source>Do you really want to delete the user named "#1" ?</source>
+               <target>Do you really want to delete the user named "#1" ?</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Users_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Users_ItIsNotPossibleToDeleteTheDesignerAccount">
+               <source>It is not possible to delete the Designer account (ID=1) of the structure file.</source>
+               <target>It is not possible to delete the Designer account (ID=1) of the structure file.</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Users_ItIsNotPossibleToDeleteTheAdministratorAccount">
+               <source>It is not possible to delete the Administrator account (ID=2) of the structure file.</source>
+               <target>It is not possible to delete the Administrator account (ID=2) of the structure file.</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Users_Groups">
+               <source>Groups</source>
+               <target>Groups</target>
+            </trans-unit>
+            <trans-unit id="32" resname="Users_Owner">
+               <source>Owner</source>
+               <target>Owner</target>
+            </trans-unit>
+            <trans-unit id="33" resname="Users_Member">
+               <source>Member</source>
+               <target>Member</target>
+            </trans-unit>
+            <trans-unit id="34" resname="Users_TheToolboxIsAlreadyBeingExecutedInAnotherProcess">
+               <source>The Toolbox is already being executed in another process.</source>
+               <target>The Toolbox is already being executed in another process.</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Users_TheNameOfAUserCannotExceed30Characters">
+               <source>The name of a user cannot exceed 30 characters.</source>
+               <target>The name of a user cannot exceed 30 characters.</target>
+            </trans-unit>
+         </group>
+         <group id="352" resname="Groups">
+            <trans-unit id="1" resname="Groups_YouDoNotHaveAnyUserGroup">
+               <source>You do not have any user group; therefore you cannot access this editor.</source>
+               <target>You do not have any user group; therefore you cannot access this editor.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Groups_EnterTheNameOfTheNewGroup">
+               <source>Enter the name of the new group:</source>
+               <target>Enter the name of the new group:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Groups_NewGroup">
+               <source>New group</source>
+               <target>New group</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Groups_Create">
+               <source>Create</source>
+               <target>Create</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Groups_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Groups_YouMustEnterAgroupName">
+               <source>You must enter a group name.</source>
+               <target>You must enter a group name.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Groups_ThisGroupNameAlreadyExists">
+               <source>This group name already exists. Please use another one.</source>
+               <target>This group name already exists. Please use another one.</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Groups_DesignerGroup">
+               <source>Designer group</source>
+               <target>Designer group</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Groups_AdministratorGroup">
+               <source>Administrator group</source>
+               <target>Administrator group</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Groups_AllGroups">
+               <source>All groups</source>
+               <target>All groups</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Groups_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Groups_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Groups_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="14" resname="GroupsDuplicateLabel">
+               <source>copy</source>
+               <target>copy</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Groups_GroupKind">
+               <source>Group Kind:</source>
+               <target>Group Kind:</target>
+            </trans-unit>
+            <trans-unit id="16" resname="Groups_Information" translate="no">
+               <source>Information</source>
+            </trans-unit>
+            <trans-unit id="17" resname="Groups_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Groups_Owner">
+               <source>Owner:</source>
+               <target>Owner:</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Groups_Members">
+               <source>Members</source>
+               <target>Members</target>
+            </trans-unit>
+            <trans-unit id="20" resname="Groups_Reference">
+               <source>Reference:</source>
+               <target>Reference:</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Groups_Plug-ins">
+               <source>Plug-ins</source>
+               <target>Plug-ins</target>
+            </trans-unit>
+            <trans-unit id="22" resname="Groups_User/Group">
+               <source>User / Group</source>
+               <target>User / Group</target>
+            </trans-unit>
+            <trans-unit id="23" resname="Groups_Member">
+               <source>Member</source>
+               <target>Member</target>
+            </trans-unit>
+            <trans-unit id="24" resname="Groups_Plug-in" translate="no">
+               <source>Plug-in</source>
+            </trans-unit>
+            <trans-unit id="25" resname="Groups_Access">
+               <source>Access</source>
+               <target>Access</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Groups_SaveUsersAndGroups">
+               <source>Save users and groups</source>
+               <target>Save users and groups</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Groups_LoadUsersAndGroups">
+               <source>Load users and groups</source>
+               <target>Load users and groups</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Groups_TheNameOfAGroupCannotExceed30Characters">
+               <source>The name of a group cannot exceed 30 characters.</source>
+               <target>The name of a group cannot exceed 30 characters.</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Groups_TheNameChosenForTheGroupAlreadyExists">
+               <source>The name chosen for the group already exists.</source>
+               <target>The name chosen for the group already exists.</target>
+            </trans-unit>
+         </group>
+         <group id="354" resname="Pictures">
+            <trans-unit id="1" resname="Pictures_ListView">
+               <source>List View</source>
+               <target>List View</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Pictures_ThumbnailView">
+               <source>Thumbnail View</source>
+               <target>Thumbnail View</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Pictures_SortByName">
+               <source>Sort by Name</source>
+               <target>Sort by Name</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Pictures_SortByID">
+               <source>Sort by ID</source>
+               <target>Sort by ID</target>
+            </trans-unit>
+         </group>
+         <group id="355" resname="HelpTips">
+            <trans-unit id="1" resname="HelpTips_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="2" resname="HelpTips_Text">
+               <source>Text</source>
+               <target>Text</target>
+            </trans-unit>
+            <trans-unit id="3" resname="HelpTips_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="4" resname="HelpTips_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="5" resname="HelpTips_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="6" resname="HelpTips_HelpTipName">
+               <source>Help Tip Name</source>
+               <target>Help Tip Name</target>
+            </trans-unit>
+            <trans-unit id="7" resname="HelpTips_HelpTipText">
+               <source>Help Tip Text</source>
+               <target>Help Tip Text</target>
+            </trans-unit>
+            <trans-unit id="8" resname="HelpTips_HelpTipNameCannotHaveMoreThan15Characters">
+               <source>Help Tip Name cannot have more than 15 characters.</source>
+               <target>Help Tip Name cannot have more than 15 characters.</target>
+            </trans-unit>
+            <trans-unit id="9" resname="HelpTips_HelpTipTextCannotHaveMoreThan255Characters">
+               <source>Help Tip Text cannot have more than 255 characters.</source>
+               <target>Help Tip Text cannot have more than 255 characters.</target>
+            </trans-unit>
+            <trans-unit id="10" resname="HelpTips_TestArea">
+               <source>Test Area</source>
+               <target>Test Area</target>
+            </trans-unit>
+            <trans-unit id="11" resname="HelpTips_Bat_tips_text" translate="no">
+               <source>&lt;bat_tips_text&gt;</source>
+            </trans-unit>
+            <trans-unit id="12" resname="HelpTips_DoYouReallyWantToDeleteThe#1HelpMessage">
+               <source>Do you really want to delete the '#1' help message (this operation cannot be undone)?</source>
+               <target>Do you really want to delete the '#1' help message (this operation cannot be undone)?</target>
+            </trans-unit>
+            <trans-unit id="13" resname="HelpTips_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="14" resname="HelpTips_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>
+         </group>
+         <group id="356" resname="Lists">
+            <trans-unit id="1" resname="Lists_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Lists_Contents">
+               <source>Contents</source>
+               <target>Contents</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Lists_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Lists_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Lists_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Lists_ListName">
+               <source>List Name</source>
+               <target>List Name</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Lists_ListBody">
+               <source>List Body</source>
+               <target>List Body</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Lists_ElementHeight">
+               <source>Element Height:</source>
+               <target>Element Height:</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Lists_DeploymentIcon">
+               <source>Deployment Icon:</source>
+               <target>Deployment Icon:</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Lists_Appearance">
+               <source>Appearance</source>
+               <target>Appearance</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Lists_ALaMacintosh" translate="no">
+               <source>A la Macintosh</source>
+            </trans-unit>
+            <trans-unit id="12" resname="Lists_ALaWindows" translate="no">
+               <source>A la Windows</source>
+            </trans-unit>
+            <trans-unit id="13" resname="Lists_NewItem">
+               <source>New Item # </source>
+               <target>New Item # </target>
+            </trans-unit>
+            <trans-unit id="14" resname="Lists_Source">
+               <source>Source:</source>
+               <target>Source:</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Lists_CicnResource">
+               <source>'cicn' Resource </source>
+               <target>'cicn' Resource </target>
+            </trans-unit>
+            <trans-unit id="16" resname="Lists_PictResource">
+               <source>'pict' Resource</source>
+               <target>'pict' Resource</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Lists_PictureLibrary">
+               <source>Picture Library</source>
+               <target>Picture Library</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Lists_Plain">
+               <source>Plain</source>
+               <target>Plain</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Lists_Bold">
+               <source>Bold</source>
+               <target>Bold</target>
+            </trans-unit>
+            <trans-unit id="20" resname="Lists_Italic">
+               <source>Italic</source>
+               <target>Italic</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Lists_Underline">
+               <source>Underline</source>
+               <target>Underline</target>
+            </trans-unit>
+            <trans-unit id="22" resname="Lists_Condensed">
+               <source>Condensed</source>
+               <target>Condensed</target>
+            </trans-unit>
+            <trans-unit id="23" resname="Lists_Extended">
+               <source>Extended</source>
+               <target>Extended</target>
+            </trans-unit>
+            <trans-unit id="24" resname="Lists_ModifiableElement">
+               <source>Modifiable Element</source>
+               <target>Modifiable Element</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Lists_Name">
+               <source>Name:</source>
+               <target>Name:</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Lists_LinesHeight">
+               <source>Lines height:</source>
+               <target>Lines height:</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Lists_ListProperties">
+               <source>List Properties:</source>
+               <target>List Properties:</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Lists_Reference">
+               <source>Reference:</source>
+               <target>Reference:</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Lists_IconID">
+               <source>Icon ID:</source>
+               <target>Icon ID:</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Lists_Style">
+               <source>Style:</source>
+               <target>Style:</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Lists_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="32" resname="Lists_Edit">
+               <source>Edit</source>
+               <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="33" resname="Lists_AddAChild">
+               <source>Add a Child</source>
+               <target>Add a Child</target>
+            </trans-unit>
+            <trans-unit id="34" resname="Lists_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Lists_Sort">
+               <source>Sort</source>
+               <target>Sort</target>
+            </trans-unit>
+            <trans-unit id="36" resname="Lists_NewList">
+               <source>New List</source>
+               <target>New List</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Lists_Icon">
+               <source>Icon:</source>
+               <target>Icon:</target>
+            </trans-unit>
+            <trans-unit id="38" resname="Lists_EditableByUser">
+               <source>Editable by user</source>
+               <target>Editable by user</target>
+            </trans-unit>
+            <trans-unit id="39" resname="Lists_OverallAscendingSort">
+               <source>Overall Ascending Sort</source>
+               <target>Overall Ascending Sort</target>
+            </trans-unit>
+            <trans-unit id="40" resname="Lists_OverallDescendingSort">
+               <source>Overall Descending Sort</source>
+               <target>Overall Descending Sort</target>
+            </trans-unit>
+            <trans-unit id="41" resname="Lists_SublistAscendingSort">
+               <source>Sublist Ascending Sort</source>
+               <target>Sublist Ascending Sort</target>
+            </trans-unit>
+            <trans-unit id="42" resname="Lists_SublistDescendingSort">
+               <source>Sublist Descending Sort</source>
+               <target>Sublist Descending Sort</target>
+            </trans-unit>
+            <trans-unit id="43" resname="Lists_DoYouReallyWantToDeleteThe#1List">
+               <source>Do you really want to delete the '#1' list (this operation cannot be undone)?</source>
+               <target>Do you really want to delete the '#1' list (this operation cannot be undone)?</target>
+            </trans-unit>
+         </group>
+         <group id="357" resname="StyleSheets">
+            <trans-unit id="1" resname="StyleSheets_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="2" resname="StyleSheets_Contents">
+               <source>Contents</source>
+               <target>Contents</target>
+            </trans-unit>
+            <trans-unit id="6" resname="StyleSheets_StyleSheet">
+               <source>Style sheet</source>
+               <target>Style sheet</target>
+            </trans-unit>
+            <trans-unit id="7" resname="StyleSheets_Copy">
+               <source>copy</source>
+               <target>copy</target>
+            </trans-unit>
+            <trans-unit id="8" resname="StyleSheets_DoYouReallyWantToDeleteTheStyleSheet">
+               <source>Do you really want to delete the '#1' style sheet (this operation cannot be undone)?</source>
+               <target>Do you really want to delete the '#1' style sheet (this operation cannot be undone)?</target>
+            </trans-unit>
+         </group>
+         <group id="358" resname="Filters">
+            <trans-unit id="1" resname="Filters_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Filters_Definition" translate="no">
+               <source>Definition</source>
+            </trans-unit>
+            <trans-unit id="3" resname="Filters_Add">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Filters_Delete">
+               <source>Delete</source>
+               <target>Delete</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Filters_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Filters_FilterName">
+               <source>Filter Name</source>
+               <target>Filter Name</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Filters_FilterDefinition">
+               <source>Filter Definition</source>
+               <target>Filter Definition</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Filters_Filter">
+               <source>Filter</source>
+               <target>Filter</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Filters_##0" translate="no">
+               <source>##0</source>
+            </trans-unit>
+            <trans-unit id="10" resname="Filters_DoYouReallyWantToDeleteTheFilter">
+               <source>Do you really want to delete the '#1' filter (this operation cannot be undone)?</source>
+               <target>Do you really want to delete the '#1' filter (this operation cannot be undone)?</target>
+            </trans-unit>
+         </group>
+         <group id="371" resname="UserTypes">
+            <trans-unit id="1" resname="UserTypes_1">
+               <source>All users</source>
+               <target>All users</target>
+            </trans-unit>
+            <trans-unit id="2" resname="UserTypes_1">
+               <source>Main users</source>
+               <target>Main users</target>
+            </trans-unit>
+            <trans-unit id="3" resname="UserTypes_1">
+               <source>Created by #1</source>
+               <target>Created by #1</target>
+            </trans-unit>
+            <trans-unit id="4" resname="UserTypes_1">
+               <source>Created by #2</source>
+               <target>Created by #2</target>
+            </trans-unit>
+         </group>
+         <group id="372" resname="GroupTypes">
+            <trans-unit id="1" resname="GroupTypes_1">
+               <source>All groups</source>
+               <target>All groups</target>
+            </trans-unit>
+            <trans-unit id="2" resname="GroupTypes_1">
+               <source>Groups created by #1</source>
+               <target>Groups created by #1</target>
+            </trans-unit>
+            <trans-unit id="3" resname="GroupTypes_1">
+               <source>Groups created by #2</source>
+               <target>Groups created by #2</target>
+            </trans-unit>
+            <trans-unit id="4" resname="GroupTypes_3">
+               <source>My groups</source>
+               <target>My groups</target>
+            </trans-unit>
+         </group>
+         <group resname="ResourceFolder">
+            <trans-unit id="1" resname="AllFiles">
+               <source>All files</source>
+               <target>All files</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ImageFiles">
+               <source>Image files</source>
+               <target>Image files</target>
+            </trans-unit>
+            <trans-unit id="3" resname="NewFolder">
+               <source>New folder</source>
+               <target>New folder</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ShowOnDisk">
+               <source>Show on disk</source>
+               <target>Show on disk</target>
+            </trans-unit>
+            <trans-unit id="5" resname="FolderName">
+               <source>Folder name</source>
+               <target>Folder name</target>
+            </trans-unit>
+            <trans-unit id="6" resname="NewName">
+               <source>New name for "{name}":</source>
+               <target>New name for "{name}":</target>
+            </trans-unit>
+            <trans-unit id="7" resname="DeleteFolder">
+               <source>Are you sure you want to delete folder "{name}"?</source>
+               <target>Are you sure you want to delete folder "{name}"?</target>
+            </trans-unit>
+            <trans-unit id="8" resname="NewImage">
+               <source>Picture.png</source>
+               <target>Picture.png</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ResourceFolderFileNumber">
+               <source>&lt;BAT_RES_Nb_Files&gt; files</source>
+               <target>&lt;BAT_RES_Nb_Files&gt; files</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ResourceFolderName">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="11" resname="ResourceFolderModification">
+               <source>Modification</source>
+               <target>Modification</target>
+            </trans-unit>
+            <trans-unit id="12" resname="ResourceFolderSize">
+               <source>Size</source>
+               <target>Size</target>
+            </trans-unit>
+            <trans-unit id="13" resname="ResourceFolderType">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+            <trans-unit id="14" resname="ResourceSynchroniseClients">
+               <source>Update Local Resources</source>
+               <target>Update Local Resources</target>
+            </trans-unit>
+            <trans-unit id="15" resname="ThisNameIsAlreadyUsedForAFolder">
+               <source>This name is already used for a folder</source>
+               <target>This name is already used for a folder</target>
+            </trans-unit>
+            <trans-unit id="16" resname="ThisNameIsAlreadyUsedForAFile">
+               <source>This name is already used for a file</source>
+               <target>This name is already used for a file</target>
+            </trans-unit>
+            <trans-unit id="17" resname="ResourceTreeview">
+               <source>Tree view</source>
+               <target>Tree view</target>
+            </trans-unit>
+            <trans-unit id="18" resname="ResourceFolderView">
+               <source>Directory view</source>
+               <target>Directory view</target>
+            </trans-unit>
+            <trans-unit id="19" resname="ConfirmUpdateResources">
+               <source>Resources were modified on server.
+Do you want to update the local resources?</source>
+               <target>Resources were modified on server.
+Do you want to update the local resources?</target>
+            </trans-unit>
+            <trans-unit id="20" resname="SelectParentFolder">
+               <source>Select the parent folder</source>
+               <target>Select the parent folder</target>
+            </trans-unit>
+            <trans-unit id="res_21" resname="ResourceNotifyClients">
+               <source>Notify clients</source>
+               <target>Notify clients</target>
+            </trans-unit>
+         </group>
+         
+         <group resname="ResourceExplorer">
+            <trans-unit id="1" resname="Res_Explorer_Tips">
+               <source>Path: {path}
+Name: {name}
+Type: {type}
+Date: {date}
+Size: {size} KB</source>
+               <target>Path: {path}
+Name: {name}
+Type: {type}
+Date: {date}
+Size: {size} KB</target>
+            </trans-unit>
+         </group>
+         
+      </body>
+   </file>
+</xliff>

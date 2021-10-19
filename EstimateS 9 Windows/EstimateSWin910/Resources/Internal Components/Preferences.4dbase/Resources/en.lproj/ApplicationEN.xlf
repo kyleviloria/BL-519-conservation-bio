@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!--               Translation file for 4D products.   Copyright (C) 2009 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &apos;%&apos; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="Application dialog">
+            <trans-unit id="120" resname="databaseWindowTitle">
+               <source>Database Settings</source>
+               <target>Database Settings</target>
+            </trans-unit>
+            <trans-unit id="93" resname="databasePage_1">
+               <source>General</source>
+               <target>General</target>
+            </trans-unit>
+            <trans-unit id="112" resname="databasePage_2">
+               <source>Interface</source>
+               <target>Interface</target>
+            </trans-unit>
+            <trans-unit id="113" resname="databasePage_3">
+               <source>Compiler</source>
+               <target>Compiler</target>
+            </trans-unit>
+            <trans-unit id="114" resname="databasePage_4">
+               <source>Database</source>
+               <target>Database</target>
+            </trans-unit>
+            <trans-unit id="115" resname="databasePage_5">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="116" resname="databasePage_6">
+               <source>Client-server</source>
+               <target>Client-server</target>
+            </trans-unit>
+            <trans-unit id="117" resname="databasePage_7">
+               <source>Web</source>
+               <target>Web</target>
+            </trans-unit>
+            <trans-unit id="118" resname="databasePage_8">
+               <source>SQL</source>
+               <target>SQL</target>
+            </trans-unit>
+            <trans-unit id="119" resname="databasePage_9">
+               <source>PHP</source>
+               <target>PHP</target>
+            </trans-unit>
+            <trans-unit id="119" resname="databasePage_10">
+               <source>Compatibility</source>
+               <target>Compatibility</target>
+            </trans-unit>
+            <trans-unit id="180" resname="databasePage_11">
+               <source>Moving</source>
+               <target>Moving</target>
+            </trans-unit>
+            <trans-unit id="181" resname="databasePage_12">
+               <source>Security</source>
+               <target>Security</target>
+            </trans-unit>
+         </group>
+         <group resname="General">
+            <trans-unit id="112" resname="generalFont">
+               <source>General Font</source>
+               <target>General Font</target>
+            </trans-unit>
+            <trans-unit id="183" resname="GeneralStartupEnvironment">
+               <source>Startup Environment:</source>
+               <target>Startup Environment:</target>
+            </trans-unit>
+            <trans-unit id="184" resname="StartUpMode_1">
+               <source>Design</source>
+               <target>Design</target>
+            </trans-unit>
+            <trans-unit id="185" resname="StartUpMode_2">
+               <source>Application</source>
+               <target>Application</target>
+            </trans-unit>
+         </group>
+         <group resname="Mover">
+            <trans-unit id="115" resname="MoverObjectlists">
+               <source>Lists:</source>
+               <target>Lists:</target>
+            </trans-unit>
+            <trans-unit id="116" resname="MoverObjectstyleSheets">
+               <source>Style Sheets:</source>
+               <target>Style Sheets:</target>
+            </trans-unit>
+            <trans-unit id="117" resname="MoverObjectfilters">
+               <source>Filters:</source>
+               <target>Filters:</target>
+            </trans-unit>
+            <trans-unit id="118" resname="MoverObjectpictures">
+               <source>Pictures:</source>
+               <target>Pictures:</target>
+            </trans-unit>
+            <trans-unit id="119" resname="MoverObjectmenuBars">
+               <source>Menu Bars:</source>
+               <target>Menu Bars:</target>
+            </trans-unit>
+            <trans-unit id="120" resname="MoverObjecthelpTips">
+               <source>Help Tips:</source>
+               <target>Help Tips:</target>
+            </trans-unit>
+            <trans-unit id="121" resname="MoverObjecttables">
+               <source>Tables:</source>
+               <target>Tables:</target>
+            </trans-unit>
+            <trans-unit id="138" resname="defaultActionsDuringTheCopyOfDependentObjects">
+               <source>Default Actions during the Copy of Dependent Objects</source>
+               <target>Default Actions during the Copy of Dependent Objects</target>
+            </trans-unit>
+            <trans-unit id="139" resname="GeneralDisplayMovingDialog">
+               <source>Display Moving Dialog:</source>
+               <target>Display Moving Dialog:</target>
+            </trans-unit>
+            <trans-unit id="140" resname="GenerateMovingLog">
+               <source>Generate moving log</source>
+               <target>Generate moving log</target>
+            </trans-unit>
+            <trans-unit id="122" resname="MoverObjectforms">
+               <source>Forms:</source>
+               <target>Forms:</target>
+            </trans-unit>
+         </group>
+         <group resname="Mover Menu Actions">
+            <trans-unit id="124" resname="Default_actions_1">
+               <source>Ignore</source>
+               <target>Ignore</target>
+            </trans-unit>
+            <trans-unit id="125" resname="Default_actions_2">
+               <source>Create (Rename if necessary)</source>
+               <target>Create (Rename if necessary)</target>
+            </trans-unit>
+            <trans-unit id="126" resname="Default_actions_3">
+               <source>Create (Replace if necessary)</source>
+               <target>Create (Replace if necessary)</target>
+            </trans-unit>
+            <trans-unit id="127" resname="Default_actions_4">
+               <source>Use another object</source>
+               <target>Use another object</target>
+            </trans-unit>
+         </group>
+         <group resname="Interface">
+            <trans-unit id="159" resname="InterfaceDevelopperdisplayToolbar">
+               <source>Display toolbar</source>
+               <target>Display toolbar</target>
+            </trans-unit>
+            <trans-unit id="160" resname="InterfaceDevelopperdoNotDisplayWarningWhenStructureFileIsInRe">
+               <source>Do not display warning when structure file is in read only</source>
+               <target>Do not display warning when structure file is in read only</target>
+            </trans-unit>
+            <trans-unit id="161" resname="InterfaceDevelopperdesignAccess">
+               <source>Design Access:</source>
+               <target>Design Access:</target>
+            </trans-unit>
+            <trans-unit id="162" resname="InterfaceDevelopperdataAccess">
+               <source>Data Access</source>
+               <target>Data Access</target>
+            </trans-unit>
+            <trans-unit id="163" resname="InterfaceDevelopperformulaEditor">
+               <source>Filtering of commands and project methods in the formula editor:</source>
+               <target>Filtering of commands and project methods in the formula editor:</target>
+            </trans-unit>
+            <trans-unit id="165" resname="InterfaceDevelopperdisableTheFilteringOfCommandsAndMethods">
+               <source>Disable for the Designer and the Administrator</source>
+               <target>Disable for the Designer and the Administrator</target>
+            </trans-unit>
+            <trans-unit id="138" resname="InterfaceTabsdevelopper">
+               <source>Design</source>
+               <target>Design</target>
+            </trans-unit>
+            <trans-unit id="139" resname="InterfaceTabsuser">
+               <source>User</source>
+               <target>User</target>
+            </trans-unit>
+            <trans-unit id="140" resname="InterfaceTabsshortcuts">
+               <source>Shortcuts</source>
+               <target>Shortcuts</target>
+            </trans-unit>
+            <trans-unit id="142" resname="InterfaceUserprintingProgress">
+               <source>Printing progress</source>
+               <target>Printing progress</target>
+            </trans-unit>
+            <trans-unit id="143" resname="InterfaceUsersplashScreen">
+               <source>Splash screen</source>
+               <target>Splash screen</target>
+            </trans-unit>
+            <trans-unit id="144" resname="InterfaceUserflush">
+               <source>Flushing progress</source>
+               <target>Flushing progress</target>
+            </trans-unit>
+            <trans-unit id="145" resname="InterfaceUserdisplayWindows">
+               <source>Display Windows:</source>
+               <target>Display Windows:</target>
+            </trans-unit>
+            <trans-unit id="146" resname="InterfaceUserdefaultUser">
+               <source>Default User:</source>
+               <target>Default User:</target>
+            </trans-unit>
+            <trans-unit id="147" resname="InterfaceUserdisplayUserListInPasswordDialogBox">
+               <source>Display User List in Password Dialog Box</source>
+               <target>Display User List in Password Dialog Box</target>
+            </trans-unit>
+            <trans-unit id="148" resname="InterfaceUseruserListInAlphabeticalOrder">
+               <source>User List in Alphabetical Order</source>
+               <target>User List in Alphabetical Order</target>
+            </trans-unit>
+            <trans-unit id="149" resname="InterfaceUserusersCanChangeTheirPassword">
+               <source>Users can change their password</source>
+               <target>Users can change their password</target>
+            </trans-unit>
+            <trans-unit id="150" resname="InterfaceUsernone">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="151" resname="InterfaceShortcutkeys">
+               <source>Keys</source>
+               <target>Keys</target>
+            </trans-unit>
+            <trans-unit id="152" resname="InterfaceShortcutwindows" translate="no">
+               <source>Windows</source>
+            </trans-unit>
+            <trans-unit id="153" resname="InterfaceShortcutmacintosh" translate="no">
+               <source>Macintosh</source>
+            </trans-unit>
+            <trans-unit id="154" resname="InterfaceShortcutacceptInputForm">
+               <source>Accept input form:</source>
+               <target>Accept input form:</target>
+            </trans-unit>
+            <trans-unit id="155" resname="InterfaceShortcutcancelInputForm">
+               <source>Cancel input form:</source>
+               <target>Cancel input form:</target>
+            </trans-unit>
+            <trans-unit id="156" resname="InterfaceShortcutaddToSubform">
+               <source>Add to subform:</source>
+               <target>Add to subform:</target>
+            </trans-unit>
+            <trans-unit id="204" resname="InterfaceoffForAll">
+               <source>Disabled for all</source>
+               <target>Disabled for all</target>
+            </trans-unit>
+            <trans-unit id="207" resname="InterfaceonForAll">
+               <source>Enabled for all</source>
+               <target>Enabled for all</target>
+            </trans-unit>
+            <trans-unit id="212" resname="InterfaceEnableExternalSettings">
+               <source>Enable User Settings in External File</source>
+               <target>Enable User Settings in External File</target>
+            </trans-unit>
+            <trans-unit id="213" resname="InterfacetheModificationWillTakenInAccountAtTheNextRestart">
+               <source>The change will be effective the next start</source>
+               <target>The change will be effective the next start</target>
+            </trans-unit>
+         </group>
+         <group resname="Compiler">
+            <trans-unit id="345" resname="CompilationGroupOptions">
+               <source>Compilation Options</source>
+               <target>Compilation Options</target>
+            </trans-unit>
+            <trans-unit id="357" resname="CompilerArrays">
+               <source>Arrays:</source>
+               <target>Arrays:</target>
+            </trans-unit>
+            <trans-unit id="346" resname="CompilerCodeGeneration">
+               <source>Code Generation:</source>
+               <target>Code Generation:</target>
+            </trans-unit>
+            <trans-unit id="353" resname="CompilerCompilationPath">
+               <source>Compilation Path:</source>
+               <target>Compilation Path:</target>
+            </trans-unit>
+            <trans-unit id="351" resname="CompilerDefaultButtonType">
+               <source>Button:</source>
+               <target>Button:</target>
+            </trans-unit>
+            <trans-unit id="350" resname="CompilerDefaultNumericType">
+               <source>Numeric:</source>
+               <target>Numeric:</target>
+            </trans-unit>
+            <trans-unit id="360" resname="CompilerGenerateErrorFile">
+               <source>Generate error file</source>
+               <target>Generate error file</target>
+            </trans-unit>
+            <trans-unit id="361" resname="CompilerGenerateTheSymbolFile">
+               <source>Generate the symbol file</source>
+               <target>Generate the symbol file</target>
+            </trans-unit>
+            <trans-unit id="354" resname="CompilerGroupMethodsFor">
+               <source>Compiler Methods for...</source>
+               <target>Compiler Methods for...</target>
+            </trans-unit>
+            <trans-unit id="231" resname="CompilerGroupTypageDefault">
+               <source>Default typing</source>
+               <target>Default typing</target>
+            </trans-unit>
+            <trans-unit id="349" resname="CompilerInitializeLocalVariables">
+               <source>Initialize local variables:</source>
+               <target>Initialize local variables:</target>
+            </trans-unit>
+            <trans-unit id="358" resname="CompilerInterprocessArrays">
+               <source>Interprocess Arrays:</source>
+               <target>Interprocess Arrays:</target>
+            </trans-unit>
+            <trans-unit id="356" resname="CompilerInterprocessVariables">
+               <source>Interprocess Variables:</source>
+               <target>Interprocess Variables:</target>
+            </trans-unit>
+            <trans-unit id="220" resname="CompilerMethodPrefix" translate="no">
+               <source>Compiler_</source>
+            </trans-unit>
+            <trans-unit id="359" resname="CompilerMethods">
+               <source>Methods:</source>
+               <target>Methods:</target>
+            </trans-unit>
+            <trans-unit id="348" resname="CompilerRangeChecking">
+               <source>Range Checking</source>
+               <target>Range Checking</target>
+            </trans-unit>
+            <trans-unit id="355" resname="CompilerVariables">
+               <source>Variables:</source>
+               <target>Variables:</target>
+            </trans-unit>
+            <trans-unit id="227" resname="AlertheNameOfTheMethodCanNotBeLongerThan{number}Characters">
+               <source>The name of the method can not be longer than {number} characters.</source>
+               <target>The name of the method can not be longer than {number} characters.</target>
+            </trans-unit>
+            <trans-unit id="228" resname="AlertTheMethodNameContainsInvalidCharacters">
+               <source>The method name contains invalid characters.</source>
+               <target>The method name contains invalid characters.</target>
+            </trans-unit>
+            <trans-unit id="186" resname="CompilerAlsoCompileFor64bitProcessors">
+               <source>Also compile for 64-bit processors</source>
+               <target>Also compile for 64-bit processors</target>
+            </trans-unit>
+         </group>
+         <group resname="Compiler Menu Initialize Local Variables">
+            <trans-unit id="1" resname="CompilerInitializeLocalVariables_1">
+               <source>to ‘zero’</source>
+               <target>to ‘zero’</target>
+            </trans-unit>
+            <trans-unit id="2" resname="CompilerInitializeLocalVariables_2">
+               <source>to a random value</source>
+               <target>to a random value</target>
+            </trans-unit>
+            <trans-unit id="3" resname="CompilerInitializeLocalVariables_3">
+               <source>no</source>
+               <target>no</target>
+            </trans-unit>
+         </group>
+         <group resname="Compiler Menu Numeric Type">
+            <trans-unit id="1" resname="CompilerMenuNumericType_1">
+               <source>Real</source>
+               <target>Real</target>
+            </trans-unit>
+            <trans-unit id="2" resname="CompilerMenuNumericType_2">
+               <source>Long integer</source>
+               <target>Long integer</target>
+            </trans-unit>
+         </group>
+         <group resname="Compiler Menu Compilation Path">
+            <trans-unit id="1" resname="CompilerCompilationPath_1">
+               <source>Type the variables</source>
+               <target>Type the variables</target>
+            </trans-unit>
+            <trans-unit id="2" resname="CompilerCompilationPath_2">
+               <source>Process and interprocess are typed</source>
+               <target>Process and interprocess are typed</target>
+            </trans-unit>
+            <trans-unit id="3" resname="CompilerCompilationPath_3">
+               <source>All variables are typed</source>
+               <target>All variables are typed</target>
+            </trans-unit>
+         </group>
+         <group resname="Database">
+            <trans-unit id="28" resname="Database4bytes">
+               <source>4 bytes</source>
+               <target>4 bytes</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Database8bytes">
+               <source>8 bytes</source>
+               <target>8 bytes</target>
+            </trans-unit>
+            <trans-unit id="21" resname="DatabaseAndNext">
+               <source>and next:</source>
+               <target>and next:</target>
+            </trans-unit>
+            <trans-unit id="24" resname="DatabaseCalculationWithDates">
+               <source>Calculation with dates:</source>
+               <target>Calculation with dates:</target>
+            </trans-unit>
+            <trans-unit id="375" resname="DatabaseChangeWillCauseDataReindexation">
+               <source>A change will cause the data to be reindexed.</source>
+               <target>A change will cause the data to be reindexed.</target>
+            </trans-unit>
+            <trans-unit id="195" resname="DatabaseComparisonConsiderOnlyNonAlphanumericChars">
+               <source>Consider only non alphanumeric chars for keywords</source>
+               <target>Consider only non alphanumeric chars for keywords</target>
+            </trans-unit>
+            <trans-unit id="206" resname="DatabaseComparisonTraditionalSortOrdering">
+               <source>Traditional Sorting Order</source>
+               <target>Traditional Sorting Order</target>
+            </trans-unit>
+            <trans-unit id="190" resname="DatabaseComparisonUsesHiraganaQuaternary">
+               <source>Comparison Uses Hiragana Quaternary</source>
+               <target>Comparison Uses Hiragana Quaternary</target>
+            </trans-unit>
+            <trans-unit id="189" resname="DatabaseComparisonUsesQuaternaryStrength">
+               <source>Comparison Uses Quaternary Strength</source>
+               <target>Comparison Uses Quaternary Strength</target>
+            </trans-unit>
+            <trans-unit id="25" resname="DatabasecurrentDataFile">
+               <source>Current data language:</source>
+               <target>Current data language:</target>
+            </trans-unit>
+            <trans-unit id="246" resname="DatabaseCurrentUserLanguage">
+               <source>Current user language</source>
+               <target>Current user language</target>
+            </trans-unit>
+            <trans-unit id="41" resname="DatabaseInversionOfObjectsinApplicationMode">
+               <source>Inversion of objects in Application mode (Windows):</source>
+               <target>Inversion of objects in Application mode (Windows):</target>
+            </trans-unit>
+            <trans-unit id="22" resname="DatabaseLanguageOfTextComparison">
+               <source>Text comparison</source>
+               <target>Text comparison</target>
+            </trans-unit>
+            <trans-unit id="3" resname="DatabaseMemory4d" translate="no">
+               <source>4D</source>
+            </trans-unit>
+            <trans-unit id="16" resname="DatabaseMemory4dRemoteMode">
+               <source>4D Remote Mode</source>
+               <target>4D Remote Mode</target>
+            </trans-unit>
+            <trans-unit id="4" resname="DatabaseMemory4dServer">
+               <source>4D Server</source>
+               <target>4D Server</target>
+            </trans-unit>
+            <trans-unit id="96" resname="DatabaseMemorycacheOnRestart">
+               <source>Cache on Restart:</source>
+               <target>Cache on Restart:</target>
+            </trans-unit>
+            <trans-unit id="87" resname="DatabaseMemorycalculationOfAdaptiveCache">
+               <source>Calculation of adaptive cache</source>
+               <target>Calculation of adaptive cache</target>
+            </trans-unit>
+            <trans-unit id="95" resname="DatabaseMemorycurrentCache">
+               <source>Current Cache:</source>
+               <target>Current Cache:</target>
+            </trans-unit>
+            <trans-unit id="2" resname="DatabaseMemorycustomSettings">
+               <source>Custom Settings</source>
+               <target>Custom Settings</target>
+            </trans-unit>
+            <trans-unit id="5" resname="DatabaseMemorydatabaseCacheMemory">
+               <source>Database Cache Memory</source>
+               <target>Database Cache Memory</target>
+            </trans-unit>
+            <trans-unit id="97" resname="DatabaseMemorydatabaseCacheSettings">
+               <source>Database Cache Settings</source>
+               <target>Database Cache Settings</target>
+            </trans-unit>
+            <trans-unit id="5" resname="DatabaseMemoryflushDataBuffersEvery">
+               <source>Flush Data Buffers every:</source>
+               <target>Flush Data Buffers every:</target>
+            </trans-unit>
+            <trans-unit id="122" resname="DatabaseMemorykeepTheCacheInPhysicalMemoryFor4dServerAnd4dDesktop">
+               <source>Keep the cache in physical memory for 4D Server and 4D Volume Desktop</source>
+               <target>Keep the cache in physical memory for 4D Server and 4D Volume Desktop</target>
+            </trans-unit>
+            <trans-unit id="92" resname="DatabaseMemorymaximumSize">
+               <source>Maximum Size:</source>
+               <target>Maximum Size:</target>
+            </trans-unit>
+            <trans-unit id="90" resname="DatabaseMemorymemoryToBeReservedForOtherApplicationsAndForTheSystem">
+               <source>Memory to be reserved for other applications and for the system:</source>
+               <target>Memory to be reserved for other applications and for the system:</target>
+            </trans-unit>
+            <trans-unit id="93" resname="DatabaseMemoryminimumSize">
+               <source>Minimum Size:</source>
+               <target>Minimum Size:</target>
+            </trans-unit>
+            <trans-unit id="17" resname="DatabaseMemoryotherApplications">
+               <source>Other Applications</source>
+               <target>Other Applications</target>
+            </trans-unit>
+            <trans-unit id="91" resname="DatabaseMemorypercentageOfAvailableMemoryUsedForCache">
+               <source>Percentage of available memory used for cache:</source>
+               <target>Percentage of available memory used for cache:</target>
+            </trans-unit>
+            <trans-unit id="94" resname="DatabaseMemoryphysicalMemory">
+               <source>Physical Memory:</source>
+               <target>Physical Memory:</target>
+            </trans-unit>
+            <trans-unit id="1" resname="DatabaseMemorysetCpuPriorityTo">
+               <source>CPU Priority</source>
+               <target>CPU Priority</target>
+            </trans-unit>
+            <trans-unit id="88" resname="DatabaseMemorysize">
+               <source>Size:</source>
+               <target>Size:</target>
+            </trans-unit>
+            <trans-unit id="26" resname="DatabaseModifiedValuesWillbeTaken">
+               <source>Modified values will be taken into account the next time the database is opened</source>
+               <target>Modified values will be taken into account the next time the database is opened</target>
+            </trans-unit>
+            <trans-unit id="29" resname="DatabaseOptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="245" resname="DatabaseRighttoleftLanguages">
+               <source>Right-to-left languages</source>
+               <target>Right-to-left languages</target>
+            </trans-unit>
+            <trans-unit id="207" resname="DatabaseStorageallowDeletionControl">
+               <source>Allow Deletion Control</source>
+               <target>Allow Deletion Control</target>
+            </trans-unit>
+            <trans-unit id="209" resname="DatabaseStorageallowReadOnlyDataFileUse">
+               <source>Allow Read Only Data file Use</source>
+               <target>Allow Read Only Data file Use</target>
+            </trans-unit>
+            <trans-unit id="205" resname="DatabaseStorageatNextStartup">
+               <source>At next startup:</source>
+               <target>At next startup:</target>
+            </trans-unit>
+            <trans-unit id="208" resname="DatabaseStorageconsiderArobaseAsAWildcard">
+               <source>Consider @ as a wildcard only when at the beginning or end of text patterns</source>
+               <target>Consider @ as a wildcard only when at the beginning or end of text patterns</target>
+            </trans-unit>
+            <trans-unit id="204" resname="DatabaseStoragecurrent">
+               <source>Current:</source>
+               <target>Current:</target>
+            </trans-unit>
+            <trans-unit id="206" resname="DatabaseStoragedataFileFolder">
+               <source>Data File Folder</source>
+               <target>Data File Folder</target>
+            </trans-unit>
+            <trans-unit id="200" resname="DatabaseStoragegeneralSettings">
+               <source>General Settings</source>
+               <target>General Settings</target>
+            </trans-unit>
+            <trans-unit id="203" resname="DatabaseStoragesystem">
+               <source>System</source>
+               <target>System</target>
+            </trans-unit>
+            <trans-unit id="201" resname="DatabaseStoragetemporaryFolderLocation">
+               <source>Temporary Folder Location</source>
+               <target>Temporary Folder Location</target>
+            </trans-unit>
+            <trans-unit id="202" resname="DatabaseStorageuserDefined">
+               <source>User Defined</source>
+               <target>User Defined</target>
+            </trans-unit>
+            <trans-unit id="188" resname="DatabaseStringEqualityUsesSecondaryStrength">
+               <source>String Equality Uses Secondary Strength</source>
+               <target>String Equality Uses Secondary Strength</target>
+            </trans-unit>
+            <trans-unit id="174" resname="DatabaseTabdataStorage">
+               <source>Data storage</source>
+               <target>Data storage</target>
+            </trans-unit>
+            <trans-unit id="176" resname="DatabaseTabinternational">
+               <source>International</source>
+               <target>International</target>
+            </trans-unit>
+            <trans-unit id="175" resname="DatabaseTabmemoryAndProcessor">
+               <source>Memory</source>
+               <target>Memory</target>
+            </trans-unit>
+            <trans-unit id="20" resname="DatabaseZeroASCIIcode">
+               <source>0 (zero) ASCII code:</source>
+               <target>0 (zero) ASCII code:</target>
+            </trans-unit>
+            <trans-unit id="204" resname="FlushTimeUnit_1">
+               <source>Seconds</source>
+               <target>Seconds</target>
+            </trans-unit>
+            <trans-unit id="205" resname="FlushTimeUnit_2">
+               <source>Minutes</source>
+               <target>Minutes</target>
+            </trans-unit>
+            <trans-unit id="50" resname="NumFormatExemple">
+               <source>Commas and periods will be replaced when displayed.
+E.g.: The format ###,###,##0.00 will be displayed as 123 456,78 on a French system.</source>
+               <target>Commas and periods will be replaced when displayed.
+E.g.: The format ###,###,##0.00 will be displayed as 123 456,78 on a French system.</target>
+            </trans-unit>
+            <trans-unit id="33" resname="UnicodeRestart">
+               <source>The database must be restarted when the mode is changed.</source>
+               <target>The database must be restarted when the mode is changed.</target>
+            </trans-unit>
+            <trans-unit id="49" resname="UseDotAndCommaAsTokens">
+               <source>Use system settings in numeric formats</source>
+               <target>Use system settings in numeric formats</target>
+            </trans-unit>
+            <trans-unit id="211" resname="OpeningDataAuthorization">
+               <source>Allow opening of v13 data files:</source>
+               <target>Allow opening of v13 data files:</target>
+            </trans-unit>
+         </group>
+         <group resname="Database menu Intl Right to Left">
+            <trans-unit id="243" resname="Intl_rightToLeft_1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="244" resname="Intl_rightToLeft_2">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="245" resname="Intl_rightToLeft_3">
+               <source>Always</source>
+               <target>Always</target>
+            </trans-unit>
+         </group>
+         <group resname="PHP">
+            <trans-unit id="210" resname="PhpInterpreter">
+               <source>Interpreter</source>
+               <target>Interpreter</target>
+            </trans-unit>
+            <trans-unit id="211" resname="PhpIPAdress">
+               <source>IP Address:</source>
+               <target>IP Address:</target>
+            </trans-unit>
+            <trans-unit id="212" resname="PhpPortNumber">
+               <source>Port number:</source>
+               <target>Port number:</target>
+            </trans-unit>
+            <trans-unit id="214" resname="PhpNumberOfProcess">
+               <source>Number of processes:</source>
+               <target>Number of processes:</target>
+            </trans-unit>
+            <trans-unit id="215" resname="PhpOptions">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="217" resname="PhpRestartInterpreterAfter">
+               <source>Restart the interpreter after:</source>
+               <target>Restart the interpreter after:</target>
+            </trans-unit>
+            <trans-unit id="145" resname="PhpRequests">
+               <source>requests</source>
+               <target>requests</target>
+            </trans-unit>
+            <trans-unit id="182" resname="PhpExternalInterpreter">
+               <source>External interpreter</source>
+               <target>External interpreter</target>
+            </trans-unit>
+         </group>
+         <group resname="Mover Menu Display">
+            <trans-unit id="145" resname="display_dialog_1">
+               <source>Always</source>
+               <target>Always</target>
+            </trans-unit>
+            <trans-unit id="146" resname="display_dialog_2">
+               <source>Only in case of name conflict</source>
+               <target>Only in case of name conflict</target>
+            </trans-unit>
+         </group>
+         <group resname="SQL">
+            <trans-unit id="144" resname="SqlsqlServerPublishing">
+               <source>SQL Server Publishing</source>
+               <target>SQL Server Publishing</target>
+            </trans-unit>
+            <trans-unit id="145" resname="SqllaunchSqlServerAtStartup">
+               <source>Launch SQL Server at Startup</source>
+               <target>Launch SQL Server at Startup</target>
+            </trans-unit>
+            <trans-unit id="146" resname="SqlenableSsl">
+               <source>Enable SSL</source>
+               <target>Enable SSL</target>
+            </trans-unit>
+            <trans-unit id="147" resname="SqltcpPort">
+               <source>TCP Port:</source>
+               <target>TCP Port:</target>
+            </trans-unit>
+            <trans-unit id="148" resname="SqlipAddress">
+               <source>IP Address:</source>
+               <target>IP Address:</target>
+            </trans-unit>
+            <trans-unit id="149" resname="SqlsqlServerAccessForDefaultSchema">
+               <source>SQL Server Access for Default Schema</source>
+               <target>SQL Server Access for Default Schema</target>
+            </trans-unit>
+            <trans-unit id="150" resname="SqlreadOnlyData">
+               <source>Read Only (Data):</source>
+               <target>Read Only (Data):</target>
+            </trans-unit>
+            <trans-unit id="151" resname="SqlreadwriteData">
+               <source>Read/Write (Data):</source>
+               <target>Read/Write (Data):</target>
+            </trans-unit>
+            <trans-unit id="152" resname="SqlfullDataAndDesign">
+               <source>Full (Data and Design):</source>
+               <target>Full (Data and Design):</target>
+            </trans-unit>
+            <trans-unit id="153" resname="SqlnotetheseSettingsAreOnlyTakenIntoAccount">
+               <source>NOTE
+These settings are only taken into account when the 4D password access system is activated (the Designer has been assigned a password)</source>
+               <target>NOTE
+These settings are only taken into account when the 4D password access system is activated (the Designer has been assigned a password)</target>
+            </trans-unit>
+            <trans-unit id="154" resname="SqlsqlEngineOptions">
+               <source>SQL Engine Options</source>
+               <target>SQL Engine Options</target>
+            </trans-unit>
+            <trans-unit id="155" resname="SqlautocommitTransactions">
+               <source>Auto-commit Transactions</source>
+               <target>Auto-commit Transactions</target>
+            </trans-unit>
+            <trans-unit id="156" resname="SqlcasesensitiveStringComparison">
+               <source>Case-sensitive String Comparison</source>
+               <target>Case-sensitive String Comparison</target>
+            </trans-unit>
+            <trans-unit id="157" resname="Sqlall">
+               <source>All</source>
+               <target>All</target>
+            </trans-unit>
+            <trans-unit id="187" resname="SqlallowFlashPlayerRequests">
+               <source>Allow Flash Player requests</source>
+               <target>Allow Flash Player requests</target>
+            </trans-unit>
+         </group>
+         <group resname="4DCS">
+            <trans-unit id="157" resname="4dcsnetworkOptions">
+               <source>Network options</source>
+               <target>Network options</target>
+            </trans-unit>
+            <trans-unit id="109" resname="GeneralclientServerConnectionsTimeout">
+               <source>Client-Server Connections Timeout:</source>
+               <target>Client-Server Connections Timeout:</target>
+            </trans-unit>
+            <trans-unit id="110" resname="General1Mn">
+               <source>1 mn</source>
+               <target>1 mn</target>
+            </trans-unit>
+            <trans-unit id="110" resname="General5Mn">
+               <source>5 mn</source>
+               <target>5 mn</target>
+            </trans-unit>
+            <trans-unit id="110" resname="General15Mn">
+               <source>15 mn</source>
+               <target>15 mn</target>
+            </trans-unit>
+            <trans-unit id="110" resname="General30Mn">
+               <source>30 mn</source>
+               <target>30 mn</target>
+            </trans-unit>
+            <trans-unit id="110" resname="General1H">
+               <source>1 h</source>
+               <target>1 h</target>
+            </trans-unit>
+            <trans-unit id="115" resname="GeneralUnlimited">
+               <source>Unlimited</source>
+               <target>Unlimited</target>
+            </trans-unit>
+            <trans-unit id="159" resname="4dcsipConfiguration">
+               <source>IP configuration</source>
+               <target>IP configuration</target>
+            </trans-unit>
+            <trans-unit id="160" resname="4dcspublishDatabaseAtStartup">
+               <source>Publish database at startup</source>
+               <target>Publish database at startup</target>
+            </trans-unit>
+            <trans-unit id="161" resname="4dcspublicationName">
+               <source>Publication name:</source>
+               <target>Publication name:</target>
+            </trans-unit>
+            <trans-unit id="162" resname="4dcsportNumber">
+               <source>Port Number:</source>
+               <target>Port Number:</target>
+            </trans-unit>
+            <trans-unit id="163" resname="4dcsnetwork">
+               <source>Network</source>
+               <target>Network</target>
+            </trans-unit>
+            <trans-unit id="164" resname="4dcsclientserverCommunication">
+               <source>Client-Server Communication</source>
+               <target>Client-Server Communication</target>
+            </trans-unit>
+            <trans-unit id="165" resname="4dcsregisterClientsAtStartup">
+               <source>Register Clients at Startup For Execute On Client</source>
+               <target>Register Clients at Startup For Execute On Client</target>
+            </trans-unit>
+            <trans-unit id="166" resname="4dcsencryptClientserverConnections">
+               <source>Encrypt Client-Server Connections</source>
+               <target>Encrypt Client-Server Connections</target>
+            </trans-unit>
+            <trans-unit id="167" resname="4dcsupdateResourcesFolderDuringASession">
+               <source>Update &quot;Resources&quot; folder during a session:</source>
+               <target>Update &quot;Resources&quot; folder during a session:</target>
+            </trans-unit>
+            <trans-unit id="168" resname="4dcsthisFunctionRequires4dslidll">
+               <source>(This function requires 4DSLI.DLL)</source>
+               <target>(This function requires 4DSLI.DLL)</target>
+            </trans-unit>
+            <trans-unit id="173" resname="4dcsopenTheStructureInMode">
+               <source>Open the structure in mode:</source>
+               <target>Open the structure in mode:</target>
+            </trans-unit>
+            <trans-unit id="175" resname="4dcsallowdenyConfigurationTable">
+               <source>Allow-Deny Configuration Table</source>
+               <target>Allow-Deny Configuration Table</target>
+            </trans-unit>
+            <trans-unit id="176" resname="4dcsallowedIpAddress">
+               <source>Allowed IP address:</source>
+               <target>Allowed IP address:</target>
+            </trans-unit>
+            <trans-unit id="183" resname="4dcsallow">
+               <source>Allow</source>
+               <target>Allow</target>
+            </trans-unit>
+            <trans-unit id="184" resname="4dcsdeny">
+               <source>Deny</source>
+               <target>Deny</target>
+            </trans-unit>
+         </group>
+         <group resname="C/S Menu Update ressources" id="168">
+            <trans-unit id="169" resname="UpdateRessources_1">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="170" resname="UpdateRessources_2">
+               <source>Always</source>
+               <target>Always</target>
+            </trans-unit>
+            <trans-unit id="171" resname="UpdateRessources_3">
+               <source>Ask</source>
+               <target>Ask</target>
+            </trans-unit>
+         </group>
+         <group resname="C/S Menu Open structure mode" id="168">
+            <trans-unit id="174" resname="OpenStructureMode_1">
+               <source>Read/write</source>
+               <target>Read/write</target>
+            </trans-unit>
+            <trans-unit id="175" resname="OpenStructureMode_2">
+               <source>Read only</source>
+               <target>Read only</target>
+            </trans-unit>
+         </group>
+         <group resname="C/S Menu Allowed IP address" id="168">
+            <trans-unit id="177" resname="AllowedIPAddress_1">
+               <source>All without exception</source>
+               <target>All without exception</target>
+            </trans-unit>
+            <trans-unit id="178" resname="AllowedIPAddress_2">
+               <source>Local connection only</source>
+               <target>Local connection only</target>
+            </trans-unit>
+            <trans-unit id="179" resname="AllowedIPAddress_3">
+               <source>Only list below</source>
+               <target>Only list below</target>
+            </trans-unit>
+            <trans-unit id="138" resname="GeneralDisplayMovingDialog">
+               <source>Display Moving Dialog:</source>
+               <target>Display Moving Dialog:</target>
+            </trans-unit>
+         </group>
+         <group resname="messages">
+            <trans-unit id="190" resname="thisPortNumberIsAlreadyUsedBy">
+               <source>This port number is already used by </source>
+               <target>This port number is already used by </target>
+            </trans-unit>
+            <trans-unit id="191" resname="ServerPort_1">
+               <source>the 4D server</source>
+               <target>the 4D server</target>
+            </trans-unit>
+            <trans-unit id="192" resname="ServerPort_2">
+               <source>the Web server</source>
+               <target>the Web server</target>
+            </trans-unit>
+            <trans-unit id="193" resname="ServerPort_3">
+               <source>the SQL server</source>
+               <target>the SQL server</target>
+            </trans-unit>
+            <trans-unit id="194" resname="ServerPort_4">
+               <source>the PHP Interpreter</source>
+               <target>the PHP Interpreter</target>
+            </trans-unit>
+            <trans-unit id="196" resname="ServerPort_5">
+               <source>the Web server</source>
+               <target>the Web server</target>
+            </trans-unit>
+         </group>
+         <group resname="OpeningDataAuthorization_">
+            <trans-unit id="208" resname="OpeningDataAuthorization_1">
+               <source>No</source>
+               <target>No</target>
+            </trans-unit>
+            <trans-unit id="209" resname="OpeningDataAuthorization_2">
+               <source>Yes</source>
+               <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="210" resname="OpeningDataAuthorization_3">
+               <source>Ask</source>
+               <target>Ask</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

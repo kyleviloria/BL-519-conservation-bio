@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="ToolBar">
+            <trans-unit id="1" resname="FindInDesign">
+               <source>Find in Structure</source>
+               <target>Find in Structure</target>
+            </trans-unit>
+            <trans-unit id="138" resname="StatusBar">
+               <source>Informations</source>
+               <target>Informations</target>
+            </trans-unit>
+            <trans-unit id="144" resname="TablesAndfields">
+               <source>Tables &amp; fields</source>
+               <target>Tables &amp; fields</target>
+            </trans-unit>
+            <trans-unit id="145" resname="TablesOnly">
+               <source>Tables</source>
+               <target>Tables</target>
+            </trans-unit>
+            <trans-unit id="146" resname="Contains">
+               <source>Contains</source>
+               <target>Contains</target>
+            </trans-unit>
+            <trans-unit id="147" resname="StartsWith">
+               <source>Starts with</source>
+               <target>Starts with</target>
+            </trans-unit>
+            <trans-unit id="148" resname="TB_FindLabel">
+               <source>Find:</source>
+               <target>Find:</target>
+            </trans-unit>
+            <trans-unit id="149" resname="TB_OptionsLabel">
+               <source>Options:</source>
+               <target>Options:</target>
+            </trans-unit>
+            <trans-unit id="154" resname="TableFieldID">
+               <source>Number</source>
+               <target>Number</target>
+            </trans-unit>
+         </group>
+         <group resname="SearchResult">
+            <trans-unit id="169" resname="SEditUnusedGlobalVar">
+               <source>Unused Methods and Global Variables</source>
+               <target>Unused Methods and Global Variables</target>
+            </trans-unit>
+            <trans-unit id="170" resname="SEditUnusedLocalVar">
+               <source>Unused Local Variables</source>
+               <target>Unused Local Variables</target>
+            </trans-unit>
+         </group>
+         <group resname="Index">
+            <trans-unit id="2" resname="ListOfFields">
+               <source>Index Fields</source>
+               <target>Index Fields</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Type">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Index">
+               <source>Index</source>
+               <target>Index</target>
+            </trans-unit>
+            <trans-unit id="8" resname="DeleteIndexAlert">
+               <source>Are you sure you want to delete the "{indexName}" index?</source>
+               <target>Are you sure you want to delete the "{indexName}" index?</target>
+            </trans-unit>
+            <trans-unit id="20" resname="IndexKeywords">
+               <source>Keyword Index</source>
+               <target>Keyword Index</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Indexed">
+               <source>Indexed</source>
+               <target>Indexed</target>
+            </trans-unit>
+            <trans-unit id="42" resname="Indexing">
+               <source>Indexing</source>
+               <target>Indexing</target>
+            </trans-unit>
+            <trans-unit id="135" resname="NewIndex{number}">
+               <source>New_Index_{number}</source>
+               <target>New_Index_{number}</target>
+            </trans-unit>
+            <trans-unit id="136" resname="TheIndexHasBeenModified.DoYouWantToSaveIt?">
+               <source>The index "{name}" has been modified.
+Do you want to save it?</source>
+               <target>The index "{name}" has been modified.
+Do you want to save it?</target>
+            </trans-unit>
+            <trans-unit id="150" resname="ThereIsNoTableAssociatedToThisIndex">
+               <source>There is no table associated with this index.</source>
+               <target>There is no table associated with this index.</target>
+            </trans-unit>
+            <trans-unit id="151" resname="ThereIsNoFieldAssociatedToThisIndex">
+               <source>There is no field associated with this index.</source>
+               <target>There is no field associated with this index.</target>
+            </trans-unit>
+            <trans-unit id="152" resname="AnIndexKeywordsCantHaveMoreThanOneFieldAssociated">
+               <source>A keyword index can't have more than one associated field.</source>
+               <target>A keyword index can't have more than one associated field.</target>
+            </trans-unit>
+            <trans-unit id="153" resname="AnIndexKeywordsCantBeDefinedForANonAlphaField">
+               <source>A keyword index can't be defined for a non-Alpha field.</source>
+               <target>A keyword index can't be defined for a non-Alpha field.</target>
+            </trans-unit>
+            <trans-unit id="156" resname="RebuiltIndexAlert">
+               <source>Do you really want to rebuild this index?</source>
+               <target>Do you really want to rebuild this index?</target>
+            </trans-unit>
+            <trans-unit id="157" resname="IndexRebuilt">
+               <source>Rebuild</source>
+               <target>Rebuild</target>
+            </trans-unit>
+            <trans-unit id="158" resname="IndexDescription">
+               <source>Description</source>
+               <target>Description</target>
+            </trans-unit>
+            <trans-unit id="159" resname="IndexExpWindowTitle">
+               <source>Index List</source>
+               <target>Index List</target>
+            </trans-unit>
+            <trans-unit id="160" resname="IndexNoIndex">
+               <source>No Index</source>
+               <target>No Index</target>
+            </trans-unit>
+            <trans-unit id="163" resname="ATextFieldWhichIsNotStoredInTheRecord">
+               <source>A text field which is not stored in the record can't be associated with this index type.</source>
+               <target>A text field which is not stored in the record can't be associated with this index type.</target>
+            </trans-unit>
+            <trans-unit id="164" resname="StructEditorAlertChangingFieldsType">
+              <source>The indexes will be rebuilt or deleted if the new type does not allow the indexing. Do you want to continue?</source>
+              <target>The indexes will be rebuilt or deleted if the new type does not allow the indexing. Do you want to continue?</target>
+            </trans-unit>
+         </group>
+         <group resname="Common">
+            <trans-unit id="9" resname="Inspector">
+               <source>Inspector</source>
+               <target>Inspector</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Definition">
+               <source>Definition</source>
+               <target>Definition</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Color">
+               <source>Color</source>
+               <target>Color</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="43" resname="Table">
+               <source>Table</source>
+               <target>Table</target>
+            </trans-unit>
+            <trans-unit id="44" resname="Field">
+               <source>Field</source>
+               <target>Field</target>
+            </trans-unit>
+            <trans-unit id="47" resname="Comments">
+               <source>Comments</source>
+               <target>Comments</target>
+            </trans-unit>
+            <trans-unit id="52" resname="Invisible">
+               <source>Invisible</source>
+               <target>Invisible</target>
+            </trans-unit>
+            <trans-unit id="54" resname="EditEllipse">
+               <source>Edit…</source>
+               <target>Edit…</target>
+            </trans-unit>
+            <trans-unit id="105" resname="Relation">
+               <source>Relation</source>
+               <target>Relation</target>
+            </trans-unit>
+            <trans-unit id="141" resname="EmptyName">
+               <source>The name cannot be empty to be correctly identified by the language.</source>
+               <target>The name cannot be empty to be correctly identified by the language.</target>
+            </trans-unit>
+         </group>
+         <group resname="Field">
+            <trans-unit id="11" resname="Type">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Options">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="14" resname="OptionsEllipse">
+               <source>Options…</source>
+               <target>Options…</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Mandatory">
+               <source>Mandatory</source>
+               <target>Mandatory</target>
+            </trans-unit>
+            <trans-unit id="16" resname="DisplayOnly">
+               <source>Display only</source>
+               <target>Display only</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Can'tModify">
+               <source>Can't Modify</source>
+               <target>Can't Modify</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Unique">
+               <source>Unique</source>
+               <target>Unique</target>
+            </trans-unit>
+            <trans-unit id="22" resname="StoredInTheRecord">
+               <source>Stored in the record</source>
+               <target>Stored in the record</target>
+            </trans-unit>
+            <trans-unit id="23" resname="AllowChoiceList">
+               <source>Allow Choice List</source>
+               <target>Allow Choice List</target>
+            </trans-unit>
+            <trans-unit id="24" resname="HelpTip">
+               <source>Help Tip</source>
+               <target>Help Tip</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Length">
+               <source>Length</source>
+               <target>Length</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Compression">
+               <source>Compression</source>
+               <target>Compression</target>
+            </trans-unit>
+            <trans-unit id="29" resname="DataEntryControls">
+               <source>Data Entry Controls</source>
+               <target>Data Entry Controls</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Field{id}">
+               <source>Field {id}</source>
+               <target>Field {id}</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Table{tableid}-Field{fieldid}">
+               <source>Table {tableid} - Field {fieldid}</source>
+               <target>Table {tableid} - Field {fieldid}</target>
+            </trans-unit>
+            <trans-unit id="32" resname="{number}FieldsSelected">
+               <source>{number} Fields selected</source>
+               <target>{number} Fields selected</target>
+            </trans-unit>
+            <trans-unit id="33" resname="FixedSize">
+               <source>Fixed Size</source>
+               <target>Fixed Size</target>
+            </trans-unit>
+            <trans-unit id="34" resname="ChoiceList">
+               <source>Choice List</source>
+               <target>Choice List</target>
+            </trans-unit>
+            <trans-unit id="40" resname="Multiline">
+               <source>Multiline</source>
+               <target>Multiline</target>
+            </trans-unit>
+            <trans-unit id="41" resname="NotNull">
+               <source>Reject NULL value input</source>
+               <target>Reject NULL value input</target>
+            </trans-unit>
+            <trans-unit id="112" resname="DoYouReallyWantToDropThisIndex?">
+               <source>Do you really want to drop this index?</source>
+               <target>Do you really want to drop this index?</target>
+            </trans-unit>
+            <trans-unit id="143" resname="Field_NeverNull">
+               <source>Map NULL values to blank values</source>
+               <target>Map NULL values to blank values</target>
+            </trans-unit>
+            <trans-unit id="144" resname="Field_MaxSize">
+               <source>Internal storage max size (bytes)</source>
+               <target>Internal storage max size (bytes)</target>
+            </trans-unit>
+            <trans-unit id="145" resname="Autoincrement">
+               <source>Autoincrement</source>
+               <target>Autoincrement</target>
+            </trans-unit>
+            <trans-unit id="146" resname="UUID_Format">
+               <source>UUID format</source>
+               <target>UUID format</target>
+            </trans-unit>
+            <trans-unit id="147" resname="Auto_UUID">
+               <source>Auto UUID</source>
+               <target>Auto UUID</target>
+            </trans-unit>
+            <trans-unit id="148" resname="Storage_Format">
+               <source>Storage format</source>
+               <target>Storage format</target>
+            </trans-unit>  
+            <trans-unit id="203" resname="Sedit_youWillResetTheCounterAssociatedWithThisField">
+               <source>You will reset the counter associated with this (these) field(s). CAUTION: This operation cannot be undone.</source>
+               <target>You will reset the counter associated with this (these) field(s). CAUTION: This operation cannot be undone.</target>
+            </trans-unit>
+            <trans-unit id="205" resname="SEdit_StyledText">
+               <source>Queries and sorts on text without tags</source>
+               <target>Queries and sorts on text without tags</target>
+            </trans-unit>
+            <trans-unit id="187" resname="DoYouReallyWantToDropTheseIndex">
+               <source>Do you really want to delete these indexes?</source>
+               <target>Do you really want to delete these indexes?</target>
+            </trans-unit>
+         </group>
+         <group resname="IndexTypeMenu">
+            <trans-unit id="35" resname="IndexTypeMenu_1">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="36" resname="IndexTypeMenu_2">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="37" resname="IndexTypeMenu_3" translate="no">
+               <source>B-tree</source>
+            </trans-unit>
+            <trans-unit id="38" resname="IndexTypeMenu_4" translate="no">
+               <source>Cluster B-tree</source>
+            </trans-unit>
+         </group>
+         <group resname="Table">
+            <trans-unit id="42" resname="RecordAccess">
+               <source>Record Access</source>
+               <target>Record Access</target>
+            </trans-unit>
+            <trans-unit id="45" resname="Triggers">
+               <source>Triggers</source>
+               <target>Triggers</target>
+            </trans-unit>
+            <trans-unit id="46" resname="Attributes">
+               <source>Attributes</source>
+               <target>Attributes</target>
+            </trans-unit>
+            <trans-unit id="48" resname="OnSavingNewRecord">
+               <source>On saving new record</source>
+               <target>On saving new record</target>
+            </trans-unit>
+            <trans-unit id="49" resname="OnSavingAnExistingRecord">
+               <source>On saving an existing record</source>
+               <target>On saving an existing record</target>
+            </trans-unit>
+            <trans-unit id="50" resname="OnDeletingARecord">
+               <source>On deleting a record</source>
+               <target>On deleting a record</target>
+            </trans-unit>
+            <trans-unit id="51" resname="OnLoadingARecord">
+               <source>On loading a record</source>
+               <target>On loading a record</target>
+            </trans-unit>
+            <trans-unit id="53" resname="CompletelyDeleted">
+               <source>Records definitively deleted</source>
+               <target>Records definitively deleted</target>
+            </trans-unit>
+            <trans-unit id="55" resname="Table{id}">
+               <source>Table {id}</source>
+               <target>Table {id}</target>
+            </trans-unit>
+            <trans-unit id="69" resname="{number}TablesSelected">
+               <source>{number} tables selected</source>
+               <target>{number} tables selected</target>
+            </trans-unit>
+            <trans-unit id="70" resname="TableN{id}">
+               <source>Table #{id}</source>
+               <target>Table Nº{id}</target>
+            </trans-unit>
+            <trans-unit id="tableSQLSchema" resname="Schema">
+               <source>Schema</source>
+               <target>Schema</target>
+            </trans-unit>
+            <trans-unit id="72" resname="RecordStamping">
+               <source>Record Stamping</source>
+               <target>Record Stamping</target>
+            </trans-unit>
+            <trans-unit id="73" resname="ActivateReplication">
+               <source>Enable Replication</source>
+               <target>Enable Replication</target>
+            </trans-unit>
+         </group>
+         <group resname="Relation">
+            <trans-unit id="70" resname="From:">
+               <source>From:</source>
+               <target>From:</target>
+            </trans-unit>
+            <trans-unit id="72" resname="To:">
+               <source>To:</source>
+               <target>To:</target>
+            </trans-unit>
+            <trans-unit id="71" resname="ManyToOneOptions">
+               <source>Many to One Options</source>
+               <target>Many to One Options</target>
+            </trans-unit>
+            <trans-unit id="56" resname="Automatic">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="57" resname="AutoWildcardSupport">
+               <source>Auto Wildcard support</source>
+               <target>Auto Wildcard support</target>
+            </trans-unit>
+            <trans-unit id="58" resname="PromptIfRelatedOneDoesNotExist">
+               <source>Prompt if related one does not exist</source>
+               <target>Prompt if related one does not exist</target>
+            </trans-unit>
+            <trans-unit id="59" resname="OneToManyOptions">
+               <source>One to Many Options</source>
+               <target>One to Many Options</target>
+            </trans-unit>
+            <trans-unit id="60" resname="Manual">
+               <source>Manual</source>
+               <target>Manual</target>
+            </trans-unit>
+            <trans-unit id="61" resname="AutoAssignRelatedValueInSubform">
+               <source>Auto assign related value in subform</source>
+               <target>Auto assign related value in subform</target>
+            </trans-unit>
+            <trans-unit id="62" resname="WildcardChoice">
+               <source>Wildcard Choice</source>
+               <target>Wildcard Choice</target>
+            </trans-unit>
+            <trans-unit id="63" resname="DeletionControl">
+               <source>Deletion Control</source>
+               <target>Deletion Control</target>
+            </trans-unit>
+            <trans-unit id="64" resname="LeaveRelatedManyIntact">
+               <source>Leave related many intact</source>
+               <target>Leave related many intact</target>
+            </trans-unit>
+            <trans-unit id="65" resname="DeleteRelatedMany">
+               <source>Delete related many</source>
+               <target>Delete related many</target>
+            </trans-unit>
+            <trans-unit id="66" resname="CannotDeleteIfRelatedMany">
+               <source>Cannot delete if related many</source>
+               <target>Cannot delete if related many</target>
+            </trans-unit>
+            <trans-unit id="67" resname="{number}SelectedRelations">
+               <source>{number} Selected Relations</source>
+               <target>{number} Selected Relations</target>
+            </trans-unit>
+            <trans-unit id="68" resname="NewRelation">
+               <source>New Relation</source>
+               <target>New Relation</target>
+            </trans-unit>
+            <trans-unit id="69" resname="SQL_DeletionControl">
+               <source>Consistency</source>
+               <target>Consistency</target>
+            </trans-unit>
+            <trans-unit id="70" resname="SQL_Invisible">
+               <source>Invisible</source>
+               <target>Invisible</target>
+            </trans-unit>
+            <trans-unit id="71" resname="SQL_Cascade">
+               <source>Cascade</source>
+               <target>Cascade</target>
+            </trans-unit>
+            <trans-unit id="72" resname="SQL_Restrict">
+               <source>Restricted</source>
+               <target>Restricted</target>
+            </trans-unit>
+            <trans-unit id="106" resname="TableToTable">
+               <source>Table Nº{manytableid} -&gt; Table Nº{onetableid}</source>
+               <target>Table Nº{manytableid} -&gt; Table Nº{onetableid}</target>
+            </trans-unit>
+         </group>
+         <group resname="FieldType">
+            <trans-unit id="69" resname="Alpha">
+               <source>Alpha</source>
+               <target>Alpha</target>
+            </trans-unit>
+            <trans-unit id="70" resname="Text">
+               <source>Text</source>
+               <target>Text</target>
+            </trans-unit>
+            <trans-unit id="71" resname="Real">
+               <source>Real</source>
+               <target>Real</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Integer">
+               <source>Integer</source>
+               <target>Integer</target>
+            </trans-unit>
+            <trans-unit id="73" resname="LongInteger">
+               <source>Long Integer</source>
+               <target>Long Integer</target>
+            </trans-unit>
+            <trans-unit id="74" resname="Date">
+               <source>Date</source>
+               <target>Date</target>
+            </trans-unit>
+            <trans-unit id="75" resname="Time">
+               <source>Time</source>
+               <target>Time</target>
+            </trans-unit>
+            <trans-unit id="76" resname="Boolean">
+               <source>Boolean</source>
+               <target>Boolean</target>
+            </trans-unit>
+            <trans-unit id="77" resname="Picture">
+               <source>Picture</source>
+               <target>Picture</target>
+            </trans-unit>
+            <trans-unit id="78" resname="SubtableRelation">
+               <source>Subtable relation</source>
+               <target>Subtable relation</target>
+            </trans-unit>
+            <trans-unit id="79" resname="BLOB">
+               <source>BLOB</source>
+               <target>BLOB</target>
+            </trans-unit>
+            <trans-unit id="80" resname="Float">
+               <source>Float</source>
+               <target>Float</target>
+            </trans-unit>
+            <trans-unit id="155" resname="Integer64">
+               <source>Integer 64 bits</source>
+               <target>Integer 64 bits</target>
+            </trans-unit>
+         </group>      
+         <group resname="PictureFormatMenu">
+            <trans-unit id="99" resname="DisplayMenu_1">
+               <source>Scaled to fit</source>
+               <target>Scaled to fit</target>
+            </trans-unit>
+            <trans-unit id="100" resname="DisplayMenu_2">
+               <source>Truncated (centered)</source>
+               <target>Truncated (centered)</target>
+            </trans-unit>
+            <trans-unit id="101" resname="DisplayMenu_3">
+               <source>Scaled to fit centered (prop.)</source>
+               <target>Scaled to fit centered (prop.)</target>
+            </trans-unit>
+            <trans-unit id="102" resname="DisplayMenu_4">
+               <source>Replicated</source>
+               <target>Replicated</target>
+            </trans-unit>
+            <trans-unit id="103" resname="DisplayMenu_5" translate="no">
+               <source>-</source>
+            </trans-unit>
+            <trans-unit resname="DisplayMenu_6" id="104">
+               <source>On Background</source>
+               <target>On Background</target>
+            </trans-unit>
+         </group>
+         <group resname="Structure">
+            <trans-unit id="107" resname="BackgroundPicture">
+               <source>Background Picture</source>
+               <target>Background Picture</target>
+            </trans-unit>
+            <trans-unit id="108" resname="Options">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="109" resname="FillColor">
+               <source>Fill Color</source>
+               <target>Fill Color</target>
+            </trans-unit>
+            <trans-unit id="110" resname="Structure">
+               <source>Structure</source>
+               <target>Structure</target>
+            </trans-unit>
+            <trans-unit id="111" resname="InsertABackgroundImageHere">
+               <source>Insert a background image here</source>
+               <target>Insert a background image here</target>
+            </trans-unit>
+         </group>
+         <group resname="AddMenu">
+            <trans-unit id="113" resname="AddMenu_1">
+               <source>Table</source>
+               <target>Table</target>
+            </trans-unit>
+            <trans-unit id="114" resname="AddMenu_2">
+               <source>Field</source>
+               <target>Field</target>
+            </trans-unit>
+            <trans-unit id="115" resname="AddMenu_3">
+               <source>Index</source>
+               <target>Index</target>
+            </trans-unit>
+            <trans-unit id="116" resname="AddMenu_4">
+               <source>Relation</source>
+               <target>Relation</target>
+            </trans-unit>
+         </group>
+         <group resname="DisplayMenu">
+            <trans-unit id="117" resname="MarkAll">
+               <source>Show All</source>
+               <target>Show All</target>
+            </trans-unit>
+            <trans-unit id="118" resname="UnmarkAll">
+               <source>Mask All</source>
+               <target>Mask All</target>
+            </trans-unit>
+            <trans-unit id="120" resname="InvisibleTables">
+               <source>Invisible Tables</source>
+               <target>Invisible Tables</target>
+            </trans-unit>
+            <trans-unit id="122" resname="InvisibleFields">
+               <source>Invisible Fields</source>
+               <target>Invisible Fields</target>
+            </trans-unit>
+            <trans-unit id="123" resname="NotRelatedFields">
+               <source>Not Related Fields</source>
+               <target>Not Related Fields</target>
+            </trans-unit>
+            <trans-unit id="124" resname="NotIndexedFields">
+               <source>Not Indexed Fields</source>
+               <target>Not Indexed Fields</target>
+            </trans-unit>
+            <trans-unit id="125" resname="Relations">
+               <source>Relations</source>
+               <target>Relations</target>
+            </trans-unit>
+         </group>
+         <group resname="FolderMenu">
+            <trans-unit id="127" resname="HighlightAllGroups">
+               <source>Highlight All Folders</source>
+               <target>Highlight All Folders</target>
+            </trans-unit>
+            <trans-unit id="128" resname="DimAllGroups">
+               <source>Dim All Folders</source>
+               <target>Dim All Folders</target>
+            </trans-unit>
+            <trans-unit id="129" resname="TopLevel">
+               <source>Top Level</source>
+               <target>Top Level</target>
+            </trans-unit>
+            <trans-unit id="130" resname="OtherFolders">
+               <source>Other folders</source>
+               <target>Other folders</target>
+            </trans-unit>
+            <trans-unit id="FolderMenu_5" resname="DimOtherTables">
+               <source>Dim Others</source>
+               <target>Dim Others</target>
+            </trans-unit>
+         </group>
+         <group resname="SortMenu">
+            <trans-unit id="131" resname="Alphabetic">
+               <source>Alphabetic</source>
+               <target>Alphabetic</target>
+            </trans-unit>
+            <trans-unit id="132" resname="Type">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>
+            <trans-unit id="133" resname="IndexedFields">
+               <source>Indexed Fields</source>
+               <target>Indexed Fields</target>
+            </trans-unit>
+            <trans-unit id="134" resname="RelatedFields">
+               <source>Related Fields</source>
+               <target>Related Fields</target>
+            </trans-unit>
+            <trans-unit id="135" resname="Visibility">
+               <source>Visibility</source>
+               <target>Visibility</target>
+            </trans-unit>
+            <trans-unit id="136" resname="Creation">
+               <source>Creation</source>
+               <target>Creation</target>
+            </trans-unit>
+            <trans-unit id="137" resname="Custom">
+               <source>Custom</source>
+               <target>Custom</target>
+            </trans-unit>
+         </group>
+         <group resname="SQL">
+            <trans-unit id="137" resname="SQLsIdentifierCannotBeginWithANumber">
+               <source>A SQL's identifier cannot begin with a number.</source>
+               <target>A SQL's identifier cannot begin with a number.</target>
+            </trans-unit>
+            <trans-unit id="138" resname="SQLReservedWord">
+               <source>SQL reserved word.</source>
+               <target>SQL reserved word.</target>
+            </trans-unit>
+            <trans-unit id="139" resname="UnauthorizedCharacterForSQLsIdentifier">
+               <source>Unauthorized character for a SQL's identifier.</source>
+               <target>Unauthorized character for a SQL's identifier.</target>
+            </trans-unit>
+            <trans-unit id="140" resname="NonCompliantSQLIdentifier">
+               <source>Non compliant SQL identifier.</source>
+               <target>Non compliant SQL identifier.</target>
+            </trans-unit>
+         </group>
+         <group resname="ActionMenu">
+            <trans-unit id="165" resname="OptimalSize">
+               <source>Optimal Size</source>
+               <target>Optimal Size</target>
+            </trans-unit>
+            <trans-unit id="166" resname="AlignOnLeft">
+               <source>Align on Left</source>
+               <target>Align on Left</target>
+            </trans-unit>
+            <trans-unit id="167" resname="AlignTop">
+               <source>Align Top</source>
+               <target>Align Top</target>
+            </trans-unit>
+            <trans-unit id="168" resname="Sort">
+               <source>Sort</source>
+               <target>Sort</target>
+            </trans-unit>
+         </group>
+         <group resname="Export">
+            <trans-unit id="1" resname="Export Label 1">
+               <source>A subfolder containing the export of the structure definition in HTML will be created in the selected folder.</source>
+               <target>A subfolder containing the export of the structure definition in HTML will be created in the selected folder.</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Export Label 2">
+               <source>The export of the structure definition in HTML was successful. Do you want to open the generated HTML file in a browser?</source>
+               <target>The export of the structure definition in HTML was successful. Do you want to open the generated HTML file in a browser?</target>
+            </trans-unit>
+         </group>        
+         
+         <group id="8858" resname="tips">
+            <trans-unit id="1" resname="WhoIsLocking" translate="no">
+               <source>&lt;sedit_C_WhoIsLocking&gt;</source>
+            </trans-unit>
+            <trans-unit id="303" resname="sedit_WhoIsLocking">
+               <source>An object is already being edited by "&lt;sedit_C_WhoIsLocking&gt;"</source>
+               <target>An object is already being edited by "&lt;sedit_C_WhoIsLocking&gt;"</target>
+            </trans-unit>
+         </group>
+
+         <group resname="OpenMode_Menu">
+            <trans-unit id="300" resname="SEditOpenMode_1">
+               <source>Read/write</source>
+               <target>Read/write</target>
+            </trans-unit>
+            <trans-unit id="301" resname="SEditOpenMode_2">
+               <source>Read only</source>
+               <target>Read only</target>
+            </trans-unit>
+            <trans-unit id="302" resname="SEditOpenModeLabel">
+               <source>In Client-Server mode, open the structure in mode:</source>
+               <target>In Client-Server mode, open the structure in mode:</target>
+            </trans-unit>
+         </group>
+         
+         <group id="13897" resname="Index Error">
+            <trans-unit id="304" resname="ThereIsAlreadyAnIndexForThisField">
+               <source>There is already an index for this field.</source>
+               <target>There is already an index for this field.</target>
+            </trans-unit>
+            <trans-unit id="305" resname="AnErorOccuredDuringTheSuppressionOfTheIndex">
+               <source>An error occurred during the deletion of the index.</source>
+               <target>An error occurred during the deletion of the index.</target>
+            </trans-unit>
+            <trans-unit id="306" resname="AnObjectIsAlreadyEditedByAnotherUserAndCantBeModified">
+               <source>An object is already being edited by another user and cannot be modified.</source>
+               <target>An object is already being edited by another user and cannot be modified.</target>
+            </trans-unit>
+            <trans-unit id="307" resname="AnErorOccuredDuringTheCreationOfTheIndex">
+               <source>An error occurred during the creation of the index.</source>
+               <target>An error occurred during the creation of the index.</target>
+            </trans-unit>
+         </group>
+         <group id="1018" resname="Database Properties 3">
+            <trans-unit id="3">
+               <source>Default Font:</source>
+               <target>Default Font:</target>
+            </trans-unit>
+            <trans-unit id="13">
+               <source>points</source>
+               <target>points</target>
+            </trans-unit>
+            <trans-unit id="18">
+               <source>Size:</source>
+               <target>Size:</target>
+            </trans-unit>
+         </group> 
+         
+         <group resname="GlobalFind_Dialogs">            
+            <trans-unit id="01" resname="Everywhere">
+               <source>In All Database</source>
+               <target>In All Database</target>
+            </trans-unit>
+            <trans-unit id="02" resname="SelectedContainers">
+               <source>In Selected Object {ObjectName}</source>
+               <target>In Selected Object {ObjectName}</target>
+            </trans-unit>  
+         </group>
+         
+      </body>
+   </file>
+</xliff>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1095" resname="ImpExp">
+            <trans-unit id="1" resname="ImpExp_Export">
+               <source>Export</source>
+               <target>Export</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ImpExp_ExportFromTable">
+               <source>Export from Table:</source>
+               <target>Export from Table:</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ImpExp_File">
+               <source>File</source>
+               <target>File</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ImpExp_Browse">
+               <source>Browse…</source>
+               <target>Browse…</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ImpExp_Records">
+               <source>Records</source>
+               <target>Records</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ImpExp_ExportAllRecords">
+               <source>All Records</source>
+               <target>All Records</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ImpExp_ExportSelection">
+               <source>Selection</source>
+               <target>Selection</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ImpExp_RecordsToExport">
+               <source>&lt;v_SelRec&gt; Records to export</source>
+               <target>&lt;v_SelRec&gt; Records to export</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ImpExp_Format">
+               <source>Format</source>
+               <target>Format</target>               
+            </trans-unit>
+            <trans-unit id="10" resname="ImpExp_Header">
+               <source>Header</source>
+               <target>Header</target>
+            </trans-unit>
+            <trans-unit id="11" resname="ImpExp_Title">
+               <source>Title</source>
+               <target>Title</target>
+            </trans-unit>
+            <trans-unit id="12" resname="ImpExp_ColumnTitle">
+               <source>Column Title</source>
+               <target>Column Title</target>
+            </trans-unit>
+            <trans-unit id="13" resname="ImpExp_LineNumbering">
+               <source>Line Numbering</source>
+               <target>Line Numbering</target>
+            </trans-unit>
+            <trans-unit id="14" resname="ImpExp_EndOfField">
+               <source>End of Field:</source>
+               <target>End of Field:</target>
+            </trans-unit>
+            <trans-unit id="15" resname="ImpExp_EndOfRecord">
+               <source>End of Record:</source>
+               <target>End of Record:</target>
+            </trans-unit>
+            <trans-unit id="16" resname="ImpExp_EndOfFile">
+               <source>End of File:</source>
+               <target>End of File:</target>
+            </trans-unit>
+            <trans-unit id="17" resname="ImpExp_FillingCharacters">
+               <source>Filling Characters</source>
+               <target>Filling Characters</target>
+            </trans-unit>
+            <trans-unit id="18" resname="ImpExp_AlphaBoolean">
+               <source>Alpha/Boolean:</source>
+               <target>Alpha/Boolean:</target>
+            </trans-unit>
+            <trans-unit id="19" resname="ImpExp_Numeric">
+               <source>Numeric:</source>
+               <target>Numeric:</target>
+            </trans-unit>
+            <trans-unit id="20" resname="ImpExp_DateTime">
+               <source>Date/Time:</source>
+               <target>Date/Time:</target>
+            </trans-unit>
+            <trans-unit id="21" resname="ImpExp_Time">
+               <source>Time:</source>
+               <target>Time:</target>
+            </trans-unit>
+            <trans-unit id="22" resname="ImpExp_Boolean">
+               <source>Boolean:</source>
+               <target>Boolean:</target>
+            </trans-unit>
+            <trans-unit id="26" resname="ImpExp_Import">
+               <source>Import</source>
+               <target>Import</target>
+            </trans-unit>
+            <trans-unit id="27" resname="ImpExp_ImportTable">
+               <source>Import Table:</source>
+               <target>Import Table:</target>
+            </trans-unit>
+            <trans-unit id="28" resname="ImpExp_CreateTable">
+               <source>Create Table</source>
+               <target>Create Table</target>
+            </trans-unit>
+            <trans-unit id="29" resname="ImpExp_Append">
+               <source>Append</source>
+               <target>Append</target>
+            </trans-unit>
+            <trans-unit id="30" resname="ImpExp_Replace">
+               <source>Replace</source>
+               <target>Replace</target>
+            </trans-unit>
+            <trans-unit id="31" resname="ImpExp_ImportFromLine">
+               <source>Import from Line #:</source>
+               <target>Import from Line #:</target>
+            </trans-unit>
+            <trans-unit id="32" resname="ImpExp_ColumnTitlesAsFieldName">
+               <source>Column Titles as Field Name</source>
+               <target>Column Titles as Field Name</target>
+            </trans-unit>
+            <trans-unit id="33" resname="ImpExp_ValuesForBoolean">
+               <source>Values for Boolean:</source>
+               <target>Values for Boolean:</target>
+            </trans-unit>
+            <trans-unit id="36" resname="ImpExp_SaveSettings">
+               <source>Save Settings</source>
+               <target>Save Settings</target>
+            </trans-unit>
+            <trans-unit id="37" resname="ImpExp_LoadSettings">
+               <source>Load Settings</source>
+               <target>Load Settings</target>
+            </trans-unit>
+            <trans-unit id="38" resname="ImpExp_AddAField">
+               <source>Add a Field</source>
+               <target>Add a Field</target>
+            </trans-unit>
+            <trans-unit id="39" resname="ImpExp_AddAllFields">
+               <source>Add all Fields</source>
+               <target>Add all Fields</target>
+            </trans-unit>
+            <trans-unit id="40" resname="ImpExp_RemoveAField">
+               <source>Remove a Field</source>
+               <target>Remove a Field</target>
+            </trans-unit>
+            <trans-unit id="41" resname="ImpExp_RemoveAllFields">
+               <source>Remove all Fields</source>
+               <target>Remove all Fields</target>
+            </trans-unit>
+            <trans-unit id="42" resname="ImpExp_ValueToField">
+               <source>Value to Field</source>
+               <target>Value to Field</target>
+            </trans-unit>
+            <trans-unit id="43" resname="ImpExp_Default">
+               <source>Default</source>
+               <target>Default</target>
+            </trans-unit>
+            <trans-unit id="44" resname="ImpExp_Alpha">
+               <source>Alpha:</source>
+               <target>Alpha:</target>
+            </trans-unit>
+            <trans-unit id="45" resname="ImpExp_Date">
+               <source>Date:</source>
+               <target>Date:</target>
+            </trans-unit>
+            <trans-unit id="46" resname="ImpExp_Encoding">
+               <source>Character Set:</source>
+               <target>Character Set:</target>
+            </trans-unit>
+            <trans-unit id="47" resname="ImpExp_NoDTD">
+               <source>No DTD</source>
+               <target>No DTD</target>
+            </trans-unit>
+            <trans-unit id="48" resname="ImpExp_ReplaceSpaces">
+               <source>Replace spaces</source>
+               <target>Replace spaces</target>
+            </trans-unit>
+            <trans-unit id="49" resname="ImpExp_GenerateDTD">
+               <source>Generate DTD standalone</source>
+               <target>Generate DTD standalone</target>
+            </trans-unit>
+            <trans-unit id="50" resname="ImpExp_InsideTheXMLExport">
+               <source>Generate DTD in export</source>
+               <target>Generate DTD in export</target>
+            </trans-unit>
+            <trans-unit id="52" resname="ImpExp_ReferToExistingDTD">
+               <source>Referencing the DTD:</source>
+               <target>Referencing the DTD:</target>
+            </trans-unit>
+            <trans-unit id="53" resname="ImpExp_ReferToExistingXSL">
+               <source>Referencing the XSL:</source>
+               <target>Referencing the XSL:</target>
+            </trans-unit>
+            <trans-unit id="54" resname="ImpExp_Validation" translate="no">
+               <source>Validation</source>
+               <target>Validation</target>
+            </trans-unit>
+            <trans-unit id="55" resname="ImpExp_UseAlternateDTD">
+               <source>Use alternate DTD</source>
+               <target>Use alternate DTD</target>
+            </trans-unit>
+            <trans-unit id="56" resname="ImpExp_DataSource">
+               <source>Data Source</source>
+               <target>Data Source</target>
+            </trans-unit>
+            <trans-unit id="57" resname="ImpExp_Table" translate="no">
+               <source>Table</source>
+            </trans-unit>
+            <trans-unit id="58" resname="ImpExp_NotExported">
+               <source>Not exported</source>
+               <target>Not exported</target>
+            </trans-unit>
+            <trans-unit id="59" resname="ImpExp_PleaseSelectATable">
+               <source>Please select a table</source>
+               <target>Please select a table</target>
+            </trans-unit>
+            <trans-unit id="60" resname="ImpExp_ApplyTheXSLTransformation">
+               <source>Apply the XSL transformation</source>
+               <target>Apply the XSL transformation</target>
+            </trans-unit>
+            <trans-unit id="61" resname="ImpExp_InsertALinkToTheXSLFile">
+               <source>Insert a link to the XSL file</source>
+               <target>Insert a link to the XSL file</target>
+            </trans-unit>
+            <trans-unit id="62" resname="ImpExp_InputFileNotFound">
+               <source>Input file not found</source>
+               <target>Input file not found</target>
+            </trans-unit>
+            <trans-unit id="63" resname="ImpExp_TheCommandWasExpectingBlobOrStringVariableTypes">
+               <source>The command was expecting blob or string variable types</source>
+               <target>The command was expecting blob or string variable types</target>
+            </trans-unit>
+            <trans-unit id="64" resname="ImpExp_RebuildIndexes">
+               <source>Rebuild indexes after import</source>
+               <target>Rebuild indexes after import</target>
+            </trans-unit>
+            <trans-unit id="65" resname="ImpExp_Delimiters">
+               <source>Delimiters</source>
+               <target>Delimiters</target>
+            </trans-unit>
+            <trans-unit id="66" resname="ImpExp_Reference">
+               <source>Reference</source>
+               <target>Reference</target>
+            </trans-unit>
+            <trans-unit id="67" resname="ImpExp_DisplayFormat">
+               <source>Display format:</source>
+               <target>Display format:</target>
+            </trans-unit>
+            <trans-unit id="68" resname="ImpExp_ExportElipse">
+               <source>Export…</source>
+               <target>Export…</target>
+            </trans-unit>
+            <trans-unit id="69" resname="ImpExp_DefauldFields">
+               <source>Default fields</source>
+               <target>Default fields</target>
+            </trans-unit>
+            <trans-unit id="70" resname="ImpExp_XMLValidation">
+               <source>XML Validation</source>
+               <target>XML Validation</target>
+            </trans-unit>
+            <trans-unit id="71" resname="ImpExp_XMLEncodeImages">
+               <source>Encode pictures as PNG</source>
+               <target>Encode pictures as PNG</target>
+            </trans-unit>
+            <trans-unit id="72" resname="ImpExp_XMLEncodeBlob">
+               <source>Encode binary fields in Base64</source>
+               <target>Encode binary fields in Base64</target>
+            </trans-unit>
+            <trans-unit id="12_01" resname="DestinationPlatform">
+               <source>Destination Platform</source>
+               <target>Destination Platform</target>
+            </trans-unit>
+            <trans-unit id="12_02" resname="DestinationPlatformComment">
+               <source>Set the end of record character(s)</source>
+               <target>Set the end of record character(s)</target>
+            </trans-unit>
+            <trans-unit id="12_03" resname="Export">
+               <source>Export</source>
+               <target>Export</target>
+            </trans-unit>
+            <trans-unit id="12_03" resname="GenerateBOM">
+               <source>Generate BOM for Unicode encoding</source>
+               <target>Generate BOM for Unicode encoding</target>
+            </trans-unit>
+            <trans-unit id="12_04" resname="DefinedProgrammatically">
+               <source>Defined Programmatically</source>
+               <target>Defined Programmatically</target>
+               <note>First item in encoding popup to tell the end user the encoding is defined by the USE CHARACTER SET command</note>
+            </trans-unit>
+            <trans-unit id="76" resname="ImpExp_WithIndentation">
+               <source>With indentations</source>
+               <target>With indentations</target>
+            </trans-unit>
+         </group>
+         <group id="01" resname="ODBCLogin">
+            <trans-unit id="01" resname="ODBCUserDSN">
+               <source>User DSN</source>
+               <target>User DSN</target>
+            </trans-unit>
+            <trans-unit id="02" resname="ODBCSysDSN">
+               <source>System DSN</source>
+               <target>System DSN</target>
+            </trans-unit>
+            <trans-unit id="03" resname="ODBCTcpIP">
+               <source>TCP/IP</source>
+               <target>TCP/IP</target>
+            </trans-unit>
+            <trans-unit id="04" resname="ODBCTargetName">
+               <source>Target Name:</source>
+               <target>Target Name:</target>
+            </trans-unit>
+            <trans-unit id="05" resname="ODBCNetworkAddr">
+               <source>Network Address:</source>
+               <target>Network Address:</target>
+            </trans-unit>
+            <trans-unit id="06" resname="ODBCConnection">
+               <source>Connection</source>
+               <target>Connection</target>
+            </trans-unit>
+            <trans-unit id="07" resname="ODBCUser">
+               <source>User Name:</source>
+               <target>User Name:</target>
+            </trans-unit>
+            <trans-unit id="08" resname="ODBCPassword">
+               <source>Password:</source>
+               <target>Password:</target>
+            </trans-unit>
+            <trans-unit id="09" resname="ODBCDataSourceName">
+               <source>Data Source Name:</source>
+               <target>Data Source Name:</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ODBCWinTitle_ExternalCo">
+               <source>External Connection</source>
+               <target>External Connection</target>
+            </trans-unit>
+         </group>
+         <group id="02" resname="ExpDate">
+            <trans-unit id="1" resname="ExpDate_Date">
+               <source>yyyy-mm-dd</source>
+               <target>yyyy-mm-dd</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ExpDate_DateLocal">
+               <source>yyyy-mm-dd+hh:mm</source>
+               <target>yyyy-mm-dd+hh:mm</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ExpDate_DateTimeLocal">
+               <source>yyyy-mm-ddThh:mm:ss+hh:mm</source>
+               <target>yyyy-mm-ddThh:mm:ss+hh:mm</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ExpDate_DateUTC">
+               <source>yyyy-mm-ddZ</source>
+               <target>yyyy-mm-ddZ</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ExpDate_DateTimeUTC">
+               <source>yyyy-mm-ddThh:mm:ssZ</source>
+               <target>yyyy-mm-ddThh:mm:ssZ</target>
+            </trans-unit>
+         </group>
+         <group id="03" resname="ExpTime">
+            <trans-unit id="1" resname="ExpTime_DateTime">
+               <source>yyyy-mm-ddThh:mm:ss</source>
+               <target>yyyy-mm-ddThh:mm:ss</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ExpTime_Duration">
+               <source>PddDThhHmmMssS</source>
+               <target>PddDThhHmmMssS</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ExpTime_DateTimeLocal">
+               <source>yyyy-mm-ddThh:mm:ss+hh:mm</source>
+               <target>yyyy-mm-ddThh:mm:ss+hh:mm</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ExpTime_Seconds">
+               <source>Seconds</source>
+               <target>Seconds</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ExpTime_DateTimeUTC">
+               <source>yyyy-mm-ddThh:mm:ssZ</source>
+               <target>yyyy-mm-ddThh:mm:ssZ</target>
+            </trans-unit>
+         </group>
+		 <group resname="ImpExp_Delimiters">
+            <trans-unit id="1" resname="ImpExp_Delimiter_None">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ImpExp_Delimiter_Other">
+               <source>Other</source>
+               <target>Other</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ImpExp_Delimiter_Space">
+               <source>Space</source>
+               <target>Space</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ImpExp_Delimiter_Semicolon">
+               <source>Semicolon</source>
+               <target>Semicolon</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ImpExp_Delimiter_Tab">
+               <source>Tab</source>
+               <target>Tab</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ImpExp_Delimiter_Comma">
+               <source>Comma</source>
+               <target>Comma</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ImpExp_Delimiter_Return">
+               <source>Carriage Return</source>
+               <target>Carriage Return</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ImpExp_Delimiter_Return_Linefeed">
+               <source>Carriage Return/Line Feed</source>
+               <target>Carriage Return/Line Feed</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ImpExp_Delimiter_Linefeed">
+               <source>Line Feed</source>
+               <target>Line Feed</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ImpExp_Delimiter_Zero">
+               <source>Zero</source>
+               <target>Zero</target>
+            </trans-unit>
+		 </group>
+		 <group id="05" resname="ImpExp_Platforms">
+            <trans-unit id="1" resname="ImpExp_Platform_Mac">
+               <source>Macintosh</source>
+               <target>Macintosh</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ImpExp_Platform_Windows">
+               <source>Windows</source>
+               <target>Windows</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ImpExp_Platform_Unix">
+               <source>Unix</source>
+               <target>Unix</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ImpExp_Platform_Automatic">
+               <source>Automatic</source>
+               <target>Automatic</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ImpExp_Platform_Custom">
+               <source>Custom</source>
+               <target>Custom</target>
+            </trans-unit>
+		 </group>
+		 <group id="06" resname="ImpExp_Browse">
+            <trans-unit id="1" resname="ImpExp_Browse_DTD">
+               <source>Select a DTD file</source>
+               <target>Select a DTD file</target>
+            </trans-unit>
+            <trans-unit id="2" resname="ImpExp_Browse_XSL">
+               <source>Select a XSL file</source>
+               <target>Select a XSL file</target>
+            </trans-unit>
+		 </group>
+      </body>
+   </file>
+</xliff>

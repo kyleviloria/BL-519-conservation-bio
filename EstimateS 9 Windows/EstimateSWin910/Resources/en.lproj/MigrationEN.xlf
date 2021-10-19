@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1012" resname="ConvertDatabase/ConvertConfirm">
+            <trans-unit id="1" resname="Convert Database">
+               <source>Convert Database</source>
+               <target>Convert Database</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Convert structure file">
+               <source>This database structure file is going to be converted to work with 4D Application v12.
+
+You will not be able to open it with previous versions of these products anymore.</source>
+               <target>This database structure file is going to be converted to work with 4D Application v12.
+
+You will not be able to open it with previous versions of these products anymore.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Convert">
+               <source>Convert</source>
+               <target>Convert</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Damaged structure file">
+               <source>This database structure file seems to be damaged.
+For more information look in the journal file.
+Do you really want to convert it ?</source>
+               <target>This database structure file seems to be damaged.
+For more information look in the journal file.
+Do you really want to convert it ?</target>
+            </trans-unit>
+            <trans-unit id="5" resname="checking process canceled">
+               <source>The checking process has been canceled. Do you really want to convert the structure file ?</source>
+               <target>The checking process has been canceled. Do you really want to convert the structure file ?</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Old 4D version">
+               <source>This database structure file has not been converted for 4th Dimension version 6.</source>
+               <target>This database structure file has not been converted for 4th Dimension version 6.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Checking structure file">
+               <source>Checking structure file</source>
+               <target>Checking structure file</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Converting structure file">
+               <source>Converting structure file</source>
+               <target>Converting structure file</target>
+            </trans-unit>
+            <trans-unit id="10" resname="User canceled">
+               <source>User canceled</source>
+               <target>User canceled</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Missing or damaged password">
+               <source>Missing or damaged password</source>
+               <target>Missing or damaged password</target>
+            </trans-unit>
+            <trans-unit id="12" resname="structure pref">
+               <source>Missing or damaged structure preferences (PR4D ^) </source>
+               <target>Missing or damaged structure preferences (PR4D ^) </target>
+            </trans-unit>
+            <trans-unit id="13" resname="table descriptor">
+               <source>Missing or damaged table descriptor (FI4D ^) </source>
+               <target>Missing or damaged table descriptor (FI4D ^) </target>
+            </trans-unit>
+            <trans-unit id="14" resname="table name list">
+               <source>Missing or damaged table name list (WN4D ^) </source>
+               <target>Missing or damaged table name list (WN4D ^) </target>
+            </trans-unit>
+            <trans-unit id="15" resname="method list">
+               <source>Missing method list (TP4D ^) </source>
+               <target>Missing method list (TP4D ^) </target>
+            </trans-unit>
+            <trans-unit id="16" resname="method">
+               <source>Missing or damaged method (CC4D ^) </source>
+               <target>Missing or damaged method (CC4D ^) </target>
+            </trans-unit>
+            <trans-unit id="17" resname="form">
+               <source>Missing or damaged form (FO4D ^)  </source>
+               <target>Missing or damaged form (FO4D ^)  </target>
+            </trans-unit>
+            <trans-unit id="18" resname="menu">
+               <source>Missing or damaged menu (MEN4 ^)  </source>
+               <target>Missing or damaged menu (MEN4 ^)  </target>
+            </trans-unit>
+            <trans-unit id="19" resname="list">
+               <source>Missing or damaged list (EN4D ^)  </source>
+               <target>Missing or damaged list (EN4D ^)  </target>
+            </trans-unit>
+            <trans-unit id="20" resname="font table">
+               <source>Missing or damaged font table (FON# ^) </source>
+               <target>Missing or damaged font table (FON# ^) </target>
+            </trans-unit>
+            <trans-unit id="21" resname="form list">
+               <source>Missing or damaged form list (TF4D ^) </source>
+               <target>Missing or damaged form list (TF4D ^) </target>
+            </trans-unit>
+            <trans-unit id="22" resname="You cannot convert this database.">
+               <source>You cannot convert this database.</source>
+               <target>You cannot convert this database.</target>
+            </trans-unit>
+            <trans-unit id="23" resname="You are not allowed to convert this database.">
+               <source>You are not allowed to convert this database.</source>
+               <target>You are not allowed to convert this database.</target>
+            </trans-unit>
+            <trans-unit id="24" resname="damaged but unused">
+               <source>damaged but unused</source>
+               <target>damaged but unused</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Convert data file">
+               <source>This data file is going to be converted to work with 4D Application v12.
+
+You will not be able to open it with previous versions of these products anymore.</source>
+               <target>This data file is going to be converted to work with 4D Application v12.
+
+You will not be able to open it with previous versions of these products anymore.</target>
+            </trans-unit>
+            <trans-unit id="26" resname="old compatibility mode">
+               <source>This database used an old compatibility mode (BBOX resource) which is no longer supported.</source>
+               <target>This database used an old compatibility mode (BBOX resource) which is no longer supported.</target>
+            </trans-unit>
+            <trans-unit id="29" resname="stop conversion">
+               <source>Do you really want to stop the conversion process?</source>
+               <target>Do you really want to stop the conversion process?</target>
+            </trans-unit>
+            <trans-unit id="34" resname="bytes">
+               <source>bytes</source>
+               <target>bytes</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Mb">
+               <source>Mb</source>
+               <target>Mb</target>
+            </trans-unit>
+            <trans-unit id="36" resname="Kb">
+               <source>Kb</source>
+               <target>Kb</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Gb">
+               <source>Gb</source>
+               <target>Gb</target>
+            </trans-unit>
+            <trans-unit id="39" resname="database with components">
+               <source>Your database cannot be upgraded to version 12 because it contains component(s). Please uninstall the component(s) from your database with 4D Insider before converting your structure.</source>
+               <target>Your database cannot be upgraded to version 12 because it contains component(s). Please uninstall the component(s) from your database with 4D Insider before converting your structure.</target>
+            </trans-unit>
+            <trans-unit id="43" resname="Options" translate="no">
+               <source>Options ></source>
+               <target>Options ></target>
+            </trans-unit>
+            <trans-unit id="44" resname="Convert database">
+               <source>Convert database</source>
+               <target>Convert database</target>
+            </trans-unit>
+            <trans-unit id="47" resname="No segment">
+               <source>No segment has been detected automatically. Please select it/them manually on your disk(s).</source>
+               <target>No segment has been detected automatically. Please select it/them manually on your disk(s).</target>
+            </trans-unit>
+            <trans-unit id="53" resname="Other data file...">
+               <source>Other data file...</source>
+               <target>Other data file...</target>
+            </trans-unit>
+            <trans-unit id="58" resname="Conversion" translate="no">
+               <source>Replaced Files (Conversion)</source>
+               <target>Replaced Files (Conversion)</target>
+            </trans-unit>
+            <trans-unit id="59" resname="replace folder">
+               <source>Do you want to replace the “Replaced Files” folder?</source>
+               <target>Do you want to replace the “Replaced Files” folder?</target>
+            </trans-unit>
+            <trans-unit id="60" resname="empty folder">
+               <source>Impossible to empty the “Replaced Files” folder.</source>
+               <target>Impossible to empty the “Replaced Files” folder.</target>
+            </trans-unit>
+            <trans-unit id="69" resname="Compacting" translate="no">
+               <source>Replaced Files (Compacting)</source>
+               <target>Replaced Files (Compacting)</target>
+            </trans-unit>
+            <trans-unit id="70" resname="Repairing" translate="no">
+               <source>Replaced Files (Repairing)</source>
+               <target>Replaced Files (Repairing)</target>
+            </trans-unit>
+         </group>
+         <group resname="Migration_Common">
+            <trans-unit id="mig_1" resname="Common_CheckTools">
+               <source>Please check your database with 4D Tools (use the version corresponding to the database) before conversion.</source>
+               <target>Please check your database with 4D Tools (use the version corresponding to the database) before conversion.</target>
+            </trans-unit>
+            <trans-unit id="mig_2" resname="Common_StructFileInfo">
+               <source>Structure File Information</source>
+               <target>Structure File Information</target>
+            </trans-unit>
+            <trans-unit id="mig_3" resname="Common_FullPath">
+               <source>Full path:</source>
+               <target>Full path:</target>
+            </trans-unit>
+            <trans-unit id="mig_4" resname="Common_Size">
+               <source>Size:</source>
+               <target>Size:</target>
+            </trans-unit>
+            <trans-unit id="mig_5" resname="Common_DataFileInfo">
+               <source>Data File Information</source>
+               <target>Data File Information</target>
+            </trans-unit>
+            <trans-unit id="mig_6" resname="Common_FreeSpace">
+               <source>Free space on disk:</source>
+               <target>Free space on disk:</target>
+            </trans-unit>
+            <trans-unit id="mig_7" resname="Common_ButConvert">
+               <source>Convert database</source>
+               <target>Convert database</target>
+            </trans-unit>
+            <trans-unit id="mig_8" resname="Common_SegInfo">
+               <source>Segment Information</source>
+               <target>Segment Information</target>
+            </trans-unit>
+            <trans-unit id="mig_9" resname="Common_CannotConvert">
+               <source>4D Application cannot convert this database. For more information, click on the &quot;Details&quot; button.</source>
+               <target>4D Application cannot convert this database. For more information, click on the &quot;Details&quot; button.</target>
+            </trans-unit>
+            <trans-unit id="mig_10" resname="Common_NotEnoughSpace">
+               <source>Insufficient disk space. Please free up space and try again to convert the database.</source>
+               <target>Insufficient disk space. Please free up space and try again to convert the database.</target>
+            </trans-unit>
+            <trans-unit id="mig_11" resname="Common_NotExecuteCode">
+               <source>Do not execute code when opening database (On Startup... methods).</source>
+               <target>Do not execute code when opening database (On Startup... methods).</target>
+            </trans-unit>
+            <trans-unit id="mig_12" resname="Common_Options" translate="no">
+               <source>Options</source>
+               <target>Options</target>
+            </trans-unit>
+            <trans-unit id="mig_13" resname="Common_ReplaceFiles">
+               <source>4D replaces certain files in your database folder. The originals of the replaced files will be stored in the “Replaced Files” folder.</source>
+               <target>4D replaces certain files in your database folder. The originals of the replaced files will be stored in the “Replaced Files” folder.</target>
+            </trans-unit>
+            <trans-unit id="mig_14" resname="Common_BackupBase">
+               <source>By precaution, it is nevertheless advisable to carry out a complete backup of your database folder before proceeding with the conversion.</source>
+               <target>By precaution, it is nevertheless advisable to carry out a complete backup of your database folder before proceeding with the conversion.</target>
+            </trans-unit>
+            <trans-unit id="mig_15" resname="Common_DiskInfo">
+               <source>Disk Information</source>
+               <target>Disk Information</target>
+            </trans-unit>
+            <trans-unit id="mig_16" resname="Common_ButDetails">
+               <source>Details ></source>
+               <target>Details ></target>
+            </trans-unit>
+            <trans-unit id="mig_17" resname="migrationWizardTitle">
+               <source>Database Conversion</source>
+               <target>Database Conversion</target>
+            </trans-unit>
+         </group>
+         <group resname="Migration_STC">
+            <trans-unit id="mig_18" resname="STC_StructConvert">
+               <source>This structure file is going to be converted to work with 4D Application v12.
+You will not be able to open it with previous versions of these products anymore.</source>
+               <target>This structure file is going to be converted to work with 4D Application v12.
+You will not be able to open it with previous versions of these products anymore.</target>
+            </trans-unit>
+            <trans-unit id="mig_19" resname="STC_LocOrigStruct”">
+               <source>A copy of the original structure file will be made at the following location: “&lt;STC_R_Folder_Path>”</source>
+               <target>A copy of the original structure file will be made at the following location: “&lt;STC_R_Folder_Path>”</target>
+            </trans-unit>
+            <trans-unit id="mig_20" resname="STC_StructAlreadyConvert">
+               <source>This structure file is already converted in version v12.</source>
+               <target>This structure file is already converted in version v12.</target>
+            </trans-unit>
+            <trans-unit id="mig_21" resname="STC_CatalogCreation">
+               <source>A structure definition XML file named “catalog.xml” will be generated at the following location: “&lt;STC_R_Catalog_Path>”.</source>
+               <target>A structure definition XML file named “catalog.xml” will be generated at the following location: “&lt;STC_R_Catalog_Path>”.</target>
+            </trans-unit>
+            <trans-unit id="mig_22" resname="STC_CatalogAdvise">
+               <source>Keep it because it will be necessary if you want to convert again your 2004 structure preserving your v12 data file.</source>
+               <target>Keep it because it will be necessary if you want to convert again your 2004 structure preserving your v12 data file.</target>
+            </trans-unit>
+            <trans-unit id="mig_23" resname="STC_CatalogAlreadyExist">
+               <source>The “catalog.xml” file already exists at the following location: “&lt;STC_R_Catalog_Path>”.</source>
+               <target>The “catalog.xml” file already exists at the following location: “&lt;STC_R_Catalog_Path>”.</target>
+            </trans-unit>
+         </group>
+         <group resname="Migration_DTC">
+            <trans-unit id="mig_24" resname="DTC_ConvertData">
+               <source>This data file is going to be converted to work with 4D Application v12.
+You will not be able to open it with previous versions of these products anymore.</source>
+               <target>This data file is going to be converted to work with 4D Application v12.
+You will not be able to open it with previous versions of these products anymore.</target>
+            </trans-unit>
+            <trans-unit id="mig_25" resname="DTC_FileDamaged">
+               <source>This file is damaged or is not a 4D data file.</source>
+               <target>This file is damaged or is not a 4D data file.</target>
+            </trans-unit>
+            <trans-unit id="mig_26" resname="DTC_WEDDSignature">
+               <source>The WEDD signature of the data file selected does not correspond to the structure file WEDD signature.</source>
+               <target>The WEDD signature of the data file selected does not correspond to the structure file WEDD signature.</target>
+            </trans-unit>
+            <trans-unit id="mig_27" resname="DTC_Segments">
+               <source>All the segments below will be automatically converted into version 12 and will be joined together in a single data file.</source>
+               <target>All the segments below will be automatically converted into version 12 and will be joined together in a single data file.</target>
+            </trans-unit>
+            <trans-unit id="mig_28" resname="DTC_ChangeDestination">
+               <source>Change the destination...</source>
+               <target>Change the destination...</target>
+            </trans-unit>
+            <trans-unit id="mig_29" resname="DTC_NoDataFind">
+               <source>4D was not able to find a data file for this database. Please select another one by clicking on the “Other data file...” button.</source>
+               <target>4D was not able to find a data file for this database. Please select another one by clicking on the “Other data file...” button.</target>
+            </trans-unit>
+            <trans-unit id="mig_30" resname="DTC_LocOldData">
+               <source>A copy of the original data file will be made at the following location: “&lt;DTC_BackUp_Path>”</source>
+               <target>A copy of the original data file will be made at the following location: “&lt;DTC_BackUp_Path>”</target>
+            </trans-unit>
+            <trans-unit id="mig_31" resname="DTC_LocNewData">
+               <source>The new data file will be created at the following location: “&lt;DTC_R_New_Path>”</source>
+               <target>The new data file will be created at the following location: “&lt;DTC_R_New_Path>”</target>
+            </trans-unit>
+            <trans-unit id="mig_32" resname="DTC_TitleConvertData">
+               <source>Convert data file</source>
+               <target>Convert data file</target>
+            </trans-unit>
+            <trans-unit id="mig_33" resname="DTC_RadioButCreateData">
+               <source>Create a new data file</source>
+               <target>Create a new data file</target>
+            </trans-unit>
+            <trans-unit id="mig_34" resname="DTC_Datav11CatalogMissing">
+               <source>The selected data file comes from a previous database conversion. To be able to use it with the new structure which will be generate during this conversion, you must place the file “catalog.xml” beside the structure to convert.</source>
+               <target>The selected data file comes from a previous database conversion. To be able to use it with the new structure which will be generate during this conversion, you must place the file “catalog.xml” beside the structure to convert.</target>
+            </trans-unit>
+            <trans-unit id="mig_35" resname="DTC_Datav11OK">
+               <source>This data file is already converted in version v12.</source>
+               <target>This data file is already converted in version v12.</target>
+            </trans-unit>
+            <trans-unit id="mig_36" resname="DTC_Datav11CatalogNotOK">
+               <source>The selected data file comes from a previous database conversion and is not in conformity with the file catalog.xml placed beside the structure to convert. It can not be used.</source>
+               <target>The selected data file comes from a previous database conversion and is not in conformity with the file catalog.xml placed beside the structure to convert. It can not be used.</target>
+            </trans-unit>
+         </group>
+         <group id="400" resname="Migration_STR#400">
+            <trans-unit id="12" resname="Migration_StructNewer4DVersion">
+               <source>This database structure file has been made with a newer version of 4D. It cannot be used with this version.</source>
+               <target>This database structure file has been made with a newer version of 4D. It cannot be used with this version.</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Migration_DataNewer4DVersion">
+               <source>This data file has been made with a newer version of 4D. It cannot be used with this version.</source>
+               <target>This data file has been made with a newer version of 4D. It cannot be used with this version.</target>
+            </trans-unit>
+           <trans-unit  id="1" resname="Migration_OpeningMoreRecentDataFile">
+              <source>This data file has been created or converted by a newer version of 4D. It is not recommended to open it with this version of 4D if it uses specific functionalities of the newer version. Do you still want to open it?</source>
+              <target>This data file has been created or converted by a newer version of 4D. It is not recommended to open it with this version of 4D if it uses specific functionalities of the newer version. Do you still want to open it?</target>
+           </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

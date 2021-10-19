@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!--        Translation file for 4D products.   Copyright (C) 2009 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="Backup">
+            <trans-unit id="270" resname="BackupAll">
+               <source>All:</source>
+               <target>All:</target>
+            </trans-unit>
+            <trans-unit id="267" resname="BackupAt">
+               <source>at</source>
+               <target>at</target>
+            </trans-unit>
+            <trans-unit id="267" resname="BackupAtPrompt">
+               <source>At:</source>
+               <target>At:</target>
+            </trans-unit>
+            <trans-unit id="265" resname="BackupAutomaticBackup">
+               <source>Automatic Backup:</source>
+               <target>Automatic Backup:</target>
+            </trans-unit>
+            <trans-unit id="271" resname="BackupDate">
+               <source>Date:</source>
+               <target>Date:</target>
+            </trans-unit>
+            <trans-unit id="266" resname="BackupEvery">
+               <source>Every:</source>
+               <target>Every:</target>
+            </trans-unit>
+            <trans-unit id="272" resname="Backupfrom">
+               <source>From:</source>
+               <target>From:</target>
+            </trans-unit>
+            <trans-unit id="268" resname="BackupHourSymbol">
+               <source>h</source>
+               <target>h</target>
+            </trans-unit>
+            <trans-unit id="249" resname="BackupPageBackupAndRestore">
+               <source>Backup &amp; Restore</source>
+               <target>Backup &amp; Restore</target>
+            </trans-unit>
+            <trans-unit id="248" resname="BackupPageConfiguration">
+               <source>Configuration</source>
+               <target>Configuration</target>
+            </trans-unit>
+            <trans-unit id="247" resname="BackupPageScheduler">
+               <source>Scheduler</source>
+               <target>Scheduler</target>
+            </trans-unit>
+            <trans-unit id="80" resname="BackupGeneralSettings">
+               <source>General settings</source>
+               <target>General settings</target>
+            </trans-unit>
+            <trans-unit id="81" resname="BackupFrequency">
+               <source>Frequency</source>
+               <target>Frequency</target>
+            </trans-unit>
+            <trans-unit id="82" resname="BackupContent">
+               <source>Content</source>
+               <target>Content</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu Scheduler">
+            <trans-unit id="262" resname="BackupMenuSchedulerPersonalized">
+               <source>Personalized</source>
+               <target>Personalized</target>
+            </trans-unit>
+            <trans-unit id="251" resname="BackupMenuSchedulerAtTheOpening">
+               <source>At the opening</source>
+               <target>At the opening</target>
+            </trans-unit>
+            <trans-unit id="258" resname="BackupMenuSchedulerDaily">
+               <source>Every Day</source>
+               <target>Every Day</target>
+            </trans-unit>
+            <trans-unit id="259" resname="BackupMenuSchedulerHourly">
+               <source>Every Hour</source>
+               <target>Every Hour</target>
+            </trans-unit>
+            <trans-unit id="261" resname="BackupMenuSchedulerMonthly">
+               <source>Every Month</source>
+               <target>Every Month</target>
+            </trans-unit>
+            <trans-unit id="250" resname="BackupMenuSchedulerNever">
+               <source>Never</source>
+               <target>Never</target>
+            </trans-unit>
+            <trans-unit id="252" resname="BackupMenuSchedulerUponClosing">
+               <source>Upon closing</source>
+               <target>Upon closing</target>
+            </trans-unit>
+            <trans-unit id="260" resname="BackupMenuSchedulerWeekly">
+               <source>Every Week</source>
+               <target>Every Week</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu Periods">
+            <trans-unit id="254" resname="BackupMenuPeriod_1">
+               <source>hours</source>
+               <target>hours</target>
+            </trans-unit>
+            <trans-unit id="255" resname="BackupMenuPeriod_2">
+               <source>days</source>
+               <target>days</target>
+            </trans-unit>
+            <trans-unit id="256" resname="BackupMenuPeriod_3">
+               <source>weeks</source>
+               <target>weeks</target>
+            </trans-unit>
+            <trans-unit id="257" resname="BackupMenuPeriod_4">
+               <source>months</source>
+               <target>months</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu monthly day">
+            <trans-unit id="273" resname="BackupMenuMonthlyDay_1">
+               <source>First day</source>
+               <target>First day</target>
+            </trans-unit>
+            <trans-unit id="274" resname="BackupMenuMonthlyDay_2">
+               <source>Last day</source>
+               <target>Last day</target>
+            </trans-unit>
+            <trans-unit id="274" resname="BackupMenuMonthlyDay_3">
+               <source>Day number</source>
+               <target>Day number</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup configuration">
+            <trans-unit id="46" resname="BackupConfigurationArchive">
+               <source>Archive</source>
+               <target>Archive</target>
+            </trans-unit>
+            <trans-unit id="19" resname="BackupConfigurationAttachments">
+               <source>Attachments:</source>
+               <target>Attachments:</target>
+            </trans-unit>
+            <trans-unit id="143" resname="BackupConfigurationAttempts">
+               <source>attempts</source>
+               <target>attempts</target>
+            </trans-unit>
+            <trans-unit id="77" resname="BackupConfigurationAutomaticRestore">
+               <source>Automatic Restore</source>
+               <target>Automatic Restore</target>
+            </trans-unit>
+            <trans-unit id="95" resname="BackupConfigurationBackup">
+               <source>backup</source>
+               <target>backup</target>
+            </trans-unit>
+            <trans-unit id="33" resname="BackupConfigurationBackupFileDestinationFolder">
+               <source>Backup File Destination Folder</source>
+               <target>Backup File Destination Folder</target>
+            </trans-unit>
+            <trans-unit id="93" resname="BackupConfigurationBackupFiles">
+               <source>backup files</source>
+               <target>backup files</target>
+            </trans-unit>
+            <trans-unit id="24" resname="BackupConfigurationBackupOnlyIfTheDataFileHasBeenModified">
+               <source>Backup only if the data file has been modified</source>
+               <target>Backup only if the data file has been modified</target>
+            </trans-unit>
+            <trans-unit id="142" resname="BackupConfigurationCancelTheOperationAfter">
+               <source>Cancel the operation after</source>
+               <target>Cancel the operation after</target>
+            </trans-unit>
+            <trans-unit id="22" resname="BackupConfigurationCompressionRate">
+               <source>Compression Rate:</source>
+               <target>Compression Rate:</target>
+            </trans-unit>
+            <trans-unit id="36" resname="BackupConfigurationDataFile">
+               <source>Data File</source>
+               <target>Data File</target>
+            </trans-unit>
+            <trans-unit id="94" resname="BackupConfigurationDeleteOldestBackupFile">
+               <source>Delete oldest backup file</source>
+               <target>Delete oldest backup file</target>
+            </trans-unit>
+            <trans-unit id="16" resname="BackupConfigurationFreeSpace">
+               <source>Free Space:</source>
+               <target>Free Space:</target>
+            </trans-unit>
+            <trans-unit id="91" resname="BackupConfigurationIfBackupFails">
+               <source>If backup fails:</source>
+               <target>If backup fails:</target>
+            </trans-unit>
+            <trans-unit id="79" resname="BackupConfigurationIntegrateLastLogIfDatabaseIsIncomplete">
+               <source>Integrate last log if database is incomplete</source>
+               <target>Integrate last log if database is incomplete</target>
+            </trans-unit>
+            <trans-unit id="20" resname="BackupConfigurationInterlacingRate">
+               <source>Interlacing Rate:</source>
+               <target>Interlacing Rate:</target>
+            </trans-unit>
+            <trans-unit id="92" resname="BackupConfigurationKeepOnlyTheLast">
+               <source>Keep only the last</source>
+               <target>Keep only the last</target>
+            </trans-unit>
+            <trans-unit id="75" resname="BackupConfigurationLogManagement">
+               <source>Log Management</source>
+               <target>Log Management</target>
+            </trans-unit>
+            <trans-unit id="21" resname="BackupConfigurationRedundancyRate">
+               <source>Redundancy Rate:</source>
+               <target>Redundancy Rate:</target>
+            </trans-unit>
+            <trans-unit id="78" resname="BackupConfigurationRestoreLastBackupIfDatabaseIsDamaged">
+               <source>Restore last backup if database is damaged</source>
+               <target>Restore last backup if database is damaged</target>
+            </trans-unit>
+            <trans-unit id="74" resname="BackupConfigurationRetryAfter">
+               <source>Retry after</source>
+               <target>Retry after</target>
+            </trans-unit>
+            <trans-unit id="73" resname="BackupConfigurationRetryAtTheNextScheduledDateAndTime">
+               <source>Retry at the next scheduled date and time</source>
+               <target>Retry at the next scheduled date and time</target>
+            </trans-unit>
+            <trans-unit id="23" resname="BackupConfigurationSegmentSizeMb">
+               <source>Segment Size (Mb):</source>
+               <target>Segment Size (Mb):</target>
+            </trans-unit>
+            <trans-unit id="35" resname="BackupConfigurationStructureFile">
+               <source>Structure File</source>
+               <target>Structure File</target>
+            </trans-unit>
+            <trans-unit id="127" resname="BackupConfigurationTheBackupFileDestinationFolderIsInvalid">
+               <source>The backup file destination folder is invalid. Do you want to select a new pathname?\rIf you cancel, 4D will use their default destination folder.</source>
+               <target>The backup file destination folder is invalid. Do you want to select a new pathname?\rIf you cancel, 4D will use their default destination folder.</target>
+            </trans-unit>
+            <trans-unit id="15" resname="BackupConfigurationUsedSpace">
+               <source>Used Space:</source>
+               <target>Used Space:</target>
+            </trans-unit>
+            <trans-unit id="76" resname="BackupConfigurationUseLogFile">
+               <source>Use Log File:</source>
+               <target>Use Log File:</target>
+            </trans-unit>
+            <trans-unit id="39" resname="BackupConfigurationUserStructureFile">
+               <source>User Structure File</source>
+               <target>User Structure File</target>
+            </trans-unit>
+            <trans-unit id="159" resname="BackupDialogStringdisableLogFile">
+               <source>Disable Log File</source>
+               <target>Disable Log File</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu redundance">
+            <trans-unit id="165" resname="BackupMenuRedundance_High">
+               <source>High</source>
+               <target>High</target>
+            </trans-unit>
+            <trans-unit id="163" resname="BackupMenuRedundance_Low">
+               <source>Low</source>
+               <target>Low</target>
+            </trans-unit>
+            <trans-unit id="164" resname="BackupMenuRedundance_Medium">
+               <source>Medium</source>
+               <target>Medium</target>
+            </trans-unit>
+            <trans-unit id="162" resname="BackupMenuRedundance_None">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu compression">
+            <trans-unit id="168" resname="BackupMenuCompression_Compact">
+               <source>Compact</source>
+               <target>Compact</target>
+            </trans-unit>
+            <trans-unit id="167" resname="BackupMenuCompression_Fast">
+               <source>Fast</source>
+               <target>Fast</target>
+            </trans-unit>
+            <trans-unit id="166" resname="BackupMenuCompression_None">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu interlacing">
+            <trans-unit id="172" resname="BackupMenuInterlacing_High">
+               <source>High</source>
+               <target>High</target>
+            </trans-unit>
+            <trans-unit id="170" resname="BackupMenuInterlacing_Low">
+               <source>Low</source>
+               <target>Low</target>
+            </trans-unit>
+            <trans-unit id="171" resname="BackupMenuInterlacing_Medium">
+               <source>Medium</source>
+               <target>Medium</target>
+            </trans-unit>
+            <trans-unit id="169" resname="BackupMenuInterlacing_None">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup Stop Log">
+            <trans-unit id="2" resname="BackupStopLogifYouStopRecordingDataModificati">
+               <source>If you stop recording data modifications to the log file, you will no longer be able to recover your data using the Restore Log module.</source>
+               <target>If you stop recording data modifications to the log file, you will no longer be able to recover your data using the Restore Log module.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="BackupStopLogstop">
+               <source>Stop</source>
+               <target>Stop</target>
+            </trans-unit>
+            <trans-unit id="4" resname="BackupStopLogkeep">
+               <source>Keep</source>
+               <target>Keep</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu erase">
+            <trans-unit id="70" resname="BackupMenuEraseafter">
+               <source>after backup</source>
+               <target>after backup</target>
+            </trans-unit>
+            <trans-unit id="71" resname="BackupMenuErasebefore">
+               <source>before backup</source>
+               <target>before backup</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu UM">
+            <trans-unit id="72" resname="BackupMenuUmhour">
+               <source>Hour</source>
+               <target>Hour</target>
+            </trans-unit>
+            <trans-unit id="73" resname="BackupMenuUmminutes">
+               <source>Minutes</source>
+               <target>Minutes</target>
+            </trans-unit>
+            <trans-unit id="74" resname="BackupMenuUmseconds">
+               <source>Seconds</source>
+               <target>Seconds</target>
+            </trans-unit>
+         </group>
+         <group resname="Backup menu segmentation">
+            <trans-unit id="75" resname="BackupMenuSegmentation_0">
+               <source>None</source>
+               <target>None</target>
+            </trans-unit>
+            <trans-unit id="76" resname="BackupMenuSegmentation_1">
+               <source>100 MB</source>
+               <target>100 MB</target>
+            </trans-unit>
+            <trans-unit id="77" resname="BackupMenuSegmentation_2">
+               <source>200 MB</source>
+               <target>200 MB</target>
+            </trans-unit>
+            <trans-unit id="78" resname="BackupMenuSegmentation_3">
+               <source>650 MB</source>
+               <target>650 MB</target>
+            </trans-unit>
+            <trans-unit id="79" resname="BackupMenuSegmentation_4">
+               <source>700 MB</source>
+               <target>700 MB</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

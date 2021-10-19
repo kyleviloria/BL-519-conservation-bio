@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2009-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="ServerNet_Errors">
+            <trans-unit id="1" resname="ERR_srvr_1">
+               <source>Read failed with error code {key1} and system error code {key2}</source>
+               <target>Read failed with error code {key1} and system error code {key2}</target>
+            </trans-unit>
+            <trans-unit id="2" resname="SNET_UNKNOWN_ERROR">
+               <source>Unknown error code</source>
+               <target>Unknown error code</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ERR_srvr_2">
+               <source>Write failed with error code {key1}</source>
+               <target>Write failed with error code {key1}</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ERR_srvr_3">
+               <source>Connection is broken</source>
+               <target>Connection is broken</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ERR_srvr_4">
+               <source>Connection failed</source>
+               <target>Connection failed</target>
+            </trans-unit>
+            <trans-unit id="6" resname="ERR_srvr_6">
+               <source>End-point is already reading</source>
+               <target>End-point is already reading</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ERR_srvr_7">
+               <source>End-point is not reading</source>
+               <target>End-point is not reading</target>
+            </trans-unit>
+            <trans-unit id="8" resname="ERR_srvr_9">
+               <source>Invalid parameter</source>
+               <target>Invalid parameter</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ERR_srvr_10">
+               <source>Invalid internal state</source>
+               <target>Invalid internal state</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ERR_srvr_12">
+               <source>Failed to start listener</source>
+               <target>Failed to start listener</target>
+            </trans-unit>
+            <trans-unit id="11" resname="ERR_srvr_13">
+               <source>Failed to create a socket</source>
+               <target>Failed to create a socket</target>
+            </trans-unit>
+            <trans-unit id="12" resname="ERR_srvr_14">
+               <source>Session not found</source>
+               <target>Session not found</target>
+            </trans-unit>
+            <trans-unit id="13" resname="ERR_srvr_15">
+               <source>Postponed session expired</source>
+               <target>Postponed session expired</target>
+            </trans-unit>
+            <trans-unit id="14" resname="ERR_srvr_16">
+               <source>NULL end-point</source>
+               <target>NULL end-point</target>
+            </trans-unit>
+            <trans-unit id="15" resname="ERR_srvr_17">
+               <source>Read failed (timeout error)</source>
+               <target>Read failed (timeout error)</target>
+            </trans-unit>
+            <trans-unit id="16" resname="ERR_srvr_18">
+               <source>Write failed (timeout error)</source>
+               <target>Write failed (timeout error)</target>
+            </trans-unit>
+            <trans-unit id="17" resname="ERR_srvr_19">
+               <source>Keep-alive failed</source>
+               <target>Keep-alive failed</target>
+            </trans-unit>
+            <trans-unit id="18" resname="ERR_srvr_20">
+               <source>SSL certificate not found</source>
+               <target>SSL certificate not found</target>
+            </trans-unit>
+			
+            <trans-unit id="FailedStartSQLServer" resname="SQL_ERROR_FAILED_TO_START_SERVER">
+               <source>Failed to launch SQL Server. Please make sure that the port assigned to the SQL Server is not used by another application.
+If SSL is enabled, make sure the certificate (key.pem and cert.pem) exists at the appropriate location.</source>
+               <target>Failed to launch SQL Server. Please make sure that the port assigned to the SQL Server is not used by another application.
+If SSL is enabled, make sure the certificate (key.pem and cert.pem) exists at the appropriate location.</target>
+            </trans-unit>
+			
+            <trans-unit id="FailedLocateSSLCertificate" resname="SQL_ERROR_FAILED_TO_LOCATE_SSL_CERTIFICATE">
+               <source>Failed to launch SQL Server: the SSL certificate files (key.pem/cert.pem) cannot be found.</source>
+               <target>Failed to launch SQL Server: the SSL certificate files (key.pem/cert.pem) cannot be found.</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

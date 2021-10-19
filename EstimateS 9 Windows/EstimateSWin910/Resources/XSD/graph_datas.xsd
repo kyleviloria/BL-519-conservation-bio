@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.4d.com"
+xmlns="http://www.4d.com" elementFormDefault="qualified">
+
+  <!-- graph settings -->
+  <xs:complexType name="settings_type">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string" minOccurs="0" default=""/>
+      <xs:element name="x_grid" type="xs:boolean" minOccurs="0" default="false"/>
+      <xs:element name="y_grid" type="xs:boolean" minOccurs="0" default="false"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- string list type -->
+  <xs:complexType name="string_list_type">
+    <xs:sequence>
+      <xs:element name="s" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- string+number list type -->
+  <xs:complexType name="string_number_list_type">
+    <xs:sequence>
+      <xs:element name="s" type="xs:string" />
+      <xs:element name="n" type="xs:decimal" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- number list type -->
+  <xs:complexType name="number_list_type">
+    <xs:sequence>
+      <xs:element name="n" type="xs:decimal" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <!-- graph data element type -->
+  <xs:complexType name="graph_type" >
+     <xs:sequence>
+      <xs:element name="settings" type="settings_type"/>
+      <xs:element name="legend" type="string_list_type" />
+      <xs:element name="x_labels" type="string_number_list_type" />
+      <xs:element name="x_values" type="number_list_type" minOccurs="0"/>
+      <xs:element name="y_labels" type="string_list_type" />
+      <xs:element name="y_values" type="number_list_type" maxOccurs="8"/>
+     </xs:sequence>
+    <xs:attribute name="href" type="xs:anyURI" use="optional"/>
+  </xs:complexType>
+
+  <xs:element name="graph" type="graph_type" />
+  
+</xs:schema>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!--    Translation file for 4D products.  Copyright (C) 2010 4D SAS.  This file is distributed under the same license as the 4D product package.-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="actions">
+            <trans-unit id="198" resname="shortcut_About">
+               <source>About</source>
+               <target>About</target>
+            </trans-unit>
+            <trans-unit id="151" resname="shortcut_AddPage">
+               <source>Add Page</source>
+               <target>Add Page</target>
+            </trans-unit>
+            <trans-unit id="165" resname="shortcut_AlignBottom">
+               <source>Align &gt; Bottom</source>
+               <target>Align &gt; Bottom</target>
+            </trans-unit>
+            <trans-unit id="162" resname="shortcut_AlignLeft">
+               <source>Align &gt; Left</source>
+               <target>Align &gt; Left</target>
+            </trans-unit>
+            <trans-unit id="170" resname="shortcut_Alignment">
+               <source>Align &gt; Alignment</source>
+               <target>Align &gt; Alignment</target>
+            </trans-unit>
+            <trans-unit id="163" resname="shortcut_AlignRight">
+               <source>Align &gt; Right</source>
+               <target>Align &gt; Right</target>
+            </trans-unit>
+            <trans-unit id="164" resname="shortcut_AlignTop">
+               <source>Align &gt; Top</source>
+               <target>Align &gt; Top</target>
+            </trans-unit>
+            <trans-unit id="192" resname="shortcut_ApplyFormula">
+               <source>Apply Formula</source>
+               <target>Apply Formula</target>
+            </trans-unit>
+            <trans-unit id="100" resname="shortcut_ArrangeInFront">
+               <source>Arrange in Front</source>
+               <target>Arrange in Front</target>
+            </trans-unit>
+            <trans-unit id="23" resname="shortcut_BackupData">
+               <source>Backup</source>
+               <target>Backup</target>
+            </trans-unit>
+            <trans-unit id="99" resname="shortcut_BringAllToFront">
+               <source>Bring All to Front</source>
+               <target>Bring All to Front</target>
+            </trans-unit>
+            <trans-unit id="95" resname="shortcut_BuildApp">
+               <source>Build Application</source>
+               <target>Build Application</target>
+            </trans-unit>
+            <trans-unit id="166" resname="shortcut_CenterHorizontally">
+               <source>Align &gt; Center Horizontally</source>
+               <target>Align &gt; Center Horizontally</target>
+            </trans-unit>
+            <trans-unit id="167" resname="shortcut_CenterVertically">
+               <source>Align &gt; Center Vertically</source>
+               <target>Align &gt; Center Vertically</target>
+            </trans-unit>
+            <trans-unit id="195" resname="shortcut_Charts">
+               <source>Charts</source>
+               <target>Charts</target>
+            </trans-unit>
+            <trans-unit id="39" resname="shortcut_Clear" translate="no">
+               <source>Clear</source>
+            </trans-unit>
+            <trans-unit id="178" resname="shortcut_ClearObjectMethod">
+               <source>Clear Object Method</source>
+               <target>Clear Object Method</target>
+            </trans-unit>
+            <trans-unit id="15" resname="shortcut_ClearOpenRecent">
+               <source>Open Recent Databases &gt; Clear Menu</source>
+               <target>Open Recent Databases &gt; Clear Menu</target>
+            </trans-unit>
+            <trans-unit id="18" resname="shortcut_CloseAllEditor">
+               <source>Close All Windows</source>
+               <target>Close All Windows</target>
+            </trans-unit>
+            <trans-unit id="16" resname="shortcut_CloseDatabase">
+               <source>Close Database</source>
+               <target>Close Database</target>
+            </trans-unit>
+            <trans-unit id="17" resname="shortcut_CloseEditor">
+               <source>Close Window</source>
+               <target>Close Window</target>
+            </trans-unit>
+            <trans-unit id="93" resname="shortcut_CompilationWindow">
+               <source>Compiler</source>
+               <target>Compiler</target>
+            </trans-unit>
+            <trans-unit id="37" resname="shortcut_Copy" translate="no">
+               <source>Copy</source>
+            </trans-unit>
+            <trans-unit id="179" resname="shortcut_CurrentTable">
+               <source>Show Current Table</source>
+               <target>Show Current Table</target>
+            </trans-unit>
+            <trans-unit id="36" resname="shortcut_Cut" translate="no">
+               <source>Cut</source>
+            </trans-unit>
+            <trans-unit id="96" resname="shortcut_DatabaseSettings">
+               <source>Database Settings</source>
+               <target>Database Settings</target>
+            </trans-unit>
+            <trans-unit id="153" resname="shortcut_DeletePage">
+               <source>Delete Current Page</source>
+               <target>Delete Current Page</target>
+            </trans-unit>
+            <trans-unit id="184" resname="shortcut_DeleteSelection">
+               <source>Delete Selection</source>
+               <target>Delete Selection</target>
+            </trans-unit>
+            <trans-unit id="46" resname="shortcut_DialClear" translate="no">
+               <source>Dial Clear</source>
+            </trans-unit>
+            <trans-unit id="44" resname="shortcut_DialCopy" translate="no">
+               <source>Dial Copy</source>
+            </trans-unit>
+            <trans-unit id="43" resname="shortcut_DialCut" translate="no">
+               <source>Dial Cut</source>
+            </trans-unit>
+            <trans-unit id="45" resname="shortcut_DialPaste" translate="no">
+               <source>Dial Paste</source>
+            </trans-unit>
+            <trans-unit id="42" resname="shortcut_DialRedo" translate="no">
+               <source>Dial Redo</source>
+            </trans-unit>
+            <trans-unit id="47" resname="shortcut_DialSelectAll" translate="no">
+               <source>Dial Select All</source>
+            </trans-unit>
+            <trans-unit id="41" resname="shortcut_DialUndo" translate="no">
+               <source>Dial Undo</source>
+            </trans-unit>
+            <trans-unit id="144" resname="shortcut_DisplayInheritedForm">
+               <source>Display &gt; Inherited Form</source>
+               <target>Display &gt; Inherited Form</target>
+            </trans-unit>
+            <trans-unit id="150" resname="shortcut_DisplayLimits">
+               <source>Display &gt; Limits</source>
+               <target>Display &gt; Limits</target>
+            </trans-unit>
+            <trans-unit id="149" resname="shortcut_DisplayMarkerLabels">
+               <source>Display &gt; Marker Labels</source>
+               <target>Display &gt; Marker Labels</target>
+            </trans-unit>
+            <trans-unit id="148" resname="shortcut_DisplayMarkers">
+               <source>Display &gt; Markers</source>
+               <target>Display &gt; Markers</target>
+            </trans-unit>
+            <trans-unit id="145" resname="shortcut_DisplayMasterPage">
+               <source>Display &gt; Page 0</source>
+               <target>Display &gt; Page 0</target>
+            </trans-unit>
+            <trans-unit id="146" resname="shortcut_DisplayPaper">
+               <source>Display &gt; Paper</source>
+               <target>Display &gt; Paper</target>
+            </trans-unit>
+            <trans-unit id="147" resname="shortcut_DisplayRulers">
+               <source>Display &gt; Rulers</source>
+               <target>Display &gt; Rulers</target>
+            </trans-unit>
+            <trans-unit id="169" resname="shortcut_DistributeHorizontally">
+               <source>Align &gt; Distribute Horizontally</source>
+               <target>Align &gt; Distribute Horizontally</target>
+            </trans-unit>
+            <trans-unit id="168" resname="shortcut_DistributeVertically">
+               <source>Align &gt; Distribute Vertically</source>
+               <target>Align &gt; Distribute Vertically</target>
+            </trans-unit>
+            <trans-unit id="159" resname="shortcut_DownOneLevel">
+               <source>Down One Level</source>
+               <target>Down One Level</target>
+            </trans-unit>
+            <trans-unit id="48" resname="shortcut_Duplicate">
+               <source>Duplicate</source>
+               <target>Duplicate</target>
+            </trans-unit>
+            <trans-unit id="172" resname="shortcut_DuplicateMany">
+               <source>Duplicate Many</source>
+               <target>Duplicate Many</target>
+            </trans-unit>
+            <trans-unit id="171" resname="shortcut_DuplicateOnMatrix">
+               <source>Duplicate on Matrix</source>
+               <target>Duplicate on Matrix</target>
+            </trans-unit>
+            <trans-unit id="137" resname="shortcut_EntryOrder">
+               <source>Entry Order</source>
+               <target>Entry Order</target>
+            </trans-unit>
+            <trans-unit id="64" resname="shortcut_ExecuteMethod">
+               <source>Method</source>
+               <target>Method</target>
+            </trans-unit>
+            <trans-unit id="75" resname="shortcut_ExplorerCommands">
+               <source>Explorer &gt; Commands</source>
+               <target>Explorer &gt; Commands</target>
+            </trans-unit>
+            <trans-unit id="77" resname="shortcut_ExplorerComponents">
+               <source>Explorer &gt; Plug-ins</source>
+               <target>Explorer &gt; Plug-ins</target>
+            </trans-unit>
+            <trans-unit id="76" resname="shortcut_ExplorerConstants">
+               <source>Explorer &gt; Constants</source>
+               <target>Explorer &gt; Constants</target>
+            </trans-unit>
+            <trans-unit id="73" resname="shortcut_ExplorerForms">
+               <source>Explorer &gt; Forms</source>
+               <target>Explorer &gt; Forms</target>
+            </trans-unit>
+            <trans-unit id="71" resname="shortcut_ExplorerHome">
+               <source>Explorer &gt; Home</source>
+               <target>Explorer &gt; Home</target>
+            </trans-unit>
+            <trans-unit id="74" resname="shortcut_ExplorerMethods">
+               <source>Explorer &gt; Methods</source>
+               <target>Explorer &gt; Methods</target>
+            </trans-unit>
+            <trans-unit id="72" resname="shortcut_ExplorerTables">
+               <source>Explorer &gt; Tables</source>
+               <target>Explorer &gt; Tables</target>
+            </trans-unit>
+            <trans-unit id="78" resname="shortcut_ExplorerTrash">
+               <source>Explorer &gt; Trash</source>
+               <target>Explorer &gt; Trash</target>
+            </trans-unit>
+            <trans-unit id="30" resname="shortcut_ExportStructureToHTML">
+               <source>Export &gt; Structure definition to HTML file</source>
+               <target>Export &gt; Structure definition to HTML file</target>
+            </trans-unit>
+            <trans-unit id="29" resname="shortcut_ExportStructureToXML">
+               <source>Export &gt; Structure definition to XML file</source>
+               <target>Export &gt; Structure definition to XML file</target>
+            </trans-unit>
+            <trans-unit id="27" resname="shortcut_ExportToFile">
+               <source>Export &gt; Data to File</source>
+               <target>Export &gt; Data to File</target>
+            </trans-unit>
+            <trans-unit id="28" resname="shortcut_ExportToODBC">
+               <source>Export &gt; Data to ODBC Source</source>
+               <target>Export &gt; Data to ODBC Source</target>
+            </trans-unit>
+            <trans-unit id="52" resname="shortcut_Find">
+               <source>Find &gt; Find</source>
+               <target>Find &gt; Find</target>
+            </trans-unit>
+            <trans-unit id="56" resname="shortcut_FindBookmarkAll">
+               <source>Find &gt; Bookmark All</source>
+               <target>Find &gt; Bookmark All</target>
+            </trans-unit>
+            <trans-unit id="49" resname="shortcut_FindGlobal">
+               <source>Find in Design</source>
+               <target>Find in Design</target>
+            </trans-unit>
+            <trans-unit id="53" resname="shortcut_FindNext">
+               <source>Find &gt; Find Next</source>
+               <target>Find &gt; Find Next</target>
+            </trans-unit>
+            <trans-unit id="54" resname="shortcut_FindPrevious">
+               <source>Find &gt; Find Previous</source>
+               <target>Find &gt; Find Previous</target>
+            </trans-unit>
+            <trans-unit id="55" resname="shortcut_FindSame">
+               <source>Find &gt; Find Same Next</source>
+               <target>Find &gt; Find Same Next</target>
+            </trans-unit>
+            <trans-unit id="203" resname="shortcut_FindSamePrevious">
+               <source>Find &gt; Find Same Previous</source>
+               <target>Find &gt; Find Same Previous</target>
+            </trans-unit>
+            <trans-unit id="50" resname="shortcut_FindUnusedGlobal">
+               <source>Find Unused Methods and Global Variables</source>
+               <target>Find Unused Methods and Global Variables</target>
+            </trans-unit>
+            <trans-unit id="51" resname="shortcut_FindUnusedLocal">
+               <source>Find Unused Local Variables</source>
+               <target>Find Unused Local Variables</target>
+            </trans-unit>
+            <trans-unit id="22" resname="shortcut_FlushDataBuffers">
+               <source>Flush Data Buffers</source>
+               <target>Flush Data Buffers</target>
+            </trans-unit>
+            <trans-unit id="139" resname="shortcut_FormMethod">
+               <source>Form Method</source>
+               <target>Form Method</target>
+            </trans-unit>
+            <trans-unit id="141" resname="shortcut_FormScaling">
+               <source>Form Scaling</source>
+               <target>Form Scaling</target>
+            </trans-unit>
+            <trans-unit id="154" resname="shortcut_GotoPage0">
+               <source>Goto Page &gt; 0</source>
+               <target>Goto Page &gt; 0</target>
+            </trans-unit>
+            <trans-unit id="155" resname="shortcut_GotoPage1">
+               <source>Goto Page &gt; 1</source>
+               <target>Goto Page &gt; 1</target>
+            </trans-unit>
+            <trans-unit id="160" resname="shortcut_Group">
+               <source>Group</source>
+               <target>Group</target>
+            </trans-unit>
+            <trans-unit id="25" resname="shortcut_ImportFromFile">
+               <source>Import &gt; From File</source>
+               <target>Import &gt; From File</target>
+            </trans-unit>
+            <trans-unit id="26" resname="shortcut_ImportFromODBC">
+               <source>Import &gt; From ODBC Source</source>
+               <target>Import &gt; From ODBC Source</target>
+            </trans-unit>
+            <trans-unit id="173" resname="shortcut_IncrementVarName">
+               <source>Increment Variable Names</source>
+               <target>Increment Variable Names</target>
+            </trans-unit>
+            <trans-unit id="152" resname="shortcut_InsertPage">
+               <source>Insert Page</source>
+               <target>Insert Page</target>
+            </trans-unit>
+            <trans-unit id="194" resname="shortcut_Labels">
+               <source>Labels</source>
+               <target>Labels</target>
+            </trans-unit>
+            <trans-unit id="121" resname="shortcut_MethodBookmarksGotoNext">
+               <source>Bookmarks &gt; Goto Next</source>
+               <target>Bookmarks &gt; Goto Next</target>
+            </trans-unit>
+            <trans-unit id="122" resname="shortcut_MethodBookmarksGotoPrevious">
+               <source>Bookmarks &gt; Goto Previous</source>
+               <target>Bookmarks &gt; Goto Previous</target>
+            </trans-unit>
+            <trans-unit id="120" resname="shortcut_MethodBookmarksRemoveAll">
+               <source>Bookmarks &gt; Remove All</source>
+               <target>Bookmarks &gt; Remove All</target>
+            </trans-unit>
+            <trans-unit id="119" resname="shortcut_MethodBookmarksToggle">
+               <source>Bookmarks &gt; Toggle</source>
+               <target>Bookmarks &gt; Toggle</target>
+            </trans-unit>
+            <trans-unit id="125" resname="shortcut_MethodCasecamelCase">
+               <source>Case &gt; camelCase</source>
+               <target>Case &gt; camelCase</target>
+            </trans-unit>
+            <trans-unit id="126" resname="shortcut_MethodCaseCamelCase">
+               <source>Case &gt; CamelCase</source>
+               <target>Case &gt; CamelCase</target>
+            </trans-unit>
+            <trans-unit id="124" resname="shortcut_MethodCaseLowerCase">
+               <source>Case &gt; Lowercase</source>
+               <target>Case &gt; Lowercase</target>
+            </trans-unit>
+            <trans-unit id="123" resname="shortcut_MethodCaseUpperCase">
+               <source>Case &gt; Uppercase</source>
+               <target>Case &gt; Uppercase</target>
+            </trans-unit>
+            <trans-unit id="105" resname="shortcut_MethodComment">
+               <source>Comment/Uncomment</source>
+               <target>Comment/Uncomment</target>
+            </trans-unit>
+            <trans-unit id="109" resname="shortcut_MethodEndOfBlock">
+               <source>End Of Block</source>
+               <target>End Of Block</target>
+            </trans-unit>
+            <trans-unit id="135" resname="shortcut_MethodExportMethod">
+               <source>Export Method</source>
+               <target>Export Method</target>
+            </trans-unit>
+            <trans-unit id="131" resname="shortcut_MethodFoldAll">
+               <source>Collapse/Expand &gt; Collapse All</source>
+               <target>Collapse/Expand &gt; Collapse All</target>
+            </trans-unit>
+            <trans-unit id="129" resname="shortcut_MethodFoldCurrentLevel">
+               <source>Collapse/Expand &gt; Collapse Current Level</source>
+               <target>Collapse/Expand &gt; Collapse Current Level</target>
+            </trans-unit>
+            <trans-unit id="127" resname="shortcut_MethodFoldSelection">
+               <source>Collapse/Expand &gt; Collapse Selection</source>
+               <target>Collapse/Expand &gt; Collapse Selection</target>
+            </trans-unit>
+            <trans-unit id="101" resname="shortcut_MethodGotoDefinition">
+               <source>Goto Definition</source>
+               <target>Goto Definition</target>
+            </trans-unit>
+            <trans-unit id="104" resname="shortcut_MethodGotoLine">
+               <source>Goto Line</source>
+               <target>Goto Line</target>
+            </trans-unit>
+            <trans-unit id="134" resname="shortcut_MethodImportMethod">
+               <source>Import Method</source>
+               <target>Import Method</target>
+            </trans-unit>
+            <trans-unit id="111" resname="shortcut_MethodMoveDown">
+               <source>Move Lines Down</source>
+               <target>Move Lines Down</target>
+            </trans-unit>
+            <trans-unit id="110" resname="shortcut_MethodMoveUp">
+               <source>Move Lines Up</source>
+               <target>Move Lines Up</target>
+            </trans-unit>
+            <trans-unit id="112" resname="shortcut_MethodNextError">
+               <source>Next Error</source>
+               <target>Next Error</target>
+            </trans-unit>
+            <trans-unit id="113" resname="shortcut_MethodPreviousError">
+               <source>Previous Error</source>
+               <target>Previous Error</target>
+            </trans-unit>
+            <trans-unit id="136" resname="shortcut_MethodProperties">
+               <source>Method Properties</source>
+               <target>Method Properties</target>
+            </trans-unit>
+            <trans-unit id="133" resname="shortcut_MethodSaveAsTemplate">
+               <source>Save As Template</source>
+               <target>Save As Template</target>
+            </trans-unit>
+            <trans-unit id="103" resname="shortcut_MethodSearchCallers">
+               <source>Search Callers</source>
+               <target>Search Callers</target>
+            </trans-unit>
+            <trans-unit id="102" resname="shortcut_MethodSearchReferences">
+               <source>Search References</source>
+               <target>Search References</target>
+            </trans-unit>
+            <trans-unit id="107" resname="shortcut_MethodSelectBlock">
+               <source>Select Block</source>
+               <target>Select Block</target>
+            </trans-unit>
+            <trans-unit id="108" resname="shortcut_MethodStartOfBlock">
+               <source>Start Of Block</source>
+               <target>Start Of Block</target>
+            </trans-unit>
+            <trans-unit id="106" resname="shortcut_MethodSwap">
+               <source>Swap Expression</source>
+               <target>Swap Expression</target>
+            </trans-unit>
+            <trans-unit id="132" resname="shortcut_MethodUnfoldAll">
+               <source>Collapse/Expand &gt; Expand All</source>
+               <target>Collapse/Expand &gt; Expand All</target>
+            </trans-unit>
+            <trans-unit id="130" resname="shortcut_MethodUnfoldCurrentLevel">
+               <source>Collapse/Expand &gt; Expand Current Level</source>
+               <target>Collapse/Expand &gt; Expand Current Level</target>
+            </trans-unit>
+            <trans-unit id="128" resname="shortcut_MethodUnfoldSelection">
+               <source>Collapse/Expand &gt; Expand Selection</source>
+               <target>Collapse/Expand &gt; Expand Selection</target>
+            </trans-unit>
+            <trans-unit id="117" resname="shortcut_MethodViewBiggerFont">
+               <source>View &gt; Bigger Font</source>
+               <target>View &gt; Bigger Font</target>
+            </trans-unit>
+            <trans-unit id="115" resname="shortcut_MethodViewLineNumbers">
+               <source>View &gt; Line Numbers</source>
+               <target>View &gt; Line Numbers</target>
+            </trans-unit>
+            <trans-unit id="114" resname="shortcut_MethodViewLists">
+               <source>View &gt; Lists</source>
+               <target>View &gt; Lists</target>
+            </trans-unit>
+            <trans-unit id="118" resname="shortcut_MethodViewSmallerFont">
+               <source>View &gt; Smaller Font</source>
+               <target>View &gt; Smaller Font</target>
+            </trans-unit>
+            <trans-unit id="116" resname="shortcut_MethodViewWhiteSpaces">
+               <source>View &gt; White Spaces</source>
+               <target>View &gt; White Spaces</target>
+            </trans-unit>
+            <trans-unit id="98" resname="shortcut_MinimizeAllWindow">
+               <source>Minimize All Windows</source>
+               <target>Minimize All Windows</target>
+            </trans-unit>
+            <trans-unit id="97" resname="shortcut_MinimizeWindow">
+               <source>Minimize Window</source>
+               <target>Minimize Window</target>
+            </trans-unit>
+            <trans-unit id="183" resname="shortcut_ModifyRecord_InPage">
+               <source>Modify Record</source>
+               <target>Modify Record</target>
+            </trans-unit>
+            <trans-unit id="157" resname="shortcut_MoveToBack">
+               <source>Move to Back</source>
+               <target>Move to Back</target>
+            </trans-unit>
+            <trans-unit id="156" resname="shortcut_MoveToFront">
+               <source>Move to Front</source>
+               <target>Move to Front</target>
+            </trans-unit>
+            <trans-unit id="1" resname="shortcut_NewDatabase">
+               <source>New &gt; Database</source>
+               <target>New &gt; Database</target>
+            </trans-unit>
+            <trans-unit id="3" resname="shortcut_NewDatabaseFromStructureDefinition">
+               <source>New &gt; Database From Structure Definition</source>
+               <target>New &gt; Database From Structure Definition</target>
+            </trans-unit>
+            <trans-unit id="2" resname="shortcut_NewDatabaseFromTemplate">
+               <source>New &gt; Database From Template</source>
+               <target>New &gt; Database From Template</target>
+            </trans-unit>
+            <trans-unit id="4" resname="shortcut_NewDataFile">
+               <source>New &gt; Data File</source>
+               <target>New &gt; Data File</target>
+            </trans-unit>
+            <trans-unit id="7" resname="shortcut_NewForm">
+               <source>New &gt; Form</source>
+               <target>New &gt; Form</target>
+            </trans-unit>
+            <trans-unit id="8" resname="shortcut_NewMethod">
+               <source>New &gt; Method</source>
+               <target>New &gt; Method</target>
+            </trans-unit>
+            <trans-unit id="5" resname="shortcut_NewObjectLibrary">
+               <source>New &gt; Object Library</source>
+               <target>New &gt; Object Library</target>
+            </trans-unit>
+            <trans-unit id="181" resname="shortcut_NewRecord_InList">
+               <source>New Record in List</source>
+               <target>New Record in List</target>
+            </trans-unit>
+            <trans-unit id="182" resname="shortcut_NewRecord_InPage">
+               <source>New Record</source>
+               <target>New Record</target>
+            </trans-unit>
+            <trans-unit id="6" resname="shortcut_NewTable">
+               <source>New &gt; Table</source>
+               <target>New &gt; Table</target>
+            </trans-unit>
+            <trans-unit id="177" resname="shortcut_ObjectMethod">
+               <source>Object Method</source>
+               <target>Object Method</target>
+            </trans-unit>
+            <trans-unit id="9" resname="shortcut_OpenDatabase">
+               <source>Open &gt; Local Database</source>
+               <target>Open &gt; Local Database</target>
+            </trans-unit>
+            <trans-unit id="11" resname="shortcut_OpenDataFile">
+               <source>Open &gt; Data File</source>
+               <target>Open &gt; Data File</target>
+            </trans-unit>
+            <trans-unit id="13" resname="shortcut_OpenForm">
+               <source>Open &gt; Form</source>
+               <target>Open &gt; Form</target>
+            </trans-unit>
+            <trans-unit id="14" resname="shortcut_OpenMethod">
+               <source>Open &gt; Method</source>
+               <target>Open &gt; Method</target>
+            </trans-unit>
+            <trans-unit id="199" resname="shortcut_OpenMonitor">
+               <source>4D Server Administration</source>
+               <target>4D Server Administration</target>
+            </trans-unit>
+            <trans-unit id="91" resname="shortcut_OpenObjectLib">
+               <source>Object Library</source>
+               <target>Object Library</target>
+            </trans-unit>
+            <trans-unit id="12" resname="shortcut_OpenObjectLibrary">
+               <source>Open &gt; Object Library</source>
+               <target>Open &gt; Object Library</target>
+            </trans-unit>
+            <trans-unit id="10" resname="shortcut_OpenRemoteDatabase">
+               <source>Open &gt; Remote Database</source>
+               <target>Open &gt; Remote Database</target>
+            </trans-unit>
+            <trans-unit id="191" resname="shortcut_OrderBy">
+               <source>Order By</source>
+               <target>Order By</target>
+            </trans-unit>
+            <trans-unit id="31" resname="shortcut_PageSetup">
+               <source>Page Setup</source>
+               <target>Page Setup</target>
+            </trans-unit>
+            <trans-unit id="38" resname="shortcut_Paste" translate="no">
+               <source>Paste</source>
+            </trans-unit>
+            <trans-unit id="62" resname="shortcut_Preferences">
+               <source>Preferences</source>
+               <target>Preferences</target>
+            </trans-unit>
+            <trans-unit id="32" resname="shortcut_Print">
+               <source>Print</source>
+               <target>Print</target>
+            </trans-unit>
+            <trans-unit id="138" resname="shortcut_PropertyList">
+               <source>Property List</source>
+               <target>Property List</target>
+            </trans-unit>
+            <trans-unit id="187" resname="shortcut_Query">
+               <source>Query &gt; Query</source>
+               <target>Query &gt; Query</target>
+            </trans-unit>
+            <trans-unit id="189" resname="shortcut_QueryAndModify">
+               <source>Query &gt; Query and Modify</source>
+               <target>Query &gt; Query and Modify</target>
+            </trans-unit>
+            <trans-unit id="188" resname="shortcut_QueryByExample">
+               <source>Query &gt; Query by Example</source>
+               <target>Query &gt; Query by Example</target>
+            </trans-unit>
+            <trans-unit id="190" resname="shortcut_QueryByFormula">
+               <source>Query &gt; Query by Formula</source>
+               <target>Query &gt; Query by Formula</target>
+            </trans-unit>
+            <trans-unit id="193" resname="shortcut_QuickReport">
+               <source>Quick Report</source>
+               <target>Quick Report</target>
+            </trans-unit>
+            <trans-unit id="33" resname="shortcut_Quit">
+               <source>Quit</source>
+               <target>Quit</target>
+            </trans-unit>
+            <trans-unit id="35" resname="shortcut_Redo" translate="no">
+               <source>Redo</source>
+            </trans-unit>
+            <trans-unit id="200" resname="shortcut_RegisterCurrentDatabaseAsService">
+               <source>Register Current Database as Service</source>
+               <target>Register Current Database as Service</target>
+            </trans-unit>
+            <trans-unit id="57" resname="shortcut_Replace">
+               <source>Find &gt; Replace</source>
+               <target>Find &gt; Replace</target>
+            </trans-unit>
+            <trans-unit id="60" resname="shortcut_ReplaceAll">
+               <source>Find &gt; Replace All</source>
+               <target>Find &gt; Replace All</target>
+            </trans-unit>
+            <trans-unit id="58" resname="shortcut_ReplaceNext">
+               <source>Find &gt; Replace Next</source>
+               <target>Find &gt; Replace Next</target>
+            </trans-unit>
+            <trans-unit id="59" resname="shortcut_ReplacePrevious">
+               <source>Find &gt; Replace Previous</source>
+               <target>Find &gt; Replace Previous</target>
+            </trans-unit>
+            <trans-unit id="24" resname="shortcut_RestoreBackup">
+               <source>Restore</source>
+               <target>Restore</target>
+            </trans-unit>
+            <trans-unit id="21" resname="shortcut_Revert">
+               <source>Revert</source>
+               <target>Revert</target>
+            </trans-unit>
+            <trans-unit id="142" resname="shortcut_RulerDefinition">
+               <source>Ruler Definition</source>
+               <target>Ruler Definition</target>
+            </trans-unit>
+            <trans-unit id="65" resname="shortcut_RuntimeExplorer">
+               <source>Runtime Explorer</source>
+               <target>Runtime Explorer</target>
+            </trans-unit>
+            <trans-unit id="20" resname="shortcut_SaveAllEditor">
+               <source>Save All</source>
+               <target>Save All</target>
+            </trans-unit>
+            <trans-unit id="19" resname="shortcut_SaveEditor">
+               <source>Save Window</source>
+               <target>Save Window</target>
+            </trans-unit>
+            <trans-unit id="196" resname="shortcut_SecurityCenter">
+               <source>Maintenance Security Center</source>
+               <target>Maintenance Security Center</target>
+            </trans-unit>
+            <trans-unit id="40" resname="shortcut_SelectAll" translate="no">
+               <source>Select All</source>
+            </trans-unit>
+            <trans-unit id="185" resname="shortcut_ShowAll">
+               <source>Show All</source>
+               <target>Show All</target>
+            </trans-unit>
+            <trans-unit id="61" resname="shortcut_ShowClipboard">
+               <source>Show Clipboard</source>
+               <target>Show Clipboard</target>
+            </trans-unit>
+            <trans-unit id="174" resname="shortcut_ShowFormat">
+               <source>Show Format</source>
+               <target>Show Format</target>
+            </trans-unit>
+            <trans-unit id="176" resname="shortcut_ShowName">
+               <source>Show Name</source>
+               <target>Show Name</target>
+            </trans-unit>
+            <trans-unit id="175" resname="shortcut_ShowResource">
+               <source>Show Resource</source>
+               <target>Show Resource</target>
+            </trans-unit>
+            <trans-unit id="186" resname="shortcut_ShowSubset">
+               <source>Show Subset</source>
+               <target>Show Subset</target>
+            </trans-unit>
+            <trans-unit id="92" resname="shortcut_SoapWizard">
+               <source>Web Services Wizard</source>
+               <target>Web Services Wizard</target>
+            </trans-unit>
+            <trans-unit id="94" resname="shortcut_StartCompilation">
+               <source>Start Compilation</source>
+               <target>Start Compilation</target>
+            </trans-unit>
+            <trans-unit id="70" resname="shortcut_StartCompiled">
+               <source>(Re)Start Compiled</source>
+               <target>(Re)Start Compiled</target>
+            </trans-unit>
+            <trans-unit id="79" resname="shortcut_StartExplorer">
+               <source>Explorer &gt; Explorer</source>
+               <target>Explorer &gt; Explorer</target>
+            </trans-unit>
+            <trans-unit id="69" resname="shortcut_StartInterpreted">
+               <source>(Re)Start Interpreted</source>
+               <target>(Re)Start Interpreted</target>
+            </trans-unit>
+            <trans-unit id="68" resname="shortcut_StartStopSQLServer">
+               <source>Start/Stop SQL Server</source>
+               <target>Start/Stop SQL Server</target>
+            </trans-unit>
+            <trans-unit id="66" resname="shortcut_StartStopWebServer">
+               <source>Start/Stop Web Server</source>
+               <target>Start/Stop Web Server</target>
+            </trans-unit>
+            <trans-unit id="89" resname="shortcut_StartToolBox">
+               <source>Tool Box &gt; Tool Box</source>
+               <target>Tool Box &gt; Tool Box</target>
+            </trans-unit>
+            <trans-unit id="90" resname="shortcut_StructWindow">
+               <source>Database Structure</source>
+               <target>Database Structure</target>
+            </trans-unit>
+            <trans-unit id="180" resname="shortcut_TableList">
+               <source>List of Tables</source>
+               <target>List of Tables</target>
+            </trans-unit>
+            <trans-unit id="63" resname="shortcut_TestApplication">
+               <source>Test Application</source>
+               <target>Test Application</target>
+            </trans-unit>
+            <trans-unit id="67" resname="shortcut_TestWebServer">
+               <source>Test Web Server</source>
+               <target>Test Web Server</target>
+            </trans-unit>
+            <trans-unit id="87" resname="shortcut_ToolboxFilters">
+               <source>Tool Box &gt; Filters and Formats</source>
+               <target>Tool Box &gt; Filters and Formats</target>
+            </trans-unit>
+            <trans-unit id="84" resname="shortcut_ToolboxHelpMessage">
+               <source>Tool Box &gt; Help Tips</source>
+               <target>Tool Box &gt; Help Tips</target>
+            </trans-unit>
+            <trans-unit id="85" resname="shortcut_ToolboxLists">
+               <source>Tool Box &gt; Lists</source>
+               <target>Tool Box &gt; Lists</target>
+            </trans-unit>
+            <trans-unit id="82" resname="shortcut_ToolboxMenus">
+               <source>Tool Box &gt; Menus</source>
+               <target>Tool Box &gt; Menus</target>
+            </trans-unit>
+            <trans-unit id="83" resname="shortcut_ToolboxPictLib">
+               <source>Tool Box &gt; Picture Library</source>
+               <target>Tool Box &gt; Picture Library</target>
+            </trans-unit>
+            <trans-unit id="88" resname="shortcut_ToolboxResources">
+               <source>Tool Box &gt; Resources</source>
+               <target>Tool Box &gt; Resources</target>
+            </trans-unit>
+            <trans-unit id="86" resname="shortcut_ToolboxStylesheets">
+               <source>Tool Box &gt; Style Sheets</source>
+               <target>Tool Box &gt; Style Sheets</target>
+            </trans-unit>
+            <trans-unit id="81" resname="shortcut_ToolboxUserGroup">
+               <source>Tool Box &gt; User groups</source>
+               <target>Tool Box &gt; User groups</target>
+            </trans-unit>
+            <trans-unit id="80" resname="shortcut_ToolboxUsers">
+               <source>Tool Box &gt; Users</source>
+               <target>Tool Box &gt; Users</target>
+            </trans-unit>
+            <trans-unit id="143" resname="shortcut_TurnGridOn">
+               <source>Magnetic Grid</source>
+               <target>Magnetic Grid</target>
+            </trans-unit>
+            <trans-unit id="34" resname="shortcut_Undo" translate="no">
+               <source>Undo</source>
+            </trans-unit>
+            <trans-unit id="161" resname="shortcut_UnGroup">
+               <source>Ungroup</source>
+               <target>Ungroup</target>
+            </trans-unit>
+            <trans-unit id="202" resname="shortcut_UnregisterAllServerServices">
+               <source>Unregister all Server Services</source>
+               <target>Unregister all Server Services</target>
+            </trans-unit>
+            <trans-unit id="201" resname="shortcut_UnregisterCurrentDatabase">
+               <source>Unregister Current Database</source>
+               <target>Unregister Current Database</target>
+            </trans-unit>
+            <trans-unit id="197" resname="shortcut_UpdateLicense">
+               <source>Update License</source>
+               <target>Update License</target>
+            </trans-unit>
+            <trans-unit id="158" resname="shortcut_UpOneLevel">
+               <source>Up One Level</source>
+               <target>Up One Level</target>
+            </trans-unit>
+            <trans-unit id="140" resname="shortcut_ViewList">
+               <source>View List</source>
+               <target>View List</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

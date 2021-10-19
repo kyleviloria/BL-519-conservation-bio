@@ -1,0 +1,1138 @@
+	R <== Sum : 24 : C
+	R <== Average : 24 : C
+	R <== Max : 24 : C
+	R <== Min : 24 : C
+	L <== Print form : 27 : F' ; a ; L' ; L'
+	PAGE BREAK : 27 : X | * | >
+	L <== Records in subselection : 41 : C
+	R <== Int : 19 : R
+	R <== Dec : 19 : R
+	a80 <== String : 39 : T | L | D | B | a ; a | ( L ; T') | X
+	R <== Num : 39 : ( a ; a' ) | B | L
+	S <== Substring : 39 : a ; L ; L'
+	S <== Uppercase : 39 : A ; *'
+	S <== Lowercase : 39 : A ; *'
+	L <== Position : 39 : a ; a ; * | ( L ; v' ; *') | X
+	L <== Length : 39 : a
+	R <== Sin : 19 : R
+	R <== Cos : 19 : R
+	R <== Tan : 19 : R
+	R <== Arctan : 19 : R
+	R <== Exp : 19 : R
+	R <== Log : 19 : R
+	L <== Day of : 9 : D
+	L <== Month of : 9 : D
+	L <== Year of : 9 : D
+	R <== Std deviation : 24 : C
+	R <== Variance : 24 : C
+	R <== Sum squares : 24 : C
+	B <== Before : 12
+	B <== During : 12
+	B <== After : 12
+	B <== Modified : 8 : C
+	D <== Current date : 9 : X | *
+	B <== Not : 4 : B
+	E <== Old : 8 : C
+	B <== End selection : 37 : X | F
+	B <== End subselection : 41 : C
+	REJECT : 11 : X | C
+	PRINT LABEL : 27 : X | F' ; *' | ( a' ; *' ) ; >' : X | F' ; a' ; *' ; >'
+	DIALOG : 8 : F' ; a ; *'
+	ALERT : 21 : a ; a' ; *' | ( L' ; *' )
+	RELATE ONE : 33 : X | W ; C'
+	SAVE RELATED ONE : 33 : C
+	OLD RELATED ONE : 33 : C
+	@ : 0 : C
+	DEFAULT TABLE : 44 : F
+	ALL RECORDS : 37 : X | F
+	QUERY BY FORMULA : 35 : f ; Z' : f ; X | ( Z ; L ; {v} )
+	ORDER BY : 35 : X | f' ; { C ; ><' } ; *'
+	FIRST RECORD : 37 : X | F
+	NEXT RECORD : 37 : X | F
+	LOAD RECORD : 31 : X | F
+	SAVE RECORD : 32 : X | F
+	FORM SET OUTPUT : 61 : F' ; a ; a' ; *'
+	FORM SET INPUT : 61 : F' ; a ; a' ; *'
+	ADD RECORD : 8 : X | F' ; *'
+	MODIFY RECORD : 8 : X | F' ; *'
+	DELETE RECORD : 32 : X | F
+	DISPLAY SELECTION : 37 : X | F' ; L' ; B' ; *' ; *'
+	PRINT SELECTION : 27 : X | F' ; *' ; >'
+	FIRST SUBRECORD : 41 : C
+	NEXT SUBRECORD : 41 : C
+	EXECUTE FORMULA : 56 : a
+	@ : 0
+	CREATE RELATED ONE : 33 : C
+	DELETE SELECTION : 37 : X | F
+	SET MENU BAR : 20 : L | a ; *' | ( L' ; *' )
+	CREATE RECORD : 32 : X | F
+	@ : 0
+	APPLY TO SELECTION : 37 : f ; Z'
+	PRINT RECORD : 27 : X | F' ; *' ; >'
+	CREATE SUBRECORD : 41 : C
+	APPLY TO SUBSELECTION : 41 : C ; Z'
+	LOAD VARIABLES : 49 : a ; V ; { V }
+	SAVE VARIABLES : 49 : a ; V ; { V }
+	L <== Records in selection : 37 : X | F
+	SET CHANNEL : 6 : L ; L' | a'
+	SEND RECORD : 6 : X | F
+	RECEIVE RECORD : 6 : X | F
+	SEND VARIABLE : 6 : V
+	RECEIVE VARIABLE : 6 : V
+	B <== Undefined : 49 : e
+	L <== Records in table : 32 : X | F
+	EXPORT DIF : 16 : X | F' ; a
+	EXPORT SYLK : 16 : X | F' ; a
+	IMPORT DIF : 16 : X | F' ; a
+	IMPORT SYLK : 16 : X | F' ; a
+	MESSAGE : 21 : a
+	CLEAR VARIABLE : 49 : V // L.E. 20/09/04 en interprete comme en compile on ne peut plus appeler CLEAR VARIABLE("vToto")
+	a3 <== Char : 39 : l // le l differe de L qu'en compile
+	L <== Character code : 39 : a
+	@ : 0
+	INVERT BACKGROUND : 48 : ( * ; a ) | V
+	R <== Round : 19 : R ; L
+	R <== Trunc : 19 : R ; L
+	DELETE SUBRECORD : 41 : C
+	R <== Subtotal : 27 : Y ; L'
+	R <== Mod : 19 : L ; L : R ; R
+	R <== Abs : 19 : L
+	L <== Random : 19
+	L <== Level : 27
+	D <== Date : 9 : a
+	SEND PACKET : 6 : T' ; E
+	RECEIVE PACKET : 6 : T' ; V ; a | L
+	DISPLAY RECORD : 32 : X | F' ; *'
+	PRINT SETTINGS : 27 : X | L
+	ORDER SUBRECORDS BY : 41 : C ; { C ; ><' }
+	QUERY SUBRECORDS : 41 : C ; Z'
+	ALL SUBRECORDS : 41 : C
+	PREVIOUS RECORD : 37 : X | F
+	PREVIOUS SUBRECORD : 41 : C
+	B <== In header : 12
+	B <== In break : 12
+	L <== Day number : 9 : D
+	@ : 0
+	CREATE SET : 38 : F' ; a
+	CLEAR SET : 38 : a
+	USE SET : 38 : X | a
+	ADD TO SET : 38 : F' ; a
+	UNION : 38 : a ; a ; a
+	INTERSECTION : 38 : a ; a ; a
+	DIFFERENCE : 38 : a ; a ; a
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	CREATE EMPTY SET : 38 : F' ; a
+	@ : 0
+	@ : 0
+	B <== Semaphore : 28 : a; L'
+	CLEAR SEMAPHORE : 28 : a
+	READ ONLY : 31 : X | F | *
+	READ WRITE : 31 : X | F | *
+	B <== Locked : 31 : X | F
+	GRAPH TABLE : 14 : X | F' ; ( L ; C ; { C } ) | X
+	ENABLE MENU ITEM : 20 : a | L ; L ; L'
+	DISABLE MENU ITEM : 20 : a | L ; L ; L'
+	BEEP : 48 : X | L
+	L <== Menu selected : 20 : X | y
+	L <== Open window : 51 : L ; L ; L ; L ; L' ; a' ; a'
+	CLOSE WINDOW : 51 : X | L
+	ON ERR CALL : 17 : a
+	ABORT : 17
+	TRACE : 18
+	NO TRACE : 18
+	DELETE DOCUMENT : 42 : a
+	ERASE WINDOW : 51 : X | L
+	GOTO XY : 21 : L ; L
+	CONFIRM : 21 : a ; a' ; a'
+	a80 <== Request : 21 : a ; a' ; a' ; a'
+	OBJECT SET FONT : 23 : ( * ; a ) | Y ; L | a
+	OBJECT SET FONT SIZE : 23 : ( * ; a ) | Y ; L
+	OBJECT SET FONT STYLE : 23 : ( * ; a ) | Y ; L
+	EXPORT TEXT : 16 : X | F' ; a
+	IMPORT TEXT : 16 : X | F' ; a
+	GRAPH : 14 : y ; L ; Y ; { Y }
+	@ : 0	// was SORT BY INDEX : C ; >' | <'
+	@ : 0	// was ON SERIAL PORT CALL : a ; a'
+	RECEIVE BUFFER : 6 : V
+	@ : 0
+	REDRAW : 48 : F | Y
+	MESSAGES OFF : 21
+	PUSH RECORD : 32 : X | F
+	POP RECORD : 32 : X | F
+	T <== Current time : 9 : X | *
+	T <== Time : 9 : a
+	a12 <== Time string : 9 : T | L
+	MESSAGES ON : 21
+	a30 <== Current user : 25
+	@ : 0
+	SAVE SET : 38 : a ; a
+	LOAD SET : 38 : F' ; a ; a
+	CHANGE PASSWORD : 25 : a
+	L <== Screen width : 43 : X | *
+	L <== Screen height : 43 : X | *
+	ONE RECORD SELECT : 37 : X | F
+	ON EVENT CALL : 17 : a ; a'
+	B <== In footer : 12
+	ENABLE BUTTON : 23 : ( * ; a ) | V
+	DISABLE BUTTON : 23 : ( * ; a ) | V
+	OBJECT SET TITLE : 23 : ( * ; a ) | V ; a
+	L <== Records in set : 38 : a
+	@ : 0
+	QR REPORT : 54 : F' ; * | (a ; (B' | *') ; B' ; B' ; *' )
+	B <== Before selection : 37 : X | F
+	B <== Before subselection : 41 : C
+	LAST RECORD : 37 : X | F
+	LAST SUBRECORD : 41 : C
+	ADD SUBRECORD : 8 : C ; a ; *'
+	MODIFY SUBRECORD : 8 : C ; a ; *'
+	MODIFY SELECTION : 37 : X | F' ; L' ; B' ; *' ; *'
+	USE CHARACTER SET : 6 : * | a ; L'
+	GOTO OBJECT : 11 : ( * ; a ) | Y
+	QUERY SELECTION BY FORMULA : 35 : f ; Z' : f ; X | ( Z ; L ; {v} ) // dans 4DFP, la table devient obligatoire
+	SET MENU ITEM MARK : 20 : a | L ; L ; a ; L'
+	GET HIGHLIGHT : 48 : ( * ; a ) | Y ; V ; V
+	HIGHLIGHT TEXT : 48 : ( * ; a ) | Y ; L ; L
+	@ACTIVATE LINK : 0 : C
+	UNLOAD RECORD : 31 : X | F
+	SET WINDOW TITLE : 51 : a ; L'
+	B <== True : 4
+	B <== False : 4
+	@ : 0	// was MERGE SELECTION : F' ; a
+	@ : 0
+	ARRAY STRING : 2 : L ; V ; L ; L'
+	ARRAY REAL : 2 : V ; L ; L'
+	ARRAY INTEGER : 2 : V ; L ; L'
+	ARRAY LONGINT : 2 : V ; L ; L'
+	ARRAY TEXT : 2 : V ; L ; L'
+	ARRAY BOOLEAN : 2 : V ; L ; L'
+	ARRAY DATE : 2 : V ; L ; L'
+	DUPLICATE RECORD : 32 : X | F
+	COPY ARRAY : 2 : V ; V
+	INSERT IN ARRAY : 2 : V ; L ; L'
+	DELETE FROM ARRAY : 2 : V ; L ; L'
+	SORT ARRAY : 2 : V ; { V } ; >' | <'
+	L <== Find in array : 2 : v ; E ; L'
+	S <== Insert string : 39 : A ; A ; L
+	S <== Delete string : 39 : A ; L ; L
+	S <== Replace string : 39 : A ; A ; A ; L' ; *'
+	S <== Change string : 39 : A ; A ; L
+	OBJECT SET FILTER : 23 : ( * ; a ) | Y ; a
+	OBJECT SET FORMAT : 23 : ( * ; a ) | Y ; a
+	OBJECT SET CHOICE LIST NAME: 23 : ( * ; a ) | Y ; a
+	OBJECT SET ENTERABLE : 23 : ( * ; a ) | Y | F ; B	// L.E. 14/01/04 accepte une table pour les formulaires listes
+	START TRANSACTION : 46 : X | *
+	VALIDATE TRANSACTION : 46
+	CANCEL TRANSACTION : 46
+	GOTO RECORD : 32 : F' ; L
+	L <== Record number : 32 : X | F
+	L <== Sequence number : 32 : X | F
+	GOTO SELECTED RECORD : 37 : F' ; L
+	L <== Selected record number : 37 : X | F
+	FORM GOTO PAGE : 61 : L ; *'
+	FORM NEXT PAGE : 61
+	FORM PREVIOUS PAGE : 61
+	FORM FIRST PAGE : 61
+	FORM LAST PAGE : 61
+	u <== Table : 40 : U | L
+	u <== Field : 40 : U | ( L ; L ; L')
+	L <== Get last table number : 40
+	L <== Get last field number : 40 : U | L
+	a31 <== Table name : 40 : U | L
+	a31 <== Field name : 40 : U | ( L ; L ; L')
+	GET FIELD PROPERTIES : 40 : U | ( L ; L ) ; V ; V' ; V' ; V' ; V' 
+	L <== Count parameters : 18
+	SELECTION TO ARRAY : 2 : W ; V ; { W ; V }
+	ARRAY TO SELECTION : 2 : V ; C ; { V ; C }
+	RELATE MANY : 33 : X | W
+	OLD RELATED MANY : 33 : C	// L.E. 06/12/04 can't work on a table
+	T <== Open document : 42 : a ; a' ; L'
+	T <== Append document : 42 : a ; a'
+	T <== Create document : 42 : a ; a'
+	CLOSE DOCUMENT : 42 : T
+	SET TIMEOUT : 6 : L
+	ACCEPT : 11
+	CANCEL : 11
+	OBJECT SET COLOR : 23 : ( * ; a ) | Y ; L ; L'
+	@ : 0
+	B <== Is in set : 38 : a
+	L <== Size of array : 2 : V
+	L <== Printing page : 27
+	L <== FORM Get current page : 61 : X | *'
+	QUERY : 35 : X | f' ; &'" | !'" | #'" ; ( C" ; ="|#"|>"|<"|>="|<="|%" | a ; E ; *') | X
+	U <== Focus object : 48
+	ARRAY PICTURE : 2 : V ; L ; L'
+	ARRAY POINTER : 2 : V ; L ; L'
+	EDIT ACCESS : 25
+	C_INTEGER : 7 : { v }
+	C_LONGINT : 7 : { v }
+	C_TEXT : 7 : { v }
+	C_REAL : 7 : { v }
+	C_PICTURE : 7 : { v }
+	ARRAY TO LIST : 2 : V ; ( a | L ) ; V'
+	LIST TO ARRAY : 2 : ( a | L ) ; V ; V'
+	CHANGE CURRENT USER : 25 : X | (a | L ; a)
+	PLAY : 48 : a ; L'
+	QUIT 4D : 1 : X | L
+	QUERY BY EXAMPLE : 35 : X | F' ; *'
+	C_STRING : 7 : L ; { v } : E ; {v}
+	B <== Is a variable : 18 : U
+	L <== Type : 18 : y
+	@ : 0	// was TRI PERMANENT
+	FLUSH BUFFERS : 1 : X | *
+	GRAPH SETTINGS : 14 : V ; L | D ; L | D ; L ; L ; B ; B ; B ; { a }
+	PAGE SETUP : 27 : F' ; a
+	ORDER BY FORMULA : 35 : f ; Z : f ; { Z | C ; ><' } // parceque Z veut dire qu'on se fiche du reste en interprete
+	C_POINTER : 7 : { v }
+	BREAK LEVEL : 27 : L ; L'
+	ACCUMULATE : 27 : { Y }
+	U <== Get pointer : 18 : a
+	C_BOOLEAN : 7 : { v }
+	C_TIME : 7 : { v }
+	C_DATE : 7 : { v }
+	U <== Self : 18 : X | L' ; a' ; a'
+	L <== Open external window : 51 : L ; L ; L ; L ; L ; a ; a
+	SET AUTOMATIC RELATIONS : 33 : B ; B'
+	IDLE : 7
+	OPEN DATA FILE : 1 : a
+	CREATE DATA FILE : 1 : a
+	B <== Modified record : 32 : X | F
+	B <== Nil : 18 : U
+	SET ABOUT : 48 : a ; a
+	L <== New process : 30 : a ; L ; a' ; {E} ; *' : a ; L ; a' ; {E}	// the compiler treats any operator as an expression, not the interpretor
+	@ : 0 : L
+	PAUSE PROCESS : 30 : L
+	RESUME PROCESS : 30 : L
+	FILTER EVENT : 17
+	L <== Current process : 30
+	DELAY PROCESS : 30 : L ; L
+	HIDE PROCESS : 29 : L
+	SHOW PROCESS : 29 : L
+	BRING TO FRONT : 29 : L
+	L <== Frontmost process : 29 : X | *
+	B <== Outside call : 12
+	CALL PROCESS : 28 : L
+	L <== Process state : 30 : L
+	COPY NAMED SELECTION : 22 : F' ; a ; L'
+	USE NAMED SELECTION : 22 : a
+	CLEAR NAMED SELECTION : 22 : a
+	CUT NAMED SELECTION : 22 : F' ; a
+	L <== Count tasks : 30
+	PROCESS PROPERTIES : 30 : L ; V ; V ; V ; V' ; V' ; V'
+	@ : 0
+	B <== User in group : 25 : a ; a
+	DISTINCT VALUES : 2 : C ; V
+	RELATE MANY SELECTION : 33 : C
+	QUERY SELECTION : 35 : X | f' ; &'" | !'" | #'" ; ( C" ; ="|#"|>"|<"|>="|<="|%" | a ; E ; *') | X
+	L <== Count users : 30
+	L <== Count user processes : 30
+	SET INDEX : 40 : C ; B | L ; *' | ( L' ; *' )
+	SELECT LOG FILE : 60 : a | *
+	B <== Activated : 12
+	B <== Deactivated : 12
+	SET MENU ITEM : 20 : a | L ; L ; a ; L'; *'
+	RELATE ONE SELECTION : 33 : f ; f
+	SCAN INDEX : 37 : C ; L ; ><'
+	REDUCE SELECTION : 37 : F' ; L
+	C_GRAPH : 7 : { v }
+	LOCKED ATTRIBUTES : 31 : F' ; V ; V ; V ; V
+	@ : 0 : { v }
+	QT COMPRESS PICTURE : 26 : Y ; a ; L
+	L <== Picture size : 26 : y
+	QT LOAD COMPRESS PICTURE FROM FILE : 26 : T ; a ; L ; Y
+	SAVE PICTURE TO FILE : 26 : T ; Y
+	QT COMPRESS PICTURE FILE : 26 : T ; a ; L
+	S <== Convert case : 39 : A ; L ; L
+	ADD DATA SEGMENT : 1
+	B <== Read only state : 31 : X | F
+	U <== Current default table : 44
+	SET PRINT PREVIEW : 27 : B
+	PLATFORM PROPERTIES : 43 : V ; V' ; V' ; V'
+	MAP FILE TYPES : 42 : a ; a ; a
+	SET PLATFORM INTERFACE : 48 : L
+	SELECTION RANGE TO ARRAY : 2 : L ; L ; W ; V ; { W ; V }
+	L <== Database event : 47
+	SET PROCESS VARIABLE : 28 : L ; y ; E ; { y ; E }
+	GET PROCESS VARIABLE : 28 : L ; V ; y ; { V ; y }
+	L <== Process number : 30 : a ; *'
+	L <== Execute on server : 30 : a ; L ; ( a ; { * | E } ; *' ) | X
+	@ : 0 : F
+	L <== New list : 15
+	APPEND TO LIST : 15 : L ; a ; L ; ( L ; B ) | X
+	CLEAR LIST : 15 : L ; *'
+	GET LIST ITEM : 15 : (*;a) | L ; ( L ; v ; v ; v' ; v') | ( * ; v ; v ; v' ; v')
+	L <== Selected list items : 15 : ( * ; a) | L ; *' | ( v' ; *' )
+	L <== Count list items : 15 : ( * ; a) | L ; *'
+	SELECT LIST ITEMS BY POSITION : 15 : ( * ; a) | L ; L ; v'
+	REDRAW LIST : 15 : V
+	L <== Load list : 15 : a
+	SAVE LIST : 15 : L ; a
+	SET LIST ITEM : 15 : (*;a) | L ; ( L | *) ; a ; L ; ( L ; B ) | X
+	SET LIST ITEM PROPERTIES : 15 : ( * ; a) | L ; ( * ; B ; L ; L ; L' ) | ( L ; B ; L ; L ; L' )
+	SET LIST PROPERTIES : 15 : L ; L ; L' ; L' ; L' ; L' ; L'
+	L <== Form event : 12
+	FILTER KEYSTROKE : 11 : a
+	a3 <== Keystroke : 11
+	SORT LIST : 15 : L ; ><'
+	SET DEFAULT CENTURY : 9 : L ; L'
+	D <== Add to date : 9 : D ; L ; L ; L
+	RESOLVE POINTER : 18 : U ; V ; V ; V
+	SET QUERY LIMIT : 35 : L
+	SET QUERY DESTINATION : 35 : L ; a | V | X
+	B <== In transaction : 46
+	L <== Trigger level : 47
+	TRIGGER PROPERTIES : 47 : L ; V ; V ; V
+	L <== Pasteboard data size : 5 : a
+	GET PASTEBOARD DATA : 5 : a ; y
+	CLEAR PASTEBOARD : 5
+	APPEND DATA TO PASTEBOARD : 5 : a ; y
+	L <== Count menus : 20 : X | L
+	L <== Count menu items : 20 : a | L ; L'
+	@ : 0
+	@ : 0
+	S <== Create menu : 20 :  X | a | L
+	@ : 0
+	@ : 0
+	APPEND MENU ITEM : 20 : a | L ; a ; a' ; L'; *'
+	INSERT MENU ITEM : 20 : a | L ; L ; a ; a' ; L'; *'
+	DELETE MENU ITEM : 20 : a | L ; L ; L'
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	S <== Get menu item : 20 : a | L ; L ; L'
+	SET MENU ITEM SHORTCUT : 20 : a | L ; L ; ( L ; L') | ( a ; L ; L')
+	L <== Get menu item key : 20 : a | L ; L ; L'
+	SET MENU ITEM STYLE : 20 : a | L ; L ; L ; L'
+	L <== Get menu item style : 20 : a | L ; L ; L'
+	@ : 0
+	S <== Get menu item mark : 20 : a | L ; L ; L'
+	@ : 0
+	S <== Get menu title : 20 : a | L ; L'
+	SHOW MENU BAR : 48
+	HIDE MENU BAR : 48
+	SHOW TOOL BAR : 48
+	HIDE TOOL BAR : 48
+	SHOW WINDOW : 51 : X | L
+	HIDE WINDOW : 51 : X | L
+	L <== Count screens : 43
+	SCREEN COORDINATES : 43 : V ; V ; V ; V ; L'
+	SCREEN DEPTH : 43 : V ; V ; L'
+	L <== Menu bar height : 43
+	L <== Menu bar screen : 43
+	WINDOW LIST : 51 : V ; *'
+	GET WINDOW RECT : 51 : V ; V ; V ; V ; L'
+	SET WINDOW RECT : 51 : L ; L ; L ; L ; L'
+	L <== Window kind : 51 : X | L
+	L <== Window process : 51 : X | L
+	L <== Frontmost window : 51 : X | *
+	L <== Next window : 51 : L
+	L <== Find window : 51 : L ; L ; V'
+	S <== Get window title : 51 : X | L
+	@ : 0
+	DRAG WINDOW : 51
+	MAXIMIZE WINDOW : 51 : X | L
+	MINIMIZE WINDOW : 51 : X | L
+	@ : 0
+	REDRAW WINDOW : 51 : X | L
+	PICTURE PROPERTIES : 26 : y ; V ; V ; V' ; V' ; V'
+	L <== Tickcount : 9
+	R <== Milliseconds : 9
+	FONT LIST : 43 : V ; *'
+	L <== Font number : 43 : a
+	S <== Font name : 43 : L
+	S <== Mac to Win : 39 : a
+	S <== Win to Mac : 39 : a
+	POST KEY : 48 : L ; L' ; L'
+	POST CLICK : 48 : L ; L ; *' | ( L' ; *' )
+	POST EVENT : 48 : L ; L ; L ; L ; L ; L ; L'
+	GET MOUSE : 48 : V ; V ; V ; *'
+	SET CURSOR : 48 : X | L
+	L <== Get platform interface : 48
+	VOLUME LIST : 42 : V
+	VOLUME ATTRIBUTES : 42 : a ; V ; V ; V
+	FOLDER LIST : 42 : a ; V
+	DOCUMENT LIST : 42 : a ; V
+	CREATE FOLDER : 42 : a
+	L <== Test path name : 42 : a
+	GET DOCUMENT PROPERTIES : 42 : a ; V ; V ; V ; V ; V ; V
+	SET DOCUMENT PROPERTIES : 42 : a ; B ; B ; D ; T ; D ; T
+	R <== Get document size : 42 : a | T ; *'
+	SET DOCUMENT SIZE : 42 : T ; R
+	R <== Get document position : 42 : T
+	SET DOCUMENT POSITION : 42 : T ; R ; L'
+	S <== Current machine : 43
+	S <== Current machine owner : 43
+	S <== Get 4D folder : 1 : X | L ; *'
+	S <== Temporary folder : 43
+	S <== System folder : 43 : X | L
+	L <== Gestalt : 43 : a ; V
+	S <== Structure file : 1 : X | *
+	S <== Data file : 1 : X | L ; *'
+	S <== Application file : 1
+	B <== Is compiled mode : 1 : X | *
+	S <== Application version : 1 : X | y' ; *'
+	L <== Application type : 1
+	L <== Version type : 1
+	T <== Create resource file : 34 : a ; a' ; *'
+	T <== Open resource file : 34 : a ; a'
+	CLOSE RESOURCE FILE : 34 : T
+	RESOURCE TYPE LIST : 34 : V ; T'
+	RESOURCE LIST : 34 : a ; V ; V ; T'
+	DELETE RESOURCE : 34 : a ; L ; T'
+	GET PICTURE RESOURCE : 34 : L ; y ; T'
+	SET PICTURE RESOURCE : 34 : L ; y ; T'
+	S <== Get text resource : 34 : L ; T'
+	SET TEXT RESOURCE : 34 : L ; a ; T'
+	S <== Get string resource : 34 : L ; T'
+	SET STRING RESOURCE : 34 : L ; a ; T'
+	GET RESOURCE : 34 : a ; L ; y ; T'
+	SET RESOURCE : 34 : a ; L ; y ; T'
+	S <== Get indexed string : 34 : L ; L ; T'
+	STRING LIST TO ARRAY : 34 : L ; V ; T'
+	ARRAY TO STRING LIST : 34 : V ; L ; T'
+	S <== Get resource name : 34 : a ; L ; T'
+	SET RESOURCE NAME : 34 : a ; L ; a ; T'
+	L <== Get resource properties : 34 : a ; L ; T'
+	SET RESOURCE PROPERTIES : 34 : a ; L ; L ; T'
+	GET ICON RESOURCE : 34 : L ; y ; T'
+	@ : 0
+	S <== Mac to ISO : 39 : a
+	S <== ISO to Mac : 39 : a
+	SET PICTURE TO PASTEBOARD : 5 : y
+	GET PICTURE FROM PASTEBOARD : 5 : y
+	SET TEXT TO PASTEBOARD : 5 : a
+	S <== Get text from pasteboard : 5
+	DOCUMENT TO BLOB : 3 : a ; y ; *'
+	BLOB TO DOCUMENT : 3 : a ; y ; *'
+	DATA SEGMENT LIST : 1 : V ; *'
+	S <== Document type : 42 : a
+	S <== Document creator : 42 : a
+	SET DOCUMENT TYPE : 42 : a ; a
+	SET DOCUMENT CREATOR : 42 : a ; a
+	VARIABLE TO BLOB : 3 : y ; y ; *' | V'
+	BLOB TO VARIABLE : 3 : y ; y ; V'
+	COMPRESS BLOB : 3 : y ; L'
+	EXPAND BLOB : 3 : y
+	BLOB PROPERTIES : 3 : y ; V ; V' ; V'
+	SET SCREEN DEPTH : 43 : L ; L' ; L'
+	S <== Command name : 18 : L
+	R <== Square root : 19 : R
+	MOVE DOCUMENT : 42 : a ; a
+	COPY DOCUMENT : 42 : a ; a ; *'
+	L <== Pop up menu : 48 : a ; L' ; (L' ; L')
+	B <== Shift down : 48
+	B <== Macintosh control down : 48
+	B <== Macintosh option down : 48
+	B <== Macintosh command down : 48
+	B <== Caps lock down : 48
+	INTEGER TO BLOB : 3 : L ; y ; ( *' | ( L ; *' | V' ) ) | X : L ; y ; *' | ( L ; *' | V' )
+	L <== BLOB to integer : 3 : y ; L ; V'
+	LONGINT TO BLOB : 3 : L ; y ; ( *' | ( L ; *' | V' ) ) | X : L ; y ; *' | ( L ; *' | V' )
+	L <== BLOB to longint : 3 : y ; L ; V'
+	REAL TO BLOB : 3 : R ; y ; ( *' | ( L ; *' | V' ) ) | X : R ; y ; *' | ( L ; *' | V' )
+	R <== BLOB to real : 3 : y ; L ; V'
+	TEXT TO BLOB : 3 : a ; y ; ( *' | ( L ; *' | V' ) ) | X : a ; y ; *' | ( L ; *' | V' )
+	S <== BLOB to text : 3 : y ; L ; V' ; L'
+	LIST TO BLOB : 3 : L ; y ; *'
+	L <== BLOB to list : 3 : y ; V'
+	COPY BLOB : 3 : y ; y ; L ; L ; L
+	INSERT IN BLOB : 3 : y ; L ; L ; L'
+	DELETE FROM BLOB : 3 : y ; L ; L
+	REMOVE FROM SET : 38 : F' ; a
+	B <== Windows Ctrl down : 48
+	B <== Windows Alt down : 48
+	PICTURE LIBRARY LIST : 26 : V ; V
+	GET PICTURE FROM LIBRARY : 26 : L | a ; Y
+	SET PICTURE TO LIBRARY : 26 : Y ; L ; a
+	REMOVE PICTURE FROM LIBRARY : 26 : L | a
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	@ : 0
+	COPY SET : 38 : a ; a
+	SET TABLE TITLES : 48 : V ; V ; *'
+	SET FIELD TITLES : 48 : W ; V ; V ; *'
+	OBJECT SET VISIBLE : 23 : ( * ; a ) | Y ; B
+	C_BLOB : 7 : { v }
+	L <== BLOB size : 3 : y
+	SET BLOB SIZE : 3 : y ; L ; L'
+	DRAG AND DROP PROPERTIES : 10 : V ; V ; V
+	L <== Drop position : 10 : X | v
+	GET USER LIST : 25 : V ; V
+	GET GROUP LIST : 25 : V ; V
+	GET USER PROPERTIES : 25 : L ; V ; V ; V ; V ; V ; V' ; V'
+	L <== Set user properties : 25 : L ; a ; a ; * | a ; L ; D ; V' ; V'
+	GET GROUP PROPERTIES : 25 : L ; V ; V ; V'
+	L <== Set group properties : 25 : L ; a ; L ; V'
+	DELETE USER : 25 : L
+	B <== Is user deleted : 25 : L
+	START WEB SERVER : 50
+	STOP WEB SERVER : 50
+	SEND HTML FILE : 50 : a ; B'
+	SET WEB DISPLAY LIMITS : 50 : L ; L' ; L'
+	B <== Is a list : 15 : L
+	SET WEB TIMEOUT : 50 : L
+	SET REAL COMPARISON LEVEL : 19 : R
+	DELETE FROM LIST : 15 : (*;a) | L ; * | L ; *'
+	INSERT IN LIST : 15 : (*;a) | L ; * | L ; a ; L ; ( L ; B ) | X
+	L <== Copy list : 15 : L
+	U <== Current form table : 44
+	OBJECT SET RGB COLORS : 23 : ( * ; a ) | Y ; L ; L ; L'
+	L <== List item position : 15 : (*;a) | L ; L
+	SELECT LIST ITEMS BY REFERENCE : 15: L ; L ; v'
+	GET LIST ITEM PROPERTIES : 15 : (*;a) | L ; ( * ; V ; V' ; V' ; V' ) | ( L ; V ; V' ; V' ; V' )
+	GET LIST PROPERTIES : 15 : L ; V ; V' ; V' ; V' ; V' ; V'
+	L <== List item parent : 15 : (*;a) | L; * | L
+	SET HTML ROOT : 50 : a
+	VARIABLE TO VARIABLE : 28 : L ; { y ; V }
+	@ : 0 : a ; L ; a ; L ; L
+	CHANGE LICENSES : 25
+	B <== Validate password : 25 : L ; a
+	SET HOME PAGE : 50 : a
+	CREATE SELECTION FROM ARRAY : 37 : f ; V; a'
+	CREATE SET FROM ARRAY : 38 : f ; V; a'
+	SET DATABASE PARAMETER : 1 : f'; L; L | a
+	L <== Get database parameter : 1 : f'; L ; V'
+	QUERY WITH ARRAY : 35 : C ; V
+	SET TIMER : 12 :L
+	BOOLEAN ARRAY FROM SET : 2: V ; a'
+	LONGINT ARRAY FROM SELECTION : 2 : f ; V ; a'
+	REGISTER CLIENT : 30 : a ; *' | ( L' ; *' )
+	UNREGISTER CLIENT : 30
+	GET REGISTERED CLIENTS : 30 : V ; V
+	EXECUTE ON CLIENT : 30 : a ; a ; { E }
+	B <== Test semaphore : 28 : a
+	L <== Find in field : 35 : C ; Y
+	SEND HTML BLOB : 50 : y ; a ; B'
+	S <== Get edited text : 12
+	HIGHLIGHT RECORDS : 37 : X | F' ; a' ; *'
+	B <== Web Context : 50
+	WEB CACHE STATISTICS : 50 : V ; V ; V
+	SEND HTTP REDIRECT : 50 : a ; *'
+	SET HTTP HEADER : 50 : y ; v'
+	SET QUERY AND LOCK : 35 : B
+	@ : 0 : X | F | *
+	OBJECT GET COORDINATES : 23 : ( * ; a ) | Y; V ; V ; V ; V
+	OBJECT MOVE : 23 : ( * ; a ) | Y ; L ; L ; L' ; L'; *' 
+	IMPORT DATA : 16 : a ; y' ; *'
+	EXPORT DATA : 16 : a ; y' ; *'
+	LOG EVENT : 43 : L' ; a ; L'
+	B <== Is new record : 32 : X | f
+	B <== Is record loaded : 32 : X | f
+	S <== Select folder : 42 : X | a' ; (a' | L') ; L'
+	PICTURE TO GIF : 26 : y ; y
+	B <== Process aborted : 30
+	OPEN WEB URL : 59 : a ; *'
+	FORM GET PROPERTIES : 61 : F' ; a ; V ; V ; V' ; V' ; V' ; V'
+	L <== Open form window : 51 : F' ; a ; L' ; L' ; L' ; *'
+	R <== Euro converter : 19 : R ; a ; a
+	SEND HTML TEXT : 50 : a ; B'
+	READ PICTURE FILE : 26 : a ; y ; *' 
+	CREATE THUMBNAIL : 26 : y ; y ; L' ; L' ; L' ; L'
+	WRITE PICTURE FILE : 26 : a ; y ; a' 
+	PICTURE TYPE LIST : 26 : V ; V'
+	BLOB TO PICTURE : 26 : y ; y ; a'
+	GET WEB FORM VARIABLES : 50 : V ; V
+	S <== Current method name : 18 : X | *
+	GET FIELD ENTRY PROPERTIES : 40 : U | ( L ; L ) ; V ; V ; V ; V
+	GET RELATION PROPERTIES : 40 : U | ( L ; L ) ; V ; V ; V' ; V' ; V'
+	GET TABLE PROPERTIES : 40 : U | L ; V ; V' ; V' ; V' ; V'
+	GENERATE ENCRYPTION KEYPAIR : 36 : y ; y ; L'
+	ENCRYPT BLOB : 3 : y ; y ; y'
+	DECRYPT BLOB : 3 : y ; y ; y'
+	GENERATE CERTIFICATE REQUEST : 36 : y ; y ; v ; v
+	PICTURE TO BLOB : 26 : y ; y ; a
+	DELETE FOLDER : 42 : a
+	CREATE ALIAS : 42 : a ; a
+	RESOLVE ALIAS : 42 : a ; V
+	GET SERIAL INFORMATION : 1 : V ; V ; V ; V ; V
+	GET HTTP HEADER : 50 : V ; V'
+	B <== Secured Web connection : 50
+	L <== Get component resource ID : 34 : a ; a ; L
+	GET DOCUMENT ICON : 42 : a ; y ; L'
+	@ : 0 : C
+	L <== Get printed height : 27
+	GET PRINTABLE AREA : 27 : V ; V'
+	S <== Method called on error : 17
+	S <== Method called on event : 17
+	OBJECT SET ALIGNMENT : 23 : ( * ; a ) | Y ; L
+	L <== OBJECT Get alignment : 23 : ( * ; a ) | Y
+	L <== Get print marker : 27 : L
+	SET PRINT MARKER : 27 : L ; L ; *'
+	SET PRINTABLE MARGIN : 27 : L ; L ; L ; L
+	GET PRINTABLE MARGIN : 27 : V ; V ; V ; V
+	B <== Right click : 12
+	B <== Contextual click : 12
+	B <== Is license available : 25 : X | L
+	@ : 0
+	B <== Is data file locked : 1
+	OBJECT GET BEST SIZE : 23 : ( * ; a ) | Y ; V ; V ; L'
+	MULTI SORT ARRAY : 2 : { v ; <' ; >' }
+	S <== DOM Parse XML source : 63 : a ; B' ; a'
+	S <== DOM Parse XML variable : 63 : y ; B' ; a'
+	S <== DOM Get XML information : 63 : a ; L
+	DOM CLOSE XML : 63 : a
+	S <== DOM Get first child XML element : 63 : a ; y' ; y'
+	S <== DOM Get next sibling XML element : 63 : a ; y' ; y'
+	S <== DOM Get XML element : 63 : a ; a ; L ; y' ; v' ; v'
+	L <== DOM Count XML elements : 63 : a ; a
+	L <== DOM Count XML attributes : 63 : a
+	DOM GET XML ATTRIBUTE BY NAME : 63 : a ; a ; y
+	DOM GET XML ATTRIBUTE BY INDEX : 63 : a ; L ; y ; y
+	DOM GET XML ELEMENT NAME : 63 : a ; y
+	DOM GET XML ELEMENT VALUE : 63 : a ; y ; y'
+	XML GET ERROR : 52 : a ; y ; y'; y'
+	SET PRINT OPTION : 27 : L | a ; L | a ; L' | a'
+	GET PRINT OPTION : 27 : L | a ; y ; y'
+	L <== QR New offscreen area : 54
+	@ : 0 : L ; a
+	@ : 0 : L ; Y ; *'
+	QR SET REPORT KIND : 54 : L ; L
+	@ : 0 : L ; a
+	@ : 0 : L ; Y ; *'
+	@ : 0 : L ; Y ; *'
+	@ : 0 : L ; L
+	@ : 0 : L ; L
+	@ : 0 : L ; L
+	QR SET DESTINATION : 54 : L ; L ; a'
+	QR RUN : 54 : L
+	L <== QR Get drop column : 54 : L
+	QR INSERT COLUMN : 54 : L ; L ; a | U
+	QR DELETE COLUMN : 54 : L ; L
+	QR SET HTML TEMPLATE : 54 : L ; a
+	A <== QR Get HTML template : 54 : L
+	QR SET SORTS : 54 : L ; v ; v'
+	QR GET SORTS : 54 : L ; v ; v'
+	QR DELETE OFFSCREEN AREA : 54 : L
+	L <== QR Get report kind : 54 : L
+	QR GET DESTINATION : 54 : L; v; v'
+	QR SET REPORT TABLE : 54 : L ; L
+	L <== QR Get report table : 54 : L
+	QR SET TEXT PROPERTY : 54 : L ; L ; L ; L ; L
+	L <== QR Get text property : 54 : L ; L ; L ; L
+	QR SET TOTALS SPACING : 54: L ; L ; L ; L'
+	QR GET TOTALS SPACING : 54: L ; L ; v ; v'
+	QR SET INFO ROW : 54 : L ; L ; L
+	L <== QR Count columns : 54 : L
+	QR SET INFO COLUMN : 54 : L ; L ; a ; a | U ; L ; L ; L ; a
+	QR GET INFO COLUMN : 54 : L ; L ; v ; v ; v ; v ; v ; v
+	QR SET TOTALS DATA : 54 : L ; L ; L ; a | L
+	QR GET TOTALS DATA : 54 : L ; L ; L ; v ; v
+	L <== QR Get info row : 54 : L ; L
+	QR REPORT TO BLOB : 54 : L ; y
+	QR BLOB TO REPORT : 54 : L ; y
+	QR SET DOCUMENT PROPERTY : 54 : L ; L ; L
+	L <== QR Get document property : 54 : L ; L
+	QR SET HEADER AND FOOTER : 54 : L ; L ; a ; a ; a ; L ; y' ; L'
+	QR GET HEADER AND FOOTER : 54 : L ; L ; v ; v ; v ; v ; v' ; v'
+	L <== QR Find column : 54 : L ; a | U
+	SET WEB SERVICE PARAMETER : 55 : a ; y ; a'
+	CALL WEB SERVICE : 55 : a ; a ; a ; a ; ( L' ; *') | *'
+	GET WEB SERVICE RESULT : 55 : y ; a' ; *'
+	S <== Get Web Service error info : 55 : L
+	SEND SOAP FAULT : 53 : L ; a
+	SOAP DECLARATION : 53 : v ; L ; L ; a'
+	B <== Is SOAP request : 53
+	S <== Get SOAP info : 53 : L
+	PRINT OPTION VALUES : 27 : L ; V ; V' ; V'
+	AUTHENTICATE WEB SERVICE : 55 : a ; a ; L' ; *'
+	SET CURRENT PRINTER : 27 : a
+	S <== Get current printer : 27
+	PRINTERS LIST : 27 : V ; V' ; V'
+	QR ON COMMAND : 54 : L ; a
+	QR EXECUTE COMMAND : 54 : L ; L
+	L <== QR Get command status : 54 : L ; L ; v'
+	QR GET SELECTION : 54 : L ; v ; v ; v' ; v'
+	QR SET SELECTION : 54 : L ; L ; L ; L' ; L'
+	L <== QR Get area property : 54 : L ; L
+	QR SET AREA PROPERTY : 54 : L ; L ; L
+	QR SET BORDERS : 54 : L ; L ; L ; L ; L; L'
+	QR GET BORDERS : 54 : L ; L ; L ; L ; v ; v'
+	CHECK LOG FILE : 60
+	@ : 0
+	@ : 0
+	@ : 0
+	GET TABLE TITLES : 48 : V ; V ; *'
+	GET FIELD TITLES : 48 : W ; V ; V ; *'
+	SET ALLOWED METHODS : 56 : v
+	EDIT FORMULA : 56 : F ; v
+	EDIT FORM : 57 : F' ; a ; a' ; a'
+	CREATE USER FORM : 57 : F'; a ; a
+	LIST USER FORMS : 57 : F' ; a ; v
+	DELETE USER FORM : 57 : F' ; a ; a
+	LAUNCH EXTERNAL PROCESS : 59 : a ; y' ; y' ; y'
+	SET ENVIRONMENT VARIABLE : 59 : a ; a
+	SET CGI EXECUTABLE : 50 : a ; a'
+	GET HTTP BODY : 50 : y
+	SEND HTTP RAW DATA : 50 : y ; *'
+	PROCESS HTML TAGS : 50 : y ; y
+	SQL LOGIN : 45 : (X | a ; a ; a ; *')
+	SQL SET OPTION : 45 : L ; (L | a)
+	SQL GET OPTION : 45 : L ; y
+	SQL EXECUTE : 45 : a ; { y }
+	B <== SQL End selection : 45
+	SQL LOAD RECORD : 45 : (X | L)
+	SQL SET PARAMETER : 45 : y ; L
+	SQL CANCEL LOAD : 45
+	SQL GET LAST ERROR : 45 : V ; V ; V ; V
+	L <== Get default user : 25
+	L <== Current form window : 51
+	@ : 0
+	LISTBOX INSERT COLUMN : 13 : ( * ; a ) | V ; L ; a ; Y ; a ; V
+	LISTBOX DELETE COLUMN : 13 : ( * ; a ) | V ; L ; L'
+	L <== LISTBOX Get number of columns : 13 : ( * ; a ) | V
+	LISTBOX GET ARRAYS : 13 : ( * ; a ) | V ; v ; v ; v ; v ; v ; v
+	LISTBOX SET COLUMN WIDTH : 13 : ( * ; a ) | V ; L ; L' ; L'
+	L <== LISTBOX Get column width : 13 : ( * ; a ) | V ; y' ; y'
+	LISTBOX SET ROWS HEIGHT : 13 : ( * ; a ) | V ; L
+	L <== LISTBOX Get rows height : 13 : ( * ; a ) | V
+	LISTBOX MOVED ROW NUMBER : 13 : ( * ; a ) | V ; v ; v
+	@ : 0
+	@ : 0
+	@ : 0
+	LISTBOX SHOW GRID : 13 : ( * ; a ) | V ; B ; B
+	LISTBOX SET GRID COLOR : 13 : ( * ; a ) | V ; L ; B ; B
+	OBJECT SET SCROLLBAR : 23 : ( * ; a ) | Y ; B ; B
+	LISTBOX MOVED COLUMN NUMBER : 13 : ( * ; a ) | V ; v ; v
+	SET PLUGIN ACCESS : 25 : L ; a
+	S <== Get plugin access : 25 : L
+	PLUGIN LIST : 1 : v ; v
+	@ : 0 : ( a | L) ; a ; a ; L' ; *'
+	USERS TO BLOB : 25 : y
+	BLOB TO USERS : 25 : y
+	SAX ADD XML DOCTYPE : 64 : T ; a
+	SAX ADD XML COMMENT : 64 : T ; a
+	SAX OPEN XML ELEMENT : 64 : T ; a ; { a ; E } 
+	SAX CLOSE XML ELEMENT : 64 : T
+	SAX ADD XML ELEMENT VALUE : 64 : T ; E ; *'
+	SAX ADD XML CDATA : 64 : T ; E //JQ : with a | T | D | y, blob and picture seem to be implicitly converted to long integer so use E instead 
+	SAX ADD PROCESSING INSTRUCTION : 64 : T ; a
+	SAX SET XML DECLARATION : 64 : T ; a ; B' ; B'
+	DOM SET XML DECLARATION : 63 : a ; a ; B' ; B'
+	L <== SAX Get XML node : 64 : T
+	S <== DOM Create XML Ref : 63 : a ; a' ; { a }
+	DOM EXPORT TO FILE : 63 : a ; a
+	DOM EXPORT TO VAR : 63 : a ; y
+	S <== DOM Find XML element : 63 : a ; a ; v' ; v' ; v'
+	S <== DOM Create XML element : 63 : a ; a ; { a ; E }
+	DOM SET XML ATTRIBUTE : 63 : a ; { a ; E }
+	DOM SET XML ELEMENT NAME : 63 : a ; a
+	DOM SET XML ELEMENT VALUE : 63 : a ; E ; { E } ; *' //JQ : with a | T | D | y, blob and picture seem to be implicitly converted to long integer so use E instead
+	DOM REMOVE XML ELEMENT : 63 : a
+	EDIT ITEM : 11 : ( * ; a ) | Y | F ; L'	// L.E. 14/01/04 accepte une table pour les formulaires listes
+	BUILD APPLICATION : 1 : X | a
+	SQL LOGOUT : 45 
+	SAX GET XML DOCUMENT VALUES : 64 : T ; y ; y' ; y'
+	SAX GET XML COMMENT : 64 : T ; y 
+	SAX GET XML PROCESSING INSTRUCTION : 64 : T ; y ; y
+	SAX GET XML ELEMENT : 64 : T ; v ; v' ; v' ; v'
+	SAX GET XML ELEMENT VALUE : 64 : T ; y 
+	SAX GET XML CDATA : 64 : T ; y 
+	SAX GET XML ENTITY : 64 : T ; y ; y 
+	IMPORT ODBC : 16 : a ; y' ; *'
+	EXPORT ODBC : 16 : a ; y' ; *'
+	XSLT APPLY TRANSFORMATION : 52 : y ; y ; y ; B'
+	XSLT SET PARAMETER : 52 : a ; a
+	XSLT GET ERROR : 52 : V ; { V ; V }
+	@ : 0
+	@ : 0
+	BACKUP : 60
+	GET BACKUP INFORMATION : 60 : L ; v ; v
+	GET RESTORE INFORMATION : 60 : L ; v ; v
+	RESIZE FORM WINDOW : 51 : L ; L
+	FORM SET SIZE : 61 : ( a ; L ; L ) | ( L ; L ; *')
+	FORM SET HORIZONTAL RESIZING : 61 : B ; L' ; L'
+	FORM SET VERTICAL RESIZING : 61 : B ; L' ; L'
+	S <== OBJECT Get format : 23 : ( * ; a ) | Y
+	BASE64 ENCODE : 59 : y ; y' 
+	BASE64 DECODE : 59 : y ; y'  
+	L <== Displayed line number : 37
+	FORM GET OBJECTS : 61 : v ; v' ; v' ; *'
+	GET AUTOMATIC RELATIONS : 33 : v ; v
+	SPELL CHECKING : 59
+	SET WEB SERVICE OPTION : 55 : L ; L | a
+	GET HIGHLIGHTED RECORDS : 37 : X | F' ; a
+	OPEN 4D PREFERENCES : 1 : a ; B'
+	SET DICTIONARY : 59 : { L }
+	A <== Select document : 42 : (a | L) ; a; a; L; v'
+	OBJECT SET SCROLL POSITION : 23 : ( * ; a ) | Y | f ;  L' ; L' ; *'
+	L <== Count in array : 2 : V ; E
+	GET ALLOWED METHODS : 56 : v
+	GET SERIAL PORT MAPPING : 6 : v ; v
+	DISPLAY NOTIFICATION : 21 : a ; a ; L'
+	APPEND TO ARRAY : 2 : V ; E
+	LISTBOX SELECT ROW : 13 : ( * ; a ) | V ; L ; L'
+	LISTBOX INSERT ROW : 13 : ( * ; a ) | V ; L
+	LISTBOX DELETE ROW : 13 : ( * ; a ) | V ; L
+	L <== LISTBOX Get number of rows : 13 : ( * ; a ) | V
+	LISTBOX SORT COLUMNS : 13 : ( * ; a ) | V ; { L ; <' ; >' }
+	L <== LISTBOX Get information : 13 : ( * ; a ) | V ; L
+	RESTORE : 60 : X | ( a ; a' )
+	SET FIELD RELATION : 33 : W ; L ; L
+	GET FIELD RELATION : 33 : C ; v ; v ; *'
+	SAX OPEN XML ELEMENT ARRAYS : 64 : T ; a ; { y }
+	SHOW ON DISK : 42 : a ; *'
+	S <== DOM Get parent XML element : 63 : a ; y' ; y'
+	S <== DOM Get previous sibling XML element : 63 : a ; y' ; y'
+	S <== DOM Get last child XML element : 63 : a ; y' ; y'
+	S <== New log file : 60
+	INTEGRATE LOG FILE : 60 : a
+	S <== Log file : 60
+	@ : 0 : F ; v
+	@ : 0 : F ; a ; a'
+	@ : 0 : F ; a ; a'
+	@ : 0 : a
+	@ : 0 : a ; L
+	@ : 0	// was S <== TEST SQL : a ; y
+	@ : 0	// was COMPACT STRUCTURE FILE : a ; L' ; a'	
+	@ : 0	// was GET SCAN LOG never used
+	S <== Compact data file : 1 : a ; a ; a' ; L' ; a'
+	@ : 0 : a ; a ; L ; L ; a' ; y' ;  y' 
+	VERIFY DATA FILE : 1 : a ; a ; L ; L ; a ; y' ;  y'
+	FORM SCREENSHOT : 26 : f' ; (a | y ) ; y' ; L'
+	@ : 0 // was GET BASE INFO never used
+	QUERY BY SQL : 45 : F' ; a ; X | ( { v }; * ; { L } )
+	@ : 0 : a ; y
+	@ : 0 : a ; y
+	@ : 0
+	B <== Validate Digest Web Password : 50 : a ; a
+	@BeginEndSQL : 0 : a ; X | * ; X | ( { v }; * ; { L } )
+	Begin SQL : 45
+	End SQL : 45
+	SET LIST ITEM ICON : 15 : (*;a) | L; * | L ; Y | U
+	GET LIST ITEM ICON : 15 : (*;a) | L ; * | L ; y
+	L <== Find in list : 15 : (*;a) | L ; a ; L ; v' ; *'
+	SET LIST ITEM FONT : 15 : (*;a) | L ; * | L ; L | a
+	A <== Get list item font : 15 : (*;a) | L ; * | L
+	E <== Choose : 59 : (B ; E ; E) | (L ; E ; { E })
+	L <== Select RGB color : 43 : X | ( L' ; a' )
+	LIST OF CHOICE LISTS : 15 : v ; v
+	GET PASTEBOARD DATA TYPE : 5 : v ; v ; v'
+	USE EXTERNAL DATABASE : 45 : a ; a' ; a'
+	USE INTERNAL DATABASE : 45
+	L <== Transaction level : 46
+	START SQL SERVER : 45
+	STOP SQL SERVER : 45
+	B <== Is field value Null : 45 : C
+	SET FIELD VALUE NULL : 45 : C
+	CREATE INDEX : 40 : F ; v ; L ; a ; *'
+	DELETE INDEX : 40 : U | a ; *'
+	B <== @Run Tests : 0 : a ; {a}
+	FORM GET PARAMETER : 61 : F' ; a ; L; y
+	LISTBOX INSERT COLUMN FORMULA : 13 : ( * ; a ) | V ; L ; a ; A ; L ; a ; V
+	LISTBOX GET CELL POSITION : 13 : ( * ; a ) | V ; v ; v ; v'
+	GET MENU ITEM PROPERTY : 20 : a | L ; L ; a ; y; L'
+	SET MENU ITEM PROPERTY : 20 : a | L ; L ; a ; a | L | R | B ; L'
+	@ : 0 : v
+	SET FILE TO PASTEBOARD : 5 : a ; *'
+	S <== Get file from pasteboard : 5 : L
+	GET MENU ITEMS : 20 : a | L ; v ; v
+	RELEASE MENU : 20 : a
+	S <== Get menu bar reference : 20 : X | L
+	L <== Get menu item modifiers : 20 : a | L ; L ; L'
+	S <== Get menu item method : 20 : a | L ; L; L'
+	SET MENU ITEM METHOD : 20 : a | L ; L ; A; L'
+	GET MENU ITEM ICON : 20 : a | L ; L ; y; L'
+	SET MENU ITEM ICON : 20 : a | L ; L ; a | L; L'
+	GET LIST ITEM PARAMETER : 15 : ( * ; a) | L ; (L ; a ; y) | (* ; a ; y)
+	SET LIST ITEM PARAMETER : 15 : ( * ; a) | L ; (L ; a ; a | L | R | B) | (* ; a ; a | L | R | B) 
+	COMBINE PICTURES : 26 : y ; y ; L ; y ; L' ; L'
+	TRANSFORM PICTURE : 26 : y ; L ; (R' | a') ; R'; R'; R'; R'; R'
+	GET DATA SOURCE LIST : 45 : L; V; V
+	S <== Get current data source : 45
+	S <== Get localized string : 39 : a
+	PICTURE CODEC LIST : 26 : v ; v' ; *'
+	NO DEFAULT TABLE : 44
+	GET SYSTEM FORMAT : 43 : L ; y
+	OPEN PRINTING JOB : 27
+	CLOSE PRINTING JOB : 27
+	GET MACRO PARAMETER : 59 : L ; y
+	SET MACRO PARAMETER : 59 : L ; a
+	B <== Is table number valid : 40 : L
+	B <== Is field number valid : 40 : U | L ; L
+	COMPONENT LIST : 1 : v
+	CONVERT PICTURE : 26 : y ; a ; R' ; R'
+	S <== Get menu item parameter : 20 : a | L ; L; L'
+	SET MENU ITEM PARAMETER : 20 : a | L ; L; A; L'
+	S <== Get selected menu item parameter : 20 
+	S <== Dynamic pop up menu : 20 : a ; a' ; L' ; L'
+	EXECUTE METHOD : 18 : a ; ( * ; { E } ) | ( y ; { E } ) | X : a ; X | ( ( y | * ) ; { E } )
+	VERIFY CURRENT DATA FILE : 1 : X |( L ; L ; a ; y' ; y' )
+	S <== Get database localization : 1 : X | (L' ; *')
+	S <== DOM Find XML element by ID : 63: a ; a
+	CONVERT FROM TEXT : 39 : a ; a | L ; y
+	S <== Convert to text : 39 : y ; a | L
+	LISTBOX SET TABLE SOURCE : 13 : ( * ; a ) | V ; a | L
+	LISTBOX GET TABLE SOURCE : 13	: ( * ; a ) | V ; v ; v'
+	GET LAST ERROR STACK : 17 : v; v; v
+	L <== Tool bar height : 48
+	SVG EXPORT TO PICTURE : 65 : a ; v ; L'
+	OPEN SECURITY CENTER : 1 : X | L
+	B <== Match regex : 39 : a ; a ; ( L ; v' ; v' ; *') | X
+	WA OPEN URL : 62 : ( * ; a ) | Y ; a
+	WA OPEN BACK URL : 62 : ( * ; a ) | Y
+	WA OPEN FORWARD URL : 62 : ( * ; a ) | Y
+	WA REFRESH CURRENT URL : 62 : ( * ; a ) | Y
+	WA STOP LOADING URL : 62 : ( * ; a ) | Y
+	S <== WA Get current URL : 62 : ( * ; a ) | Y
+	B <== WA Back URL available : 62 : ( * ; a ) | Y
+	B <== WA Forward URL available : 62 : ( * ; a ) | Y
+	@ : 0 : ( * ; a ) | Y
+	S <== WA Execute JavaScript : 62 : ( * ; a ) | Y ; a
+	WA SET URL FILTERS : 62 : ( * ; a ) | Y ; V ; V
+	WA GET URL FILTERS : 62 : ( * ; a ) | Y ; V ; V
+	WA SET EXTERNAL LINKS FILTERS : 62 : ( * ; a ) | Y ; V ; V
+	WA GET EXTERNAL LINKS FILTERS : 62 : ( * ; a ) | Y ; V ; V
+	WA GET LAST URL ERROR : 62 : ( * ; a ) | Y ; v ; v ; v
+	S <== WA Get last filtered URL : 62 : ( * ; a ) | Y
+	S <== WA Get page title : 62 : ( * ; a ) | Y
+	WA SET PAGE CONTENT : 62 : ( * ; a ) | Y ; a ; a
+	S <== WA Get page content : 62 : ( * ; a ) | Y
+	WA SET PAGE TEXT LARGER : 62 : ( * ; a ) | Y
+	WA SET PAGE TEXT SMALLER : 62 : ( * ; a ) | Y
+	WA SET PREFERENCE : 62 : ( * ; a ) | Y ; L ; B
+	WA GET PREFERENCE : 62 : ( * ; a ) | Y ; L ; V
+	WA EXECUTE JAVASCRIPT FUNCTION : 62 : ( * ; a ) | Y ; a ; ( * ; { E } ) | ( y ; { E } ) | X : ( * ; a ) | Y ; a ; X | ( ( y | * ) ; { E } )	// pas pu trouver une syntaxe plaisant a la fois au compilo et a l'interpreteur
+	DESCRIBE QUERY EXECUTION : 35 : B
+	S <== Get last query path : 35 : L
+	S <== Get last query plan : 35 : L
+	OPEN ADMINISTRATION WINDOW : 1
+	WA GET URL HISTORY : 62 : ( * ; a ) | Y ; V ; L' ; V'
+	S <== WA Create URL history menu : 62 : ( * ; a ) | Y ; L' 
+	QUERY SELECTION WITH ARRAY : 35 : C ; V
+	TRUNCATE TABLE : 37 : X | F
+	NOTIFY RESOURCES FOLDER MODIFICATION : 1
+	S <== DOM Get root XML element : 63 : a
+	S <== SVG Find element ID by coordinates : 65 : ( * ; a ) | Y ; L ; L ; L' 
+	SVG SET ATTRIBUTE : 65 : ( * ; a) | Y ; a ; { a ; E }
+	SVG GET ATTRIBUTE : 65 : ( * ; a )| Y ; a ; a ; y 
+	@ : 0
+	B <== PHP Execute : 66 : a ; a' ; ( * ; { E } ) | ( y ; { E } ) | X : a ; X | ( a ; X | ( ( y | * ) ; { E } ) )
+	PHP SET OPTION : 66 : L ; a | L | B ; *'
+	PHP GET OPTION : 66 : L ; y
+	PHP GET FULL RESPONSE : 66 : v ; v' ; v' ; v' ; v'
+	@ : 0	// was S <== SCRIPT Get StdOut : 59 : L
+	@ : 0	// was S <== SCRIPT Get StdErr : 59 : L
+	SQL EXPORT SELECTION : 45 : X | F' ; a ; L' ; L' ; L'
+	SQL EXPORT DATABASE : 45 : a ; L' ; L' ; L'
+	S <== Generate UUID : 59
+	B <== OBJECT Get enterable : 23 : ( * ; a ) | Y
+	S <== OBJECT Get title : 23 : ( * ; a ) | Y
+	S <== OBJECT Get font : 23 : ( * ; a ) | Y
+	L <== OBJECT Get font size : 23 : ( * ; a ) | Y
+	L <== OBJECT Get font style : 23 : ( * ; a ) | Y
+	S <== OBJECT Get choice list name : 23 : ( * ; a ) | Y
+    S <== OBJECT Get filter : 23 : ( * ; a ) | Y
+	OBJECT GET RGB COLORS : 23 :  ( * ; a ) | Y ; y ; y' ; y'
+	B <== OBJECT Get visible : 23 : ( * ; a ) | Y
+	OBJECT GET SCROLLBAR : 23 : ( * ; a ) | Y ; y; y'
+	FORM GET HORIZONTAL RESIZING : 61 : y ; y' ; y'
+	FORM GET VERTICAL RESIZING : 61 : y ; y' ; y'
+	B <== OBJECT Get enabled : 23 : ( * ; a ) | Y
+	S <== DOM Append XML child node : 63 : a ; L ; E	//JQ : with a | T | D | y, blob and picture seem to be implicitly converted to long integer so use E instead
+	DOM GET XML CHILD NODES : 63 : a ; y ; y
+	S <== DOM Append XML element : 63 : a ; a ; L'
+	S <== DOM Insert XML element : 63 : a ; a ; L ; L'
+	DOM REMOVE XML ATTRIBUTE : 63 : a ; a 
+	EXECUTE METHOD IN SUBFORM : 18 : a ; a ; ( * ; { E } ) | ( y ; { E } ) | X : a ; a ; X | ( ( y | * ) ; { E } )
+	CALL SUBFORM CONTAINER : 12 : L
+	S <== OBJECT Get name : 48 : X | L
+	S <== DOM Get XML document ref : 63 : a
+	SQL EXECUTE SCRIPT : 45 : a ; L ; { a ; E }	
+	XML SET OPTIONS : 52 : T | a ; { L ; E }
+	XML DECODE : 52 : a ; y
+	S <== OBJECT Get plain text : 23 : ( * ; a ) | A
+	OBJECT SET STYLED TEXT ATTRIBUTES : 23 : ( * ; a ) | y; L; L; { L ; E }
+	OBJECT GET STYLED TEXT ATTRIBUTES : 23 : ( * ; a ) | y; L; L; { L ; y }
+	B <== Print object : 27 : ( * ; a ) | Y ; L' ; L' ; L' ; L'
+	XML GET OPTIONS : 52 : T | a ; { L ; y }
+	S <==  DOM Create XML element arrays : 63 : a ; a ; {V ; V}
+	LISTBOX SET HIERARCHY : 13 : ( * ; a ) | V ; B ; v'
+	LISTBOX GET HIERARCHY : 13 : ( * ; a ) | V ; y ; v'
+	LISTBOX EXPAND : 13 : ( * ; a ) | V ; B' ; L' ; L' ; L'
+	LISTBOX COLLAPSE : 13 : ( * ; a ) | V ; B' ; L' ; L' ; L'
+	@ : 0 // reserved for QUERY BY STRING : 35 : f ; a
+	OPEN PRINTING FORM : 27 : a
+	SET DATABASE LOCALIZATION : 1 : a ; *'
+	S <== Get localized document path : 42 : a
+	S <== Convert path system to POSIX : 42 : a ; *'
+	S <== Convert path POSIX to system : 42 : a ; *'
+	SVG SHOW ELEMENT : 65 : ( * ; a) | Y ; a ; L'
+	B <== SVG Find element IDs by rect : 65 : ( * ; a) | Y ; L ; L ; L ; L ; y
+	LISTBOX GET PRINT INFORMATION : 13 : ( * ; a ) | V ; L ; v 
+	OBJECT DUPLICATE : 23 : ( * ; a ) | Y ; a' ; U' ; a' ; L' ; L' ; L' ; L' ; *'
+	@ : 0 // reserved for CONCATENATE STRING : 39 : y ; E ; { E }
+	B <== Is picture file : 26 : a ; *'
+	OBJECT GET SCROLL POSITION  : 23 : ( * ; a ) | Y ; Y ; Y'
+	OBJECT SET STYLED TEXT : 23 : ( * ; a ) | y ; a ; L' ; L'       
+	S <== OBJECT Get styled text : 23 : ( * ; a ) | y ; L' ; L' 
+	LISTBOX SELECT BREAK : 13 : ( * ; a ) | V ; L ; L ; L'
+	GET CACHE STATISTICS : 1 : L ; v ; v ; v
+	S <== Get memory leaks : 1 : X | ( v' ; *')
+	CHECK MEMORY LEAKS : 1 : B ; *'
+	SET PICTURE METADATA : 26 : y ; a ; v | E ; { a ; v | E }
+	GET PICTURE METADATA : 26 : y ; a ; y ; { a ; y }
+	OBJECT SET ENABLED : 23 : ( * ; a ) | Y ; B
+	U <== OBJECT Get pointer : 48 : X | L' ; a' ; a'
+	GET MISSING TABLE NAMES : 40 : V
+	REGENERATE MISSING TABLE : 40 : a
+	L <== Get table fragmentation : 1 : F
+	@ : 0
+	ASSERT : 17 : B ; a'
+	B <== Get assert enabled : 17
+	SET ASSERT ENABLED : 17 : B ; *'
+	B <== Asserted : 17 : B ; a'
+	@ : 0
+	@ : 0	
+	@ : 0	
+	OBJECT SET PLAIN TEXT : 23 : ( * ; a ) | Y ; A ; L'; L'
+	L <== Get subrecord key : 41 : C
+	

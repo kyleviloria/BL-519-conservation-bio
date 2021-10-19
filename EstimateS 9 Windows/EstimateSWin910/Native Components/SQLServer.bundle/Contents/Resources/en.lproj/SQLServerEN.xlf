@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="3200">
+            <trans-unit id="1" resname="SQL_ERROR_NO_DESCRIPTION">
+               <source>Error description is not available.</source>
+                <target>Error description is not available.</target> 
+            </trans-unit>
+            <trans-unit id="2" resname="ERR_SQLS_1103">
+               <source>Table '{key1}' is not declared in the FROM clause.</source>
+                <target>Table '{key1}' is not declared in the FROM clause.</target>
+            </trans-unit>
+            <trans-unit id="3" resname="ERR_SQLS_1102_1">
+               <source>Column '{key1}' does not exist.</source>
+                <target>Column '{key1}' does not exist.</target>
+            </trans-unit>
+            <trans-unit id="4" resname="ERR_SQLS_1102_2">
+               <source>Column '{key1}' does not exist in the table '{key2}'.</source>
+                <target>Column '{key1}' does not exist in the table '{key2}'.</target>
+            </trans-unit>
+            <trans-unit id="5" resname="ERR_SQLS_1104">
+               <source>Column name reference '{key1}' is ambiguous.</source>
+                <target>Column name reference '{key1}' is ambiguous.</target> 
+            </trans-unit>
+            <trans-unit id="6" resname="ERR_SQLS_1101">
+               <source>Table '{key1}' does not exist in the database.</source>
+                <target>Table '{key1}' does not exist in the database.</target>
+            </trans-unit>
+            <trans-unit id="7" resname="ERR_SQLS_1105">
+               <source>Table alias '{key1}' is the same as table name.</source>
+                <target>Table alias '{key1}' is the same as table name.</target> 
+            </trans-unit>
+            <trans-unit id="8" resname="ERR_SQLS_1106">
+               <source>Duplicate table alias - '{key1}'.</source>
+                <target>Duplicate table alias - '{key1}'.</target>
+            </trans-unit>
+            <trans-unit id="9" resname="ERR_SQLS_1107">
+               <source>Duplicate table in the FROM clause - '{key1}'.</source>
+                <target>Duplicate table in the FROM clause - '{key1}'.</target>
+            </trans-unit>
+            <trans-unit id="10" resname="ERR_SQLS_1108">
+               <source>Operation {key1} {key2} {key3} is not type safe.</source>
+                <target>Operation {key1} {key2} {key3} is not type safe.</target> 
+            </trans-unit>
+            <trans-unit id="11" resname="ERR_SQLS_1124">
+               <source>Cannot mix {key1} and {key2} types in the IN predicate.</source>
+                <target>Cannot mix {key1} and {key2} types in the IN predicate.</target>
+            </trans-unit>
+            <trans-unit id="12" resname="ERR_SQLS_1125">
+               <source>Escape sequence '{key1}' in the LIKE predicate is too long. It must be exactly one character.</source>
+                <target>Escape sequence '{key1}' in the LIKE predicate is too long. It must be exactly one character.</target> 
+            </trans-unit>
+            <trans-unit id="13" resname="ERR_SQLS_1126">
+               <source>Bad escape character - '{key1}'.</source>
+                <target>Bad escape character - '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="14" resname="ERR_SQLS_1127">
+               <source>Unknown escape sequence - '{key1}'.</source>
+                <target>Unknown escape sequence - '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="15" resname="ERR_SQLS_1117_1">
+               <source>Sub-query is not allowed to contain column functions in the context of its super-query.</source>
+                <target>Sub-query is not allowed to contain column functions in the context of its super-query.</target> 
+            </trans-unit>
+            <trans-unit id="16" resname="ERR_SQLS_1117_2">
+               <source>Column function is not allowed.</source>
+                <target>Column function is not allowed.</target>
+            </trans-unit>
+            <trans-unit id="17" resname="ERR_SQLS_1117_3">
+               <source>UPDATE - aggregate functions are not allowed.</source>
+                <target>UPDATE - aggregate functions are not allowed.</target>
+            </trans-unit>
+            <trans-unit id="18" resname="ERR_SQLS_1130">
+               <source>Sub-query produces more than one column.</source>
+                <target>Sub-query produces more than one column.</target>
+            </trans-unit>
+            <trans-unit id="19" resname="ERR_SQLS_1120_1">
+               <source>GROUP BY index is not allowed.</source>
+                <target>GROUP BY index is not allowed.</target>
+            </trans-unit>
+            <trans-unit id="20" resname="ERR_SQLS_1120_2">
+               <source>GROUP BY index is not allowed for SELECT item at index {key1}.</source>
+                <target>GROUP BY index is not allowed for SELECT item at index {key1}.</target>
+            </trans-unit>
+            <trans-unit id="21" resname="ERR_SQLS_1118_1">
+               <source>Cannot mix column and scalar operations.</source>
+               <target>Impossible de mixer des opérations de colonne et scalaires.</target> 
+            </trans-unit>
+            <trans-unit id="22" resname="ERR_SQLS_1118_2">
+               <source>Cannot mix column and scalar operations {key1}.</source>
+               <target>Cannot mix column and scalar operations.</target> 
+            </trans-unit>
+            <trans-unit id="23" resname="ERR_SQLS_1129">
+               <source>Scalar item in the SELECT list is not allowed when GROUP BY clause is present.</source>
+               <target>Scalar item in the SELECT list is not allowed when GROUP BY clause is present.</target> 
+            </trans-unit>
+            <trans-unit id="24" resname="ERR_SQLS_1415">
+               <source>Query parameter is either not allowed or was not provided.</source>
+               <target>Query parameter is either not allowed or was not provided.</target> 
+            </trans-unit>
+            <trans-unit id="25" resname="ERR_SQLS_1114">
+               <source>Sorting by indexed item in the SELECT list is not allowed - ORDER BY item {key1}.</source>
+               <target>Sorting by indexed item in the SELECT list is not allowed - ORDER BY item {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="26" resname="ERR_SQLS_1109">
+               <source>Invalid ORDER BY index - {key1}.</source>
+               <target>Invalid ORDER BY index - {key1}.</target>
+            </trans-unit>
+            <trans-unit id="27" resname="ERR_SQLS_1123">
+               <source>Column '{key1}' is not a grouping column and cannot be used in the ORDER BY clause.</source>
+               <target>Column '{key1}' is not a grouping column and cannot be used in the ORDER BY clause.</target> 
+            </trans-unit>
+            <trans-unit id="28" resname="ERR_SQLS_1121">
+               <source>GROUP BY is not allowed with 'SELECT * FROM ...'.</source>
+               <target>GROUP BY is not allowed with 'SELECT * FROM ...'.</target>
+            </trans-unit>
+            <trans-unit id="29" resname="ERR_SQLS_1119">
+               <source>Invalid GROUP BY index - {key1}.</source>
+               <target>Invalid GROUP BY index - {key1}.</target>
+            </trans-unit>
+            <trans-unit id="30" resname="ERR_SQLS_1110_1">
+               <source>Function {key1} expects one parameter, not {key2}.</source>
+               <target>Function {key1} expects one parameter, not {key2}.</target>
+            </trans-unit>
+            <trans-unit id="31" resname="ERR_SQLS_1110_2">
+               <source>Function {key1} expects {key2} parameters, not {key3}.</source>
+               <target>Function {key1} expects {key2} parameters, not {key3}.</target>
+            </trans-unit>
+            <trans-unit id="32" resname="ERR_SQLS_1111">
+               <source>Parameter {key1} of type {key2} in function call {key3} is not implicitly convertible to {key4}.</source>
+               <target>Parameter {key1} of type {key2} in function call {key3} is not implicitly convertible to {key4}.</target> 
+            </trans-unit>
+            <trans-unit id="33" resname="ERR_SQLS_1128">
+               <source>Column references from more than one query in aggregate function {key1} are not allowed.</source>
+               <target>Column references from more than one query in aggregate function {key1} are not allowed.</target>
+            </trans-unit>
+            <trans-unit id="34" resname="ERR_SQLS_1116">
+               <source>Nested aggregate functions are not allowed in the aggregate function {key1}.</source>
+               <target>Nested aggregate functions are not allowed in the aggregate function {key1}.</target>
+            </trans-unit>
+            <trans-unit id="35" resname="ERR_SQLS_1112">
+               <source>Unknown function - {key1}.</source>
+               <target>Unknown function - {key1}.</target>
+            </trans-unit>
+            <trans-unit id="36" resname="ERR_SQLS_1122">
+               <source>HAVING is not an aggregate expression.</source>
+               <target>HAVING is not an aggregate expression.</target>
+            </trans-unit>
+            <trans-unit id="37" resname="ERR_SQLS_1133">
+               <source>Duplicate column reference in the INSERT list - '{key1}'.</source>
+               <target>Duplicate column reference in the INSERT list - '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="38" resname="ERR_SQLS_1135">
+               <source>Duplicate column reference in the UPDATE list - '{key1}'.</source>
+               <target>Duplicate column reference in the UPDATE list - '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="39" resname="ERR_SQLS_1132">
+               <source>INSERT value count {key1} does not match column count {key2}.</source>
+               <target>INSERT value count {key1} does not match column count {key2}.</target> 
+            </trans-unit>
+            <trans-unit id="40" resname="ERR_SQLS_1134">
+               <source>Column '{key1}' does not allow NULL values.</source>
+               <target>Column '{key1}' does not allow NULL values.</target>
+            </trans-unit>
+            <trans-unit id="41" resname="ERR_SQLS_1136">
+               <source>Table '{key1}' already exists.</source>
+               <target>Table '{key1}' already exists.</target>
+            </trans-unit>
+            <trans-unit id="42" resname="ERR_SQLS_1139">
+               <source>More than one primary key is not allowed.</source>
+               <target>More than one primary key is not allowed.</target> 
+            </trans-unit>
+            <trans-unit id="43" resname="ERR_SQLS_1137">
+               <source>Duplicate column '{key1}' in the CREATE TABLE command.</source>
+               <target>Duplicate column '{key1}' in the CREATE TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="44" resname="ERR_SQLS_1140">
+               <source>Ambiguous foreign key name - '{key1}'.</source>
+               <target>Ambiguous foreign key name - '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="45" resname="ERR_SQLS_1141">
+               <source>Column count {key1} in the child table does not match column count {key2} in the parent table of the foreign key definition.</source>
+               <target>Column count {key1} in the child table does not match column count {key2} in the parent table of the foreign key definition.</target> 
+            </trans-unit>
+            <trans-unit id="46" resname="ERR_SQLS_1142">
+               <source>Column type mismatch in the foreign key definition. Cannot relate {key1} in child table to {key2} in parent table.</source>
+               <target>Column type mismatch in the foreign key definition. Cannot relate {key1} in child table to {key2} in parent table.</target>
+            </trans-unit>
+            <trans-unit id="47" resname="ERR_SQLS_1143">
+               <source>Failed to find matching column in parent table for '{key1}' column in child table.</source>
+               <target>Failed to find matching column in parent table for '{key1}' column in child table.</target>
+            </trans-unit>
+            <trans-unit id="48" resname="ERR_SQLS_1144">
+               <source>UPDATE and DELETE constraints must be the same.</source>
+               <target>UPDATE and DELETE constraints must be the same.</target> 
+            </trans-unit>
+            <trans-unit id="49" resname="ERR_SQLS_1146">
+               <source>Invalid LIMIT value in SELECT command - {key1}.</source>
+               <target>Invalid LIMIT value in SELECT command - {key1}.</target>
+            </trans-unit>
+            <trans-unit id="50" resname="ERR_SQLS_1147">
+               <source>Invalid OFFSET value in SELECT command - {key1}.</source>
+               <target>Invalid OFFSET value in SELECT command - {key1}.</target>
+            </trans-unit>
+            <trans-unit id="51" resname="ERR_SQLS_1148">
+               <source>Primary key does not exist in table '{key1}'.</source>
+               <target>Primary key does not exist in table '{key1}'.</target>
+            </trans-unit>
+            <trans-unit id="52" resname="ERR_SQLS_1150_1">
+               <source>Column '{key1}' is not part of a primary key.</source>
+               <target>Column '{key1}' is not part of a primary key.</target>
+            </trans-unit>
+            <trans-unit id="53" resname="ERR_SQLS_1150_2">
+               <source>Column '{key1}' is not part of a primary key in table '{key2}'.</source>
+               <target>Column '{key1}' is not part of a primary key in table '{key2}'.</target> 
+            </trans-unit>
+            <trans-unit id="54" resname="ERR_SQLS_1153">
+               <source>Bad data type length '{key1}'.</source>
+               <target>Bad data type length '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="55" resname="ERR_SQLS_1217">
+               <source>Failed to lock table for reading.</source>
+               <target>Failed to lock table for reading.</target> 
+            </trans-unit>
+            <trans-unit id="56" resname="ERR_SQLS_UNKNOWN">
+               <source>Unknown error code.</source>
+               <target>Unknown error code.</target>
+            </trans-unit>
+            <trans-unit id="57" resname="ERR_SQLS_1701">
+               <source>Failed to validate table '{key1}'.</source>
+               <target>Failed to validate table '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="58" resname="ERR_SQLS_1702">
+               <source>Failed to validate FROM clause.</source>
+               <target>Failed to validate FROM clause.</target> 
+            </trans-unit>
+            <trans-unit id="59" resname="ERR_SQLS_1703">
+               <source>Failed to validate GROUP BY clause.</source>
+               <target>Failed to validate GROUP BY clause.</target> 
+            </trans-unit>
+            <trans-unit id="60" resname="ERR_SQLS_1704">
+               <source>Failed to validate SELECT list.</source>
+               <target>Failed to validate SELECT list.</target> 
+            </trans-unit>
+            <trans-unit id="61" resname="ERR_SQLS_1705">
+               <source>Failed to validate WHERE clause.</source>
+               <target>Failed to validate WHERE clause.</target> 
+            </trans-unit>
+            <trans-unit id="62" resname="ERR_SQLS_1706">
+               <source>Failed to validate ORDER BY clause.</source>
+               <target>Failed to validate ORDER BY clause.</target> 
+             </trans-unit>
+            <trans-unit id="63" resname="ERR_SQLS_1707">
+               <source>Failed to validate HAVING clause.</source>
+               <target>Failed to validate HAVING clause.</target> 
+            </trans-unit>
+            <trans-unit id="64" resname="ERR_SQLS_1708">
+               <source>Failed to validate COMPARISON predicate.</source>
+               <target>Failed to validate COMPARISON predicate.</target> 
+            </trans-unit>
+            <trans-unit id="65" resname="ERR_SQLS_1709">
+               <source>Failed to validate BETWEEN predicate.</source>
+               <target>Failed to validate BETWEEN predicate.</target> 
+            </trans-unit>
+            <trans-unit id="66" resname="ERR_SQLS_1710">
+               <source>Failed to validate IN predicate.</source>
+               <target>Failed to validate IN predicate.</target> 
+            </trans-unit>
+            <trans-unit id="67" resname="ERR_SQLS_1712">
+               <source>Failed to validate ALL ANY predicate.</source>
+               <target>Failed to validate ALL ANY predicate.</target> 
+            </trans-unit>
+            <trans-unit id="68" resname="ERR_SQLS_1713">
+               <source>Failed to validate EXISTS predicate.</source>
+               <target>Failed to validate EXISTS predicate.</target> 
+            </trans-unit>
+            <trans-unit id="69" resname="ERR_SQLS_1714">
+               <source>Failed to validate IS NULL predicate.</source>
+               <target>Failed to validate IS NULL predicate.</target> 
+            </trans-unit>
+            <trans-unit id="70" resname="ERR_SQLS_1715">
+               <source>Failed to validate subquery.</source>
+               <target>Failed to validate subquery.</target> 
+            </trans-unit>
+            <trans-unit id="71" resname="ERR_SQLS_1716">
+               <source>Failed to validate SELECT item {key1}.</source>
+               <target>Failed to validate SELECT item {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="72" resname="ERR_SQLS_1717">
+               <source>Failed to validate column '{key1}'.</source>
+               <target>Failed to validate column '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="73" resname="ERR_SQLS_1718">
+               <source>Failed to validate function '{key1}'.</source>
+               <target>Failed to validate function '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="74" resname="ERR_SQLS_1719">
+               <source>Failed to validate CASE expression.</source>
+               <target>Failed to validate CASE expression.</target> 
+            </trans-unit>
+            <trans-unit id="75" resname="ERR_SQLS_1720">
+               <source>Failed to validate command parameter.</source>
+               <target>Failed to validate command parameter.</target> 
+            </trans-unit>
+            <trans-unit id="76" resname="ERR_SQLS_1721">
+               <source>Failed to validate function parameter {key1}.</source>
+               <target>Failed to validate function parameter {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="77" resname="ERR_SQLS_1722">
+               <source>Failed to validate INSERT item {key1}.</source>
+               <target>Failed to validate INSERT item {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="78" resname="ERR_SQLS_1723">
+               <source>Failed to validate UPDATE item {key1}.</source>
+               <target>Failed to validate UPDATE item {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="79" resname="ERR_SQLS_1724">
+               <source>Failed to validate column list.</source>
+               <target>Failed to validate column list.</target> 
+            </trans-unit>
+            <trans-unit id="80" resname="ERR_SQLS_1725">
+               <source>Failed to validate foreign key</source>
+               <target>Failed to validate foreign key</target> 
+            </trans-unit>
+            <trans-unit id="81" resname="ERR_SQLS_1204">
+               <source>Failed to create record {key1}.</source>
+               <target>Failed to create record {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="82" resname="ERR_SQLS_1205">
+               <source>Failed to update field '{key1}'.</source>
+               <target>Failed to update field '{key1}'.</target> 
+            </trans-unit> 
+            <trans-unit id="83" resname="ERR_SQLS_1206">
+               <source>Failed to delete record '{key1}'.</source>
+               <target>Failed to delete record '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="84" resname="ERR_SQLS_1131">
+               <source>Subquery must return one row at the most but instead it returns {key1}.</source>
+               <target>Subquery must return one row at the most but instead it returns {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="85" resname="ERR_SQLS_1113">
+               <source>Division by zero.</source>
+               <target>Division by zero.</target> 
+            </trans-unit>
+            <trans-unit id="86" resname="ERR_SQLS_1726">
+               <source>Failed to validate SELECT command.</source>
+               <target>Failed to validate SELECT command.</target> 
+            </trans-unit>
+            <trans-unit id="87" resname="ERR_SQLS_1727">
+               <source>Failed to validate INSERT command.</source>
+               <target>Failed to validate INSERT command.</target> 
+            </trans-unit>
+            <trans-unit id="88" resname="ERR_SQLS_1728">
+               <source>Failed to validate DELETE command.</source>
+               <target>Failed to validate DELETE command.</target> 
+            </trans-unit>
+            <trans-unit id="89" resname="ERR_SQLS_1729">
+               <source>Failed to validate UPDATE command.</source>
+               <target>Failed to validate UPDATE command.</target> 
+            </trans-unit>
+            <trans-unit id="90" resname="ERR_SQLS_1730">
+               <source>Failed to validate CREATE TABLE command.</source>
+               <target>Failed to validate CREATE TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="91" resname="ERR_SQLS_1731">
+               <source>Failed to validate DROP TABLE command.</source>
+               <target>Failed to validate DROP TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="92" resname="ERR_SQLS_1732">
+               <source>Failed to validate ALTER TABLE command.</source>
+               <target>Failed to validate ALTER TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="93" resname="ERR_SQLS_1733">
+               <source>Failed to validate CREATE INDEX command.</source>
+               <target>Failed to validate CREATE INDEX command.</target> 
+            </trans-unit>
+            <trans-unit id="94" resname="ERR_SQLS_1734">
+               <source>Failed to validate LOCK TABLE command.</source>
+               <target>Failed to validate LOCK TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="95" resname="ERR_SQLS_1801">
+               <source>Failed to execute SELECT command.</source>
+               <target>Failed to execute SELECT command.</target> 
+            </trans-unit>
+            <trans-unit id="96" resname="ERR_SQLS_1802">
+               <source>Failed to execute INSERT command.</source>
+               <target>Failed to execute INSERT command.</target> 
+            </trans-unit>
+            <trans-unit id="97" resname="ERR_SQLS_1803">
+               <source>Failed to execute DELETE command.</source>
+               <target>Failed to execute DELETE command.</target> 
+            </trans-unit>
+            <trans-unit id="98" resname="ERR_SQLS_1804">
+               <source>Failed to execute UPDATE command.</source>
+               <target>Failed to execute UPDATE command.</target> 
+            </trans-unit>
+            <trans-unit id="99" resname="ERR_SQLS_1805">
+               <source>Failed to execute CREATE TABLE command.</source>
+               <target>Failed to execute CREATE TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="100" resname="ERR_SQLS_1806">
+               <source>Failed to execute DROP TABLE command.</source>
+               <target>Failed to execute DROP TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="101" resname="ERR_SQLS_1812">
+               <source>Failed to execute TRANSACTION command.</source>
+               <target>Failed to execute TRANSACTION command.</target> 
+            </trans-unit>
+            <trans-unit id="102" resname="ERR_SQLS_1807">
+               <source>Failed to execute CREATE DATABASE command.</source>
+               <target>Failed to execute CREATE DATABASE command.</target> 
+            </trans-unit>
+            <trans-unit id="103" resname="ERR_SQLS_1808">
+               <source>Failed to execute ALTER TABLE command.</source>
+               <target>Failed to execute ALTER TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="104" resname="ERR_SQLS_1809">
+               <source>Failed to execute CREATE INDEX command.</source>
+               <target>Failed to execute CREATE INDEX command.</target> 
+            </trans-unit>
+            <trans-unit id="105" resname="ERR_SQLS_1810">
+               <source>Failed to execute DROP INDEX command.</source>
+               <target>Failed to execute DROP INDEX command.</target> 
+            </trans-unit>
+            <trans-unit id="106" resname="ERR_SQLS_1811">
+               <source>Failed to execute LOCK TABLE command.</source>
+               <target>Failed to execute LOCK TABLE command.</target> 
+            </trans-unit>
+            <trans-unit id="107" resname="ERR_SQLS_1813">
+               <source>Failed to execute WHERE clause.</source>
+               <target>Failed to execute WHERE clause.</target> 
+            </trans-unit>
+            <trans-unit id="108" resname="ERR_SQLS_1814">
+               <source>Failed to execute GROUP BY clause.</source>
+               <target>Failed to execute GROUP BY clause.</target> 
+            </trans-unit>
+            <trans-unit id="109" resname="ERR_SQLS_1815">
+               <source>Failed to execute HAVING clause.</source>
+               <target>Failed to execute HAVING clause.</target> 
+            </trans-unit>
+            <trans-unit id="110" resname="ERR_SQLS_1816">
+               <source>Failed to aggregate.</source>
+               <target>Failed to aggregate.</target> 
+            </trans-unit>
+            <trans-unit id="111" resname="ERR_SQLS_1817">
+               <source>Failed to execute DISTINCT.</source>
+               <target>Failed to execute DISTINCT.</target> 
+            </trans-unit>
+            <trans-unit id="112" resname="ERR_SQLS_1818">
+               <source>Failed to execute ORDER BY clause.</source>
+               <target>Failed to execute ORDER BY clause.</target> 
+            </trans-unit>
+            <trans-unit id="113" resname="ERR_SQLS_1819">
+               <source>Failed to build DB4D query.</source>
+               <target>Failed to build DB4D query.</target> 
+            </trans-unit>
+            <trans-unit id="114" resname="ERR_SQLS_1512">
+               <source>Failed to parse timestamp.</source>
+               <target>Failed to parse timestamp.</target> 
+            </trans-unit>
+            <trans-unit id="115" resname="ERR_SQLS_1513">
+               <source>Failed to parse duration.</source>
+               <target>Failed to parse duration.</target> 
+            </trans-unit>
+            <trans-unit id="116" resname="ERR_SQLS_1820">
+               <source>Failed to calculate comparison predicate.</source>
+               <target>Failed to calculate comparison predicate.</target> 
+            </trans-unit>
+            <trans-unit id="117" resname="ERR_SQLS_1821">
+               <source>Failed to execute subquery.</source>
+               <target>Failed to execute subquery.</target> 
+            </trans-unit>
+            <trans-unit id="118" resname="ERR_SQLS_1822">
+               <source>Failed to calculate BETWEEN predicate.</source>
+               <target>Failed to calculate BETWEEN predicate.</target> 
+            </trans-unit>
+            <trans-unit id="119" resname="ERR_SQLS_1823">
+               <source>Failed to calculate IN predicate.</source>
+               <target>Failed to calculate IN predicate.</target> 
+            </trans-unit>
+            <trans-unit id="120" resname="ERR_SQLS_1824">
+               <source>Failed to calculate ALL/ANY predicate.</source>
+               <target>Failed to calculate ALL/ANY predicate.</target> 
+            </trans-unit>
+            <trans-unit id="121" resname="ERR_SQLS_1825">
+               <source>Failed to calculate LIKE predicate.</source>
+               <target>Failed to calculate LIKE predicate.</target> 
+            </trans-unit>
+            <trans-unit id="122" resname="ERR_SQLS_1735">
+               <source>Failed to calculate LIKE predicate pattern.</source>
+               <target>Failed to calculate LIKE predicate pattern.</target> 
+            </trans-unit>
+            <trans-unit id="123" resname="ERR_SQLS_1826">
+               <source>Failed to calculate EXISTS predicate.</source>
+               <target>Failed to calculate EXISTS predicate.</target> 
+            </trans-unit>
+            <trans-unit id="124" resname="ERR_SQLS_1827">
+               <source>Failed to calculate IS NULL predicate.</source>
+               <target>Failed to calculate IS NULL predicate.</target> 
+            </trans-unit>
+            <trans-unit id="125" resname="ERR_SQLS_1828">
+               <source>Failed to perform arithmetic operation.</source>
+               <target>Failed to perform arithmetic operation.</target> 
+            </trans-unit>
+            <trans-unit id="126" resname="ERR_SQLS_1829">
+               <source>Failed to calculate function call '{key1}'.</source>
+               <target>Failed to calculate function call '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="127" resname="ERR_SQLS_1830">
+               <source>Failed to calculate case expression.</source>
+               <target>Failed to calculate case expression.</target> 
+            </trans-unit>
+            <trans-unit id="128" resname="ERR_SQLS_1831">
+               <source>Failed to calculate function parameter '{key1}'.</source>
+               <target>Failed to calculate function parameter '{key1}'.</target> 
+            </trans-unit>
+            <trans-unit id="129" resname="ERR_SQLS_1832">
+               <source>Failed to calculate 4D function call.</source>
+               <target>Failed to calculate 4D function call.</target> 
+            </trans-unit>
+            <trans-unit id="130" resname="ERR_SQLS_1833">
+               <source>Failed to sort while executing ORDER BY clause.</source>
+               <target>Failed to sort while executing ORDER BY clause.</target> 
+            </trans-unit>
+            <trans-unit id="131" resname="ERR_SQLS_1834">
+               <source>Failed to calculate record hash.</source>
+               <target>Failed to calculate record hash.</target> 
+            </trans-unit>
+            <trans-unit id="132" resname="ERR_SQLS_1835">
+               <source>Failed to compare records.</source>
+               <target>Failed to compare records.</target> 
+            </trans-unit>
+            <trans-unit id="133" resname="ERR_SQLS_1836">
+               <source>Failed to calculate INSERT value {key1}.</source>
+               <target>Failed to calculate INSERT value {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="134" resname="ERR_SQLS_1205">
+               <source>Failed to update field {key1}.</source>
+               <target>Failed to update field {key1}.</target> 
+            </trans-unit>
+            <trans-unit id="135" resname="ERR_SQLS_1156">
+               <source>Auto-increment option is not allowed for column '{key1}' of type {key2}.</source>
+               <target>Auto-increment option is not allowed for column '{key1}' of type {key2}.</target> 
+            </trans-unit>
+            <trans-unit id="136" resname="ERR_SQLS_1159">
+               <source>Cannot drop system schema</source>
+               <target>Cannot drop system schema</target> 
+            </trans-unit>
+            <trans-unit id="137" resname="ERR_SQLS_1004">
+               <source>Access denied</source>
+               <target>Access denied</target> 
+            </trans-unit>
+            <trans-unit id="138" resname="ERR_SQLS_1010">
+               <source>Execution was interrupted by user</source>
+               <target>Execution was interrupted by user</target> 
+            </trans-unit>
+            <trans-unit id="139" resname="ERR_SQLS_1160">
+               <source>Character-set option is not allowed for column '{key1}' of type {key2}</source>
+               <target>Character-set option is not allowed for column '{key1}' of type {key2}</target> 
+            </trans-unit>
+            <trans-unit id="140" resname="ERR_SQLS_1736">
+               <source>Failed to validate REPLICATE command.</source>
+               <target>Failed to validate REPLICATE command.</target> 
+            </trans-unit>
+            <trans-unit id="141" resname="ERR_SQLS_1840">
+               <source>Failed to execute REPLICATE command.</source>
+               <target>Failed to execute REPLICATE command.</target> 
+            </trans-unit>
+            <trans-unit id="142" resname="ERR_SQLS_1161">
+               <source>Source and destination item count mismatch in the REPLICATE command.</source>
+               <target>Source and destination item count mismatch in the REPLICATE command.</target> 
+            </trans-unit>
+            <trans-unit id="143" resname="ERR_SQLS_1162">
+               <source>Cannot replicate virtual column.</source>
+               <target>Cannot replicate virtual column.</target> 
+            </trans-unit>
+            <trans-unit id="144" resname="ERR_SQLS_1163">
+               <source>"Auto-generate" option is not allowed for column '{key1}' of type {key2}.</source>
+               <target>"Auto-generate" option is not allowed for column '{key1}' of type {key2}.</target> 
+            </trans-unit>
+            <trans-unit id="145" resname="ERR_SQLS_1227">
+               <source>Database already exists.</source>
+               <target>Database already exists.</target> 
+            </trans-unit>
+            <trans-unit id="146" resname="ERR_SQLS_1739">
+               <source>Failed to validate Join clause.</source>
+               <target>Failed to validate Join clause.</target> 
+            </trans-unit>      
+            <trans-unit id="147" resname="ERR_SQLS_1203">
+               <source>The functionality is not implemented.</source>
+               <target>The functionality is not implemented.</target> 
+            </trans-unit> 
+            <trans-unit id="148" resname="ERR_SQLS_1228">
+               <source>Database not found.</source>
+               <target>Database not found.</target> 
+            </trans-unit>
+         </group>
+         
+         <group resname="SQL_Messages">
+            <trans-unit id="1" resname="SQL_PROGRESS_GROUP_BY">
+               <source>Executing GROUP BY...</source>
+               <target>Executing GROUP BY...</target>
+            </trans-unit>
+            <trans-unit id="2" resname="SQL_PROGRESS_HAVING">
+               <source>Executing HAVING...</source>
+               <target>Executing HAVING...</target>
+            </trans-unit>
+            <trans-unit id="3" resname="SQL_PROGRESS_DISTINCT">
+               <source>Executing DISTINCT...</source>
+               <target>Executing DISTINCT...</target>
+            </trans-unit>
+            <trans-unit id="4" resname="SQL_PROGRESS_ORDER_BY">
+               <source>Executing ORDER BY...</source>
+               <target>Executing ORDER BY...</target>
+            </trans-unit>
+            <trans-unit id="5" resname="SQL_PROGRESS_JOIN">
+               <source>Executing ORDER BY...</source>
+               <target>Executing ORDER BY...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_SELECT">
+               <source>Executing SELECT...</source>
+               <target>Executing SELECT...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_WHERE">
+               <source>Executing WHERE...</source>
+               <target>Executing WHERE...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_INSERT">
+               <source>Executing INSERT...</source>
+               <target>Executing INSERT...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_DELETE">
+               <source>Executing DELETE...</source>
+               <target>Executing DELETE...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_UPDATE">
+               <source>Executing UPDATE...</source>
+               <target>Executing UPDATE...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_AGGREGATES">
+               <source>Calculating aggregate values...</source>
+               <target>Calculating aggregate values...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_PROGRESS_INSERTING">
+               <source>Inserting rows...</source>
+               <target>Inserting rows...</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_NET_SESSION_MANAGER">
+               <source>SQL net session manager</source>
+               <target>SQL net session manager</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_WORKER_THREAD">
+               <source>SQL connection handler</source>
+               <target>SQL connection handler</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SQL_SPARE_THREAD">
+               <source>Spare task</source>
+               <target>Spare task</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SNET_SELECT_IO_HANDLER">
+               <source>ServerNet select I/O handler</source>
+               <target>ServerNet select I/O handler</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SNET_SHARED_WORKER">
+               <source>Shared pool worker</source>
+               <target>Shared pool worker</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SNET_EXCLUSIVE_WORKER">
+               <source>Exclusive pool worker</source>
+               <target>Exclusive pool worker</target>
+            </trans-unit>
+            <trans-unit id="x" resname="SNET_SHARED_LOAD_BALANCER">
+               <source>ServerNet shared load balancer</source>
+               <target>ServerNet shared load balancer</target>
+            </trans-unit>
+         </group>
+        </body>
+    </file>
+</xliff>

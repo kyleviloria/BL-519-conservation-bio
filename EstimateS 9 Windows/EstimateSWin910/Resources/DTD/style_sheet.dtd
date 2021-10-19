@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+	4D style sheets
+
+-->
+<!ELEMENT style_sheet (info_OSX?,info_XP?,info_Win2000?,info_WinVista?)>
+
+<!ATTLIST style_sheet
+	name CDATA #REQUIRED
+	id NMTOKEN #REQUIRED
+>
+<!ENTITY % style_sheet_attributes "fontname CDATA #REQUIRED
+	face NMTOKEN #IMPLIED
+	size NMTOKEN #IMPLIED
+	specialfontid NMTOKEN #IMPLIED">
+<!ELEMENT info_WinVista EMPTY>
+<!ATTLIST info_WinVista
+	%style_sheet_attributes;
+>
+<!ELEMENT info_XP EMPTY>
+<!ATTLIST info_XP
+	%style_sheet_attributes;
+>
+<!ELEMENT info_OSX EMPTY>
+<!ATTLIST info_OSX
+	%style_sheet_attributes;
+>
+<!ELEMENT info_Win2000 EMPTY>
+<!ATTLIST info_Win2000
+	%style_sheet_attributes;
+>

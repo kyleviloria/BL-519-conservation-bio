@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!--        Translation file for 4D products.   Copyright (C) 2009 4D SAS.   This file is distributed under the same license as the 4D product package.-->
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+            <prop prop-type="separator">_</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="Compatibilities">
+            <trans-unit id="2" resname="formula_editor_with_full_lists">
+               <source>Always allow all commands and project methods in the Formula editor</source>
+               <target>Always allow all commands and project methods in the Formula editor</target>
+            </trans-unit>
+            <trans-unit id="3" resname="reload_form_during_print_selection">
+               <source>Reload form for each record during PRINT SELECTION</source>
+               <target>Reload form for each record during PRINT SELECTION</target>
+            </trans-unit>
+            <trans-unit id="4" resname="allow_nested_transactions">
+               <source>Allow Nested Transactions</source>
+               <target>Allow Nested Transactions</target>
+            </trans-unit>
+            <trans-unit id="5" resname="radio_buttons_grouped_by_name">
+               <source>Radio buttons grouped by name</source>
+               <target>Radio buttons grouped by name</target>
+            </trans-unit>
+            <trans-unit id="7" resname="fields_enterable_in_dialogs">
+               <source>Fields are enterable in dialog boxes</source>
+               <target>Fields are enterable in dialog boxes</target>
+            </trans-unit>
+            <trans-unit id="8" resname="automatic_transactions">
+               <source>Automatic Transactions during Data Entry</source>
+               <target>Automatic Transactions during Data Entry</target>
+            </trans-unit>
+            <trans-unit id="9" resname="unicode_mode">
+               <source>Unicode mode</source>
+               <target>Unicode mode</target>
+            </trans-unit>
+            <trans-unit id="10" resname="prevent_drop_not_coming_from_4d">
+               <source>Prevent drop of data not coming from 4D</source>
+               <target>Prevent drop of data not coming from 4D</target>
+            </trans-unit>
+            <trans-unit id="11" resname="period_and_commas_in_numerics">
+               <source>Use period and comma as placeholders in numeric formats</source>
+               <target>Use period and comma as placeholders in numeric formats</target>
+            </trans-unit>
+            <trans-unit id="12" resname="query_by_formula_on_server">
+               <source>Execute QUERY BY FORMULA On Server</source>
+               <target>Execute QUERY BY FORMULA On Server</target>
+            </trans-unit>
+            <trans-unit id="13" resname="order_by_formula_on_server">
+               <source>Execute ORDER BY FORMULA On Server</source>
+               <target>Execute ORDER BY FORMULA On Server</target>
+            </trans-unit>
+            <trans-unit id="14" resname="query_by_formula_uses_joins">
+               <source>QUERY BY FORMULA Uses SQL Joins</source>
+               <target>QUERY BY FORMULA Uses SQL Joins</target>
+            </trans-unit>
+            <trans-unit id="15" resname="use_4dvar_comments">
+               <source>Do not use 4DVAR Comments instead of Brackets</source>
+               <target>Do not use 4DVAR Comments instead of Brackets</target>
+            </trans-unit>
+            <trans-unit id="16" resname="use_new_context_ref_mode">
+               <source>Do not use new context referencing mode</source>
+               <target>Do not use new context referencing mode</target>
+            </trans-unit>
+            <trans-unit id="17" resname="remove_slash">
+               <source>Remove &quot;/&quot; on unknown URLs</source>
+               <target>Remove &quot;/&quot; on unknown URLs</target>
+            </trans-unit>
+            <trans-unit id="20" resname="platform">
+               <source>Platform</source>
+               <target>Platform</target>
+            </trans-unit>
+            <trans-unit id="21" resname="mac_auto_platform">
+               <source>Platform automatic Mac</source>
+               <target>Platform automatic Mac</target>
+            </trans-unit>
+            <trans-unit id="22" resname="win_auto_platform">
+               <source>Platform automatic Windows</source>
+               <target>Platform automatic Windows</target>
+            </trans-unit>
+            <trans-unit id="23" resname="use_contextual_mode">
+               <source>Start in Contextual Mode</source>
+               <target>Start in Contextual Mode</target>
+            </trans-unit>
+            <trans-unit id="24" resname="use_js_for_entry_control">
+               <source>Use Javascript for Entry Control</source>
+               <target>Use Javascript for Entry Control</target>
+            </trans-unit>
+         </group>
+         <group resname="Themes">
+            <trans-unit id="16" resname="Theme_interface">
+               <source>Interface</source>
+               <target>Interface</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Theme_server">
+               <source>Client-server</source>
+               <target>Client-server</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Theme_web">
+               <source>Web</source>
+               <target>Web</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Theme_database">
+               <source>Database</source>
+               <target>Database</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

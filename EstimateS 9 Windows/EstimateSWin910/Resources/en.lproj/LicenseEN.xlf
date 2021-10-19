@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Translation file for 4D products.
+   Copyright (C) 2007-2011 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group id="1040" resname="Identification">
+            <trans-unit id="1" resname="Lic_Identification">
+               <source>Welcome</source>
+               <target>Welcome</target>
+            </trans-unit>
+            <trans-unit id="2" resname="xxx_WelcomeTo4thDimensionV11">
+               <source>Welcome to 4D Application v12</source>
+               <target>Welcome to 4D Application v12</target>
+            </trans-unit>
+            <trans-unit id="3" resname="Lic_Name">
+               <source>Name</source>
+               <target>Name</target>
+            </trans-unit>
+            <trans-unit id="4" resname="Lic_Organization">
+               <source>Organization</source>
+               <target>Organization</target>
+            </trans-unit>
+            <trans-unit id="5" resname="Lic_SerialNumber">
+               <source>Serial Number</source>
+               <target>Serial Number</target>
+            </trans-unit>
+            <trans-unit id="6" resname="xxx_Demo" translate="no">
+               <source>Demo</source>
+            </trans-unit>
+            <trans-unit id="7" resname="xxx_DemoComments">
+               <source>By clicking on Demo, you will launch a demonstration version limited to 50 records per table, 20 forms and 20 methods per database.</source>
+               <target>By clicking on Demo, you will launch a demonstration version limited to 50 records per table, 20 forms and 20 methods per database.</target>
+            </trans-unit>
+            <trans-unit id="8" resname="xxx_IDisagree">
+               <source>I disagree</source>
+               <target>I disagree</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Lic_ReferencedUser">
+               <source>Referenced User...</source>
+               <target>Referenced User...</target>
+            </trans-unit>
+            <trans-unit id="11" resname="Lic_Unlock4D">
+               <source>Unlock 4D</source>
+               <target>Unlock 4D</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Lic_RegisterNow">
+               <source>Register now</source>
+               <target>Register now</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Lic_RegisterLater">
+               <source>Register later</source>
+               <target>Register later</target>
+            </trans-unit>
+            <trans-unit id="14" resname="Lic_NewUser">
+               <source>New User...</source>
+               <target>New User...</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Lic_IWantToEvaluate4D">
+               <source>I want to evaluate 4D</source>
+               <target>I want to evaluate 4D</target>
+            </trans-unit>
+            <trans-unit id="16" resname="Lic_IWantToBuy4D">
+               <source>I want to buy 4D</source>
+               <target>I want to buy 4D</target>
+            </trans-unit>
+            <trans-unit id="17" resname="Lic_ReferencedCustomer">
+               <source>Referenced Customer...</source>
+               <target>Referenced Customer...</target>
+            </trans-unit>
+            <trans-unit id="18" resname="Lic_Login">
+               <source>Account or E-mail:</source>
+               <target>Account or E-mail:</target>
+            </trans-unit>
+            <trans-unit id="19" resname="Lic_Password">
+               <source>Password:</source>
+               <target>Password:</target>
+            </trans-unit>
+            <trans-unit id="20" resname="Lic_ProductNumber">
+               <source>Product Number:</source>
+               <target>Product Number:</target>
+            </trans-unit>
+            <trans-unit id="21" resname="Lic_SecondaryEMail">
+               <source>Secondary eMail:</source>
+               <target>Secondary eMail:</target>
+            </trans-unit>
+            <trans-unit id="22" resname="Lic_NewCustomer">
+               <source>New Customer</source>
+               <target>New Customer</target>
+            </trans-unit>
+            <trans-unit id="23" resname="Lic_RegisterOnline">
+               <source>Register online</source>
+               <target>Register online</target>
+            </trans-unit>
+            <trans-unit id="24" resname="Lic_IHaveAProductNumber">
+               <source>I have a product number</source>
+               <target>I have a product number</target>
+            </trans-unit>
+            <trans-unit id="25" resname="Lic_IDoNotHaveAProductNumber">
+               <source>I do not have a product number</source>
+               <target>I do not have a product number</target>
+            </trans-unit>
+            <trans-unit id="26" resname="Lic_Send">
+               <source>Send</source>
+               <target>Send</target>
+            </trans-unit>
+            <trans-unit id="27" resname="Lic_OnlineActivation">
+               <source>Instant Activation</source>
+               <target>Instant Activation</target>
+            </trans-unit>
+            <trans-unit id="28" resname="Lic_OfflineActivation">
+               <source>Deferred Activation</source>
+               <target>Deferred Activation</target>
+            </trans-unit>
+            <trans-unit id="29" resname="Lic_EmergencyActivation">
+               <source>Emergency Activation</source>
+               <target>Emergency Activation</target>
+            </trans-unit>
+            <trans-unit id="30" resname="Lic_YouMustBeRegisteredAt4D">
+               <source>To activate your 4D application, you must be registered at 4D.</source>
+               <target>To activate your 4D application, you must be registered at 4D.</target>
+            </trans-unit>
+            <trans-unit id="31" resname="Lic_NotHaveAClientAccount">
+               <source>I do not have a client account at 4D yet and would like to create one on line.
+(Required step during the initial activation of a 4D product). </source>
+               <target>I do not have a client account at 4D yet and would like to create one on line.
+(Required step during the initial activation of a 4D product). </target>
+            </trans-unit>
+            <trans-unit id="32" resname="Lic_HaveAClientAccount">
+               <source>I already have a client account and I would like to activate my product on line.</source>
+               <target>I already have a client account and I would like to activate my product on line.</target>
+            </trans-unit>
+            <trans-unit id="33" resname="Lic_11_Choice_1">
+               <source>I already have a client account at 4D and I cannot (or do not want to) send more information via the Internet. I would just like to generate a file that I will then send to 4D in order to get an activation key. </source>
+               <target>I already have a client account at 4D and I cannot (or do not want to) send more information via the Internet. I would just like to generate a file that I will then send to 4D in order to get an activation key. </target>
+            </trans-unit>
+            <trans-unit id="34" resname="Lic_GenerateFile">
+               <source>Generate file...</source>
+               <target>Generate file...</target>
+            </trans-unit>
+            <trans-unit id="35" resname="Lic_11_Choice_2">
+               <source>I have received my activation key. I would now like to select this file in order to activate 4D. </source>
+               <target>I have received my activation key. I would now like to select this file in order to activate 4D. </target>
+            </trans-unit>
+            <trans-unit id="36" resname="xxx_ChooseFile">
+               <source>Choose file</source>
+               <target>Choose file</target>
+            </trans-unit>
+            <trans-unit id="37" resname="Lic_Activate4D">
+               <source>Activate 4D</source>
+               <target>Activate 4D</target>
+            </trans-unit>
+            <trans-unit id="38" resname="Lic_ExpansionNumber">
+               <source>Expansion Number:</source>
+               <target>Expansion Number:</target>
+            </trans-unit>
+            <trans-unit id="39" resname="xxx_LicensesFolder">
+               <source>Licenses Folder</source>
+               <target>Licenses Folder</target>
+            </trans-unit>
+            <trans-unit id="40" resname="Lic_Validate">
+               <source>Validate</source>
+               <target>Validate</target>
+            </trans-unit>
+            <trans-unit id="41" resname="Lic_YouHaveAProductNumberAndWouldLikeToFollowTheRegistrationProcedure">
+               <source>You have a product number and would like to follow the registration procedure. </source>
+               <target>You have a product number and would like to follow the registration procedure. </target>
+            </trans-unit>
+            <trans-unit id="42" resname="Lic_YouWantToAccessTheOnlineStorevarURL">
+               <source>You want to access the on-line store:
+&lt;varURL> </source>
+               <target>You want to access the on-line store:
+&lt;varURL> </target>
+            </trans-unit>
+            <trans-unit id="43" resname="Lic_Step1CreateAClientAccountOnLine">
+               <source>Step 1: Create a client account on line </source>
+               <target>Step 1: Create a client account on line </target>
+            </trans-unit>
+            <trans-unit id="44" resname="Lic_Step2ActivateThe4DProductOnLine">
+               <source>Step 2: Activate the 4D product on line </source>
+               <target>Step 2: Activate the 4D product on line </target>
+            </trans-unit>
+            <trans-unit id="45" resname="Lic_Step1GenerateTheFileToSend">
+               <source>Step 1: Generate the file to send </source>
+               <target>Step 1: Generate the file to send </target>
+            </trans-unit>
+            <trans-unit id="46" resname="xxx_Step2SendTheGeneratedFile">
+               <source>Step 2: Send the generated file </source>
+               <target>Step 2: Send the generated file </target>
+            </trans-unit>
+            <trans-unit id="47" resname="Lic_Step3IntegrateTheFileReceived">
+               <source>Step 3: Integrate the file received </source>
+               <target>Step 3: Integrate the file received </target>
+            </trans-unit>
+            <trans-unit id="48" resname="Lic_TransferTheDocumentUsingTheWebSiteVarURLIfYouDoNotHaveAnInternetConnectionPleaseContact4D">
+               <source>Transfer the document using the web site &lt;varURL>. If you do not have an Internet connection, please contact 4D.</source>
+               <target>Transfer the document using the web site &lt;varURL>. If you do not have an Internet connection, please contact 4D.</target>
+            </trans-unit>
+            <trans-unit id="49" resname="Lic_EmergencyActivationAllowsTheProductToBeUnlockedForAShortPeriodOfTimeSoAsToCarryOutACompleteActivation">
+               <source>Emergency activation allows the product to be unlocked for a short period of time so as to carry out a complete activation. </source>
+               <target>Emergency activation allows the product to be unlocked for a short period of time so as to carry out a complete activation. </target>
+            </trans-unit>
+            <trans-unit id="50" resname="Lic_YouAreUsingTheProductInDemonstrationMode">
+               <source>You are using the product in demonstration mode. </source>
+               <target>You are using the product in demonstration mode. </target>
+            </trans-unit>
+            <trans-unit id="51" resname="Lic_OrphanLicenses">
+               <source>Orphan Licenses</source>
+               <target>Orphan Licenses</target>
+            </trans-unit>
+            <trans-unit id="52" resname="Lic_DeploymentApplicationOnly">
+               <source>Deployment Application Only</source>
+               <target>Deployment Application Only</target>
+            </trans-unit>
+            <trans-unit id="53" resname="Lic_ApplicationReservedToEducation">
+               <source>Application reserved to Education</source>
+               <target>Application reserved to Education</target>
+            </trans-unit>
+            <trans-unit id="54" resname="Lic_OEMApplication">
+               <source>OEM Application</source>
+               <target>OEM Application</target>
+            </trans-unit>
+            <trans-unit id="55" resname="Lic_SponsoredApplication">
+               <source>Sponsored Application</source>
+               <target>Sponsored Application</target>
+            </trans-unit>
+            <trans-unit id="56" resname="Lic_OrphanLicense">
+               <source>Orphan License</source>
+               <target>Orphan License</target>
+            </trans-unit>
+            <trans-unit id="57" resname="Lic_ExpiresOn">
+               <source>Expires on </source>
+               <target>Expires on </target>
+            </trans-unit>
+            <trans-unit id="58" resname="Lic_Unlimited">
+               <source>Unlimited</source>
+               <target>Unlimited</target>
+            </trans-unit>
+            <trans-unit id="59" resname="Lic_Licenses">
+               <source>Licenses</source>
+               <target>Licenses</target>
+            </trans-unit>
+            <trans-unit id="60" resname="Lic_ActiveLicenses">
+               <source>Active Licenses</source>
+               <target>Active Licenses</target>
+            </trans-unit>
+            <trans-unit id="61" resname="Lic_Product">
+               <source>Features</source>
+               <target>Features</target>
+            </trans-unit>
+            <trans-unit id="62" resname="Lic_Quantity">
+               <source>Quantity</source>
+               <target>Quantity</target>
+            </trans-unit>
+            <trans-unit id="63" resname="Lic_ProductNumber">
+               <source>Product Number</source>
+               <target>Product Number</target>
+            </trans-unit>
+            <trans-unit id="64" resname="Lic_4DServer" translate="no">
+               <source>4D Server</source>
+            </trans-unit>
+            <trans-unit id="65" resname="Lic_OpenLicenseFile">
+               <source>Open License File</source>
+               <target>Open License File</target>
+            </trans-unit>
+            <trans-unit id="66" resname="Lic_01_Title">
+               <source>Welcome to 4D...</source>
+               <target>Welcome to 4D...</target>
+            </trans-unit>
+            <trans-unit id="68" resname="Lic_01_ActivateComments">
+               <source>I have a product number and would like to follow the registration procedure.</source>
+               <target>I have a product number and would like to follow the registration procedure.</target>
+            </trans-unit>
+            <trans-unit id="69" resname="Lic_01_Evaluation">
+               <source>I would like to evaluate 4D.</source>
+               <target>I would like to evaluate 4D.</target>
+            </trans-unit>
+            <trans-unit id="70" resname="Lic_01_EvaluationComments">
+               <source>You will be able to use 4D without restriction for a limited duration.</source>
+               <target>You will be able to use 4D without restriction for a limited duration.</target>
+            </trans-unit>
+            <trans-unit id="71" resname="Lic_01_ByIt">
+               <source>I would like to purchase 4D.</source>
+               <target>I would like to purchase 4D.</target>
+            </trans-unit>
+            <trans-unit id="72" resname="Lic_01_ByItComments">
+               <source>Go to the 4D on-line store site.</source>
+               <target>Go to the 4D on-line store site.</target>
+            </trans-unit>
+            <trans-unit id="73" resname="Lic_03_Infos">
+               <source>To use your product, you must follow an activation procedure:</source>
+               <target>To use your product, you must follow an activation procedure:</target>
+            </trans-unit>
+            <trans-unit id="74" resname="Lic_03_OnlineActivationComments">
+               <source>You must have an Internet connection on this machine. Activation will be carried out automatically in a secure manner.</source>
+               <target>You must have an Internet connection on this machine. Activation will be carried out automatically in a secure manner.</target>
+            </trans-unit>
+            <trans-unit id="75" resname="Lic_03_OfflineActivationComments">
+               <source>You do not have an Internet connection on this machine. Activation will be carried out after transmission of the necessary data.</source>
+               <target>You do not have an Internet connection on this machine. Activation will be carried out after transmission of the necessary data.</target>
+            </trans-unit>
+            <trans-unit id="76" resname="Lic_03_EmergencyActivationComments">
+               <source>In case of an emergency, this option will activate your products for a period of 5 days. This procedure can only be used once.</source>
+               <target>In case of an emergency, this option will activate your products for a period of 5 days. This procedure can only be used once.</target>
+            </trans-unit>
+            <trans-unit id="77" resname="Lic_04_Infos">
+               <source>You must have an account with 4D to carry out activation.</source>
+               <target>You must have an account with 4D to carry out activation.</target>
+            </trans-unit>
+            <trans-unit id="78" resname="Lic_04_CreateAccount">
+               <source>Create an account on line</source>
+               <target>Create an account on line</target>
+            </trans-unit>
+            <trans-unit id="79" resname="Lic_04_CreateAccountComments">
+               <source>I do not have an account yet and I would like to create one on line. (This step is mandatory for the initial activation of a 4D product).</source>
+               <target>I do not have an account yet and I would like to create one on line. (This step is mandatory for the initial activation of a 4D product).</target>
+            </trans-unit>
+            <trans-unit id="80" resname="Lic_04_UseAccount">
+               <source>Use my existing account</source>
+               <target>Use my existing account</target>
+            </trans-unit>
+            <trans-unit id="81" resname="Lic_04_UseAccountComments">
+               <source>I already have an account and I would like to use it to activate my 4D products.</source>
+               <target>I already have an account and I would like to use it to activate my 4D products.</target>
+            </trans-unit>
+            <trans-unit id="82" resname="Lic_05_Infos">
+               <source>Please enter the following information in order to create your account:</source>
+               <target>Please enter the following information in order to create your account:</target>
+            </trans-unit>
+            <trans-unit id="83" resname="Lic_05_DontLoseYourPassword">
+               <source>Do not lose your password: you will need it for subsequent access to your account.</source>
+               <target>Do not lose your password: you will need it for subsequent access to your account.</target>
+            </trans-unit>
+            <trans-unit id="84" resname="Lic_SummaryOfSubmittedInformation">
+               <source>Summary of submitted information:</source>
+               <target>Summary of submitted information:</target>
+            </trans-unit>
+            <trans-unit id="85" resname="Lic_06_Infos">
+               <source>When you click the &apos;Next&apos; button, the information will be sent to 4D via a secured mode in order to proceed with the creation of your account.</source>
+               <target>When you click the &apos;Next&apos; button, the information will be sent to 4D via a secured mode in order to proceed with the creation of your account.</target>
+            </trans-unit>
+            <trans-unit id="86" resname="Lic_ProductRegistration">
+               <source>Product registration:</source>
+               <target>Product registration:</target>
+            </trans-unit>
+            <trans-unit id="87" resname="Lic_07_ProductNumber">
+               <source>The product number was provided to you at the time of purchase.</source>
+               <target>The product number was provided to you at the time of purchase.</target>
+            </trans-unit>
+            <trans-unit id="88" resname="Lic_07_Infos">
+               <source>Entry of product number.</source>
+               <target>Entry of product number.</target>
+            </trans-unit>
+            <trans-unit id="89" resname="xxxx_IAmRegisteringExpansionNumber">
+               <source>I am registering an expansion number.</source>
+               <target>I am registering an expansion number.</target>
+            </trans-unit>
+            <trans-unit id="90" resname="Lic_07_ExpansionNumbers">
+               <source>Expansion numbers must be associated with a product number.</source>
+               <target>Expansion numbers must be associated with a product number.</target>
+            </trans-unit>
+            <trans-unit id="91" resname="Lic_07_AssociatedProductNumber">
+               <source>Associated product number:</source>
+               <target>Associated product number:</target>
+            </trans-unit>
+            <trans-unit id="92" resname="Lic_11_Infos">
+               <source>Step 1 out of 3</source>
+               <target>Step 1 out of 3</target>
+            </trans-unit>
+            <trans-unit id="93" resname="Lic_IAlreadyHaveAClientAccount">
+               <source>I want to generate an ID file that I will send to 4D in order to get an activation key in return.</source>
+               <target>I want to generate an ID file that I will send to 4D in order to get an activation key in return.</target>
+            </trans-unit>
+            <trans-unit id="94" resname="Lic_12_Infos">
+               <source>Step 2 out of 3</source>
+               <target>Step 2 out of 3</target>
+            </trans-unit>
+            <trans-unit id="95" resname="Lic_12_Comments">
+               <source>Connect to the following address to send the ID file:</source>
+               <target>Connect to the following address to send the ID file:</target>
+            </trans-unit>
+            <trans-unit id="96" resname="Lic_13_Infos">
+               <source>Step 3 out of 3</source>
+               <target>Step 3 out of 3</target>
+            </trans-unit>
+            <trans-unit id="97" resname="Lic_13_Comments">
+               <source>I have received my activation key.  I would now like to select this file in order to activate 4D.</source>
+               <target>I have received my activation key.  I would now like to select this file in order to activate 4D.</target>
+            </trans-unit>
+            <trans-unit id="98" resname="Lic_14_Infos">
+               <source>Emergency activation can be used to unlock the product for a short period of time while waiting to be able to carry out complete activation.</source>
+               <target>Emergency activation can be used to unlock the product for a short period of time while waiting to be able to carry out complete activation.</target>
+            </trans-unit>
+            <trans-unit id="113" resname="Lic_FirstName">
+               <source>First Name:</source>
+               <target>First Name:</target>
+            </trans-unit>
+            <trans-unit id="114" resname="Lic_LastName">
+               <source>Last Name:</source>
+               <target>Last Name:</target>
+            </trans-unit>
+            <trans-unit id="115" resname="Lic_Company">
+               <source>Company:</source>
+               <target>Company:</target>
+            </trans-unit>
+            <trans-unit id="116" resname="Lic_Address">
+               <source>Address:</source>
+               <target>Address:</target>
+            </trans-unit>
+            <trans-unit id="117" resname="Lic_City">
+               <source>City:</source>
+               <target>City:</target>
+            </trans-unit>
+            <trans-unit id="118" resname="Lic_State">
+               <source>State:</source>
+               <target>State:</target>
+            </trans-unit>
+            <trans-unit id="119" resname="Lic_ZipCode">
+               <source>Zip Code:</source>
+               <target>Zip Code:</target>
+            </trans-unit>
+            <trans-unit id="120" resname="Lic_Country">
+               <source>Country:</source>
+               <target>Country:</target>
+            </trans-unit>
+            <trans-unit id="121" resname="Lic_Confirm">
+               <source>Confirm:</source>
+               <target>Confirm:</target>
+            </trans-unit>
+            <trans-unit id="122" resname="Lic_Email">
+               <source>E-mail (mandatory):</source>
+               <target>E-mail (mandatory):</target>
+            </trans-unit>
+            <trans-unit id="124" resname="Lic_05_EmailComments">
+               <source>Your product activation information will be sent to this E-mail address.</source>
+               <target>Your product activation information will be sent to this E-mail address.</target>
+            </trans-unit>
+            <trans-unit id="125" resname="Lic_05_Optional">
+               <source>(optional)</source>
+               <target>(optional)</target>
+            </trans-unit>
+            <trans-unit id="126" resname="Lic_ProductNumber">
+               <source>Product Number:</source>
+               <target>Product Number:</target>
+            </trans-unit>
+            <trans-unit id="127" resname="Lic_ExpansionNumber">
+               <source>Expansion Number:</source>
+               <target>Expansion Number:</target>
+            </trans-unit>
+            <trans-unit id="130" resname="Lic_02_Infos">
+               <source>Please read carefully this license agreement and accept it in order to use 4D.</source>
+               <target>Please read carefully this license agreement and accept it in order to use 4D.</target>
+            </trans-unit>
+            <trans-unit id="131" resname="Lic_01_Infos">
+               <source>Thanks for choosing 4D!</source>
+               <target>Thanks for choosing 4D!</target>
+            </trans-unit>
+            <trans-unit id="132" resname="xxx_ConnectionInProgressPleaseWait">
+               <source>Connection in progress, please wait…</source>
+               <target>Connection in progress, please wait…</target>
+            </trans-unit>
+            <trans-unit id="133" resname="xxx_RegistrationSuccessfully">
+               <source>Registration successfully completed!</source>
+               <target>Registration successfully completed!</target>
+            </trans-unit>
+            <trans-unit id="134" resname="Lic_08_Infos">
+               <source>Congratulations, you product has been activated.
+&lt;vArrayNumbers>
+
+You can now use 4D.</source>
+               <target>Congratulations, you product has been activated.
+&lt;vArrayNumbers>
+
+You can now use 4D.</target>
+            </trans-unit>
+            <trans-unit id="135" resname="xxx_ThanksForChoosing4thDimensionAdditionalResourcesAreAvailableOnLine">
+               <source>Thanks for choosing 4D Application. Additional resources are available on line:</source>
+               <target>Thanks for choosing 4D Application. Additional resources are available on line:</target>
+            </trans-unit>
+            <trans-unit id="136" resname="xxx_httpwww4Dcom">
+               <source>http://www.4D.com</source>
+               <target>http://www.4D.com</target>
+            </trans-unit>
+            <trans-unit id="137" resname="xxx_httpforums4dfr" translate="no">
+               <source>http://forums.4d.fr</source>
+            </trans-unit>
+            <trans-unit id="138" resname="xxxc_httpwww4Dcomdocs">
+               <source>http://www.4D.com/docs</source>
+               <target>http://www.4D.com/docs</target>
+            </trans-unit>
+            <trans-unit id="139" resname="Lic_06_CNIL_Authorize">
+               <source>I authorize 4D SAS to contact me by e-mail to inform me about 4D products or special offers.</source>
+               <target>I authorize 4D SAS to contact me by e-mail to inform me about 4D products or special offers.</target>
+            </trans-unit>
+            <trans-unit id="140" resname="xxx_Show">
+               <source>Show</source>
+               <target>Show</target>
+            </trans-unit>
+            <trans-unit id="141" resname="Lic_URL_Register">
+               <source>http://register.4d.com</source>
+               <target>http://register.4d.com</target>
+            </trans-unit>
+            <trans-unit id="142" resname="Lic_15_Infos">
+               <source>Using the Emergency mode, you will be able to fully use your 4D Application and plug-ins during 5 days without any limitation. During this time, you can contact 4D to get your activation key.</source>
+               <target>Using the Emergency mode, you will be able to fully use your 4D Application and plug-ins during 5 days without any limitation. During this time, you can contact 4D to get your activation key.</target>
+            </trans-unit>
+            <trans-unit id="143" resname="Lic_06_CNIL">
+               <source></source>
+               <target></target>
+            </trans-unit>
+            <trans-unit id="67" resname="Lic_01_Activate">
+               <source>I would like to activate 4D.</source>
+               <target>I would like to activate 4D.</target>
+            </trans-unit>
+            <trans-unit id="144" resname="Lic_UpdateWindowTitle">
+               <source>Update License</source>
+               <target>Update License</target>
+            </trans-unit>
+            <trans-unit id="145" resname="Lic_01_Client">
+               <source>Client mode activation</source>
+               <target>Client mode activation</target>
+            </trans-unit>
+            <trans-unit id="lic_149" resname="Lic_numberOfAllowedCoresNumberOfCores">
+               <source>Number of allowed cores / Number of cores</source>
+               <target>Number of allowed cores / Number of cores</target>
+            </trans-unit>
+            <trans-unit id="lic_150" resname="Lic_expirationDate">
+               <source>Expiration date: </source>
+               <target>Expiration date: </target>
+            </trans-unit>
+         </group>
+         <group id="112" resname="Etapes">
+            <trans-unit id="99" resname="Lic_Etape_1">
+               <source>Welcome</source>
+               <target>Welcome</target>
+            </trans-unit>
+            <trans-unit id="100" resname="Lic_Etape_2">
+               <source>License</source>
+               <target>License</target>
+            </trans-unit>
+            <trans-unit id="101" resname="Lic_Etape_3">
+               <source>4D Activation mode</source>
+               <target>4D Activation mode</target>
+            </trans-unit>
+            <trans-unit id="102" resname="Lic_Etape_4">
+               <source>Choose account</source>
+               <target>Choose account</target>
+            </trans-unit>
+            <trans-unit id="103" resname="Lic_Etape_5">
+               <source>Create account</source>
+               <target>Create account</target>
+            </trans-unit>
+            <trans-unit id="104" resname="Lic_Etape_6">
+               <source>Summary</source>
+               <target>Summary</target>
+            </trans-unit>
+            <trans-unit id="105" resname="Lic_Etape_7">
+               <source>Product number entry</source>
+               <target>Product number entry</target>
+            </trans-unit>
+            <trans-unit id="106" resname="Lic_Etape_8">
+               <source>Congratulations</source>
+               <target>Congratulations</target>
+            </trans-unit>
+            <trans-unit id="107" resname="Lic_Etape_9">
+               <source>Evaluation mode</source>
+               <target>Evaluation mode</target>
+            </trans-unit>
+            <trans-unit id="108" resname="Lic_Etape_10">
+               <source>Purchase 4D</source>
+               <target>Purchase 4D</target>
+            </trans-unit>
+            <trans-unit id="109" resname="Lic_Etape_11">
+               <source>Generate file</source>
+               <target>Generate file</target>
+            </trans-unit>
+            <trans-unit id="110" resname="Lic_Etape_12">
+               <source>Send file</source>
+               <target>Send file</target>
+            </trans-unit>
+            <trans-unit id="111" resname="Lic_Etape_13">
+               <source>Integrate file</source>
+               <target>Integrate file</target>
+            </trans-unit>
+            <trans-unit id="112" resname="Lic_Etape_14">
+               <source>Emergency mode</source>
+               <target>Emergency mode</target>
+            </trans-unit>
+         </group>
+         <group resname="Buttons">
+            <trans-unit id="9" resname="Lic_Agree">
+               <source>Accept</source>
+               <target>Accept</target>
+            </trans-unit>
+            <trans-unit id="129" resname="Lic_GoTo4D">
+               <source>Go to 4D</source>
+               <target>Go to 4D</target>
+            </trans-unit>
+            <trans-unit id="128" resname="Lic_Home">
+               <source>Home</source>
+               <target>Home</target>
+            </trans-unit>
+            <trans-unit id="150" resname="Lic_ForgottenPassword">
+               <source>Forgotten password</source>
+               <target>Forgotten password</target>
+            </trans-unit>
+            <trans-unit id="151" resname="Lic_AddNumber">
+               <source>Add Nº</source>
+               <target>Add Nº</target>
+            </trans-unit>
+            <trans-unit id="152" resname="Lic_Decline">
+               <source>Decline</source>
+               <target>Decline</target>
+            </trans-unit>
+            <trans-unit id="153" resname="Lic_IAgree">
+               <source>I agree</source>
+               <target>I agree</target>
+            </trans-unit>
+            <trans-unit id="10" resname="Lic_SetOpeningDatabaseInApplicationMode">
+               <source>Always start the database in Application mode.</source>
+               <target>Always start the database in Application mode.</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

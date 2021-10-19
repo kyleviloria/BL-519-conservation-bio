@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--          
+   Translation file for 4D products.
+   Copyright (C) 2007-2010 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v12" source-language="en-US" target-language="en-US">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &apos;%&apos; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="syntaxPalette">
+            <trans-unit id="3" resname="syntaxPaletteTitle" translate="no">
+               <source>4D SVG</source>
+            </trans-unit>
+            <trans-unit id="271" resname="about">
+               <source>About 4D SVG component…</source>
+               <target>About 4D SVG component…</target>
+            </trans-unit>
+            <trans-unit id="272" resname="specificationUrl" translate="no">
+               <source>http://www.w3.org/TR/2002/WD-SVG11-20020215/index.html</source>
+            </trans-unit>
+            <trans-unit id="3" resname="menuSyntax">
+               <source>4D SVG Component syntax</source>
+               <target>4D SVG Component syntax</target>
+            </trans-unit>
+         </group>
+         <group resname="syntaxThemes">
+            <trans-unit id="4" resname="syntaxTheme_1">
+               <source>DOCUMENTS</source>
+               <target>DOCUMENTS</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_2">
+               <source>DRAWING</source>
+               <target>DRAWING</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_3">
+               <source>TEXT</source>
+               <target>TEXT</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_4">
+               <source>STRUCTURE &amp; DEFINITIONSS</source>
+               <target>STRUCTURE &amp; DEFINITIONSS</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_5">
+               <source>ATTRIBUTES</source>
+               <target>ATTRIBUTES</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_6">
+               <source>COLORS &amp; GRADIENTS</source>
+               <target>COLORS &amp; GRADIENTS</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_7">
+               <source>FILTERS</source>
+               <target>FILTERS</target>
+            </trans-unit>
+            <trans-unit id="4" resname="syntaxTheme_8">
+               <source>UTILITIES</source>
+               <target>UTILITIES</target>
+            </trans-unit>
+         </group>
+         <group resname="syntaxThemeCodes">
+            <trans-unit id="14" resname="syntaxThemeCode_1" translate="no">
+               <source>DOCU_</source>
+            </trans-unit>
+            <trans-unit id="17" resname="syntaxThemeCode_2" translate="no">
+               <source>DRAW_</source>
+            </trans-unit>
+            <trans-unit id="280" resname="syntaxThemeCode_3" translate="no">
+               <source>TEXT_</source>
+            </trans-unit>
+            <trans-unit id="15" resname="syntaxThemeCode_4" translate="no">
+               <source>STRU_</source>
+            </trans-unit>
+            <trans-unit id="18" resname="syntaxThemeCode_5" translate="no">
+               <source>ATTR_</source>
+            </trans-unit>
+            <trans-unit id="19" resname="syntaxThemeCode_6" translate="no">
+               <source>COLO_</source>
+            </trans-unit>
+            <trans-unit id="20" resname="syntaxThemeCode_7" translate="no">
+               <source>FILT_</source>
+            </trans-unit>
+            <trans-unit id="21" resname="syntaxThemeCode_8" translate="no">
+               <source>UTIL_</source>
+            </trans-unit>
+         </group>
+         <group resname="syntaxCommands">
+            <trans-unit id="CMD_51" resname="ATTR_CMD_01">
+               <source>SVG_SET_FILL_BRUSH ( svgObject ; color {; opacity})</source>
+               <target>SVG_SET_FILL_BRUSH ( svgObject ; color {; opacity})</target>
+            </trans-unit>
+            <trans-unit id="CMD_52" resname="ATTR_CMD_02">
+               <source>SVG_SET_STROKE_BRUSH ( svgObject ; color {; opacity})</source>
+               <target>SVG_SET_STROKE_BRUSH ( svgObject ; color {; opacity})</target>
+            </trans-unit>
+            <trans-unit id="CMD_53" resname="ATTR_CMD_03">
+               <source>SVG_SET_STROKE_WIDTH ( svgObject ; strokeWidth {; unit} ) </source>
+               <target>SVG_SET_STROKE_WIDTH ( svgObject ; strokeWidth {; unit} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_54" resname="ATTR_CMD_04">
+               <source>SVG_SET_ROUNDING_RECT ( svgObject ; roundedX {; roundedY} ) </source>
+               <target>SVG_SET_ROUNDING_RECT ( svgObject ; roundedX {; roundedY} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_55" resname="ATTR_CMD_05">
+               <source>SVG_SET_DIMENSIONS ( svgObject ; width {; height {; unit}} )</source>
+               <target>SVG_SET_DIMENSIONS ( svgObject ; width {; height {; unit}} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_56" resname="ATTR_CMD_06">
+               <source>SVG_SET_ID ( svgObject ; id )</source>
+               <target>SVG_SET_ID ( svgObject ; id )</target>
+            </trans-unit>
+            <trans-unit id="CMD_57" resname="ATTR_CMD_07">
+               <source>SVG_Get_ID ( svgObject ) -&gt; id</source>
+               <target>SVG_Get_ID ( svgObject ) -&gt; id</target>
+            </trans-unit>
+            <trans-unit id="CMD_58" resname="ATTR_CMD_08">
+               <source>SVG_SET_OPACITY ( svgObject ; background {; row | level } )</source>
+               <target>SVG_SET_OPACITY ( svgObject ; background {; row | level } )</target>
+            </trans-unit>
+            <trans-unit id="CMD_59" resname="ATTR_CMD_09">
+               <source>SVG_SET_VIEWBOX ( svgObject ; x ; y ; width ; height {; mode} )</source>
+               <target>SVG_SET_VIEWBOX ( svgObject ; x ; y ; width ; height {; mode} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_60" resname="ATTR_CMD_10">
+               <source>SVG_SET_XY ( svgObject ; x {; y} ) </source>
+               <target>SVG_SET_XY ( svgObject ; x {; y} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_61" resname="ATTR_CMD_11">
+               <source>SVG_SET_MARKER ( svgObject ; url {; position} ) </source>
+               <target>SVG_SET_MARKER ( svgObject ; url {; position} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_62" resname="ATTR_CMD_12">
+               <source>SVG_SET_FILTER ( svgObject ; url ) </source>
+               <target>SVG_SET_FILTER ( svgObject ; url ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_63" resname="ATTR_CMD_13">
+               <source>SVG_SET_VISIBILITY ( svgObject {; hide} ) </source>
+               <target>SVG_SET_VISIBILITY ( svgObject {; hide} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_64" resname="ATTR_CMD_14">
+               <source>SVG_SET_TRANSFORM_SKEW ( svgObject ; horizontal {; vertical} )</source>
+               <target>SVG_SET_TRANSFORM_SKEW ( svgObject ; horizontal {; vertical} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_65" resname="ATTR_CMD_15">
+               <source>SVG_SET_TRANSFORM_TRANSLATE ( svgObject ; x {; y} ) </source>
+               <target>SVG_SET_TRANSFORM_TRANSLATE ( svgObject ; x {; y} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_66" resname="ATTR_CMD_16">
+               <source>SVG_SET_TRANSFORM_ROTATE ( svgObject ; angle {; x ; y} )</source>
+               <target>SVG_SET_TRANSFORM_ROTATE ( svgObject ; angle {; x ; y} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_67" resname="ATTR_CMD_17">
+               <source>SVG_SET_TRANSFORM_SCALE ( svgObject ; scaleX {; scaleY} ) </source>
+               <target>SVG_SET_TRANSFORM_SCALE ( svgObject ; scaleX {; scaleY} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_68" resname="ATTR_CMD_18">
+               <source>SVG_SET_TRANSFORM_FLIP ( svgObject ; horizontal {; vertical} )</source>
+               <target>SVG_SET_TRANSFORM_FLIP ( svgObject ; horizontal {; vertical} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_69" resname="ATTR_CMD_19">
+               <source>SVG_SET_ATTRIBUTES ( svgObject ; attributeName ; attributeValue {; attributeName2 ; attributeValue2 ; ... ; attributeNameN ; attributeValueN} ) </source>
+               <target>SVG_SET_ATTRIBUTES ( svgObject ; attributeName ; attributeValue {; attributeName2 ; attributeValue2 ; ... ; attributeNameN ; attributeValueN} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_70" resname="ATTR_CMD_20">
+               <source>SVG_SET_ATTRIBUTES_BY_ARRAYS ( svgObject ; namesArrayPointer ; valuesArrayPointer ) </source>
+               <target>SVG_SET_ATTRIBUTES_BY_ARRAYS ( svgObject ; namesArrayPointer ; valuesArrayPointer ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_71" resname="ATTR_CMD_21">
+               <source>SVG_SET_TRANSFORM_MATRIX ( svgObject ; a ; b {; c ; d {; e ; f}} )</source>
+               <target>SVG_SET_TRANSFORM_MATRIX ( svgObject ; a ; b {; c ; d {; e ; f}} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_72" resname="ATTR_CMD_22">
+               <source>SVG_GET_ATTRIBUTES ( svgObject ; namesArrayPointer ; valuesArrayPointer )</source>
+               <target>SVG_GET_ATTRIBUTES ( svgObject ; namesArrayPointer ; valuesArrayPointer )</target>
+            </trans-unit>
+            <trans-unit id="CMD_100" resname="ATTR_CMD_23">
+               <source>SVG_SET_VIEWPORT_FILL ( svgObject {; color {; opacity}} )</source>
+               <target>SVG_SET_VIEWPORT_FILL ( svgObject {; color {; opacity}} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_101" resname="ATTR_CMD_24">
+               <source>SVG_SET_STROKE_LINEJOIN ( svgObject ; mode ) </source>
+               <target>SVG_SET_STROKE_LINEJOIN ( svgObject ; mode ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_103" resname="ATTR_CMD_25">
+               <source>SVG_SET_STROKE_LINECAP ( svgObject ; mode ) </source>
+               <target>SVG_SET_STROKE_LINECAP ( svgObject ; mode ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_999" resname="ATTR_CMD_26">
+               <source>SVG_SET_CLASS ( svgObject ; class )</source>
+               <target>SVG_SET_CLASS ( svgObject ; class )</target>
+            </trans-unit>
+            <trans-unit id="CMD_999" resname="ATTR_CMD_27">
+               <source>SVG_SET_CLIP_PATH ( svgObject ; clipPathID )</source>
+               <target>SVG_SET_CLIP_PATH ( svgObject ; clipPathID )</target>
+            </trans-unit>
+            <trans-unit id="303" resname="ATTR_CMD_28">
+               <source>SVG_SET_FILL_RULE ( svgObject ; value )</source>
+               <target>SVG_SET_FILL_RULE ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="304" resname="ATTR_CMD_29">
+               <source>SVG_SET_SHAPE_RENDERING ( svgObject ; value )</source>
+               <target>SVG_SET_SHAPE_RENDERING ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="305" resname="ATTR_CMD_30">
+               <source>SVG_SET_STROKE_DASHARRAY ( svgObject ; value {; value1 {; … {; valueN}}})</source>
+               <target>SVG_SET_STROKE_DASHARRAY ( svgObject ; value {; value1 {; … {; valueN}}})</target>
+            </trans-unit>
+            <trans-unit id="306" resname="ATTR_CMD_31">
+               <source>SVG_SET_STROKE_MITERLIMIT ( svgObject ; value )</source>
+               <target>SVG_SET_STROKE_MITERLIMIT ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="CMD_73" resname="COLO_CMD_01">
+               <source>SVG_GET_DEFAULT_BRUSHES ( line {; background} )</source>
+               <target>SVG_GET_DEFAULT_BRUSHES ( line {; background} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_74" resname="COLO_CMD_02">
+               <source>SVG_SET_DEFAULT_BRUSHES ( line {; background} )</source>
+               <target>SVG_SET_DEFAULT_BRUSHES ( line {; background} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_75" resname="COLO_CMD_03">
+               <source>SVG_Color_RGB_from_long ( color {; format} ) -&gt; textColor</source>
+               <target>SVG_Color_RGB_from_long ( color {; format} ) -&gt; textColor</target>
+            </trans-unit>
+            <trans-unit id="CMD_76" resname="COLO_CMD_04">
+               <source>SVG_Color_grey ( percentage ) -&gt; textColor</source>
+               <target>SVG_Color_grey ( percentage ) -&gt; textColor</target>
+            </trans-unit>
+            <trans-unit id="308" resname="COLO_CMD_05">
+               <source>SVG_Color_RGB_from_HLS ( hue ; luminosity ; saturation {; format} ) -&gt; textColor</source>
+               <target>SVG_Color_RGB_from_HLS ( hue ; luminosity ; saturation {; format} ) -&gt; textColor</target>
+            </trans-unit>
+            <trans-unit id="309" resname="COLO_CMD_06">
+               <source>SVG_GET_COLORS_ARRAY ( colorNamesArrayPointer )</source>
+               <target>SVG_GET_COLORS_ARRAY ( colorNamesArrayPointer )</target>
+            </trans-unit>
+            <trans-unit id="324" resname="COLO_CMD_07">
+               <source>SVG_Color_RGB_from_CMYK ( C ; M ; Y ; K {; format} ) -&gt; textColor</source>
+               <target>SVG_Color_RGB_from_CMYK ( C ; M ; Y ; K {; format} ) -&gt; textColor</target>
+            </trans-unit>
+            <trans-unit id="CMD_1" resname="DOCU_CMD_01">
+               <source>SVG_New {( width ; height {; title {; description {; rectangle {; display}}}} )} -&gt; svgObject</source>
+               <target>SVG_New {( width ; height {; title {; description {; rectangle {; display}}}} )} -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_2" resname="DOCU_CMD_02">
+               <source>SVG_Copy ( svgObject ) -&gt; svgObject</source>
+               <target>SVG_Copy ( svgObject ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_3" resname="DOCU_CMD_03">
+               <source>SVG_CLEAR {( svgObject )}</source>
+               <target>SVG_CLEAR {( svgObject )}</target>
+            </trans-unit>
+            <trans-unit id="CMD_4" resname="DOCU_CMD_04">
+               <source>SVG_Open_file ( path ) -&gt; svgObject </source>
+               <target>SVG_Open_file ( path ) -&gt; svgObject </target>
+            </trans-unit>
+            <trans-unit id="CMD_5" resname="DOCU_CMD_05">
+               <source>SVG_SAVE_AS_TEXT ( svgObject ; document ) </source>
+               <target>SVG_SAVE_AS_TEXT ( svgObject ; document ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_6" resname="DOCU_CMD_06">
+               <source>SVG_SAVE_AS_PICTURE ( svgObject ; document {; codec} ) </source>
+               <target>SVG_SAVE_AS_PICTURE ( svgObject ; document {; codec} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_7" resname="DOCU_CMD_07">
+               <source>SVG_Validate_file ( path ) -&gt; valid</source>
+               <target>SVG_Validate_file ( path ) -&gt; valid</target>
+            </trans-unit>
+            <trans-unit id="CMD_8" resname="DOCU_CMD_08">
+               <source>SVG_Export_to_picture ( svgObject {; exportType} ) -&gt; picture</source>
+               <target>SVG_Export_to_picture ( svgObject {; exportType} ) -&gt; picture</target>
+            </trans-unit>
+            <trans-unit id="CMD_9" resname="DOCU_CMD_09">
+               <source>SVG_Export_to_XML ( svgObject ) -&gt; text</source>
+               <target>SVG_Export_to_XML ( svgObject ) -&gt; text</target>
+            </trans-unit>
+            <trans-unit id="CMD_103" resname="DOCU_CMD_10">
+               <source>SVG_Open_picture ( picture ) -&gt; svgObject</source>
+               <target>SVG_Open_picture ( picture ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_20" resname="DRAW_CMD_01">
+               <source>SVG_New_line ( parentSVGObject ; startX ; startY ; endX ; endY {; color {; strokeWidth}} ) -&gt; svgObject</source>
+               <target>SVG_New_line ( parentSVGObject ; startX ; startY ; endX ; endY {; color {; strokeWidth}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_21" resname="DRAW_CMD_02">
+               <source>SVG_New_rect ( parentSVGObject ; x ; y ; width ; height {; roundedX {; roundedY {; foregroundColor {; backgroundColor {; strokeWidth}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_rect ( parentSVGObject ; x ; y ; width ; height {; roundedX {; roundedY {; foregroundColor {; backgroundColor {; strokeWidth}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_22" resname="DRAW_CMD_03">
+               <source>SVG_New_circle ( parentSVGObject ; x ; y ; radius {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_circle ( parentSVGObject ; x ; y ; radius {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_23" resname="DRAW_CMD_04">
+               <source>SVG_New_ellipse ( parentSVGObject ; x ; y ; xRadius ; yRadius {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_ellipse ( parentSVGObject ; x ; y ; xRadius ; yRadius {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_24" resname="DRAW_CMD_05">
+               <source>SVG_New_ellipse_bounded ( parentSVGObject ; x ; y ; width ; height {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_ellipse_bounded ( parentSVGObject ; x ; y ; width ; height {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_25" resname="DRAW_CMD_06">
+               <source>SVG_New_image ( parentSVGObject ; url {; x ; y {; width ; height}} ) -&gt; svgObject</source>
+               <target>SVG_New_image ( parentSVGObject ; url {; x ; y {; width ; height}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_26" resname="DRAW_CMD_07">
+               <source>SVG_New_embedded_image ( parentSVGObject ; picture {; x {; y}} ) -&gt; svgObject</source>
+               <target>SVG_New_embedded_image ( parentSVGObject ; picture {; x {; y}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_27" resname="DRAW_CMD_08">
+               <source>SVG_New_path ( parentSVGObject ; x ; y {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_path ( parentSVGObject ; x ; y {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_28" resname="DRAW_CMD_09">
+               <source>SVG_PATH_MOVE_TO ( parentSVGObject ; x ; y ) </source>
+               <target>SVG_PATH_MOVE_TO ( parentSVGObject ; x ; y ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_29" resname="DRAW_CMD_10">
+               <source>SVG_PATH_LINE_TO ( parentSVGObject ; x {; y}{; x2 ; y2 ; ... ; xN ; yN} ) </source>
+               <target>SVG_PATH_LINE_TO ( parentSVGObject ; x {; y}{; x2 ; y2 ; ... ; xN ; yN} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_30" resname="DRAW_CMD_11">
+               <source>SVG_PATH_ARC ( parentSVGObject ; xRadius ; yRadius ; x ; y {; rotation {; arcpath}} ) </source>
+               <target>SVG_PATH_ARC ( parentSVGObject ; xRadius ; yRadius ; x ; y {; rotation {; arcpath}} ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_31" resname="DRAW_CMD_12">
+               <source>SVG_PATH_CURVE ( parentSVGObject {; controlStartX ; controlStartY} ; controlEndX ; controlEndY ; x ; y ) </source>
+               <target>SVG_PATH_CURVE ( parentSVGObject {; controlStartX ; controlStartY} ; controlEndX ; controlEndY ; x ; y ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_32" resname="DRAW_CMD_13">
+               <source>SVG_PATH_QCURVE ( parentSVGObject ; controlX ; controlY {; x ; y} )</source>
+               <target>SVG_PATH_QCURVE ( parentSVGObject ; controlX ; controlY {; x ; y} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_33" resname="DRAW_CMD_14">
+               <source>SVG_PATH_CLOSE ( parentSVGObject ) </source>
+               <target>SVG_PATH_CLOSE ( parentSVGObject ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_34" resname="DRAW_CMD_15">
+               <source>SVG_New_polyline ( parentSVGObject {; points {; foregroundColor {; backgroundColor {; strokeWidth}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_polyline ( parentSVGObject {; points {; foregroundColor {; backgroundColor {; strokeWidth}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_35" resname="DRAW_CMD_16">
+               <source>SVG_New_polyline_by_arrays ( parentSVGObject ; xArrayPointer ; yArrayPointer {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_polyline_by_arrays ( parentSVGObject ; xArrayPointer ; yArrayPointer {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_36" resname="DRAW_CMD_17">
+               <source>SVG_New_polygon ( parentSVGObject {; points {; foregroundColor {; backgroundColor {; strokeWidth}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_polygon ( parentSVGObject {; points {; foregroundColor {; backgroundColor {; strokeWidth}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_37" resname="DRAW_CMD_18">
+               <source>SVG_New_polygon_by_arrays ( parentSVGObject ; xArrayPointer ; yArrayPointer {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_polygon_by_arrays ( parentSVGObject ; xArrayPointer ; yArrayPointer {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_38" resname="DRAW_CMD_19">
+               <source>SVG_Use ( parentSVGObjec ; id {; x ; y ; width ; height {; mode}} ) -&gt; svgObject</source>
+               <target>SVG_Use ( parentSVGObjec ; id {; x ; y ; width ; height {; mode}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_39" resname="DRAW_CMD_20">
+               <source>SVG_ADD_POINT ( parentSVGObject ; x ; y {; x2 ; y2 ; ... ; xN ; yN} )</source>
+               <target>SVG_ADD_POINT ( parentSVGObject ; x ; y {; x2 ; y2 ; ... ; xN ; yN} )</target>
+            </trans-unit>
+            <trans-unit id="CMD_40" resname="DRAW_CMD_21">
+               <source>SVG_New_arc ( parentSVGObject ; x ; y ; radius ; start ; end {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</source>
+               <target>SVG_New_arc ( parentSVGObject ; x ; y ; radius ; start ; end {; foregroundColor {; backgroundColor {; strokeWidth}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_41" resname="DRAW_CMD_22">
+               <source>SVG_New_regular_polygon ( parentSVGObject ; width ; number {; x {; y {; foregroundColor {; backgroundColor {; strokeWidth}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_regular_polygon ( parentSVGObject ; width ; number {; x {; y {; foregroundColor {; backgroundColor {; strokeWidth}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="326" resname="DRAW_CMD_23">
+               <source>SVG_Add_object ( targetSvgObject ; sourceSvgObject ) -&gt; svgObject</source>
+               <target>SVG_Add_object ( targetSvgObject ; sourceSvgObject ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_77" resname="FILT_CMD_01">
+               <source>SVG_Filter_Blend ( filterRef ; picture ; backgroundPict {; mode {; name}} ) -&gt; svgObject</source>
+               <target>SVG_Filter_Blend ( filterRef ; picture ; backgroundPict {; mode {; name}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_78" resname="FILT_CMD_02">
+               <source>SVG_Filter_Blur ( filterRef ; deviation {; input {; name}} ) -&gt; svgObject</source>
+               <target>SVG_Filter_Blur ( filterRef ; deviation {; input {; name}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_79" resname="FILT_CMD_03" translate="no">
+               <source>@SVG_Filter_Colormatrix</source>
+            </trans-unit>
+            <trans-unit id="CMD_80" resname="FILT_CMD_04" translate="no">
+               <source>@SVG_Filter_Composite</source>
+            </trans-unit>
+            <trans-unit id="CMD_81" resname="FILT_CMD_05" translate="no">
+               <source>@SVG_Filter_Merge</source>
+            </trans-unit>
+            <trans-unit id="CMD_82" resname="FILT_CMD_06" translate="no">
+               <source>@SVG_Filter_MergeNode</source>
+            </trans-unit>
+            <trans-unit id="CMD_83" resname="FILT_CMD_07">
+               <source>SVG_Filter_Offset ( filterRef ; dx {; dy {; input {; name}}} ) -&gt; svgObject</source>
+               <target>SVG_Filter_Offset ( filterRef ; dx {; dy {; input {; name}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_10" resname="STRU_CMD_01">
+               <source>SVG_New_group ( parentSVGObject {; id {; url {; target}}} ) -&gt; svgObject</source>
+               <target>SVG_New_group ( parentSVGObject {; id {; url {; target}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_11" resname="STRU_CMD_02">
+               <source>SVG_Set_title ( parentSVGObject ; title ) -&gt; svgObject</source>
+               <target>SVG_Set_title ( parentSVGObject ; title ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_12" resname="STRU_CMD_03">
+               <source>SVG_Set_description ( parentSVGObject ; description ) -&gt; svgObject</source>
+               <target>SVG_Set_description ( parentSVGObject ; description ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_13" resname="STRU_CMD_04">
+               <source>SVG_Define_symbol ( parentSVGObject ; id {; x {; y {; width {; height {; mode}}}}} ) -&gt;  svgObject</source>
+               <target>SVG_Define_symbol ( parentSVGObject ; id {; x {; y {; width {; height {; mode}}}}} ) -&gt;  svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_14" resname="STRU_CMD_05">
+               <source>SVG_Define_marker ( parentSVGObject ; id {; x ; y {; width ; height {; orientation}}} ) -&gt;  svgObject</source>
+               <target>SVG_Define_marker ( parentSVGObject ; id {; x ; y {; width ; height {; orientation}}} ) -&gt;  svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_15" resname="STRU_CMD_06">
+               <source>SVG_Define_filter ( parentSVGObject ; id {; frameX ; frameY {; frameWidth ; frameHeight {; frameUnit ; filterUnit}}}} ) -&gt; svgObject</source>
+               <target>SVG_Define_filter ( parentSVGObject ; id {; frameX ; frameY {; frameWidth ; frameHeight {; frameUnit ; filterUnit}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_16" resname="STRU_CMD_07">
+               <source>SVG_Define_solidColor ( parentSVGObject ; id ; color {; opacity} ) -&gt; svgObject</source>
+               <target>SVG_Define_solidColor ( parentSVGObject ; id ; color {; opacity} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_17" resname="STRU_CMD_08" translate="no">
+               <source>@SVG_Define_ gradient</source>
+            </trans-unit>
+            <trans-unit id="CMD_18" resname="STRU_CMD_09">
+               <source>SVG_Define_linear_gradient ( parentSVGObject ; id ; startColor ; endColor {; rotation} ) -&gt;  svgObject</source>
+               <target>SVG_Define_linear_gradient ( parentSVGObject ; id ; startColor ; endColor {; rotation} ) -&gt;  svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_19" resname="STRU_CMD_10">
+               <source>VG_Define_radial_gradient ( parentSVGObject ; id ; startColor ; endColor {; cx ; cy ; r {; fx ; fy}} ) -&gt; svgObject</source>
+               <target>VG_Define_radial_gradient ( parentSVGObject ; id ; startColor ; endColor {; cx ; cy ; r {; fx ; fy}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_19" resname="STRU_CMD_11">
+               <source>SVG_Define_shadow ( parentSVGObject ; id {; deviation {; offsetX {; offsetY}}} ) -&gt; svgObject</source>
+               <target>SVG_Define_shadow ( parentSVGObject ; id {; deviation {; offsetX {; offsetY}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_97" resname="STRU_CMD_12">
+               <source>@SVG_Define_symbol_from_file(parentRef;id;document;_x;_y;_width;_height;_mode) -&gt; svgObject</source>
+               <target>@SVG_Define_symbol_from_file(parentRef;id;document;_x;_y;_width;_height;_mode) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="310" resname="STRU_CMD_13">
+               <source>SVG_Get_default_encoding -&gt; encoding</source>
+               <target>SVG_Get_default_encoding -&gt; encoding</target>
+            </trans-unit>
+            <trans-unit id="311" resname="STRU_CMD_14">
+               <source>SVG_SET_DEFAULT_ENCODING {( encoding )}</source>
+               <target>SVG_SET_DEFAULT_ENCODING {( encoding )}</target>
+            </trans-unit>
+            <trans-unit id="312" resname="STRU_CMD_15">
+               <source>SVG_Define_clipPath ( parentSVGObject ; id ) -&gt; svgObject</source>
+               <target>SVG_Define_clipPath ( parentSVGObject ; id ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="313" resname="STRU_CMD_16">
+               <source>SVG_Define_pattern ( parentSVGObject ; id {; width {; height {; x {; y {; patternUnits {; viewBox}}}}}} ) -&gt; svgObject</source>
+               <target>SVG_Define_pattern ( parentSVGObject ; id {; width {; height {; x {; y {; patternUnits {; viewBox}}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="314" resname="STRU_CMD_17">
+               <source>SVG_SET_PATTERN_CONTENT_UNITS ( patternObject ; patternContentUnits )</source>
+               <target>SVG_SET_PATTERN_CONTENT_UNITS ( patternObject ; patternContentUnits )</target>
+            </trans-unit>
+            <trans-unit id="315" resname="STRU_CMD_18">
+               <source>SVG_SET_PATTERN_UNITS ( patternObject ; patternUnits )　</source>
+               <target>SVG_SET_PATTERN_UNITS ( patternObject ; patternUnits )　</target>
+            </trans-unit>
+            <trans-unit id="316" resname="STRU_CMD_19">
+               <source>SVG_Define_style ( parentSVGObject ; styleDefinition | filePath | URL { ; content-type {; media{; title}}} )-&gt; svgObject</source>
+               <target>SVG_Define_style ( parentSVGObject ; styleDefinition | filePath | URL { ; content-type {; media{; title}}} )-&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="317" resname="STRU_CMD_20">
+               <source>SVG_DELETE_OBJECT (svgObject)</source>
+               <target>SVG_DELETE_OBJECT (svgObject)</target>
+            </trans-unit>
+            <trans-unit id="CMD_42" resname="TEXT_CMD_01">
+               <source>SVG_New_text ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color {; rotation {; lineSpacing {; stretching}}}}}}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_text ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color {; rotation {; lineSpacing {; stretching}}}}}}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_43" resname="TEXT_CMD_02">
+               <source>SVG_New_vertical_text ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color {; rotation}}}}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_vertical_text ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color {; rotation}}}}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_44" resname="TEXT_CMD_03">
+               <source>SVG_New_tspan ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color}}}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_tspan ( parentSVGObject ; text {; x {; y {; font {; size {; style {; alignment {; color}}}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_45" resname="TEXT_CMD_04">
+               <source>SVG_New_textArea ( parentSVGObject ; text {; x {; y {; width {; height {; font {; size {; style {; alignment}}}}}}}} ) -&gt; svgObject</source>
+               <target>SVG_New_textArea ( parentSVGObject ; text {; x {; y {; width {; height {; font {; size {; style {; alignment}}}}}}}} ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_46" resname="TEXT_CMD_05">
+               <source>SVG_SET_TEXT_ANCHOR ( svgObject ; alignment )</source>
+               <target>SVG_SET_TEXT_ANCHOR ( svgObject ; alignment )</target>
+            </trans-unit>
+            <trans-unit id="CMD_47" resname="TEXT_CMD_06">
+               <source>SVG_SET_FONT_COLOR ( svgObject ; color )</source>
+               <target>SVG_SET_FONT_COLOR ( svgObject ; color )</target>
+            </trans-unit>
+            <trans-unit id="CMD_48" resname="TEXT_CMD_07">
+               <source>SVG_SET_FONT_FAMILY ( svgObject ; font {; font2 {; ... {; fontN}}}) </source>
+               <target>SVG_SET_FONT_FAMILY ( svgObject ; font {; font2 {; ... {; fontN}}}) </target>
+            </trans-unit>
+            <trans-unit id="CMD_49" resname="TEXT_CMD_08">
+               <source>SVG_SET_FONT_SIZE ( svgObject ; size ) </source>
+               <target>SVG_SET_FONT_SIZE ( svgObject ; size ) </target>
+            </trans-unit>
+            <trans-unit id="CMD_50" resname="TEXT_CMD_09">
+               <source>SVG_SET_FONT_STYLE ( svgObject ; style ) </source>
+               <target>SVG_SET_FONT_STYLE ( svgObject ; style ) </target>
+            </trans-unit>
+            <trans-unit id="318" resname="TEXT_CMD_10">
+               <source>SVG_SET_TEXT_KERNING ( svgObject ; value )</source>
+               <target>SVG_SET_TEXT_KERNING ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="319" resname="TEXT_CMD_11">
+               <source>SVG_SET_TEXT_LETTER_SPACING ( svgObject ; value {; unit} )</source>
+               <target>SVG_SET_TEXT_LETTER_SPACING ( svgObject ; value {; unit} )</target>
+            </trans-unit>
+            <trans-unit id="320" resname="TEXT_CMD_12">
+               <source>SVG_SET_TEXT_RENDERING ( svgObject ; value )</source>
+               <target>SVG_SET_TEXT_RENDERING ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="321" resname="TEXT_CMD_13">
+               <source>SVG_SET_TEXT_WRITING_MODE ( svgObject ; value )</source>
+               <target>SVG_SET_TEXT_WRITING_MODE ( svgObject ; value )</target>
+            </trans-unit>
+            <trans-unit id="322" resname="TEXT_CMD_14">
+               <source>SVG_APPEND_TEXT_TO_TEXTAREA ( textAreaObject ; text )</source>
+               <target>SVG_APPEND_TEXT_TO_TEXTAREA ( textAreaObject ; text )</target>
+            </trans-unit>
+            <trans-unit id="325" resname="TEXT_CMD_15">
+               <source>SVG_Get_text ( textObject) -&gt; text</source>
+               <target>SVG_Get_text ( textObject) -&gt; text</target>
+            </trans-unit>
+            <trans-unit id="327" resname="TEXT_CMD_16">
+               <source>SVG_SET_TEXTAREA_TEXT ( textAreaObject ; text )</source>
+               <target>SVG_SET_TEXTAREA_TEXT ( textAreaObject ; text )</target>
+            </trans-unit>
+            <trans-unit id="CMD_84" resname="UTIL_CMD_01">
+               <source>SVG_Get_version -&gt; version</source>
+               <target>SVG_Get_version -&gt; version</target>
+            </trans-unit>
+            <trans-unit id="CMD_85" resname="UTIL_CMD_02">
+               <source>SVG_Set_error_handler {( method )} -&gt; method_called_on_error</source>
+               <target>SVG_Set_error_handler {( method )} -&gt; method_called_on_error</target>
+            </trans-unit>
+            <trans-unit id="CMD_86" resname="UTIL_CMD_03">
+               <source>SVG_Read_last_error -&gt; Error</source>
+               <target>SVG_Read_last_error -&gt; Error</target>
+            </trans-unit>
+            <trans-unit id="CMD_87" resname="UTIL_CMD_04">
+               <source>SVG_References_array ( refsArrayPointer ) -&gt; Number</source>
+               <target>SVG_References_array ( refsArrayPointer ) -&gt; Number</target>
+            </trans-unit>
+            <trans-unit id="CMD_88" resname="UTIL_CMD_05">
+               <source>SVG_Get_options -&gt; Options</source>
+               <target>SVG_Get_options -&gt; Options</target>
+            </trans-unit>
+            <trans-unit id="CMD_89" resname="UTIL_CMD_06">
+               <source>SVG_SET_OPTIONS {( options )} </source>
+               <target>SVG_SET_OPTIONS {( options )} </target>
+            </trans-unit>
+            <trans-unit id="CMD_90" resname="UTIL_CMD_07">
+               <source>SVG_Count_elements ( svgObject ) -&gt; Number</source>
+               <target>SVG_Count_elements ( svgObject ) -&gt; Number</target>
+            </trans-unit>
+            <trans-unit id="CMD_91" resname="UTIL_CMD_08">
+               <source>SVG_Find_ID ( svgObject ; name ) -&gt; svgObject</source>
+               <target>SVG_Find_ID ( svgObject ; name ) -&gt; svgObject</target>
+            </trans-unit>
+            <trans-unit id="CMD_92" resname="UTIL_CMD_09">
+               <source>SVG_ELEMENTS_TO_ARRAYS ( svgObject ; refsArrayPointer {; typesArrayPointer {; namesArrayPointer}} )  </source>
+               <target>SVG_ELEMENTS_TO_ARRAYS ( svgObject ; refsArrayPointer {; typesArrayPointer {; namesArrayPointer}} )  </target>
+            </trans-unit>
+            <trans-unit id="CMD_93" resname="UTIL_CMD_10">
+               <source>SVG_Read_element_type ( svgObject ) -&gt; Type</source>
+               <target>SVG_Read_element_type ( svgObject ) -&gt; Type</target>
+            </trans-unit>
+            <trans-unit id="CMD_94" resname="UTIL_CMD_11">
+               <source>SVG_Is_reference_valid ( svgObject ) -&gt; Validation</source>
+               <target>SVG_Is_reference_valid ( svgObject ) -&gt; Validation</target>
+            </trans-unit>
+            <trans-unit id="CMD_95" resname="UTIL_CMD_12">
+               <source>SVG_Estimate_weight ( svgObject ) -&gt; Size</source>
+               <target>SVG_Estimate_weight ( svgObject ) -&gt; Size</target>
+            </trans-unit>
+            <trans-unit id="CMD_96" resname="UTIL_CMD_13">
+               <source>SVG_GET_COLORS_ARRAY ( colorsArrayPointer )</source>
+               <target>SVG_GET_COLORS_ARRAY ( colorsArrayPointer )</target>
+            </trans-unit>
+            <trans-unit id="CMD_97" resname="UTIL_CMD_14">
+               <source>SVGTool_SHOW_IN_VIEWER ( svgObject ) </source>
+               <target>SVGTool_SHOW_IN_VIEWER ( svgObject ) </target>
+            </trans-unit>
+            <trans-unit id="323" resname="UTIL_CMD_15">
+               <source>SVG_ABOUT</source>
+               <target>SVG_ABOUT</target>
+            </trans-unit>
+            <trans-unit id="324" resname="UTIL_CMD_16">
+               <source>SVGTool_SET_VIEWER_CALLBACK {( 4DMethodName )}</source>
+               <target>SVGTool_SET_VIEWER_CALLBACK {( 4DMethodName )}</target>
+            </trans-unit>
+         </group>
+         <group resname="viewer">
+            <trans-unit id="274" resname="viewerTitle">
+               <source>4D SVG Viewer</source>
+               <target>4D SVG Viewer</target>
+            </trans-unit>
+            <trans-unit id="276" resname="picture">
+               <source>Picture</source>
+               <target>Picture</target>
+            </trans-unit>
+            <trans-unit id="277" resname="source">
+               <source>Source</source>
+               <target>Source</target>
+            </trans-unit>
+            <trans-unit id="274" resname="menuViewer">
+               <source>SVG Viewer…</source>
+               <target>SVG Viewer…</target>
+            </trans-unit>
+            <trans-unit id="130" resname="menuView">
+               <source>View</source>
+               <target>View</target>
+            </trans-unit>
+            <trans-unit id="131" resname="actualSize">
+               <source>Actual Size</source>
+               <target>Actual Size</target>
+            </trans-unit>
+            <trans-unit id="132" resname="zoomIn">
+               <source>Zoom In</source>
+               <target>Zoom In</target>
+            </trans-unit>
+            <trans-unit id="133" resname="zoomOut">
+               <source>Zoom Out</source>
+               <target>Zoom Out</target>
+            </trans-unit>
+            <trans-unit id="134" resname="showColoredBackground">
+               <source>Colored background</source>
+               <target>Colored background</target>
+            </trans-unit>
+            <trans-unit id="135" resname="backgroundColor">
+               <source>Background Color…</source>
+               <target>Background Color…</target>
+            </trans-unit>
+            <trans-unit id="136" resname="zoomToFit">
+               <source>Zoom To Fit</source>
+               <target>Zoom To Fit</target>
+            </trans-unit>
+            <trans-unit id="137" resname="automaticallyResize">
+               <source>Automatically Resize</source>
+               <target>Automatically Resize</target>
+            </trans-unit>
+            <trans-unit id="138" resname="openRecent">
+               <source>Open Recent</source>
+               <target>Open Recent</target>
+            </trans-unit>
+            <trans-unit id="139" resname="clearMenu">
+               <source>Clear Menu</source>
+               <target>Clear Menu</target>
+            </trans-unit>
+         </group>
+         <group resname="ColorPalette">
+            <trans-unit id="3" resname="colorPaletteTitle">
+               <source>SVG Colors</source>
+               <target>SVG Colors</target>
+            </trans-unit>
+            <trans-unit id="311" resname="colorOpacity">
+               <source>Opacity</source>
+               <target>Opacity</target>
+            </trans-unit>
+            <trans-unit id="3" resname="menuColor">
+               <source>Colormap…</source>
+               <target>Colormap…</target>
+            </trans-unit>
+         </group>
+         <group resname="colorThemes">
+            <trans-unit id="142" resname="ColorTheme_1">
+               <source>Red colors</source>
+               <target>Red colors</target>
+            </trans-unit>
+            <trans-unit id="143" resname="ColorTheme_2">
+               <source>Pink colors</source>
+               <target>Pink colors</target>
+            </trans-unit>
+            <trans-unit id="144" resname="ColorTheme_3">
+               <source>Orange colors</source>
+               <target>Orange colors</target>
+            </trans-unit>
+            <trans-unit id="145" resname="ColorTheme_4">
+               <source>Yellow colors</source>
+               <target>Yellow colors</target>
+            </trans-unit>
+            <trans-unit id="146" resname="ColorTheme_5">
+               <source>Purple colors</source>
+               <target>Purple colors</target>
+            </trans-unit>
+            <trans-unit id="147" resname="ColorTheme_6">
+               <source>Green colors</source>
+               <target>Green colors</target>
+            </trans-unit>
+            <trans-unit id="148" resname="ColorTheme_7">
+               <source>Blue colors</source>
+               <target>Blue colors</target>
+            </trans-unit>
+            <trans-unit id="149" resname="ColorTheme_8">
+               <source>Brown colors</source>
+               <target>Brown colors</target>
+            </trans-unit>
+            <trans-unit id="150" resname="ColorTheme_9">
+               <source>White colors</source>
+               <target>White colors</target>
+            </trans-unit>
+            <trans-unit id="298" resname="ColorTheme_10">
+               <source>Grey colors</source>
+               <target>Grey colors</target>
+            </trans-unit>
+         </group>
+         <group resname="colors">
+            <trans-unit id="153" resname="blue_01" translate="no">
+               <source>aqua</source>
+            </trans-unit>
+            <trans-unit id="171" resname="blue_02" translate="no">
+               <source>cyan</source>
+            </trans-unit>
+            <trans-unit id="220" resname="blue_03" translate="no">
+               <source>lightcyan</source>
+            </trans-unit>
+            <trans-unit id="261" resname="blue_04" translate="no">
+               <source>paleturquoise</source>
+            </trans-unit>
+            <trans-unit id="154" resname="blue_05" translate="no">
+               <source>aquamarine</source>
+            </trans-unit>
+            <trans-unit id="291" resname="blue_06" translate="no">
+               <source>turquoise</source>
+            </trans-unit>
+            <trans-unit id="245" resname="blue_07" translate="no">
+               <source>_mediumturquoise</source>
+            </trans-unit>
+            <trans-unit id="189" resname="blue_08" translate="no">
+               <source>_darkturquoise</source>
+            </trans-unit>
+            <trans-unit id="164" resname="blue_09" translate="no">
+               <source>_cadetblue</source>
+            </trans-unit>
+            <trans-unit id="286" resname="blue_10" translate="no">
+               <source>_steelblue</source>
+            </trans-unit>
+            <trans-unit id="231" resname="blue_11" translate="no">
+               <source>lightsteelblue</source>
+            </trans-unit>
+            <trans-unit id="268" resname="blue_12" translate="no">
+               <source>powderblue</source>
+            </trans-unit>
+            <trans-unit id="218" resname="blue_13" translate="no">
+               <source>lightblue</source>
+            </trans-unit>
+            <trans-unit id="280" resname="blue_14" translate="no">
+               <source>skyblue</source>
+            </trans-unit>
+            <trans-unit id="228" resname="blue_15" translate="no">
+               <source>lightskyblue</source>
+            </trans-unit>
+            <trans-unit id="192" resname="blue_16" translate="no">
+               <source>_deepskyblue</source>
+            </trans-unit>
+            <trans-unit id="195" resname="blue_17" translate="no">
+               <source>_dodgerblue</source>
+            </trans-unit>
+            <trans-unit id="168" resname="blue_18" translate="no">
+               <source>_cornflowerblue</source>
+            </trans-unit>
+            <trans-unit id="243" resname="blue_19" translate="no">
+               <source>_mediumslateblue</source>
+            </trans-unit>
+            <trans-unit id="272" resname="blue_20" translate="no">
+               <source>_royalblue</source>
+            </trans-unit>
+            <trans-unit id="160" resname="blue_21" translate="no">
+               <source>_blue</source>
+            </trans-unit>
+            <trans-unit id="239" resname="blue_22" translate="no">
+               <source>_mediumblue</source>
+            </trans-unit>
+            <trans-unit id="172" resname="blue_23" translate="no">
+               <source>_darkblue</source>
+            </trans-unit>
+            <trans-unit id="252" resname="blue_24" translate="no">
+               <source>_navy</source>
+            </trans-unit>
+            <trans-unit id="247" resname="blue_25" translate="no">
+               <source>_midnightblue</source>
+            </trans-unit>
+            <trans-unit id="169" resname="brown_01" translate="no">
+               <source>cornsilk</source>
+            </trans-unit>
+            <trans-unit id="159" resname="brown_02" translate="no">
+               <source>blanchedalmond</source>
+            </trans-unit>
+            <trans-unit id="157" resname="brown_03" translate="no">
+               <source>bisque</source>
+            </trans-unit>
+            <trans-unit id="251" resname="brown_04" translate="no">
+               <source>navajowhite</source>
+            </trans-unit>
+            <trans-unit id="293" resname="brown_05" translate="no">
+               <source>wheat</source>
+            </trans-unit>
+            <trans-unit id="163" resname="brown_06" translate="no">
+               <source>_burlywood</source>
+            </trans-unit>
+            <trans-unit id="287" resname="brown_07" translate="no">
+               <source>_tan</source>
+            </trans-unit>
+            <trans-unit id="271" resname="brown_08" translate="no">
+               <source>_rosybrown</source>
+            </trans-unit>
+            <trans-unit id="275" resname="brown_09" translate="no">
+               <source>_sandybrown</source>
+            </trans-unit>
+            <trans-unit id="203" resname="brown_10" translate="no">
+               <source>_goldenrod</source>
+            </trans-unit>
+            <trans-unit id="174" resname="brown_11" translate="no">
+               <source>_darkgoldenrod</source>
+            </trans-unit>
+            <trans-unit id="265" resname="brown_12" translate="no">
+               <source>_peru</source>
+            </trans-unit>
+            <trans-unit id="166" resname="brown_13" translate="no">
+               <source>_chocolate</source>
+            </trans-unit>
+            <trans-unit id="273" resname="brown_14" translate="no">
+               <source>_saddlebrown</source>
+            </trans-unit>
+            <trans-unit id="278" resname="brown_15" translate="no">
+               <source>_sienna</source>
+            </trans-unit>
+            <trans-unit id="162" resname="brown_16" translate="no">
+               <source>_brown</source>
+            </trans-unit>
+            <trans-unit id="237" resname="brown_17" translate="no">
+               <source>_maroon</source>
+            </trans-unit>
+            <trans-unit id="207" resname="green_01" translate="no">
+               <source>greenyellow</source>
+            </trans-unit>
+            <trans-unit id="165" resname="green_02" translate="no">
+               <source>chartreuse</source>
+            </trans-unit>
+            <trans-unit id="216" resname="green_03" translate="no">
+               <source>lawngreen</source>
+            </trans-unit>
+            <trans-unit id="233" resname="green_04" translate="no">
+               <source>lime</source>
+            </trans-unit>
+            <trans-unit id="234" resname="green_05" translate="no">
+               <source>limegreen</source>
+            </trans-unit>
+            <trans-unit id="260" resname="green_06" translate="no">
+               <source>palegreen</source>
+            </trans-unit>
+            <trans-unit id="223" resname="green_07" translate="no">
+               <source>lightgreen</source>
+            </trans-unit>
+            <trans-unit id="244" resname="green_08" translate="no">
+               <source>mediumspringgreen</source>
+            </trans-unit>
+            <trans-unit id="285" resname="green_09" translate="no">
+               <source>springgreen</source>
+            </trans-unit>
+            <trans-unit id="242" resname="green_10" translate="no">
+               <source>_mediumseagreen</source>
+            </trans-unit>
+            <trans-unit id="276" resname="green_11" translate="no">
+               <source>_seagreen</source>
+            </trans-unit>
+            <trans-unit id="198" resname="green_12" translate="no">
+               <source>_forestgreen</source>
+            </trans-unit>
+            <trans-unit id="206" resname="green_13" translate="no">
+               <source>_green</source>
+            </trans-unit>
+            <trans-unit id="176" resname="green_14" translate="no">
+               <source>_darkgreen</source>
+            </trans-unit>
+            <trans-unit id="297" resname="green_15" translate="no">
+               <source>_yellowgreen</source>
+            </trans-unit>
+            <trans-unit id="255" resname="green_16" translate="no">
+               <source>_olivedrab</source>
+            </trans-unit>
+            <trans-unit id="254" resname="green_17" translate="no">
+               <source>_olive</source>
+            </trans-unit>
+            <trans-unit id="180" resname="green_18" translate="no">
+               <source>_darkolivegreen</source>
+            </trans-unit>
+            <trans-unit id="238" resname="green_19" translate="no">
+               <source>mediumaquamarine</source>
+            </trans-unit>
+            <trans-unit id="185" resname="green_20" translate="no">
+               <source>_darkseagreen</source>
+            </trans-unit>
+            <trans-unit id="227" resname="green_21" translate="no">
+               <source>_lightseagreen</source>
+            </trans-unit>
+            <trans-unit id="173" resname="green_22" translate="no">
+               <source>_darkcyan</source>
+            </trans-unit>
+            <trans-unit id="288" resname="green_23" translate="no">
+               <source>_teal</source>
+            </trans-unit>
+            <trans-unit id="200" resname="grey_01" translate="no">
+               <source>gainsboro</source>
+            </trans-unit>
+            <trans-unit id="222" resname="grey_02" translate="no">
+               <source>lightgray</source>
+            </trans-unit>
+            <trans-unit id="279" resname="grey_03" translate="no">
+               <source>silver</source>
+            </trans-unit>
+            <trans-unit id="175" resname="grey_04" translate="no">
+               <source>darkgray</source>
+            </trans-unit>
+            <trans-unit id="204" resname="grey_05" translate="no">
+               <source>_gray</source>
+            </trans-unit>
+            <trans-unit id="194" resname="grey_06" translate="no">
+               <source>_dimgray</source>
+            </trans-unit>
+            <trans-unit id="229" resname="grey_07" translate="no">
+               <source>_lightslategray</source>
+            </trans-unit>
+            <trans-unit id="282" resname="grey_08" translate="no">
+               <source>_slategray</source>
+            </trans-unit>
+            <trans-unit id="187" resname="grey_09" translate="no">
+               <source>_darkslategray</source>
+            </trans-unit>
+            <trans-unit id="158" resname="grey_10" translate="no">
+               <source>_black</source>
+            </trans-unit>
+            <trans-unit id="226" resname="orange_01" translate="no">
+               <source>lightsalmon</source>
+            </trans-unit>
+            <trans-unit id="167" resname="orange_02" translate="no">
+               <source>_coral</source>
+            </trans-unit>
+            <trans-unit id="290" resname="orange_03" translate="no">
+               <source>_tomato</source>
+            </trans-unit>
+            <trans-unit id="257" resname="orange_04" translate="no">
+               <source>_orangered</source>
+            </trans-unit>
+            <trans-unit id="181" resname="orange_05" translate="no">
+               <source>_darkorange</source>
+            </trans-unit>
+            <trans-unit id="256" resname="orange_06" translate="no">
+               <source>_orange</source>
+            </trans-unit>
+            <trans-unit id="266" resname="pink_01" translate="no">
+               <source>pink</source>
+            </trans-unit>
+            <trans-unit id="225" resname="pink_02" translate="no">
+               <source>lightpink</source>
+            </trans-unit>
+            <trans-unit id="209" resname="pink_03" translate="no">
+               <source>_hotpink</source>
+            </trans-unit>
+            <trans-unit id="191" resname="pink_04" translate="no">
+               <source>_deeppink</source>
+            </trans-unit>
+            <trans-unit id="246" resname="pink_05" translate="no">
+               <source>_mediumvioletred</source>
+            </trans-unit>
+            <trans-unit id="262" resname="pink_06" translate="no">
+               <source>_palevioletred</source>
+            </trans-unit>
+            <trans-unit id="214" resname="purple_01" translate="no">
+               <source>lavender</source>
+            </trans-unit>
+            <trans-unit id="289" resname="purple_02" translate="no">
+               <source>_thistle</source>
+            </trans-unit>
+            <trans-unit id="267" resname="purple_03" translate="no">
+               <source>_plum</source>
+            </trans-unit>
+            <trans-unit id="292" resname="purple_04" translate="no">
+               <source>_violet</source>
+            </trans-unit>
+            <trans-unit id="258" resname="purple_05" translate="no">
+               <source>_orchid</source>
+            </trans-unit>
+            <trans-unit id="199" resname="purple_06" translate="no">
+               <source>_fuchsia</source>
+            </trans-unit>
+            <trans-unit id="236" resname="purple_07" translate="no">
+               <source>_magenta</source>
+            </trans-unit>
+            <trans-unit id="240" resname="purple_08" translate="no">
+               <source>_mediumorchid</source>
+            </trans-unit>
+            <trans-unit id="241" resname="purple_09" translate="no">
+               <source>_mediumpurple</source>
+            </trans-unit>
+            <trans-unit id="161" resname="purple_10" translate="no">
+               <source>_blueviolet</source>
+            </trans-unit>
+            <trans-unit id="190" resname="purple_11" translate="no">
+               <source>_darkviolet</source>
+            </trans-unit>
+            <trans-unit id="182" resname="purple_12" translate="no">
+               <source>_darkorchid</source>
+            </trans-unit>
+            <trans-unit id="179" resname="purple_13" translate="no">
+               <source>_darkmagenta</source>
+            </trans-unit>
+            <trans-unit id="269" resname="purple_14" translate="no">
+               <source>_purple</source>
+            </trans-unit>
+            <trans-unit id="211" resname="purple_15" translate="no">
+               <source>_indigo</source>
+            </trans-unit>
+            <trans-unit id="281" resname="purple_16" translate="no">
+               <source>_slateblue</source>
+            </trans-unit>
+            <trans-unit id="186" resname="purple_17" translate="no">
+               <source>_darkslateblue</source>
+            </trans-unit>
+            <trans-unit id="210" resname="red_01" translate="no">
+               <source>_indianred</source>
+            </trans-unit>
+            <trans-unit id="219" resname="red_02" translate="no">
+               <source>lightcoral</source>
+            </trans-unit>
+            <trans-unit id="274" resname="red_03" translate="no">
+               <source>salmon</source>
+            </trans-unit>
+            <trans-unit id="184" resname="red_04" translate="no">
+               <source>darksalmon</source>
+            </trans-unit>
+            <trans-unit id="170" resname="red_05" translate="no">
+               <source>_crimson</source>
+            </trans-unit>
+            <trans-unit id="270" resname="red_06" translate="no">
+               <source>_red</source>
+            </trans-unit>
+            <trans-unit id="196" resname="red_07" translate="no">
+               <source>_firebrick</source>
+            </trans-unit>
+            <trans-unit id="183" resname="red_08" translate="no">
+               <source>_darkred</source>
+            </trans-unit>
+            <trans-unit id="294" resname="white_01" translate="no">
+               <source>white</source>
+            </trans-unit>
+            <trans-unit id="284" resname="white_02" translate="no">
+               <source>snow</source>
+            </trans-unit>
+            <trans-unit id="208" resname="white_03" translate="no">
+               <source>honeydew</source>
+            </trans-unit>
+            <trans-unit id="248" resname="white_04" translate="no">
+               <source>mintcream</source>
+            </trans-unit>
+            <trans-unit id="155" resname="white_05" translate="no">
+               <source>azure</source>
+            </trans-unit>
+            <trans-unit id="151" resname="white_06" translate="no">
+               <source>aliceblue</source>
+            </trans-unit>
+            <trans-unit id="201" resname="white_07" translate="no">
+               <source>ghostwhite</source>
+            </trans-unit>
+            <trans-unit id="295" resname="white_08" translate="no">
+               <source>whitesmoke</source>
+            </trans-unit>
+            <trans-unit id="277" resname="white_09" translate="no">
+               <source>seashell</source>
+            </trans-unit>
+            <trans-unit id="156" resname="white_10" translate="no">
+               <source>beige</source>
+            </trans-unit>
+            <trans-unit id="253" resname="white_11" translate="no">
+               <source>oldlace</source>
+            </trans-unit>
+            <trans-unit id="197" resname="white_12" translate="no">
+               <source>floralwhite</source>
+            </trans-unit>
+            <trans-unit id="212" resname="white_13" translate="no">
+               <source>ivory</source>
+            </trans-unit>
+            <trans-unit id="152" resname="white_14" translate="no">
+               <source>antiquewhite</source>
+            </trans-unit>
+            <trans-unit id="235" resname="white_15" translate="no">
+               <source>linen</source>
+            </trans-unit>
+            <trans-unit id="215" resname="white_16" translate="no">
+               <source>lavenderblush</source>
+            </trans-unit>
+            <trans-unit id="249" resname="white_17" translate="no">
+               <source>mistyrose</source>
+            </trans-unit>
+            <trans-unit id="202" resname="yellow_01" translate="no">
+               <source>gold</source>
+            </trans-unit>
+            <trans-unit id="296" resname="yellow_02" translate="no">
+               <source>yellow</source>
+            </trans-unit>
+            <trans-unit id="232" resname="yellow_03" translate="no">
+               <source>lightyellow</source>
+            </trans-unit>
+            <trans-unit id="217" resname="yellow_04" translate="no">
+               <source>lemonchiffon</source>
+            </trans-unit>
+            <trans-unit id="221" resname="yellow_05" translate="no">
+               <source>lightgoldenrodyellow</source>
+            </trans-unit>
+            <trans-unit id="263" resname="yellow_06" translate="no">
+               <source>papayawhip</source>
+            </trans-unit>
+            <trans-unit id="250" resname="yellow_07" translate="no">
+               <source>moccasin</source>
+            </trans-unit>
+            <trans-unit id="264" resname="yellow_08" translate="no">
+               <source>peachpuff</source>
+            </trans-unit>
+            <trans-unit id="259" resname="yellow_09" translate="no">
+               <source>palegoldenrod</source>
+            </trans-unit>
+            <trans-unit id="213" resname="yellow_10" translate="no">
+               <source>khaki</source>
+            </trans-unit>
+            <trans-unit id="178" resname="yellow_11" translate="no">
+               <source>_darkkhaki</source>
+            </trans-unit>
+         </group>
+         <group resname="colorThemeCodes">
+            <trans-unit id="299" resname="ColorThemeCode_1" translate="no">
+               <source>red_</source>
+            </trans-unit>
+            <trans-unit id="300" resname="ColorThemeCode_2" translate="no">
+               <source>pink_</source>
+            </trans-unit>
+            <trans-unit id="301" resname="ColorThemeCode_3" translate="no">
+               <source>orange_</source>
+            </trans-unit>
+            <trans-unit id="302" resname="ColorThemeCode_4" translate="no">
+               <source>yellow_</source>
+            </trans-unit>
+            <trans-unit id="303" resname="ColorThemeCode_5" translate="no">
+               <source>purple_</source>
+            </trans-unit>
+            <trans-unit id="304" resname="ColorThemeCode_6" translate="no">
+               <source>green_</source>
+            </trans-unit>
+            <trans-unit id="305" resname="ColorThemeCode_7" translate="no">
+               <source>blue_</source>
+            </trans-unit>
+            <trans-unit id="306" resname="ColorThemeCode_8" translate="no">
+               <source>brown_</source>
+            </trans-unit>
+            <trans-unit id="307" resname="ColorThemeCode_9" translate="no">
+               <source>white_</source>
+            </trans-unit>
+            <trans-unit id="308" resname="ColorThemeCode_10" translate="no">
+               <source>grey_</source>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

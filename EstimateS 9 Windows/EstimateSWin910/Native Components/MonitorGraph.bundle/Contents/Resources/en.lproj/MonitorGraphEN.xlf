@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Translation file for 4D products.
+    Copyright (C) 2008-2011 4D SAS.
+    This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+    <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+        <header>
+            <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+            <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+            <note>\r, \t and \n are meta-characters.</note>
+        </header>
+        <body>
+            <group id="1" resname="resource group name">
+                <trans-unit id="1" resname="resource name">
+                <source></source>
+                <target></target>
+                </trans-unit>
+            </group>
+        </body>
+    </file>
+</xliff>

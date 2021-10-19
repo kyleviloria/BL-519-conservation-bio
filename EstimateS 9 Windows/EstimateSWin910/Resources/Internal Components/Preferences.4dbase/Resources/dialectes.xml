@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialects version="1.0">
+   <dialect id="1078" resname="Afrikaans"/>
+   <dialect id="1052" resname="Albanian"/>
+   <dialect id="1025" resname="Arabic (Saudi Arabia)"/>
+   <dialect id="2049" resname="Arabic (Iraq)"/>
+   <dialect id="4097" resname="Arabic (Libia)"/>
+   <dialect id="3073" resname="Arabic (Egypt)"/>
+   <dialect id="5121" resname="Arabic (Algeria)"/>
+   <dialect id="15361" resname="Arabic (Bahrain)"/>
+   <dialect id="12289" resname="Arabic (Lebanon)"/>
+   <dialect id="11265" resname="Arabic (Jordan)"/>
+   <dialect id="13313" resname="Arabic (Kuwait)"/>
+   <dialect id="6145" resname="Arabic (Morocco)"/>
+   <dialect id="8193" resname="Arabic (Oman)"/>
+   <dialect id="16385" resname="Arabic (Qatar)"/>
+   <dialect id="7169" resname="Arabic (Tunisia)"/>
+   <dialect id="10241" resname="Arabic (Syria)"/>
+   <dialect id="9217" resname="Arabic (Yemen)"/>
+   <dialect id="14337" resname="Arabic (U.A.E)"/>
+   <dialect id="1069" resname="Basque"/>
+   <dialect id="1059" resname="Belarusian"/>
+   <dialect id="1026" resname="Bulgarian"/>
+   <dialect id="1027" resname="Catalan"/>
+   <dialect id="1028" resname="Chinese (Traditional)"/>
+   <dialect id="2052" resname="Chinese (Simplified)"/>
+   <dialect id="3076" resname="Chinese (Hong-Kong)"/>
+   <dialect id="4100" resname="Chinese (Singapore)"/>
+   <dialect id="1050" resname="Croatian"/>
+   <dialect id="1029" resname="Czech"/>
+   <dialect id="1030" resname="Danish"/>
+   <dialect id="1043" resname="Dutch"/>
+   <dialect id="2067" resname="Dutch (Belgium)"/>
+   <dialect id="1033" resname="English"/>
+   <dialect id="3081" resname="English (Australia)"/>
+   <dialect id="10249" resname="English (Belize)"/>
+   <dialect id="4105" resname="English (Canada)"/>
+   <dialect id="9225" resname="English (Caribbean)"/>
+   <dialect id="6153" resname="English (Ireland)"/>
+   <dialect id="8201" resname="English (Jamaica)"/>
+   <dialect id="5129" resname="English (New Zealand)"/>
+   <dialect id="7177" resname="English (South Africa)"/>
+   <dialect id="11273" resname="English (Trinidad y Tobago)"/>
+   <dialect id="2057" resname="English (United Kingdom)"/>
+   <dialect id="1061" resname="Estonian"/>
+   <dialect id="1080" resname="Faeroese"/>
+   <dialect id="1065" resname="Farsi"/>
+   <dialect id="1035" resname="Finnish"/>
+   <dialect id="1036" resname="French"/>
+   <dialect id="2060" resname="French (Belgium)"/>
+   <dialect id="3084" resname="French (Canada)"/>
+   <dialect id="5132" resname="French (Luxembourg)"/>
+   <dialect id="4108" resname="French (Switzerland)"/>
+   <dialect id="1031" resname="German"/>
+   <dialect id="3079" resname="German (Austria)"/>
+   <dialect id="5127" resname="German (Liechtenstein)"/>
+   <dialect id="4103" resname="German (Luxembourg)"/>
+   <dialect id="2055" resname="German (Switzerland)"/>
+   <dialect id="1032" resname="Greek"/>
+   <dialect id="1038" resname="Hungarian"/>
+   <dialect id="1039" resname="Icelandic"/>
+   <dialect id="1057" resname="Indonesian"/>
+   <dialect id="1040" resname="Italian"/>
+   <dialect id="2064" resname="Italian (Switzerland)"/>
+   <dialect id="1041" resname="Japanese"/>
+   <dialect id="1042" resname="Korean (Wansung)"/>
+   <dialect id="2066" resname="Korean (Johab)"/>
+   <dialect id="1062" resname="Latvian"/>
+   <dialect id="1063" resname="Lithuanian"/>
+   <dialect id="1044" resname="Norwegian (Bokmål)"/>
+   <dialect id="2068" resname="Norwegian (Nynorsk) (Norway)"/>
+   <dialect id="1045" resname="Polish"/>
+   <dialect id="1046" resname="Portuguese"/>
+   <dialect id="2070" resname="Portuguese (Portugal)"/>
+   <dialect id="1048" resname="Romanian"/>
+   <dialect id="1049" resname="Russian"/>
+   <dialect id="3098" resname="Serbian (Cyrillic) (Serbia)"/>
+   <dialect id="2074" resname="Serbian (Latin) (Serbia)"/>
+   <dialect id="1051" resname="Slovak"/>
+   <dialect id="1060" resname="Slovene"/>
+   <dialect id="3082" resname="Spanish - Modern Sort (Spain)"/>
+   <dialect id="1034" resname="Spanish - Traditional Sort"/>
+   <dialect id="11274" resname="Spanish (Argentina)"/>
+   <dialect id="16394" resname="Spanish (Bolivia)"/>
+   <dialect id="13322" resname="Spanish (Chile)"/>
+   <dialect id="9226" resname="Spanish (Colombia)"/>
+   <dialect id="5130" resname="Spanish (Costa Rica)"/>
+   <dialect id="7178" resname="Spanish (Dominican Republic)"/>
+   <dialect id="12298" resname="Spanish (Ecuador)"/>
+   <dialect id="17418" resname="Spanish (El Salvador)"/>
+   <dialect id="4106" resname="Spanish (Guatemala)"/>
+   <dialect id="18442" resname="Spanish (Honduras)"/>
+   <dialect id="2058" resname="Spanish (Mexico)"/>
+   <dialect id="19466" resname="Spanish (Nicaragua)"/>
+   <dialect id="6154" resname="Spanish (Panama)"/>
+   <dialect id="15370" resname="Spanish (Paraguay)"/>
+   <dialect id="10250" resname="Spanish (Peru)"/>
+   <dialect id="20490" resname="Spanish (Puerto Rico)"/>
+   <dialect id="14346" resname="Spanish (Uruguay)"/>
+   <dialect id="8202" resname="Spanish (Venezuela)"/>
+   <dialect id="1053" resname="Swedish"/>
+   <dialect id="2077" resname="Swedish (Finland)"/>
+   <dialect id="1055" resname="Turkish"/>
+   <dialect id="1058" resname="Ukrainian"/>
+   <dialect id="1066" resname="Vietnamese"/>
+</dialects>

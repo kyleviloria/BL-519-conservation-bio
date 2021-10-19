@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Translation file for 4D products.
+	Copyright (C) 2007-2011 4D SAS.
+	This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+	<file datatype="x-STR#" original="undefined" source-language="en-US" target-language="en-US" product-version="v12">
+		<header>
+			<note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+			<note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+			<note>\r, \t and \n are meta-characters.</note>
+		</header>
+		<body>
+		<group resname="xbox kernel errors">
+			<trans-unit id="28" resname="ERR_xbox_100">
+			   <source>Memory allocation failed</source>
+			   <target>Memory allocation failed</target>
+			</trans-unit>
+      <trans-unit id="33" resname="ERR_xbox_107">
+        <source>String allocation failed</source>
+        <target>String allocation failed</target>
+      </trans-unit>
+      <trans-unit id="32" resname="ERR_xbox_200">
+			   <source>Attempt to read beyond end of stream</source>
+			   <target>Attempt to read beyond end of stream</target>
+			</trans-unit>
+			<trans-unit id="29" resname="ERR_xbox_300">
+			   <source>Text conversion failed</source>
+			   <target>Text conversion failed</target>
+			</trans-unit>
+			<trans-unit id="30" resname="ERR_xbox_303">
+			   <source>Failed to initialize ICU library</source>
+			   <target>Failed to initialize ICU library</target>
+			</trans-unit>
+			<trans-unit id="31" resname="ERR_xbox_304">
+			   <source>Regex error {message} while parsing pattern "{pattern}"</source>
+			   <target>Regex error {message} while parsing pattern "{pattern}"</target>
+			   <note>regex pattern matching error. Error message is provided by ICU</note>
+			</trans-unit>
+			<trans-unit id="1" resname="ERR_xbox_600">
+			   <source>File &quot;{name}&quot; not found ({path})</source>
+			   <target>File &quot;{name}&quot; not found ({path})</target>
+			</trans-unit>
+			<trans-unit id="2" resname="ERR_xbox_601">
+			   <source>Cannot rename file &quot;{name}&quot; to &quot;{newname}&quot; ({path})</source>
+			   <target>Cannot rename file &quot;{name}&quot; to &quot;{newname}&quot; ({path})</target>
+			</trans-unit>
+			<trans-unit id="3" resname="ERR_xbox_602">
+			   <source>Cannot open file &quot;{name}&quot; ({path})</source>
+			   <target>Cannot open file &quot;{name}&quot; ({path})</target>
+			</trans-unit>
+			<trans-unit id="4" resname="ERR_xbox_603">
+			   <source>Cannot close file &quot;{name}&quot; ({path})</source>
+			   <target>Cannot close file &quot;{name}&quot; ({path})</target>
+			</trans-unit>
+			<trans-unit id="5" resname="ERR_xbox_604">
+			   <source>Cannot delete &quot;{name}&quot; ({path})</source>
+			   <target>Cannot delete &quot;{name}&quot; ({path})</target>
+			</trans-unit>
+			<trans-unit id="6" resname="ERR_xbox_605">
+			   <source>Cannot copy file {path} to {destination}.</source>
+			   <target>Cannot copy file {path} to {destination}.</target>
+			</trans-unit>
+			<trans-unit id="7" resname="ERR_xbox_606">
+			   <source>Cannot move file {path} to {destination}.</source>
+			   <target>Cannot move file {path} to {destination}.</target>
+			</trans-unit>
+			<trans-unit id="8" resname="ERR_xbox_607">
+			   <source>Cannot create file {path}.</source>
+			   <target>Cannot create file {path}.</target>
+			</trans-unit>
+			<trans-unit id="9" resname="ERR_xbox_608">
+			   <source>Cannot get attributes on file {path}.</source>
+			   <target>Cannot get attributes on file {path}.</target>
+			</trans-unit>
+			<trans-unit id="10" resname="ERR_xbox_609">
+			   <source>Cannot set attributes on file {path}.</source>
+			   <target>Cannot set attributes on file {path}.</target>
+			</trans-unit>
+			<trans-unit id="11" resname="ERR_xbox_610">
+			   <source>Cannot create alias on file {path}.</source>
+			   <target>Cannot create alias on file {path}.</target>
+			</trans-unit>
+			<trans-unit id="12" resname="ERR_xbox_611">
+			   <source>Cannot resolve alias file {path}.</source>
+			   <target>Cannot resolve alias file {path}.</target>
+			</trans-unit>
+			<trans-unit id="13" resname="ERR_xbox_612">
+			   <source>Cannot reveal file {path}.</source>
+			   <target>Cannot reveal file {path}.</target>
+			</trans-unit>
+			<trans-unit id="14" resname="ERR_xbox_613">
+			   <source>Invalid file kind for file {path}.</source>
+			   <target>Invalid file kind for file {path}.</target>
+			</trans-unit>
+			<trans-unit id="15" resname="ERR_xbox_614">
+			   <source>&quot;{newname}&quot; is an invalid name for file {path}.</source>
+			   <target>&quot;{newname}&quot; is an invalid name for file {path}.</target>
+			</trans-unit>
+			<trans-unit id="16" resname="ERR_xbox_650">
+			   	<source>Folder &quot;{name}&quot; not found ({path}).</source>
+				<target>Folder &quot;{name}&quot; not found ({path}).</target>
+			</trans-unit>
+			<trans-unit id="17" resname="ERR_xbox_651">
+			   <source>Folder {path} not empty.</source>
+			   <target>Folder {path} not empty.</target>
+			</trans-unit>
+			<trans-unit id="18" resname="ERR_xbox_652">
+			   <source>Cannot create folder {path}.</source>
+			   <target>Cannot create folder {path}.</target>
+			</trans-unit>
+			<trans-unit id="19" resname="ERR_xbox_653">
+			   <source>Cannot delete folder {path}.</source>
+			   <target>Cannot delete folder {path}.</target>
+			</trans-unit>
+			<trans-unit id="20" resname="ERR_xbox_654">
+			   <source>Cannot get attributes on folder {path}.</source>
+			   <target>Cannot get attributes on folder {path}.</target>
+			</trans-unit>
+			<trans-unit id="21" resname="ERR_xbox_655">
+			   <source>Cannot set attributes on folder {path}.</source>
+			   <target>Cannot set attributes on folder {path}.</target>
+			</trans-unit>
+			<trans-unit id="22" resname="ERR_xbox_656">
+			   <source>Cannot reveal folder {path}.</source>
+			   <target>Cannot reveal folder {path}.</target>
+			</trans-unit>
+			<trans-unit id="23" resname="ERR_xbox_657">
+			   <source>Cannot rename folder &quot;{name}&quot; to &quot;{newname}&quot; ({path})</source>
+			   <target>Cannot rename folder &quot;{name}&quot; to &quot;{newname}&quot; ({path})</target>
+			</trans-unit>
+			<trans-unit id="24" resname="ERR_xbox_658">
+			   <source>Disk full ({path})</source>
+			   <target>Disk full ({path})</target>
+			</trans-unit>
+			<trans-unit id="25" resname="ERR_xmlc_1">
+        		<source>{systemID}, line:{line}, column:{column}</source>
+			    <target>{systemID}, line:{line}, column:{column}</target>
+				<note>Location of error during xerces parsing.</note>
+			</trans-unit>
+			<trans-unit id="26" resname="ERR_xmlc_2">
+        		<source>{message}</source>
+        		<target>{message}</target>
+				<note>xerces parsing error.</note>
+      		</trans-unit>
+			<trans-unit id="27" resname="ERR_xmlc_3">
+        		<source>{message}</source>
+        		<target>{message}</target>
+				<note>xerces parsing fatal error.</note>
+			</trans-unit>
+			
+		</group>
+			
+		<group resname="xml general errors">
+			<trans-unit id="27" resname="ERRor_xml_01">
+				<source>Impossible to import the structure.
+The xml structure elements definition is probably damaged.</source>
+				<target>Impossible to import the structure.
+The xml structure elements definition is probably damaged.</target>
+			</trans-unit>
+			<trans-unit id="28" resname="ERRor_xml_02">
+				<source>Impossible to import all structure elements.
+The xml definition contains invalid elements that where ignored.</source>
+				<target>Impossible to import all structure elements.
+The xml definition contains invalid elements that where ignored.</target>
+			</trans-unit>
+		</group>
+			
+      </body>
+   </file>
+</xliff>
